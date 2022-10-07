@@ -48,9 +48,11 @@ for participant in tqdm(mapping_participant_list):
         print(participant)
 
 print("all participants in diagnosis")
+foo = []
 for participant in tqdm(participant_list):
     if participant not in diagnosis_participant_list:
         print(participant)
+        foo.append(participant)
 
 print("all diagnosis participants in participant manifest")
 for participant in tqdm(diagnosis_participant_list):

@@ -47,9 +47,9 @@ api_url = "https://kf-api-dataservice.kidsfirstdrc.org"
 # get the old diagnosis stuff for the sake of safety
 
 # Yield all entities matching the given kfids
-old_stuff = []
-for e in yield_entities_from_kfids(api_url, patches.keys(), show_progress=True):
-    old_stuff.append(e)
+participants = []
+for e in yield_entities_from_kfids(api_url, plist, show_progress=True):
+    participants.append(e)
 
 
 for k, v in patches.items():
