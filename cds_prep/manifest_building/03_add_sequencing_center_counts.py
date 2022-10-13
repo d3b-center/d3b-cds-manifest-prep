@@ -17,7 +17,7 @@ sc_gf = pd.read_csv(
 sample_list = genomic_info["sample_id"].drop_duplicates().to_list()
 
 
-breakpoint()
+# breakpoint()
 conn = psycopg2.connect(DB_URL)
 bssc = pd.read_sql(
     f"""
@@ -36,3 +36,5 @@ out = gi_sc.merge(
     right_on=("sequencing_center_id", "experiment_strategy"),
     how="left",
 )
+
+breakpoint()
