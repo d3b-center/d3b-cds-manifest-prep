@@ -124,3 +124,10 @@ print(len(issues))
 
 
 breakpoint()
+
+# check that the move manifest is the same as issues
+file_move = pd.read_csv("data/file_moves_step04.csv")
+issue_paths = issues[["s3path"]]
+issue_paths["not_in_files_sheet"] = True
+
+merge = issue_paths.merge(file_move, on="s3path", how="outer", indicator=True)

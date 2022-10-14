@@ -195,3 +195,19 @@ file_list["s3path"] = file_list["url"].apply(
     )
 )
 file_paths = file_list.merge(scrape, on="s3path", how="left")
+
+# todo: delete the below. this is for data exploration
+# check how many subjects are biegel subjects
+
+# biegel_subjects = pd.read_csv(
+#     "/home/ubuntu/d3b-cds-manifest-prep/data/CBTN_Biegel_subjects_2022-10-04.csv"
+# )
+
+# conn = psycopg2.connect(DB_URL)
+# p_q = f"""
+# select distinct  kf_id, external_id
+# from participant
+# where external_id in ({str(biegel_subjects['research_id'].to_list())[1:-1]})
+# """
+
+# p_id = pd.read_sql(p_q, conn)
