@@ -7,13 +7,15 @@ from tqdm import tqdm
 DB_URL = os.getenv("DATABASE_URL")
 
 conn = psycopg2.connect(DB_URL)
-
-file_manifest = pd.read_csv("data/submission_packet/file.csv")
-mapping = pd.read_csv("data/submission_packet/file_sample_participant_map.csv")
-participant_manifest = pd.read_csv("data/submission_packet/participant.csv")
-genomic_info_table = pd.read_csv("data/submission_packet/genomic_info.csv")
-sample_manifest = pd.read_csv("data/submission_packet/sample.csv")
-diagnosis_manifest = pd.read_csv("data/submission_packet/diagnosis.csv")
+submission_packet_prefix = "data/submission_packet/"
+file_manifest = pd.read_csv(submission_packet_prefix + "file.csv")
+mapping = pd.read_csv(
+    submission_packet_prefix + "file_sample_participant_map.csv"
+)
+participant_manifest = pd.read_csv(submission_packet_prefix + "participant.csv")
+genomic_info_table = pd.read_csv(submission_packet_prefix + "genomic_info.csv")
+sample_manifest = pd.read_csv(submission_packet_prefix + "sample.csv")
+diagnosis_manifest = pd.read_csv(submission_packet_prefix + "diagnosis.csv")
 
 
 # samples
@@ -79,10 +81,8 @@ for participant in tqdm(sample_participant_list):
 print("all files in mapping")
 file_list = file_manifest["file_id"].drop_duplicates().to_list()
 mapping_file_list = mapping["file_id"].drop_duplicates().to_list()
-foo = []
 for file in tqdm(file_list):
     if file not in mapping_file_list:
-        foo.append(file)
         print(file)
 
 print("all mapping files in file manifest")
@@ -123,11 +123,11 @@ issues = merged[merged["_merge"] != "both"]
 print(len(issues))
 
 
-breakpoint()
-
 # check that the move manifest is the same as issues
 file_move = pd.read_csv("data/file_moves_step04.csv")
 issue_paths = issues[["s3path"]]
 issue_paths["not_in_files_sheet"] = True
 
 merge = issue_paths.merge(file_move, on="s3path", how="outer", indicator=True)
+
+breakpoint()
