@@ -27,10 +27,8 @@ for sample in tqdm(sample_list):
         print(sample)
 
 print("all mapping samples in sample manifest")
-foo = []
 for sample in tqdm(mapping_sample_list):
     if sample not in sample_list:
-        foo.append(sample)
         print(sample)
 
 # participants
@@ -90,6 +88,41 @@ for file in tqdm(mapping_file_list):
     if file not in file_list:
         print(file)
 
+# Genomic Information Mapping File
+
+genomic_info_file_list = (
+    genomic_info_table["file_id"].drop_duplicates().to_list()
+)
+genomic_info_sample_list = (
+    genomic_info_table["sample_id"].drop_duplicates().to_list()
+)
+files_not_in_gi = []
+gi_files_not_in_files = []
+samples_not_in_gi = []
+gi_samples_not_in_samples = []
+print("all files in genomic_info")
+for file in tqdm(file_list):
+    if file not in genomic_info_file_list:
+        files_not_in_gi.append(file)
+        print(file)
+
+print("all genomic_info files in file manifest")
+for file in tqdm(genomic_info_file_list):
+    if file not in file_list:
+        gi_files_not_in_files.append(file)
+        print(file)
+
+print("all samples in genomic_info")
+for sample in tqdm(sample_list):
+    if sample not in genomic_info_sample_list:
+        samples_not_in_gi.append(sample)
+        print(sample)
+
+print("all genomic_info samples in sample manifest")
+for sample in tqdm(genomic_info_sample_list):
+    if sample not in sample_list:
+        gi_samples_not_in_samples.append(sample)
+        print(sample)
 
 # confirm that every file in the bucket is in the manifest
 print("Fetching scrape of cds genomics bucket")
@@ -131,3 +164,26 @@ issue_paths["not_in_files_sheet"] = True
 merge = issue_paths.merge(file_move, on="s3path", how="outer", indicator=True)
 
 breakpoint()
+
+# diagnosis stuff
+
+ptdx = pd.read_sql(
+    f"""
+select * from diagnosis where participant_id in ({str(foo)[1:-1]})
+""",
+    conn,
+)
+p = pd.read_sql(
+    f"""
+select distinct study_id from participant where kf_id in ({str(foo)[1:-1]})
+""",
+    conn,
+)
+
+
+pt_cat = pd.read_sql(
+    f"""
+select kf_id, diagnosis_category from participant where kf_id in ({str(foo)[1:-1]})
+""",
+    conn,
+)

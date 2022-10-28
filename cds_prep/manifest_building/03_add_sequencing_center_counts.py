@@ -4,17 +4,22 @@ import pandas as pd
 import psycopg2
 
 DB_URL = os.getenv("DATABASE_URL")
-
-genomic_info = pd.read_csv(
-    "/home/ubuntu/d3b-cds-manifest-prep/genomics_bucket/"
-    "data/submission_packet_v5_1/genomic_info.csv"
-)
+USE_TEMP = True
+if USE_TEMP:
+    submission_packet_prefix = "data/temp/step_03/"
+else:
+    submission_packet_prefix = "data/submission_packet/"
+genomic_info_table = pd.read_csv(submission_packet_prefix + "genomic_info.csv")
 sc_gf = pd.read_csv(
     "/home/ubuntu/d3b-cds-manifest-prep/genomics_bucket/"
     "data/sequencing_center_genomic_info.csv"
 )
+breakpoint()
+genomic_info_table.to_csv("data/temp/step_03/genomic_info.csv", index=False)
 
-sample_list = genomic_info["sample_id"].drop_duplicates().to_list()
+genomic_info_sample_list = (
+    genomic_info_table["sample_id"].drop_duplicates().to_list()
+)
 
 
 # breakpoint()
@@ -23,12 +28,12 @@ bssc = pd.read_sql(
     f"""
     select bs.kf_id as sample_id, bs.sequencing_center_id
     from biospecimen bs
-    where bs.kf_id in ({str(sample_list)[1:-1]})
+    where bs.kf_id in ({str(genomic_info_sample_list)[1:-1]})
     """,
     conn,
 )
 
-gi_sc = genomic_info.merge(bssc, on="sample_id", how="left")
+gi_sc = genomic_info_table.merge(bssc, on="sample_id", how="left")
 
 out = gi_sc.merge(
     sc_gf,
@@ -37,4 +42,5 @@ out = gi_sc.merge(
     how="left",
 )
 
+out.to_csv(submission_packet_prefix + "genomic_info.csv", index=False)
 breakpoint()

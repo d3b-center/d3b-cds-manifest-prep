@@ -153,12 +153,20 @@ new_diagnosis_manifest = diagnosis_manifest[
 ]
 
 
-new_file_manifest.to_csv("data/submission_packet/file.csv")
-new_mapping.to_csv("data/submission_packet/file_sample_participant_map.csv")
-new_participant_manifest.to_csv("data/submission_packet/participant.csv")
-new_genomic_info_table.to_csv("data/submission_packet/genomic_info.csv")
-new_sample_manifest.to_csv("data/submission_packet/sample.csv")
-new_diagnosis_manifest.to_csv("data/submission_packet/diagnosis.csv")
+new_file_manifest.to_csv("data/submission_packet/file.csv", index=False)
+new_mapping.to_csv(
+    "data/submission_packet/file_sample_participant_map.csv", index=False
+)
+new_participant_manifest.to_csv(
+    "data/submission_packet/participant.csv", index=False
+)
+new_genomic_info_table.to_csv(
+    "data/submission_packet/genomic_info.csv", index=False
+)
+new_sample_manifest.to_csv("data/submission_packet/sample.csv", index=False)
+new_diagnosis_manifest.to_csv(
+    "data/submission_packet/diagnosis.csv", index=False
+)
 
 breakpoint()
 # Get info about the files to delete

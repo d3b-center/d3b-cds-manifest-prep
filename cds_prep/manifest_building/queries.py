@@ -168,3 +168,42 @@ def sequencing_query2(sample_list):
     where bsgf.biospecimen_id in ({str(sample_list)[1:-1]})
     """
     return query
+
+
+def sequencing_query3(file_list, sample_list):
+    query = f"""
+    select distinct bsgf.biospecimen_id,
+        segf.sequencing_experiment_id,
+        gf.kf_id as genomic_file_id, 
+        se.external_id,
+        se.experiment_strategy,
+        se.is_paired_end as se_paired_end,
+        se.platform,
+        se.instrument_model, 
+        gf.reference_genome, 
+        se.max_insert_size, 
+        se.mean_insert_size, 
+        se.mean_depth, 
+        se.total_reads, 
+        se.mean_read_length, 
+        se.sequencing_center_id, sc.name
+    from genomic_file gf
+    left join biospecimen_genomic_file bsgf on gf.kf_id = bsgf.genomic_file_id
+    left join sequencing_experiment_genomic_file segf on gf.kf_id = segf.genomic_file_id
+    left join sequencing_experiment se on se.kf_id = segf.sequencing_experiment_id
+    left join sequencing_center sc on sc.kf_id = se.sequencing_center_id
+    where gf.kf_id in ({str(file_list)[1:-1]}) 
+          and (bsgf.biospecimen_id in ({str(sample_list)[1:-1]}) 
+               OR bsgf.biospecimen_id is Null)
+    """
+    return query
+
+
+genomic_info_table_raw = pd.read_sql(
+    sequencing_query3(file_list, sample_list),
+    conn,
+)
+
+genomic_info_table_raw
+
+genomic_info_table_raw["genomic_file_id"].drop_duplicates()
