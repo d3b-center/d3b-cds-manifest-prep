@@ -1,0 +1,9 @@
+[tool.black]
+line-length = 80
+
+[tool.isort]
+profile = "black"
+line_length=80
+sections = ["FUTURE","STDLIB","D3B","FIRSTPARTY","THIRDPARTY","LOCALFOLDER"]
+known_local_folder = ["cds_prep"]
+known_d3b = ["kf_utils", "d3b_utils", "kf_lib_data_ingest", "d3b_cavatica_tools"]

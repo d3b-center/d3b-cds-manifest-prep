@@ -1,0 +1,6 @@
+# MD033/no-inline-html - Inline HTML
+MD033:
+  # Allowed elements
+  allowed_elements: ["p", "a", "img"]
+# MD041/first-line-heading/first-line-h1 - First line in a file should be a top-level heading
+MD041: false # first line of readme is kf header, not h1.
