@@ -85,33 +85,6 @@ participant_manifest.to_csv(
     "data/submission_packet/participant.csv", index=False
 )
 
-# gennerate the manifest of diagnoses
-logger.info("querying for diagnoses")
-diagnosis_icdo_a = pd.read_excel(
-    "/home/ubuntu/d3b-cds-manifest-prep/data/CBTN - ICD-O(2).xlsx",
-    sheet_name="CBTN",
-)[["primary_diagnosis (free text)", "disease_type (ICD-O-3)"]]
-diagnosis_icdo_b = pd.read_excel(
-    "/home/ubuntu/d3b-cds-manifest-prep/data/CBTN - ICD-O(2).xlsx",
-    sheet_name="Other",
-)[["primary_diagnosis (free text)", "disease_type (ICD-O-3)"]]
-diagnosis_icdo = pd.concat(
-    [diagnosis_icdo_a, diagnosis_icdo_b]
-).drop_duplicates()
-diagnoses_manifest = pd.read_sql(diagnosis_query(participants_list), conn)
-diagnoses_manifest = diagnoses_manifest.merge(
-    diagnosis_icdo.rename(
-        columns={
-            "disease_type (ICD-O-3)": "disease_type",
-            "primary_diagnosis (free text)": "primary_diagnosis",
-        }
-    ),
-    how="left",
-    on="primary_diagnosis",
-    indicator=True,
-)
-diagnoses_manifest.to_csv("data/submission_packet/diagnosis.csv", index=False)
-breakpoint()
 # Generate the manifest of samples
 sample_list = [
     i
