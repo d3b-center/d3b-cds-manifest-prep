@@ -5,7 +5,7 @@ import psycopg2
 from kf_utils.dataservice.scrape import yield_entities_from_kfids
 from tqdm import tqdm
 
-USE_TEMP = True
+USE_TEMP = False
 DB_URL = os.getenv("DATABASE_URL")
 
 conn = psycopg2.connect(DB_URL)

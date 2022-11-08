@@ -1,6 +1,8 @@
 """
 SQL queries used to build manifests of things in the CCDI Genomics Bucket
 """
+import pandas as pd
+
 pnoc_sql = """
     SELECT aws_scrape.s3path,
            hashes.md5,
@@ -199,11 +201,11 @@ def sequencing_query3(file_list, sample_list):
     return query
 
 
-genomic_info_table_raw = pd.read_sql(
-    sequencing_query3(file_list, sample_list),
-    conn,
-)
+# genomic_info_table_raw = pd.read_sql(
+#     sequencing_query3(file_list, sample_list),
+#     conn,
+# )
 
-genomic_info_table_raw
+# genomic_info_table_raw
 
-genomic_info_table_raw["genomic_file_id"].drop_duplicates()
+# genomic_info_table_raw["genomic_file_id"].drop_duplicates()

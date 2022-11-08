@@ -14,7 +14,6 @@ sc_gf = pd.read_csv(
     "/home/ubuntu/d3b-cds-manifest-prep/genomics_bucket/"
     "data/sequencing_center_genomic_info.csv"
 )
-breakpoint()
 genomic_info_table.to_csv("data/temp/step_03/genomic_info.csv", index=False)
 
 genomic_info_sample_list = (
@@ -41,6 +40,6 @@ out = gi_sc.merge(
     right_on=("sequencing_center_id", "experiment_strategy"),
     how="left",
 )
-
+breakpoint()
 out.to_csv(submission_packet_prefix + "genomic_info.csv", index=False)
 breakpoint()
