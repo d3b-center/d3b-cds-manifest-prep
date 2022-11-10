@@ -148,6 +148,21 @@ def diagnosis_query(participant_list):
     return query
 
 
+def diagnosis_sample_query(sample_list):
+    query = f"""
+    select distinct dx.kf_id as diagnosis_id,
+           dx.external_id as primary_diagnosis,
+           dx.participant_id
+    from biospecimen_diagnosis bsdx
+    join diagnosis dx on bsdx.diagnosis_id = dx.kf_id
+    join biospecimen bs on bs.kf_id = bsdx.biospecimen_id
+    where bsdx.biospecimen_id in ({str(sample_list)[1:-1]})
+          and dx.source_text_diagnosis not in ('Other', 'Not Available', 'Not Reported', 'No tumor')
+          and bs.source_text_tissue_type = 'Tumor'
+    """  # noqa
+    return query
+
+
 def sequencing_query2(sample_list):
     query = f"""
     select distinct bsgf.biospecimen_id,

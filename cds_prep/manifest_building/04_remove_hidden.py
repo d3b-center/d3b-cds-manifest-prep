@@ -168,54 +168,54 @@ new_diagnosis_manifest.to_csv(
     "data/submission_packet/diagnosis.csv", index=False
 )
 
-breakpoint()
-# Get info about the files to delete
+# breakpoint()
+# # Get info about the files to delete
 
-scrape_query = """
-with most_recent_scrape as (
-    select max(scrape_timestamp::date)
-    from file_metadata.aws_scrape
-    where bucket = 'cds-246-phs002517-sequencefiles-p30-fy20'
-)
-
-select *
-from file_metadata.aws_scrape
-where bucket = 'cds-246-phs002517-sequencefiles-p30-fy20'
-        and scrape_timestamp::date = (select max from most_recent_scrape)
-order by lastmodified
-"""
-
-conn = psycopg2.connect(DB_URL)
-scrape = pd.read_sql(scrape_query, conn)
-
-file_query = f"""
-select distinct gf.kf_id, idx.url 
-from genomic_file gf
-join file_metadata.indexd_scrape idx on gf.latest_did = idx.did
-where kf_id in ({str(files_to_remove)[1:-1]})
-"""
-file_list = pd.read_sql(file_query, conn)
-
-
-file_list["s3path"] = file_list["url"].apply(
-    lambda x: x.replace(
-        "s3://", "s3://cds-246-phs002517-sequencefiles-p30-fy20/"
-    )
-)
-file_paths = file_list.merge(scrape, on="s3path", how="left")
-
-# todo: delete the below. this is for data exploration
-# check how many subjects are biegel subjects
-
-# biegel_subjects = pd.read_csv(
-#     "/home/ubuntu/d3b-cds-manifest-prep/data/CBTN_Biegel_subjects_2022-10-04.csv"
+# scrape_query = """
+# with most_recent_scrape as (
+#     select max(scrape_timestamp::date)
+#     from file_metadata.aws_scrape
+#     where bucket = 'cds-246-phs002517-sequencefiles-p30-fy20'
 # )
 
-# conn = psycopg2.connect(DB_URL)
-# p_q = f"""
-# select distinct  kf_id, external_id
-# from participant
-# where external_id in ({str(biegel_subjects['research_id'].to_list())[1:-1]})
+# select *
+# from file_metadata.aws_scrape
+# where bucket = 'cds-246-phs002517-sequencefiles-p30-fy20'
+#         and scrape_timestamp::date = (select max from most_recent_scrape)
+# order by lastmodified
 # """
 
-# p_id = pd.read_sql(p_q, conn)
+# conn = psycopg2.connect(DB_URL)
+# scrape = pd.read_sql(scrape_query, conn)
+
+# file_query = f"""
+# select distinct gf.kf_id, idx.url
+# from genomic_file gf
+# join file_metadata.indexd_scrape idx on gf.latest_did = idx.did
+# where kf_id in ({str(files_to_remove)[1:-1]})
+# """
+# file_list = pd.read_sql(file_query, conn)
+
+
+# file_list["s3path"] = file_list["url"].apply(
+#     lambda x: x.replace(
+#         "s3://", "s3://cds-246-phs002517-sequencefiles-p30-fy20/"
+#     )
+# )
+# file_paths = file_list.merge(scrape, on="s3path", how="left")
+
+# # todo: delete the below. this is for data exploration
+# # check how many subjects are biegel subjects
+
+# # biegel_subjects = pd.read_csv(
+# #     "/home/ubuntu/d3b-cds-manifest-prep/data/CBTN_Biegel_subjects_2022-10-04.csv"
+# # )
+
+# # conn = psycopg2.connect(DB_URL)
+# # p_q = f"""
+# # select distinct  kf_id, external_id
+# # from participant
+# # where external_id in ({str(biegel_subjects['research_id'].to_list())[1:-1]})
+# # """
+
+# # p_id = pd.read_sql(p_q, conn)
