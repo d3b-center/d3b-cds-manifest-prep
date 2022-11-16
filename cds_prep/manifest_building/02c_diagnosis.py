@@ -23,6 +23,20 @@ participant_list = (
 pbta_histologies = pd.read_csv("data/pbta-histologies.tsv", sep="\t")
 sample_list = sample_manifest["sample_id"].drop_duplicates().to_list()
 
+#  get the icd-o ontology
+diagnosis_icdo_a = pd.read_excel(
+    "data/CBTN - ICD-O.xlsx",
+    sheet_name="CBTN",
+)[["primary_diagnosis (free text)", "disease_type (ICD-O-3)"]]
+diagnosis_icdo_b = pd.read_excel(
+    "data/CBTN - ICD-O.xlsx",
+    sheet_name="Other",
+)[["primary_diagnosis (free text)", "disease_type (ICD-O-3)"]]
+diagnosis_icdo = pd.concat(
+    [diagnosis_icdo_a, diagnosis_icdo_b]
+).drop_duplicates()
+
+
 # get kfids of other diagnoses
 other_ids = other_diagnoses["cohort_participant_id"].drop_duplicates().to_list()
 other_kfids = pd.read_sql(
@@ -173,18 +187,6 @@ histology_diagnosis = histology_diagnosis[
     ["diagnosis_id", "primary_diagnosis", "participant_id"]
 ]
 
-#  get the icd-o ontology
-diagnosis_icdo_a = pd.read_excel(
-    "/home/ubuntu/d3b-cds-manifest-prep/data/CBTN - ICD-O(4).xlsx",
-    sheet_name="CBTN",
-)[["primary_diagnosis (free text)", "disease_type (ICD-O-3)"]]
-diagnosis_icdo_b = pd.read_excel(
-    "/home/ubuntu/d3b-cds-manifest-prep/data/CBTN - ICD-O(4).xlsx",
-    sheet_name="Other",
-)[["primary_diagnosis (free text)", "disease_type (ICD-O-3)"]]
-diagnosis_icdo = pd.concat(
-    [diagnosis_icdo_a, diagnosis_icdo_b]
-).drop_duplicates()
 
 diagnoses_manifest = histology_diagnosis.merge(
     diagnosis_icdo.rename(
