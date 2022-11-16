@@ -84,6 +84,7 @@ mapping_file_list = mapping["file_id"].drop_duplicates().to_list()
 foo = []
 for file in tqdm(file_list):
     if file not in mapping_file_list:
+        print(file)
         foo.append(file)
 
 print("all mapping files in file manifest")
