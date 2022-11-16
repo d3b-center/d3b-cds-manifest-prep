@@ -1,0 +1,2912 @@
+sample_id,sample_type,participant_id,sample_tumor_status,sample_anatomical_site,sample_age_at_collection
+BS_007JTNB8,Tumor,PT_1MW98VR1,tumor,Central Nervous System,1872.0
+BS_00QJE3E5,Blood Derived Normal,PT_ZMKMKCFQ,normal,Not Reported,6135.0
+BS_00TRPEQX,Tumor,PT_MDWPRDBT,tumor,Central Nervous System,2146.0
+BS_00ZND930,Blood Derived Normal,PT_Q90R6M3E,normal,Not Reported,3026.0
+BS_014EVM2D,Tumor,PT_S21ZTKPS,tumor,Central Nervous System,4938.0
+BS_01DQH017,Tumor,PT_CYVVA9AB,tumor,Central Nervous System,4738.0
+BS_01Y5F4PN,Tumor,PT_QK4XB83F,tumor,Central Nervous System,1546.0
+BS_02NZT8CE,Tumor,PT_2BJF83GQ,tumor,Central Nervous System,3531.0
+BS_02W5H7K5,Tumor,PT_J06X17XH,tumor,Central Nervous System,5146.0
+BS_02YBZSBY,Tumor,PT_VTM2STE3,tumor,Central Nervous System,3615.0
+BS_02ZSVZCB,Tumor,PT_J06X17XH,tumor,Central Nervous System,5348.0
+BS_03FT4S8B,Tumor,PT_5KRVE8E4,tumor,Central Nervous System,4180.0
+BS_03KCP14P,Blood Derived Normal,PT_BCN28SW9,normal,Not Reported,2489.0
+BS_03SSN1N2,Tumor,PT_3KK1F95W,tumor,Central Nervous System,4633.0
+BS_042DVDQM,Tumor,PT_Y572BRC1,tumor,Central Nervous System,3977.0
+BS_0448A413,Tumor,PT_VHS5RM2K,tumor,Central Nervous System,592.0
+BS_044XZ8ST,Tumor,PT_QAX38GM7,tumor,Central Nervous System,4786.0
+BS_04B8X54S,Tumor,PT_ATE3YRH5,tumor,Central Nervous System,3106.0
+BS_052PZFMK,Tumor,PT_N3205P0D,tumor,Central Nervous System,6770.0
+BS_05H4Y3ZF,Blood Derived Normal,PT_BNARR0N6,normal,Not Reported,540.0
+BS_05S9WJW6,Tumor,PT_23NZGSRJ,tumor,Central Nervous System,1484.0
+BS_060QB7XB,Tumor,PT_YGN06RPZ,tumor,Central Nervous System,2645.0
+BS_063ERW0R,Tumor,PT_3V5GTCJR,tumor,Central Nervous System,3371.0
+BS_06AMMCXR,Tumor,PT_Q3EP24V1,tumor,Central Nervous System,2399.0
+BS_06GEF6DB,Tumor,PT_TKWTTRQ7,tumor,Central Nervous System,5075.0
+BS_06GPPDHZ,Tumor,PT_Y8HSH496,tumor,Central Nervous System,3109.0
+BS_06XH7EVF,Tumor,PT_G8DRDA33,tumor,Central Nervous System,6062.0
+BS_0754AZX0,Blood Derived Normal,PT_3CHB9PK5,normal,Not Reported,2908.0
+BS_07ANYSYQ,Tumor,PT_S4H6KA09,tumor,Central Nervous System,1412.0
+BS_090GV72Q,Tumor,PT_8WNA6M94,tumor,Central Nervous System,3529.0
+BS_09R7GDA7,Tumor,PT_0PT33SCF,tumor,Central Nervous System,1454.0
+BS_09Z7TC35,Tumor,PT_YHTK536P,tumor,Central Nervous System,1711.0
+BS_0A99GJGD,Blood Derived Normal,PT_S8E3281G,normal,Not Reported,6592.0
+BS_0AK4F99X,Tumor,PT_C5FKRB1P,tumor,Central Nervous System,4529.0
+BS_0ATJ22QA,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_0B2KNG4A,Blood Derived Normal,PT_625X34JX,normal,Not Reported,6152.0
+BS_0BXY0F9N,Tumor,PT_164RNWTT,tumor,Central Nervous System,2549.0
+BS_0C7VZC0A,Tumor,PT_VAJN5QP8,tumor,Central Nervous System,6170.0
+BS_0C83MQ6C,Blood Derived Normal,PT_VT6PJVQN,normal,Not Reported,2759.0
+BS_0DKPGQWD,Tumor,PT_BQ8BQ01J,tumor,Central Nervous System,8422.0
+BS_0DVXQN0X,Blood Derived Normal,PT_KAQMYFYB,normal,Not Reported,2219.0
+BS_0EN5R1AP,Tumor,PT_M1RYN7B0,tumor,Central Nervous System,1038.0
+BS_0FE1EFV8,Blood Derived Normal,PT_Y76A7PBA,normal,Not Reported,4600.0
+BS_0FQKT8EY,Tumor,PT_RX1EWBP9,tumor,Central Nervous System,1876.0
+BS_0GDJQANN,Tumor,PT_ABV3RS3T,tumor,Central Nervous System,209.0
+BS_0HW7W7SD,Tumor,PT_C73C5BBZ,tumor,Central Nervous System,22.0
+BS_0J5GC803,Tumor,PT_XX2VW3D9,tumor,Central Nervous System,2038.0
+BS_0J5MCBZV,Tumor,PT_GGCQAGPS,tumor,Central Nervous System,2265.0
+BS_0J9SHHSC,Tumor,PT_WVC247PK,tumor,Central Nervous System,1024.0
+BS_0JS89ADT,Blood Derived Normal,PT_37B5JRP1,normal,Not Reported,5688.0
+BS_0KKH9VKP,Blood Derived Normal,PT_1H2REHT2,normal,Not Reported,9602.0
+BS_0MRKTX2B,Blood Derived Normal,PT_Y8HSH496,normal,Not Reported,3109.0
+BS_0N50PRC8,Blood Derived Normal,PT_NK8A49X5,normal,Not Reported,4896.0
+BS_0NC1NQ01,Blood Derived Normal,PT_ZGWYMRV8,normal,Not Reported,1171.0
+BS_0P2FRMSA,Blood Derived Normal,PT_MQHST8YC,normal,Not Reported,2143.0
+BS_0P3S5YJQ,Blood Derived Normal,PT_XTVQB9S4,normal,Not Reported,291.0
+BS_0PB4PTHT,Blood Derived Normal,PT_J302B8Y5,normal,Not Reported,826.0
+BS_0Q8G4N8H,Tumor,PT_AYZA2WCW,tumor,Central Nervous System,3206.0
+BS_0QC2QX0P,Saliva,PT_A9YAZJNN,normal,Not Reported,11925.0
+BS_0QEBZX3M,Tumor,PT_8FWP7BR3,tumor,Central Nervous System,4574.0
+BS_0QP42DN4,Blood Derived Normal,PT_KVMF5TFW,normal,Not Reported,2600.0
+BS_0QYS36NR,Tumor,PT_V3Q78E6F,tumor,Central Nervous System,337.0
+BS_0R4R9C2K,Blood Derived Normal,PT_54MH6Q46,normal,Not Reported,1957.0
+BS_0RF0EZTV,Tumor,PT_MW0QVGW2,tumor,Central Nervous System,4139.0
+BS_0RF0G9SQ,Tumor,PT_45P9F9MD,tumor,Central Nervous System,3856.0
+BS_0RQ4P069,Cell Lines,PT_C2D4JXS1,tumor,Central Nervous System,2307.0
+BS_0RVVY4PS,Blood Derived Normal,PT_0XN6EYXZ,normal,Not Reported,3353.0
+BS_0S617SMM,Tumor,PT_EQ5C5TEA,tumor,Central Nervous System,4043.0
+BS_0SCXXM6N,Tumor,PT_SMDEQVHJ,tumor,Central Nervous System,675.0
+BS_0SFXXBQ5,Tumor,PT_NEB4WEAT,tumor,Central Nervous System,4116.0
+BS_0SPCTBZY,Tumor,PT_PKHG2YFW,tumor,Central Nervous System,5310.0
+BS_0T17SY47,Tumor,PT_BQ8BQ01J,tumor,Central Nervous System,8422.0
+BS_0TCRV9AC,Solid Tissue Normal,PT_S2BEPYQ0,normal,Not Reported,3431.0
+BS_0TEYTQJY,Blood Derived Normal,PT_6R95FQT2,normal,Not Reported,5262.0
+BS_0TTQDZ2K,Blood Derived Normal,PT_HJMP6PH2,normal,Not Reported,880.0
+BS_0TX5YDGH,Blood Derived Normal,PT_Z9QE51C3,normal,Not Reported,1400.0
+BS_0V76MCTW,Blood Derived Normal,PT_DFQAH7RS,normal,Not Reported,10205.0
+BS_0VRSD9V3,Tumor,PT_3WA7SBQ6,tumor,Central Nervous System,698.0
+BS_0VXZCRJS,Tumor,PT_40HTPY49,tumor,Central Nervous System,2606.0
+BS_0W8AWY10,Tumor,PT_06H29FCG,tumor,Central Nervous System,813.0
+BS_0WDJRMAB,Blood Derived Normal,PT_1DSX4VJM,normal,Not Reported,2465.0
+BS_0WQJP6ZG,Tumor,PT_Y6Y9JJ9P,tumor,Central Nervous System,3013.0
+BS_0WVJYM9R,Tumor,PT_MNR94DEV,tumor,Central Nervous System,3870.0
+BS_0X88TX85,Blood Derived Normal,PT_4Z34K4XB,normal,Not Reported,4200.0
+BS_0X9EGHY2,Tumor,PT_3KK1F95W,tumor,Central Nervous System,4633.0
+BS_0XD58YD9,Tumor,PT_E66N7YBN,tumor,Central Nervous System,752.0
+BS_0XEG6SNV,Tumor,PT_82A9SDRN,tumor,Central Nervous System,4234.0
+BS_0XR7GYAV,Tumor,PT_XHYBZKCX,tumor,Central Nervous System,6895.0
+BS_0Y1Y2WA4,Blood Derived Normal,PT_R6WWH1QX,normal,Not Reported,4735.0
+BS_0Y66ZBWE,Tumor,PT_V2F0865M,tumor,Central Nervous System,2196.0
+BS_0YFQF89N,Blood Derived Normal,PT_PJFTMJ6H,normal,Not Reported,3256.0
+BS_0YJF1F95,Blood Derived Normal,PT_0F3RHT8J,normal,Not Reported,2640.0
+BS_0YV62XEX,Blood Derived Normal,PT_KCTZZA3G,normal,Not Reported,6344.0
+BS_0YVR8Q4E,Tumor,PT_R0M1QBY4,tumor,Central Nervous System,2964.0
+BS_0ZA67BBC,Tumor,PT_VPEMAQBN,tumor,Central Nervous System,1709.0
+BS_0ZR4XA69,Tumor,PT_7VSY72EK,tumor,Central Nervous System,2929.0
+BS_1021ZGQT,Tumor,PT_HJMP6PH2,tumor,Central Nervous System,2590.0
+BS_1034EC8V,Blood Derived Normal,PT_7FZ8SE69,normal,Not Reported,4402.0
+BS_10AD3EFX,Tumor,PT_3T3VGWC6,tumor,Central Nervous System,4493.0
+BS_10APZRVT,Tumor,PT_3D74J8RZ,tumor,Central Nervous System,9190.0
+BS_10HD18B8,Tumor,PT_DV8XECKA,tumor,Central Nervous System,184.0
+BS_10V9SAG8,Tumor,PT_YFS3AWC0,tumor,Central Nervous System,1575.0
+BS_11322HD1,Tumor,PT_TRXF649Z,tumor,Central Nervous System,3301.0
+BS_1135HC0V,Tumor,PT_7JQ24F35,tumor,Central Nervous System,915.0
+BS_11WY983P,Tumor,PT_7A1PYTP9,tumor,Central Nervous System,8539.0
+BS_12ZB7R6A,Tumor,PT_CW0BJE0Y,tumor,Central Nervous System,883.0
+BS_13CGKADW,Tumor,PT_WGWMA5AZ,tumor,Central Nervous System,5984.0
+BS_14EZDZE6,Blood Derived Normal,PT_QT3MK7BZ,normal,Not Reported,4744.0
+BS_14G6WY88,Blood Derived Normal,PT_YKVK5HTK,normal,Not Reported,2211.0
+BS_154FP4ZQ,Tumor,PT_NGDW8WVP,tumor,Central Nervous System,6429.0
+BS_15ETQ0E4,Tumor,PT_CW0BJE0Y,tumor,Central Nervous System,883.0
+BS_1607397Q,Tumor,PT_7VSY72EK,tumor,Central Nervous System,2929.0
+BS_164KRQJ0,Tumor,PT_7BJBEBZT,tumor,Central Nervous System,2511.0
+BS_169P1QCA,Cell Lines,PT_1YQH5NSH,tumor,Central Nervous System,2520.0
+BS_16TBX6G5,Tumor,PT_HV6C0T34,tumor,Central Nervous System,1612.0
+BS_17FVWMNV,Tumor,PT_GY99ZJHV,tumor,Central Nervous System,670.0
+BS_17WYVEEC,Tumor,PT_FKWCVXNC,tumor,Central Nervous System,1178.0
+BS_185Q218S,Tumor,PT_PABK01H0,tumor,Central Nervous System,1076.0
+BS_18NCV5QZ,Tumor,PT_JEW5HG4W,tumor,Central Nervous System,5687.0
+BS_18RH1034,Tumor,PT_G9A050X1,tumor,Central Nervous System,4065.0
+BS_196BBNEJ,Tumor,PT_BNARR0N6,tumor,Central Nervous System,376.0
+BS_19EJ85F8,Tumor,PT_T5KEXCK7,tumor,Central Nervous System,1039.0
+BS_1A6MQ9ZA,Tumor,PT_JSFBMK5V,tumor,Central Nervous System,6234.0
+BS_1AYRM596,Tumor,PT_BPKVVWVB,tumor,Central Nervous System,3266.0
+BS_1AZ8YJSH,Tumor,PT_R6WWH1QX,tumor,Central Nervous System,2896.0
+BS_1B4Q7CNG,Tumor,PT_EF398HVC,tumor,Central Nervous System,2252.0
+BS_1BQ1WBCT,Blood Derived Normal,PT_BRTVGGRK,normal,Not Reported,9360.0
+BS_1BWP5MCT,Tumor,PT_23NZGSRJ,tumor,Central Nervous System,1484.0
+BS_1C3RDKQH,Blood Derived Normal,PT_2D1KGV99,normal,Not Reported,1386.0
+BS_1C4WCNQF,Tumor,PT_7MZRW1DH,tumor,Central Nervous System,5688.0
+BS_1CQ01RV2,Blood Derived Normal,PT_RYMG3M91,normal,Not Reported,3656.0
+BS_1CXWXC2H,Blood Derived Normal,PT_41RR5FQD,normal,Not Reported,99.0
+BS_1CZPVCXR,Tumor,PT_9S6WMQ92,tumor,Central Nervous System,6992.0
+BS_1D6PZNKN,Tumor,PT_7DTGJYA7,tumor,Central Nervous System,2073.0
+BS_1DM8G1V8,Blood Derived Normal,PT_3KM9W8S8,normal,Not Reported,190.0
+BS_1EBQ3T20,Tumor,PT_4347ZBEX,tumor,Central Nervous System,7884.0
+BS_1EN5V3XW,Tumor,PT_RDJ40M73,tumor,Central Nervous System,6100.0
+BS_1EQGGHHQ,Tumor,PT_XP8AM1CH,tumor,Central Nervous System,5713.0
+BS_1EWXJPWR,Saliva,PT_DDFAZ345,normal,Not Reported,3892.0
+BS_1EYKDS0Z,Tumor,PT_JN3S17B3,tumor,Central Nervous System,4308.0
+BS_1G3WYEN3,Tumor,PT_TXFYRDP4,tumor,Central Nervous System,1232.0
+BS_1G71S350,Blood Derived Normal,PT_Y32AQSEY,normal,Not Reported,5844.0
+BS_1GEXQEBZ,Blood Derived Normal,PT_S2CXXZCF,normal,Not Reported,1472.0
+BS_1GK2EMFY,Tumor,PT_W3FSA7NH,tumor,Central Nervous System,3271.0
+BS_1GMX5YEM,Blood Derived Normal,PT_GCKT4FJX,normal,Not Reported,3242.0
+BS_1HFK0SXV,Tumor,PT_2GPH62JS,tumor,Central Nervous System,4994.0
+BS_1HQ76V6D,Tumor,PT_WE1CHTWK,tumor,Central Nervous System,523.0
+BS_1HQWNZCB,Blood Derived Normal,PT_S21ZTKPS,normal,Not Reported,4938.0
+BS_1J2WQ08M,Tumor,PT_MKDQZ17N,tumor,Central Nervous System,54.0
+BS_1JDG6JV5,Tumor,PT_CK41DW03,tumor,Central Nervous System,4344.0
+BS_1JGQPJH3,Tumor,PT_HT4HJXY6,tumor,Central Nervous System,8061.0
+BS_1JMTTKMK,Tumor,PT_E4ECAFEN,tumor,Central Nervous System,5666.0
+BS_1K0Q5YZY,Blood Derived Normal,PT_DV8XECKA,normal,Not Reported,184.0
+BS_1KT7DF0G,Blood Derived Normal,PT_ZR8MQRVG,normal,Not Reported,3578.0
+BS_1KYGSMA7,Tumor,PT_YGN06RPZ,tumor,Central Nervous System,2645.0
+BS_1M63B97V,Tumor,PT_MDWPRDBT,tumor,Central Nervous System,2230.0
+BS_1MME7FBS,Tumor,PT_NK8A49X5,tumor,Central Nervous System,4896.0
+BS_1MMZN94J,Blood Derived Normal,PT_JN3S17B3,normal,Not Reported,4308.0
+BS_1N7MQZGR,Tumor,PT_NK8A49X5,tumor,Central Nervous System,4896.0
+BS_1N9XZXGE,Tumor,PT_X8S0H6TG,tumor,Central Nervous System,2144.0
+BS_1NPD7PVG,Tumor,PT_R9V5R1SY,tumor,Central Nervous System,1243.0
+BS_1NPNHFPC,Blood Derived Normal,PT_44HPG5YT,normal,Not Reported,301.0
+BS_1NWVFBTQ,Blood Derived Normal,PT_99S5BPE3,normal,Not Reported,7740.0
+BS_1Q524P3B,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_1Q9PXTH7,Blood Derived Normal,PT_1DRAVX4S,normal,Not Reported,1249.0
+BS_1QNTEZPS,Tumor,PT_5CKDR2SF,tumor,Central Nervous System,394.0
+BS_1QXEC43H,Tumor,PT_FN4GEEFR,tumor,Central Nervous System,5041.0
+BS_1RA2RC8A,Blood Derived Normal,PT_BDM0M83S,normal,Not Reported,2037.0
+BS_1RF75MK2,Tumor,PT_7F485CXV,tumor,Central Nervous System,308.0
+BS_1RFBH1SP,Tumor,PT_K8ZV7APT,tumor,Central Nervous System,6616.0
+BS_1RT76ANT,Tumor,PT_5SX0GRW1,tumor,Central Nervous System,2473.0
+BS_1RTE2KEX,Tumor,PT_1AAYYGGY,tumor,Central Nervous System,4608.0
+BS_1RXZ3BP7,Tumor,PT_02J5CWN5,tumor,Central Nervous System,3722.0
+BS_1S2BHJ8K,Tumor,PT_S4A0R1PM,tumor,Central Nervous System,7628.0
+BS_1S5V7WWC,Tumor,PT_QTDY0Y9A,tumor,Central Nervous System,4290.0
+BS_1SVVER1H,Tumor,PT_RM9AZ7A8,tumor,Central Nervous System,6986.0
+BS_1T19NFJ8,Tumor,PT_QEMT1845,tumor,Central Nervous System,5719.0
+BS_1TPWFSK6,Tumor,PT_7JQ24F35,tumor,Central Nervous System,492.0
+BS_1TWCV047,Tumor,PT_85RSG67R,tumor,Central Nervous System,4068.0
+BS_1VKV3MYJ,Blood Derived Normal,PT_AXMVG8QE,normal,Not Reported,5948.0
+BS_1VMBA3BN,Tumor,PT_9C2G356W,tumor,Central Nervous System,1982.0
+BS_1XJ73KBQ,Tumor,PT_AXVH36AM,tumor,Central Nervous System,4526.0
+BS_1XMBRB6K,Blood Derived Normal,PT_17W3GJPT,normal,Not Reported,941.0
+BS_1YCS44MN,Blood Derived Normal,PT_PKP1250P,normal,Not Reported,6124.0
+BS_1YTHM07J,Tumor,PT_279D9QZ8,tumor,Central Nervous System,7464.0
+BS_1Z7833P7,Blood Derived Normal,PT_H45M7M2T,normal,Not Reported,4420.0
+BS_1Z7Y81NW,Blood Derived Normal,PT_5SNX4PMK,normal,Not Reported,8710.0
+BS_1ZVXF5FE,Tumor,PT_TS0FW57Z,tumor,Central Nervous System,5766.0
+BS_20TBZG09,Tumor,PT_3CHB9PK5,tumor,Central Nervous System,2908.0
+BS_20X874J5,Tumor,PT_BPKVVWVB,tumor,Central Nervous System,3266.0
+BS_21ET39G7,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_21RE8W46,Tumor,PT_VABP80N2,tumor,Central Nervous System,4443.0
+BS_22PCHWT3,Blood Derived Normal,PT_R0M1QBY4,normal,Not Reported,2964.0
+BS_22VCR7DF,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_230S192D,Tumor,PT_P2NGYMG5,tumor,Central Nervous System,4559.0
+BS_235QEYMQ,Tumor,PT_Q3EP24V1,tumor,Central Nervous System,2399.0
+BS_23EJJGP1,Blood Derived Normal,PT_7MZRW1DH,normal,Not Reported,5688.0
+BS_23M72ABG,Tumor,PT_AQWDQW27,tumor,Central Nervous System,209.0
+BS_23QW0BBA,Tumor,PT_3X3MF8ZD,tumor,Central Nervous System,11184.0
+BS_23W9EPFE,Tumor,PT_1ZAWNGWT,tumor,Central Nervous System,6215.0
+BS_23ZE42Q3,Tumor,PT_R4T1V1K4,tumor,Central Nervous System,3717.0
+BS_245CTSH9,Tumor,PT_ZD9AYB6F,tumor,Central Nervous System,1850.0
+BS_24AHZ9ZW,Tumor,PT_SRWZDG3N,tumor,Central Nervous System,5666.0
+BS_251Z13NC,Blood Derived Normal,PT_N8W26H19,normal,Not Reported,6860.0
+BS_258RRGDM,Tumor,PT_DQ3ZCHB6,tumor,Central Nervous System,809.0
+BS_25T139TX,Tumor,PT_TH8M3W34,tumor,Central Nervous System,2834.0
+BS_25VZM81R,Tumor,PT_W7FK539G,tumor,Central Nervous System,1150.0
+BS_264RCK7G,Tumor,PT_3A0B29QT,tumor,Central Nervous System,1687.0
+BS_26CXGVJ0,Saliva,PT_MBAXTJET,normal,Not Reported,5023.0
+BS_26J942GD,Blood Derived Normal,PT_5CKDR2SF,normal,Not Reported,394.0
+BS_273HKCT4,Tumor,PT_8CZ6ANE0,tumor,Central Nervous System,2507.0
+BS_27QE6BV7,Tumor,PT_Z9QE51C3,tumor,Central Nervous System,1400.0
+BS_28CDASF7,Tumor,PT_S4YNE17X,tumor,Central Nervous System,6626.0
+BS_29006KEX,Tumor,PT_XCCV6CW2,tumor,Central Nervous System,3931.0
+BS_29CPJ040,Tumor,PT_06ERX8Z7,tumor,Central Nervous System,3635.0
+BS_29X4ZX6Q,Tumor,PT_63HDZHCN,tumor,Central Nervous System,2938.0
+BS_29YQSB5E,Blood Derived Normal,PT_MNSEJCDM,normal,Not Reported,2190.0
+BS_2A162JH9,Cell Lines,PT_JNEV57VK,tumor,Central Nervous System,3100.0
+BS_2A5R9MEJ,Tumor,PT_FYPWZBH0,tumor,Central Nervous System,3360.0
+BS_2ADZNNV4,Tumor,PT_NTK39NNV,tumor,Central Nervous System,5518.0
+BS_2AM4ZQ21,Blood Derived Normal,PT_KBFM551M,normal,Not Reported,3425.0
+BS_2AQZX79Y,Blood Derived Normal,PT_2CJ31SBX,normal,Not Reported,1364.0
+BS_2AR3AP0N,Tumor,PT_AWBPNFM5,tumor,Central Nervous System,5012.0
+BS_2AWCKNB3,Tumor,PT_V0TQ0P66,tumor,Central Nervous System,4148.0
+BS_2B6ZEXAP,Blood Derived Normal,PT_R5T773FS,normal,Not Reported,2758.0
+BS_2BQGSW0G,Blood Derived Normal,PT_KDW5HHWQ,normal,Not Reported,9498.0
+BS_2CD1XWVP,Tumor,PT_3PSG2DQT,tumor,Central Nervous System,5034.0
+BS_2CQ6K2JW,Tumor,PT_962TCBVR,tumor,Central Nervous System,1359.0
+BS_2CRT47CB,Blood Derived Normal,PT_DXF7ZZQZ,normal,Not Reported,1659.0
+BS_2E1MBQ4Y,Blood Derived Normal,PT_45YH276T,normal,Not Reported,623.0
+BS_2E81A3FT,Tumor,PT_ZZWYKZZ8,tumor,Central Nervous System,3941.0
+BS_2EAATK5V,Blood Derived Normal,PT_2ECVKTTQ,normal,Not Reported,4937.0
+BS_2EJWS3SD,Blood Derived Normal,PT_3X3MF8ZD,normal,Not Reported,11184.0
+BS_2EMW8ZG3,Tumor,PT_FFRHWB74,tumor,Central Nervous System,4774.0
+BS_2EN3X6HB,Tumor,PT_CSZ9QA1N,tumor,Central Nervous System,1886.0
+BS_2F70R10Z,Tumor,PT_V07ZH5JS,tumor,Central Nervous System,5399.0
+BS_2G2VJT4R,Blood Derived Normal,PT_7KTAH3RD,normal,Not Reported,2834.0
+BS_2HDEZFTW,Tumor,PT_G16VK7FR,tumor,Central Nervous System,2021.0
+BS_2HN96129,Tumor,PT_DTP4MMRA,tumor,Central Nervous System,4988.0
+BS_2HNHCSNB,Tumor,PT_GCKT4FJX,tumor,Central Nervous System,3242.0
+BS_2J4FG4HV,Tumor,PT_XA98HG1C,tumor,Central Nervous System,3332.0
+BS_2JDVY4F7,Tumor,PT_HMY997GX,tumor,Central Nervous System,2234.0
+BS_2JP7RBMB,Tumor,PT_Y74CVASJ,tumor,Central Nervous System,1717.0
+BS_2K76WTCZ,Blood Derived Normal,PT_5GQ76YZJ,normal,Not Reported,1933.0
+BS_2KJ2YAZR,Tumor,PT_N8W26H19,tumor,Central Nervous System,5401.0
+BS_2KMB51YF,Tumor,PT_NWYSD53S,tumor,Central Nervous System,1544.0
+BS_2NDRETB2,Tumor,PT_RE6AXQM1,tumor,Central Nervous System,1743.0
+BS_2NN6ME5A,Tumor,PT_F27SA15G,tumor,Central Nervous System,4641.0
+BS_2P7MJGM7,Tumor,PT_EG7PH32E,tumor,Central Nervous System,5028.0
+BS_2PBM9RA8,Blood Derived Normal,PT_DMMKT7X1,normal,Not Reported,5113.0
+BS_2Q12G53Y,Blood Derived Normal,PT_83ECX0KT,normal,Not Reported,1825.0
+BS_2QF33SK7,Blood Derived Normal,PT_0PT33SCF,normal,Not Reported,1454.0
+BS_2QRTD3RQ,Blood Derived Normal,PT_X1PRY0FC,normal,Not Reported,736.0
+BS_2R9TCR03,Tumor,PT_ZMKMKCFQ,tumor,Central Nervous System,3924.0
+BS_2RJN5Z4W,Tumor,PT_ZVV78QP5,tumor,Central Nervous System,3354.0
+BS_2RX2NF1Q,Tumor,PT_TKWTTRQ7,tumor,Central Nervous System,7398.0
+BS_2SFTWNVE,Tumor,PT_BG7GAFK6,tumor,Central Nervous System,3385.0
+BS_2SG8JNMB,Tumor,PT_NNZQ09SH,tumor,Central Nervous System,4683.0
+BS_2SHWPB5P,Tumor,PT_FZHGKJ0H,tumor,Central Nervous System,1907.0
+BS_2TZNPK1V,Blood Derived Normal,PT_WP871F5S,normal,Not Reported,6428.0
+BS_2V4BP5Q9,Blood Derived Normal,PT_KQK98ZVP,normal,Not Reported,1119.0
+BS_2VB8649B,Tumor,PT_02J5CWN5,tumor,Central Nervous System,2223.0
+BS_2VHFP7M8,Tumor,PT_2GPH62JS,tumor,Central Nervous System,4994.0
+BS_2VSN5YC5,Tumor,PT_MQHST8YC,tumor,Central Nervous System,2143.0
+BS_2W200YK5,Tumor,PT_G16WS1MW,tumor,Central Nervous System,9860.0
+BS_2W3NC4K1,Tumor,PT_2E552BAR,tumor,Central Nervous System,7125.0
+BS_2WPQ8YCW,Tumor,PT_KQK98ZVP,tumor,Central Nervous System,1119.0
+BS_2X60Q1ET,Tumor,PT_7P6J57H3,tumor,Central Nervous System,1949.0
+BS_2XD3MNKD,Tumor,PT_YQWG98Z5,tumor,Central Nervous System,6251.0
+BS_2YCJV2VV,Tumor,PT_TD6ST5MG,tumor,Central Nervous System,129.0
+BS_2Z1MKS84,Tumor,PT_1T7WF5S1,tumor,Central Nervous System,1846.0
+BS_2Z9JQDPV,Tumor,PT_CAYBADQC,tumor,Central Nervous System,241.0
+BS_2ZKBYF95,Blood Derived Normal,PT_R4T1V1K4,normal,Not Reported,3578.0
+BS_30VC3R2Q,Tumor,PT_7DTGJYA7,tumor,Central Nervous System,1070.0
+BS_30W38X77,Tumor,PT_0CE0HFYB,tumor,Central Nervous System,3747.0
+BS_30WN9M3C,Blood Derived Normal,PT_MXASQ2GW,normal,Not Reported,4879.0
+BS_3108RS7G,Tumor,PT_K6G6BE6G,tumor,Central Nervous System,2480.0
+BS_318P54W7,Blood Derived Normal,PT_NV584F7Q,normal,Not Reported,2066.0
+BS_319879RE,Blood Derived Normal,PT_BTTM2HS5,normal,Not Reported,5221.0
+BS_31E3HZPZ,Blood Derived Normal,PT_3T3VGWC6,normal,Not Reported,4458.0
+BS_31Q3FW1X,Blood Derived Normal,PT_QA9WJ679,normal,Not Reported,5417.0
+BS_31TF0P1N,Tumor,PT_M04EC74B,tumor,Central Nervous System,544.0
+BS_328C4BW5,Tumor,PT_EN2RN5Y1,tumor,Central Nervous System,3159.0
+BS_32HAVF6S,Tumor,PT_EZEMVRVT,tumor,Central Nervous System,1171.0
+BS_32JF8TPP,Tumor,PT_PFA762TK,tumor,Central Nervous System,1018.0
+BS_32VQRFDS,Tumor,PT_G8DRDA33,tumor,Central Nervous System,6062.0
+BS_34201DKZ,Tumor,PT_V0X73HEQ,tumor,Central Nervous System,1163.0
+BS_345M1B93,Blood Derived Normal,PT_H4H6RD7Y,normal,Not Reported,4066.0
+BS_354DTKHE,Tumor,PT_0F3RHT8J,tumor,Central Nervous System,1786.0
+BS_358WF90F,Blood Derived Normal,PT_GYJ97915,normal,Not Reported,4024.0
+BS_35M8GBJ4,Blood Derived Normal,PT_QDGVJKE0,normal,Not Reported,7354.0
+BS_36PAKW92,Blood Derived Normal,PT_YVG4H0F1,normal,Not Reported,5536.0
+BS_36YFSGDX,Blood Derived Normal,PT_WGVEF96B,normal,Not Reported,2853.0
+BS_370TKZ48,Blood Derived Normal,PT_3VCS1PPF,normal,Not Reported,4710.0
+BS_376Q9QKG,Tumor,PT_1DY2TP9N,tumor,Central Nervous System,9607.0
+BS_37GTVG4N,Tumor,PT_DQT78GS5,tumor,Central Nervous System,1134.0
+BS_382HZBG4,Blood Derived Normal,PT_98QMQZY7,normal,Not Reported,1963.0
+BS_38CD519Z,Tumor,PT_W5GP3F6B,tumor,Central Nervous System,2459.0
+BS_38D5GXR1,Blood Derived Normal,PT_7F485CXV,normal,Not Reported,308.0
+BS_398KYV92,Tumor,PT_976P4557,tumor,Central Nervous System,6009.0
+BS_399RPKC9,Tumor,PT_KVMF5TFW,tumor,Central Nervous System,2600.0
+BS_39CGACC7,Tumor,PT_CBAYDRF9,tumor,Central Nervous System,4802.0
+BS_39FV4VJR,Blood Derived Normal,PT_EZW3S4F1,normal,Not Reported,941.0
+BS_39Q80NT3,Tumor,PT_RQ21EBK9,tumor,Central Nervous System,3651.0
+BS_3A0CJMRH,Tumor,PT_E79807KT,tumor,Central Nervous System,2809.0
+BS_3A55810M,Blood Derived Normal,PT_CB1XPA3W,normal,Not Reported,5083.0
+BS_3AC3SRWH,Tumor,PT_SDPA6AAP,tumor,Central Nervous System,3740.0
+BS_3AERRZQT,Tumor,PT_CK41DW03,tumor,Central Nervous System,4344.0
+BS_3BC5EX6K,Blood Derived Normal,PT_1Z015H6V,normal,Not Reported,6307.0
+BS_3BDAG9YN,Tumor,PT_62VNQ8C4,tumor,Central Nervous System,5278.0
+BS_3BMGF6GN,Tumor,PT_Y8RNS9JE,tumor,Central Nervous System,3215.0
+BS_3BVVWHP5,Tumor,PT_JW6FBEFK,tumor,Central Nervous System,1492.0
+BS_3C4YAMKJ,Tumor,PT_YGN06RPZ,tumor,Central Nervous System,1383.0
+BS_3C702XH4,Blood Derived Normal,PT_GQZ84ACS,normal,Not Reported,
+BS_3CG2N4PD,Tumor,PT_CXT81GRM,tumor,Central Nervous System,1545.0
+BS_3CK0QVDX,Blood Derived Normal,PT_GNKRMTQY,normal,Not Reported,2933.0
+BS_3DCBDJAT,Tumor,PT_AKQZZPH8,tumor,Central Nervous System,2815.0
+BS_3DHNFFV6,Blood Derived Normal,PT_5X061J42,normal,Not Reported,2813.0
+BS_3DNSBVGH,Blood Derived Normal,PT_V9WP047R,normal,Not Reported,2212.0
+BS_3DYRAZE7,Tumor,PT_E78NHRWQ,tumor,Central Nervous System,1825.0
+BS_3E3VYSXT,Blood Derived Normal,PT_BDNE55YT,normal,Not Reported,1472.0
+BS_3E5C1PN1,Tumor,PT_59D00MBQ,tumor,Central Nervous System,3291.0
+BS_3EVSN5QD,Tumor,PT_HXDCHQ9Y,tumor,Central Nervous System,6654.0
+BS_3EZR108Y,Blood Derived Normal,PT_G9A050X1,normal,Not Reported,4065.0
+BS_3F4FQJMR,Tumor,PT_8RB7TPS2,tumor,Central Nervous System,4199.0
+BS_3F5PR9GS,Tumor,PT_HM2GMT2H,tumor,Central Nervous System,604.0
+BS_3G3KWY18,Tumor,PT_48N4Y6YP,tumor,Central Nervous System,4436.0
+BS_3H71BH6Q,Tumor,PT_AWMZ12NP,tumor,Central Nervous System,2514.0
+BS_3J179Q27,Blood Derived Normal,PT_RRT2E7HK,normal,Not Reported,5970.0
+BS_3J4T2YYW,Tumor,PT_T93J9EGZ,tumor,Central Nervous System,294.0
+BS_3J85TTZM,Tumor,PT_5ZHYHDY2,tumor,Central Nervous System,5918.0
+BS_3JE2T7AR,Tumor,PT_04YTK82N,tumor,Central Nervous System,1067.0
+BS_3KASVCSQ,Tumor,PT_T2V4X5ZW,tumor,Central Nervous System,7.0
+BS_3KHXMAJF,Tumor,PT_TGTJECMR,tumor,Central Nervous System,4431.0
+BS_3MS8WVNR,Tumor,PT_AP658JQV,tumor,Central Nervous System,4582.0
+BS_3MYEMXPQ,Tumor,PT_RQ21EBK9,tumor,Central Nervous System,3651.0
+BS_3MYQP7P5,Tumor,PT_S4YNE17X,tumor,Central Nervous System,1571.0
+BS_3NNQ6PSB,Tumor,PT_GNKRMTQY,tumor,Central Nervous System,2948.0
+BS_3NWQXPQV,Tumor,PT_0DWRY9ZX,tumor,Central Nervous System,3804.0
+BS_3NX3RBCX,Tumor,PT_3X3MF8ZD,tumor,Central Nervous System,11184.0
+BS_3P20Q2C3,Tumor,PT_HYXSSCJ5,tumor,Central Nervous System,2522.0
+BS_3P96RT4E,Tumor,PT_JW6FBEFK,tumor,Central Nervous System,1492.0
+BS_3PNWA7WT,Blood Derived Normal,PT_KZ56XHJT,normal,Not Reported,2773.0
+BS_3PYESPHA,Tumor,PT_A594A46X,tumor,Central Nervous System,2507.0
+BS_3Q0GTSYH,Tumor,PT_KXB1PJV0,tumor,Central Nervous System,4216.0
+BS_3QDRWJCF,Tumor,PT_YKVK5HTK,tumor,Central Nervous System,2211.0
+BS_3R0KN6Z4,Tumor,PT_6E8JYRXM,tumor,Central Nervous System,996.0
+BS_3T6X4BPC,Tumor,PT_BBHAD51D,tumor,Central Nervous System,6500.0
+BS_3TQSE8HF,Tumor,PT_BYJ428GA,tumor,Central Nervous System,2796.0
+BS_3V3KE3VT,Tumor,PT_9DMMZ08D,tumor,Central Nervous System,1540.0
+BS_3VKW5988,Tumor,PT_KTRJ8TFY,tumor,Central Nervous System,2079.0
+BS_3W07B2TG,Tumor,PT_HMY997GX,tumor,Central Nervous System,2234.0
+BS_3X8GAQ2M,Blood Derived Normal,PT_20ZM6THA,normal,Not Reported,1889.0
+BS_3X9WMZGJ,Tumor,PT_3VCS1PPF,tumor,Central Nervous System,4710.0
+BS_3XY76V8T,Tumor,PT_GDDWPDMC,tumor,Central Nervous System,6711.0
+BS_3Y0QXZQB,Tumor,PT_K8ZV7APT,tumor,Central Nervous System,8461.0
+BS_3Y44RJXS,Tumor,PT_W6AWJJK7,tumor,Central Nervous System,6468.0
+BS_3YXGSTJ7,Blood Derived Normal,PT_R1N5M7NH,normal,Not Reported,5720.0
+BS_3Z40EZHD,Tumor,PT_9GKVQ9QS,tumor,Central Nervous System,2097.0
+BS_3ZASRA3A,Tumor,PT_D7FS86D8,tumor,Central Nervous System,5410.0
+BS_3ZMH8578,Tumor,PT_GQZ84ACS,tumor,Central Nervous System,560.0
+BS_401R3KV0,Tumor,PT_MBAXTJET,tumor,Central Nervous System,1896.0
+BS_402W79TS,Tumor,PT_KTRJ8TFY,tumor,Central Nervous System,2079.0
+BS_408757Q1,Blood Derived Normal,PT_MA0J8DSN,normal,Not Reported,1817.0
+BS_40FX713C,Tumor,PT_MSBPMJ56,tumor,Central Nervous System,3408.0
+BS_40MP5BWR,Cell Lines,PT_JSFBMK5V,tumor,Central Nervous System,6234.0
+BS_40QCA1MC,Blood Derived Normal,PT_Y7F2JZMQ,normal,Not Reported,6200.0
+BS_40RVSGZF,Blood Derived Normal,PT_C86SGM7B,normal,Not Reported,5688.0
+BS_40SJZGT2,Tumor,PT_CM32ZCX6,tumor,Central Nervous System,2548.0
+BS_41SWNWAG,Tumor,PT_GWX2XSM0,tumor,Central Nervous System,2772.0
+BS_41TD9XET,Tumor,PT_JQ45JK94,tumor,Central Nervous System,2750.0
+BS_42A66SH4,Tumor,PT_6R7AE0P3,tumor,Central Nervous System,4996.0
+BS_42DY6WS7,Tumor,PT_12JTZFC2,tumor,Central Nervous System,1615.0
+BS_42Y3YANN,Tumor,PT_BDNE55YT,tumor,Central Nervous System,1472.0
+BS_43F0DV8Y,Blood Derived Normal,PT_06H29FCG,normal,Not Reported,813.0
+BS_44A3ES23,Tumor,PT_9DMMZ08D,tumor,Central Nervous System,1433.0
+BS_44WJZ1HP,Blood Derived Normal,PT_J4MWGQFQ,normal,Not Reported,2961.0
+BS_44WMSY17,Blood Derived Normal,PT_AP9P5D7N,normal,Not Reported,7737.0
+BS_45913DTA,Tumor,PT_HYXSSCJ5,tumor,Central Nervous System,2522.0
+BS_45J79YTF,Tumor,PT_6GDPNFA6,tumor,Central Nervous System,1820.0
+BS_45N760PZ,Blood Derived Normal,PT_3NM45TQ8,normal,Not Reported,2716.0
+BS_45VHDFRD,Blood Derived Normal,PT_TB8HPJBN,normal,Not Reported,1436.0
+BS_46BZ2NNN,Tumor,PT_41RR5FQD,tumor,Central Nervous System,99.0
+BS_46MV2DSY,Blood Derived Normal,PT_8ATS9ATC,normal,Not Reported,3863.0
+BS_470DYRJQ,Tumor,PT_0EWY6S6S,tumor,Central Nervous System,3999.0
+BS_47454JJ6,Tumor,PT_SDK91A16,tumor,Central Nervous System,5017.0
+BS_475X9707,Blood Derived Normal,PT_G16VK7FR,normal,Not Reported,2021.0
+BS_478TN841,Tumor,PT_W6AWJJK7,tumor,Central Nervous System,3923.0
+BS_479S95Q6,Tumor,PT_8V3360DR,tumor,Central Nervous System,7605.0
+BS_47SJZ3PH,Tumor,PT_1VQWQ0TC,tumor,Central Nervous System,7049.0
+BS_47X3VAM0,Tumor,PT_PX4E85V1,tumor,Central Nervous System,1680.0
+BS_49852ZBH,Tumor,PT_5VAKED5F,tumor,Central Nervous System,1607.0
+BS_49BQS7Z6,Tumor,PT_HNZNZ635,tumor,Central Nervous System,2199.0
+BS_49CJNZ06,Tumor,PT_M9XXJ4GR,tumor,Central Nervous System,3893.0
+BS_49F4RAA4,Tumor,PT_J06X17XH,tumor,Central Nervous System,5146.0
+BS_49FQXT2E,Tumor,PT_89XRZBSG,tumor,Central Nervous System,7387.0
+BS_49JD1V3S,Tumor,PT_3CVMBGD7,tumor,Central Nervous System,3815.0
+BS_49VCQD19,Tumor,PT_DEDRCQWH,tumor,Central Nervous System,516.0
+BS_49Z8WJP2,Blood Derived Normal,PT_12JTZFC2,normal,Not Reported,1615.0
+BS_4A45GGSW,Tumor,PT_QJDY4Y9P,tumor,Central Nervous System,4754.0
+BS_4AM9C504,Blood Derived Normal,PT_8GN3TQRM,normal,Not Reported,2596.0
+BS_4B0BAVTX,Tumor,PT_7FZ8SE69,tumor,Central Nervous System,4402.0
+BS_4BWB0FA0,Tumor,PT_EXYXBDGP,tumor,Central Nervous System,6045.0
+BS_4C4MZ4NT,Tumor,PT_A9F8Y6MA,tumor,Central Nervous System,199.0
+BS_4CP4T22V,Tumor,PT_9HMVHQEH,tumor,Central Nervous System,2644.0
+BS_4CVBQP6X,Blood Derived Normal,PT_4RJ2EATN,normal,Not Reported,1351.0
+BS_4D9DD103,Tumor,PT_9A6RPJ97,tumor,Central Nervous System,2994.0
+BS_4DQAQFQH,Cell Lines,PT_WGVEF96B,tumor,Central Nervous System,2853.0
+BS_4DTX295Z,Tumor,PT_1ZAWNGWT,tumor,Central Nervous System,6215.0
+BS_4DY83R02,Tumor,PT_WE1CHTWK,tumor,Central Nervous System,523.0
+BS_4DYW3T2A,Tumor,PT_A06JR0E5,tumor,Central Nervous System,2205.0
+BS_4E1G7E3G,Tumor,PT_RJ1TJ2KH,tumor,Central Nervous System,218.0
+BS_4EAVBDKR,Blood Derived Normal,PT_0WMP712K,normal,Not Reported,494.0
+BS_4EK9WVET,Blood Derived Normal,PT_2BJF83GQ,normal,Not Reported,3531.0
+BS_4EN8D8Y4,Tumor,PT_ZRQQC2S9,tumor,Central Nervous System,5407.0
+BS_4FZS7TX4,Tumor,PT_NPETR8RY,tumor,Central Nervous System,1223.0
+BS_4G9Y2VC6,Tumor,PT_8CZ6ANE0,tumor,Central Nervous System,2507.0
+BS_4GKH983E,Tumor,PT_FCM7XPVR,tumor,Central Nervous System,6440.0
+BS_4GTESTSE,Tumor,PT_1ZAWNGWT,tumor,Central Nervous System,8226.0
+BS_4HD33MVB,Blood Derived Normal,PT_QEP13FH4,normal,Not Reported,2696.0
+BS_4HQ3T2NC,Tumor,PT_6N1QWCXE,tumor,Central Nervous System,2869.0
+BS_4JPDCXVR,Blood Derived Normal,PT_SDK91A16,normal,Not Reported,6479.0
+BS_4JWBB28H,Tumor,PT_69C7CBFW,tumor,Central Nervous System,250.0
+BS_4K4YW80B,Blood Derived Normal,PT_JEA0AEMZ,normal,Not Reported,2327.0
+BS_4K7SDXC7,Tumor,PT_3QFBAXAN,tumor,Central Nervous System,1552.0
+BS_4KNBXM3C,Tumor,PT_8SF8D0M9,tumor,Central Nervous System,2435.0
+BS_4M0ZMCDC,Tumor,PT_TPSMT960,tumor,Central Nervous System,637.0
+BS_4NF35AF6,Tumor,PT_FAPEH6R1,tumor,Central Nervous System,4379.0
+BS_4NPEMNAD,Tumor,PT_DFCZAG9T,tumor,Central Nervous System,360.0
+BS_4NWHYH53,Tumor,PT_Y4FN0XN1,tumor,Central Nervous System,4262.0
+BS_4P25NNZD,Tumor,PT_50ZFWMZE,tumor,Central Nervous System,1570.0
+BS_4PAE19ZC,Tumor,PT_67R1AF5R,tumor,Central Nervous System,395.0
+BS_4PH1MBGR,Tumor,PT_NDVJE438,tumor,Central Nervous System,2820.0
+BS_4PM2QG9C,Tumor,PT_NWYSD53S,tumor,Central Nervous System,1544.0
+BS_4PPHAQXF,Tumor,PT_P5HHJJPH,tumor,Central Nervous System,3739.0
+BS_4PWDGEB0,Tumor,PT_FF0NV7ZM,tumor,Central Nervous System,537.0
+BS_4QFSH7C4,Tumor,PT_2YT37G8P,tumor,Central Nervous System,4304.0
+BS_4QW2S1Q8,Tumor,PT_Y5KY6KN9,tumor,Central Nervous System,3324.0
+BS_4RS1SC48,Tumor,PT_CWD717Q0,tumor,Central Nervous System,3472.0
+BS_4RV40GPD,Blood Derived Normal,PT_CK41DW03,normal,Not Reported,4740.0
+BS_4RVAJBCR,Blood Derived Normal,PT_6BX46NVR,normal,Not Reported,324.0
+BS_4SCWT0FX,Tumor,PT_D3AN5M5W,tumor,Central Nervous System,4337.0
+BS_4T0HPZDC,Tumor,PT_06H29FCG,tumor,Central Nervous System,813.0
+BS_4T3BZ2F6,Blood Derived Normal,PT_S2SQJVGK,normal,Not Reported,3991.0
+BS_4T617TSG,Blood Derived Normal,PT_E8XM8JFZ,normal,Not Reported,1611.0
+BS_4T8J7JEP,Tumor,PT_QH9H491G,tumor,Central Nervous System,5482.0
+BS_4TEXRBCG,Blood Derived Normal,PT_D9NTSYSC,normal,Not Reported,1935.0
+BS_4W1DBAN4,Tumor,PT_5D3AVPCW,tumor,Central Nervous System,184.0
+BS_4W68NV3M,Tumor,PT_D215EQAP,tumor,Central Nervous System,2759.0
+BS_4XPPZTGG,Tumor,PT_EXJAEW1M,tumor,Central Nervous System,5448.0
+BS_4XTPR2VM,Blood Derived Normal,PT_N9SG16EC,normal,Not Reported,8379.0
+BS_4Y6BCYK5,Tumor,PT_N9SG16EC,tumor,Central Nervous System,8379.0
+BS_4Z2E5K9N,Blood Derived Normal,PT_N9KYV4WB,normal,Not Reported,403.0
+BS_4Z2F4P9N,Tumor,PT_BWGZBVD1,tumor,Central Nervous System,315.0
+BS_4Z6F1HJZ,Tumor,PT_6PFFSB6D,tumor,Central Nervous System,5690.0
+BS_4ZKN0WGS,Tumor,PT_7YGZ526E,tumor,Central Nervous System,1168.0
+BS_4ZRXYY4Z,Blood Derived Normal,PT_XY404K0D,normal,Not Reported,6417.0
+BS_50XV7CTQ,Tumor,PT_5M8A47WW,tumor,Central Nervous System,603.0
+BS_51RA1PGE,Tumor,PT_HMF8J4EG,tumor,Central Nervous System,2879.0
+BS_51ZADQ6R,Blood Derived Normal,PT_DMHFS0HX,normal,Not Reported,3765.0
+BS_52426AMF,Tumor,PT_3HRS5CWF,tumor,Central Nervous System,779.0
+BS_52C576HH,Tumor,PT_KFYJBQB8,tumor,Central Nervous System,257.0
+BS_52DAPP1Y,Tumor,PT_WYF217NZ,tumor,Central Nervous System,2478.0
+BS_52ETE050,Tumor,PT_HGM20MW7,tumor,Central Nervous System,3558.0
+BS_52MPKTJH,Tumor,PT_KX84KH6K,tumor,Central Nervous System,4810.0
+BS_531TJYQE,Blood Derived Normal,PT_GKWWWJ0X,normal,Not Reported,432.0
+BS_53CTGDQG,Tumor,PT_3D74J8RZ,tumor,Central Nervous System,9463.0
+BS_53GQKVEX,Tumor,PT_GQZ84ACS,tumor,Central Nervous System,
+BS_53M8PP88,Tumor,PT_NPETR8RY,tumor,Central Nervous System,2338.0
+BS_53TV75NN,Tumor,PT_HVZTF42R,tumor,Central Nervous System,170.0
+BS_541KKASA,Tumor,PT_1E3E6GMF,tumor,Central Nervous System,2211.0
+BS_556GG009,Blood Derived Normal,PT_AXVH36AM,normal,Not Reported,4526.0
+BS_55JW3HFM,Tumor,PT_R10BSB9F,tumor,Central Nervous System,451.0
+BS_55N7KFHW,Tumor,PT_S8E3281G,tumor,Central Nervous System,6592.0
+BS_55P8HPYD,Tumor,PT_Q25V9Y6M,tumor,Central Nervous System,1401.0
+BS_579DARY4,Blood Derived Normal,PT_N32BYY8A,normal,Not Reported,6381.0
+BS_58X7SKJS,Tumor,PT_QQZXYR4M,tumor,Central Nervous System,9490.0
+BS_58YXHGAJ,Tumor,PT_G4N67N0D,tumor,Central Nervous System,4550.0
+BS_593HEWBF,Tumor,PT_DB800CE1,tumor,Central Nervous System,2093.0
+BS_5965SFPZ,Tumor,PT_A325EYR2,tumor,Central Nervous System,2774.0
+BS_5968GBGT,Tumor,PT_KTRJ8TFY,tumor,Central Nervous System,2079.0
+BS_59FR1NC2,Tumor,PT_YZ8A8A36,tumor,Central Nervous System,643.0
+BS_59H6VFJX,Blood Derived Normal,PT_HNZNZ635,normal,Not Reported,2199.0
+BS_59ZJWJTF,Cell Lines,PT_3AWKWXEV,tumor,Central Nervous System,919.0
+BS_5AF6ZNJF,Tumor,PT_02MVZZSW,tumor,Central Nervous System,4666.0
+BS_5AJNFDME,Blood Derived Normal,PT_C71G98K3,normal,Not Reported,6904.0
+BS_5AXMM8V5,Blood Derived Normal,PT_H6E09982,normal,Not Reported,2857.0
+BS_5B6XZ7YP,Tumor,PT_HFQNKP5X,tumor,Central Nervous System,2780.0
+BS_5B7YXYEH,Blood Derived Normal,PT_EF398HVC,normal,Not Reported,2252.0
+BS_5BCMBVDR,Blood Derived Normal,PT_EC8R84NM,normal,Not Reported,1344.0
+BS_5BMNK8SY,Tumor,PT_M0AP3Z15,tumor,Central Nervous System,5027.0
+BS_5BNV7MCF,Tumor,PT_JMW6Q6NH,tumor,Central Nervous System,432.0
+BS_5BZXVKWT,Blood Derived Normal,PT_7E3V3JFX,normal,Not Reported,1569.0
+BS_5C23V7CC,Blood Derived Normal,PT_NBY8PZR9,normal,Not Reported,1620.0
+BS_5CCAC8TZ,Tumor,PT_KAQMYFYB,tumor,Central Nervous System,2219.0
+BS_5CMGN56B,Tumor,PT_4ZSR5DY8,tumor,Central Nervous System,4640.0
+BS_5CTVXVRX,Tumor,PT_DW2XRPC9,tumor,Central Nervous System,4288.0
+BS_5D24XV4T,Tumor,PT_164RNWTT,tumor,Central Nervous System,2549.0
+BS_5DPMQQVG,Blood Derived Normal,PT_NK8A49X5,normal,Not Reported,4896.0
+BS_5ECS2BQT,Blood Derived Normal,PT_7VPSS2SN,normal,Not Reported,3714.0
+BS_5ESEHG0A,Blood Derived Normal,PT_6TZR2DH1,normal,Not Reported,2660.0
+BS_5FBN4PPQ,Tumor,PT_M9XXJ4GR,tumor,Central Nervous System,3893.0
+BS_5FP2H6VW,Blood Derived Normal,PT_PFP1ZVHD,normal,Not Reported,5312.0
+BS_5GNQC2FF,Cell Lines,PT_VAJN5QP8,tumor,Central Nervous System,6170.0
+BS_5GRVA3YE,Blood Derived Normal,PT_NZFFMZ0B,normal,Not Reported,5524.0
+BS_5J5VH3X0,Tumor,PT_FZHGKJ0H,tumor,Central Nervous System,1907.0
+BS_5JC116NM,Tumor,PT_XA98HG1C,tumor,Central Nervous System,4021.0
+BS_5JM573JC,Tumor,PT_6Q0NPVP3,tumor,Central Nervous System,871.0
+BS_5K3R0F5D,Tumor,PT_A0F23R7E,tumor,Central Nervous System,1464.0
+BS_5KFAEMQJ,Tumor,PT_8RB3EKNP,tumor,Central Nervous System,2059.0
+BS_5KK9P7XD,Tumor,PT_16EJ7BZ9,tumor,Central Nervous System,3708.0
+BS_5M3NSS9K,Blood Derived Normal,PT_K39HM2JF,normal,Not Reported,7619.0
+BS_5MJ9XXAC,Blood Derived Normal,PT_CM32ZCX6,normal,Not Reported,2548.0
+BS_5N2GEGMD,Blood Derived Normal,PT_B7QRTN72,normal,Not Reported,1719.0
+BS_5N4ZSC43,Blood Derived Normal,PT_DA2TJAV1,normal,Not Reported,923.0
+BS_5NAKYS1S,Tumor,PT_J0SZ1SX5,tumor,Central Nervous System,210.0
+BS_5NWDARXG,Tumor,PT_EEKE0V9T,tumor,Central Nervous System,6259.0
+BS_5P1TN10Z,Tumor,PT_9BZETM0M,tumor,Central Nervous System,6523.0
+BS_5P3CZQV8,Tumor,PT_MXASQ2GW,tumor,Central Nervous System,4879.0
+BS_5PEFNDCY,Tumor,PT_VQDNSYXM,tumor,Central Nervous System,2855.0
+BS_5PJCHF6V,Tumor,PT_Q90R6M3E,tumor,Central Nervous System,3026.0
+BS_5PV5N4HQ,Tumor,PT_YRMG61G8,tumor,Central Nervous System,2264.0
+BS_5PYJQBEA,Blood Derived Normal,PT_DNAJYFZT,normal,Not Reported,5339.0
+BS_5QR4B6MV,Blood Derived Normal,PT_6PJ126FF,normal,Not Reported,5353.0
+BS_5R0HHQ1Y,Tumor,PT_3MNY9BRY,tumor,Central Nervous System,4077.0
+BS_5RD8KEED,Tumor,PT_2Y3R515E,tumor,Central Nervous System,1854.0
+BS_5S8VXASX,Tumor,PT_EYWDFKA7,tumor,Central Nervous System,3609.0
+BS_5T9PYCRT,Blood Derived Normal,PT_ER1C7KPB,normal,Not Reported,5640.0
+BS_5TT6TT4K,Tumor,PT_02J5CWN5,tumor,Central Nervous System,3722.0
+BS_5V2FBYQG,Tumor,PT_AWBPNFM5,tumor,Central Nervous System,5012.0
+BS_5V2XCW17,Tumor,PT_3KWSRWZN,tumor,Central Nervous System,4590.0
+BS_5VPM0F36,Tumor,PT_HGM20MW7,tumor,Central Nervous System,3558.0
+BS_5VQP0E6K,Tumor,PT_H6E09982,tumor,Central Nervous System,2857.0
+BS_5VSK2DHE,Blood Derived Normal,PT_V0TQ0P66,normal,Not Reported,4148.0
+BS_5W0BW97W,Blood Derived Normal,PT_25Z2NX27,normal,Not Reported,5253.0
+BS_5WK2KXYW,Tumor,PT_E6FTW238,tumor,Central Nervous System,557.0
+BS_5WZE7TYQ,Blood Derived Normal,PT_ZD9AYB6F,normal,Not Reported,1850.0
+BS_5XZP7F4Q,Tumor,PT_K8ZV7APT,tumor,Central Nervous System,8461.0
+BS_5Y2Q63Y4,Tumor,PT_7YSCM82T,tumor,Central Nervous System,327.0
+BS_5YCVM9WF,Blood Derived Normal,PT_9YMRNZHH,normal,Not Reported,5119.0
+BS_5YJEPPTP,Tumor,PT_RFF7MKTC,tumor,Central Nervous System,1818.0
+BS_5YXP6R6Q,Blood Derived Normal,PT_DFCZAG9T,normal,Not Reported,360.0
+BS_5Z0GA574,Tumor,PT_Y74CVASJ,tumor,Central Nervous System,1717.0
+BS_5ZRZC3ZM,Tumor,PT_WKNKNYHH,tumor,Central Nervous System,888.0
+BS_601994WV,Blood Derived Normal,PT_2BTC5TEN,normal,Not Reported,3529.0
+BS_60K3EQ9S,Tumor,PT_2D1KGV99,tumor,Central Nervous System,1386.0
+BS_617JM3FD,Blood Derived Normal,PT_V8714N9H,normal,Not Reported,761.0
+BS_618WFRXY,Blood Derived Normal,PT_R10BSB9F,normal,Not Reported,451.0
+BS_61AK2H2N,Blood Derived Normal,PT_GY99ZJHV,normal,Not Reported,670.0
+BS_61C97RSA,Blood Derived Normal,PT_9HMVHQEH,normal,Not Reported,2644.0
+BS_61E80SD6,Tumor,PT_39HBKSGG,tumor,Central Nervous System,4854.0
+BS_61KN2D29,Blood Derived Normal,PT_QTDY0Y9A,normal,Not Reported,4290.0
+BS_62XRDTM6,Tumor,PT_K2YDNZDA,tumor,Central Nervous System,809.0
+BS_63AK4SCF,Blood Derived Normal,PT_3V5GTCJR,normal,Not Reported,3371.0
+BS_63JFFF51,Blood Derived Normal,PT_RM5S859Q,normal,Not Reported,4519.0
+BS_63QHP547,Blood Derived Normal,PT_YCMH9SQP,normal,Not Reported,1505.0
+BS_63WRZJ06,Blood Derived Normal,PT_MV5WXTQV,normal,Not Reported,2288.0
+BS_644F21BX,Blood Derived Normal,PT_41WETNRC,normal,Not Reported,978.0
+BS_6458RHRT,Saliva,PT_PNED3GG3,normal,Not Reported,3514.0
+BS_64HCD9K3,Tumor,PT_41BCPB7R,tumor,Central Nervous System,864.0
+BS_656G546M,Blood Derived Normal,PT_VBNP6JFB,normal,Not Reported,371.0
+BS_65WGB39R,Blood Derived Normal,PT_E3Y5BBSF,normal,Not Reported,1555.0
+BS_65YZYWHD,Blood Derived Normal,PT_0DXHDZJR,normal,Not Reported,493.0
+BS_668350EZ,Blood Derived Normal,PT_NK8A49X5,normal,Not Reported,4896.0
+BS_6687ZNGS,Tumor,PT_RE6AXQM1,tumor,Central Nervous System,1743.0
+BS_66ABA973,Tumor,PT_0K0DPVF6,tumor,Central Nervous System,2480.0
+BS_66HQ3E4Z,Tumor,PT_AC5SD9AC,tumor,Central Nervous System,1598.0
+BS_67PX06P3,Tumor,PT_WTMSD2WB,tumor,Central Nervous System,4340.0
+BS_67Z63A2K,Tumor,PT_NYBH025T,tumor,Central Nervous System,797.0
+BS_680K119G,Tumor,PT_44HPG5YT,tumor,Central Nervous System,301.0
+BS_682Z7WH6,Tumor,PT_M9XXJ4GR,tumor,Central Nervous System,3893.0
+BS_683F9WT2,Blood Derived Normal,PT_GB8MNK85,normal,Not Reported,6723.0
+BS_685DACMS,Tumor,PT_7PXN3B4J,tumor,Central Nervous System,690.0
+BS_68BW2163,Tumor,PT_YZME6QCY,tumor,Central Nervous System,6001.0
+BS_68KX6A42,Tumor,PT_RYMG3M91,tumor,Central Nervous System,3656.0
+BS_68S56YSS,Blood Derived Normal,PT_KZ56XHJT,normal,Not Reported,2773.0
+BS_68TZMZH1,Cell Lines,PT_C2D4JXS1,tumor,Central Nervous System,2307.0
+BS_699TN5RN,Tumor,PT_JWW33RTB,tumor,Central Nervous System,4186.0
+BS_69HX9VQM,Blood Derived Normal,PT_0MXPTTM3,normal,Not Reported,9425.0
+BS_69V8P8A0,Tumor,PT_GBDYKSPY,tumor,Central Nervous System,8093.0
+BS_69VS8PS1,Tumor,PT_DQT78GS5,tumor,Central Nervous System,1134.0
+BS_6B62YT97,Tumor,PT_9GKVQ9QS,tumor,Central Nervous System,2097.0
+BS_6BDC3V0J,Blood Derived Normal,PT_Y74CVASJ,normal,Not Reported,1717.0
+BS_6DCSD5Y6,Tumor,PT_4YWZ538V,tumor,Central Nervous System,2955.0
+BS_6DT506HY,Tumor,PT_NK8A49X5,tumor,Central Nervous System,4896.0
+BS_6E10DMSJ,Blood Derived Normal,PT_59FJRPVX,normal,Not Reported,3105.0
+BS_6EASDEJQ,Blood Derived Normal,PT_G3AVDN4E,normal,Not Reported,2320.0
+BS_6F49F7WH,Tumor,PT_HFQNKP5X,tumor,Central Nervous System,2549.0
+BS_6FD0SW6E,Blood Derived Normal,PT_0SPKM4S8,normal,Not Reported,3652.0
+BS_6FHKKNF0,Blood Derived Normal,PT_QAX38GM7,normal,Not Reported,4786.0
+BS_6FV7BDE3,Tumor,PT_JPWVCTAJ,tumor,Central Nervous System,7587.0
+BS_6FYTRKJJ,Tumor,PT_625X34JX,tumor,Central Nervous System,6152.0
+BS_6G6C7VPX,Tumor,PT_XTVQB9S4,tumor,Central Nervous System,291.0
+BS_6GN1FGTB,Tumor,PT_RJ1TJ2KH,tumor,Central Nervous System,218.0
+BS_6GS4XT7F,Blood Derived Normal,PT_M23Q0DC3,normal,Not Reported,1740.0
+BS_6GTKRGNK,Tumor,PT_1P436YMM,tumor,Central Nervous System,6969.0
+BS_6GV08HTE,Tumor,PT_6MWPJ96F,tumor,Central Nervous System,2889.0
+BS_6H1C1ME9,Tumor,PT_1MW98VR1,tumor,Central Nervous System,1872.0
+BS_6H3DP0G0,Blood Derived Normal,PT_FAQWD7GX,normal,Not Reported,2308.0
+BS_6HE8H9HY,Tumor,PT_976P4557,tumor,Central Nervous System,6009.0
+BS_6HTK4YJP,Tumor,PT_7F3ZPZB7,tumor,Central Nervous System,3365.0
+BS_6JBE0947,Cell Lines,PT_NK8A49X5,tumor,Central Nervous System,4896.0
+BS_6JHXXVR7,Tumor,PT_9PJR0ZK7,tumor,Central Nervous System,6879.0
+BS_6K3Y2WXF,Blood Derived Normal,PT_JW6FBEFK,normal,Not Reported,1492.0
+BS_6KEYD1S4,Tumor,PT_NFDHYPGT,tumor,Central Nervous System,221.0
+BS_6M2053M0,Tumor,PT_RE6AXQM1,tumor,Central Nervous System,1743.0
+BS_6M3B3TKJ,Blood Derived Normal,PT_8XZY6MM1,normal,Not Reported,2810.0
+BS_6MY8W3H0,Tumor,PT_PY4QFHHV,tumor,Central Nervous System,5475.0
+BS_6MZ7FRZH,Tumor,PT_6BX46NVR,tumor,Central Nervous System,324.0
+BS_6N3AFF66,Tumor,PT_SBHN5F68,tumor,Central Nervous System,2539.0
+BS_6N7KRTKM,Blood Derived Normal,PT_RXJZ3C5G,normal,Not Reported,7412.0
+BS_6NPSZJ4C,Tumor,PT_NYBH025T,tumor,Central Nervous System,797.0
+BS_6NRTJSYK,Tumor,PT_98QMQZY7,tumor,Central Nervous System,1963.0
+BS_6NTXGQAC,Tumor,PT_9AHA6KW3,tumor,Central Nervous System,2096.0
+BS_6P50QTPP,Tumor,PT_2ECVKTTQ,tumor,Central Nervous System,6061.0
+BS_6PFQJMM3,Blood Derived Normal,PT_6MB6RED3,normal,Not Reported,2800.0
+BS_6PQN5AMH,Blood Derived Normal,PT_CMB6TASJ,normal,Not Reported,772.0
+BS_6Q9PMNWY,Tumor,PT_KXB1PJV0,tumor,Central Nervous System,4216.0
+BS_6QF29TRA,Blood Derived Normal,PT_WYF217NZ,normal,Not Reported,2478.0
+BS_6R7SFVV2,Tumor,PT_HQ89KPKT,tumor,Central Nervous System,3999.0
+BS_6S0YKNJD,Blood Derived Normal,PT_92YX7KK9,normal,Not Reported,6013.0
+BS_6S7T92KS,Blood Derived Normal,PT_8RB3EKNP,normal,Not Reported,2273.0
+BS_6SA5B35V,Tumor,PT_XY404K0D,tumor,Central Nervous System,6417.0
+BS_6T4JGBGY,Tumor,PT_218SX3G4,tumor,Central Nervous System,480.0
+BS_6T87HSPX,Tumor,PT_ZWY04DCR,tumor,Central Nervous System,6026.0
+BS_6TDVHGKE,Blood Derived Normal,PT_7P6J57H3,normal,Not Reported,1949.0
+BS_6TMPZKSZ,Tumor,PT_NESAQHB1,tumor,Central Nervous System,729.0
+BS_6VF6VPCG,Tumor,PT_3MNY9BRY,tumor,Central Nervous System,4077.0
+BS_6VKKMM6M,Tumor,PT_RJ1TJ2KH,tumor,Central Nervous System,626.0
+BS_6VPKXXMR,Tumor,PT_6PP78VNE,tumor,Central Nervous System,7095.0
+BS_6VQ446ZB,Blood Derived Normal,PT_38FS37DP,normal,Not Reported,1053.0
+BS_6VTM903X,Blood Derived Normal,PT_KEQ53KRH,normal,Not Reported,3437.0
+BS_6VTQ3W4M,Tumor,PT_VPEMAQBN,tumor,Central Nervous System,1709.0
+BS_6VYD7653,Blood Derived Normal,PT_3J0ASVHN,normal,Not Reported,946.0
+BS_6WP1FHTE,Tumor,PT_Z4PJA6KT,tumor,Central Nervous System,3810.0
+BS_6X2BQQGE,Tumor,PT_1ZAWNGWT,tumor,Central Nervous System,8226.0
+BS_6X36H0V9,Blood Derived Normal,PT_9AHA6KW3,normal,Not Reported,2096.0
+BS_6X3Z0AVR,Tumor,PT_VGXHFMND,tumor,Central Nervous System,4642.0
+BS_6XHDR1WS,Tumor,PT_H45M7M2T,tumor,Central Nervous System,4420.0
+BS_6XP91JM2,Tumor,PT_DEYCW197,tumor,Central Nervous System,3917.0
+BS_6Y7FX7QJ,Tumor,PT_A594A46X,tumor,Central Nervous System,2507.0
+BS_6Y9AK5F8,Blood Derived Normal,PT_CR2YBSPT,normal,Not Reported,362.0
+BS_6YJ36D88,Blood Derived Normal,PT_C5FKRB1P,normal,Not Reported,4529.0
+BS_6YMCPWP4,Blood Derived Normal,PT_QH9H491G,normal,Not Reported,7337.0
+BS_6YMJ621P,Tumor,PT_0F3RHT8J,tumor,Central Nervous System,1786.0
+BS_6Z213H2V,Tumor,PT_2E552BAR,tumor,Central Nervous System,7300.0
+BS_6Z4WHYDG,Tumor,PT_8SDJXNFR,tumor,Central Nervous System,1580.0
+BS_6ZP2KRPW,Tumor,PT_Z4GS3ZQQ,tumor,Central Nervous System,1279.0
+BS_70FFPA51,Tumor,PT_BCWGRGDB,tumor,Central Nervous System,2837.0
+BS_70FKSKM9,Tumor,PT_GH6HM5QF,tumor,Central Nervous System,525.0
+BS_70SGSPD8,Blood Derived Normal,PT_DQT78GS5,normal,Not Reported,1134.0
+BS_71CN44A6,Blood Derived Normal,PT_868QRW9G,normal,Not Reported,3642.0
+BS_71HPXFE7,Tumor,PT_41RR5FQD,tumor,Central Nervous System,99.0
+BS_7327SDAQ,Tumor,PT_7WT6P5M8,tumor,Central Nervous System,1422.0
+BS_742CDKAS,Tumor,PT_4347ZBEX,tumor,Central Nervous System,7884.0
+BS_742RHK1M,Tumor,PT_1TB2V1PH,tumor,Central Nervous System,5026.0
+BS_74A1TB03,Tumor,PT_MTE126WM,tumor,Central Nervous System,1936.0
+BS_74FS6GMW,Tumor,PT_XTVQB9S4,tumor,Central Nervous System,535.0
+BS_74G5K7JF,Tumor,PT_8PV84CNE,tumor,Central Nervous System,2993.0
+BS_74SJ7YV4,Tumor,PT_C9YDTZPA,tumor,Central Nervous System,1978.0
+BS_74TZJTW0,Tumor,PT_1YQH5NSH,tumor,Central Nervous System,2520.0
+BS_751B2CF8,Blood Derived Normal,PT_M2J30CF7,normal,Not Reported,365.0
+BS_75VHXMZN,Tumor,PT_3R0P995B,tumor,Central Nervous System,481.0
+BS_769BDPDB,Tumor,PT_2FVTD0WR,tumor,Central Nervous System,7041.0
+BS_77317DY4,Tumor,PT_D7KMPYTZ,tumor,Central Nervous System,4729.0
+BS_775HDFNY,Tumor,PT_GCKT4FJX,tumor,Central Nervous System,3242.0
+BS_77CDMEY4,Tumor,PT_HKWE1GCK,tumor,Central Nervous System,472.0
+BS_78QX3XDF,Tumor,PT_Q38AT6JY,tumor,Central Nervous System,1828.0
+BS_78TQS4Y3,Tumor,PT_ZZTQQVCT,tumor,Central Nervous System,4326.0
+BS_797V83YM,Tumor,PT_FWD7NZQ0,tumor,Central Nervous System,5179.0
+BS_79FBVAB7,Saliva,PT_1ZAWNGWT,normal,Not Reported,10624.0
+BS_79NQJZ09,Tumor,PT_KZ04SDDS,tumor,Central Nervous System,2531.0
+BS_79SYEHY3,Tumor,PT_1H2REHT2,tumor,Central Nervous System,9602.0
+BS_7B89YR6K,Tumor,PT_ZZWYKZZ8,tumor,Central Nervous System,3941.0
+BS_7BNQBB26,Tumor,PT_CBAYDRF9,tumor,Central Nervous System,4802.0
+BS_7BTZQKYY,Tumor,PT_QZN7FZER,tumor,Central Nervous System,6256.0
+BS_7BW0YRPY,Tumor,PT_0T2EWNYR,tumor,Central Nervous System,1.0
+BS_7C40TRCY,Tumor,PT_NCDHZ8H8,tumor,Central Nervous System,1514.0
+BS_7CBZW7P6,Blood Derived Normal,PT_63HDZHCN,normal,Not Reported,4001.0
+BS_7F07M7JG,Tumor,PT_ZGWYMRV8,tumor,Central Nervous System,1171.0
+BS_7FHJGTZG,Blood Derived Normal,PT_C1M4YF1R,normal,Not Reported,2857.0
+BS_7FWZ518S,Tumor,PT_SBP79T7F,tumor,Central Nervous System,3542.0
+BS_7G3AFSCR,Tumor,PT_7P6J57H3,tumor,Central Nervous System,1949.0
+BS_7G42J2SK,Tumor,PT_BWN251DF,tumor,Central Nervous System,6288.0
+BS_7GJT4A6A,Tumor,PT_9JT1441X,tumor,Central Nervous System,3989.0
+BS_7GKF6M85,Tumor,PT_1E3E6GMF,tumor,Central Nervous System,2211.0
+BS_7GZKB2J6,Blood Derived Normal,PT_9A6RPJ97,normal,Not Reported,2994.0
+BS_7H4RFCW9,Tumor,PT_6DW5NFKX,tumor,Central Nervous System,4393.0
+BS_7HC4W4SA,Tumor,PT_GB8MNK85,tumor,Central Nervous System,6723.0
+BS_7KR13R3P,Tumor,PT_V1HNAC2Q,tumor,Central Nervous System,2786.0
+BS_7M5272WN,Tumor,PT_5VAKED5F,tumor,Central Nervous System,1607.0
+BS_7M6F9GQD,Tumor,PT_VJZN69T9,tumor,Central Nervous System,880.0
+BS_7M7JNG00,Tumor,PT_1H2REHT2,tumor,Central Nervous System,7374.0
+BS_7N0B2CY1,Tumor,PT_NPHZQW6A,tumor,Central Nervous System,1245.0
+BS_7NEND0C1,Blood Derived Normal,PT_2GPH62JS,normal,Not Reported,4994.0
+BS_7P83Z28P,Tumor,PT_K63972GG,tumor,Central Nervous System,5769.0
+BS_7PAAZQE6,Tumor,PT_TVJ5EGMR,tumor,Central Nervous System,3922.0
+BS_7PF3C1P7,Tumor,PT_QA9WJ679,tumor,Central Nervous System,5417.0
+BS_7PKPNFFK,Tumor,PT_D1WJ3BJX,tumor,Central Nervous System,5620.0
+BS_7QH9BCJQ,Blood Derived Normal,PT_WWZ2Q14R,normal,Not Reported,306.0
+BS_7QSPXKMP,Blood Derived Normal,PT_FN4GEEFR,normal,Not Reported,4333.0
+BS_7RQCH5Y7,Tumor,PT_V3Q78E6F,tumor,Central Nervous System,337.0
+BS_7S6GNG04,Tumor,PT_QH9H491G,tumor,Central Nervous System,7337.0
+BS_7T1J3KET,Tumor,PT_EC8R84NM,tumor,Central Nervous System,1344.0
+BS_7V4S5B83,Blood Derived Normal,PT_7RMS6K08,normal,Not Reported,2033.0
+BS_7WM3MNZ0,Tumor,PT_W5GP3F6B,tumor,Central Nervous System,2459.0
+BS_7WNSZNE3,Tumor,PT_Z4GS3ZQQ,tumor,Central Nervous System,1377.0
+BS_7WQ4F99X,Blood Derived Normal,PT_PY4QFHHV,normal,Not Reported,5475.0
+BS_7XEH55CB,Blood Derived Normal,PT_YZ8A8A36,normal,Not Reported,643.0
+BS_7XQRH69M,Tumor,PT_CQ7EGCMB,tumor,Central Nervous System,744.0
+BS_7XRN3CFX,Tumor,PT_3T3VGWC6,tumor,Central Nervous System,4493.0
+BS_7XX4Q2RJ,Blood Derived Normal,PT_XX2VW3D9,normal,Not Reported,2038.0
+BS_7XZNDFV4,Tumor,PT_T2M1338J,tumor,Central Nervous System,7212.0
+BS_7Y5E5KQW,Tumor,PT_PKHG2YFW,tumor,Central Nervous System,5310.0
+BS_7Z93ZYMS,Tumor,PT_3J0ASVHN,tumor,Central Nervous System,946.0
+BS_7ZV3DPGT,Tumor,PT_QD6KKKJH,tumor,Central Nervous System,3129.0
+BS_80078QDG,Tumor,PT_PF9EC93Q,tumor,Central Nervous System,2446.0
+BS_80X7AVCP,Tumor,PT_FMK5VFYW,tumor,Central Nervous System,374.0
+BS_81PR0E1C,Blood Derived Normal,PT_16EJ7BZ9,normal,Not Reported,3708.0
+BS_81SP2HX4,Tumor,PT_XA98HG1C,tumor,Central Nervous System,3332.0
+BS_8226HD4X,Tumor,PT_NS1F6DT8,tumor,Central Nervous System,5816.0
+BS_823V5X6Z,Tumor,PT_4XB3YTJM,tumor,Central Nervous System,1897.0
+BS_82HQ2RBJ,Blood Derived Normal,PT_Z4GS3ZQQ,normal,Not Reported,1369.0
+BS_83MSWR59,Tumor,PT_99S5BPE3,tumor,Central Nervous System,6718.0
+BS_83YQS965,Blood Derived Normal,PT_ZZRBX5JT,normal,Not Reported,1878.0
+BS_84AQCZE4,Tumor,PT_ECBD1D5J,tumor,Central Nervous System,5918.0
+BS_84QXT7FR,Blood Derived Normal,PT_M04EC74B,normal,Not Reported,544.0
+BS_84XCR9GG,Tumor,PT_CB1DN0V8,tumor,Central Nervous System,2373.0
+BS_850BAHH9,Tumor,PT_HVZTF42R,tumor,Central Nervous System,170.0
+BS_853PNV7P,Cell Lines,PT_Z4PJA6KT,tumor,Central Nervous System,3810.0
+BS_859AV1DB,Tumor,PT_3KM9W8S8,tumor,Central Nervous System,190.0
+BS_85KFJ81X,Blood Derived Normal,PT_0WKX8Q5X,normal,Not Reported,5358.0
+BS_85Q5P8GF,Tumor,PT_JNEV57VK,tumor,Central Nervous System,2869.0
+BS_85TADN40,Blood Derived Normal,PT_5BWZA0NT,normal,Not Reported,4456.0
+BS_85Y70BHE,Tumor,PT_124TTG01,tumor,Central Nervous System,5916.0
+BS_86EDWEA2,Blood Derived Normal,PT_V2F0865M,normal,Not Reported,2292.0
+BS_86Q14TZG,Tumor,PT_2WA5PM32,tumor,Central Nervous System,2927.0
+BS_86QSEFS7,Tumor,PT_99S5BPE3,tumor,Central Nervous System,8173.0
+BS_872Q3FK2,Tumor,PT_858H7ABM,tumor,Central Nervous System,6704.0
+BS_872YDFKD,Blood Derived Normal,PT_4XB3YTJM,normal,Not Reported,1897.0
+BS_874XHFP7,Blood Derived Normal,PT_F822DBA0,normal,Not Reported,5291.0
+BS_8782G07F,Blood Derived Normal,PT_82MX6J77,normal,Not Reported,1992.0
+BS_886M7JMG,Tumor,PT_R1N5M7NH,tumor,Central Nervous System,5720.0
+BS_88FW45Z8,Saliva,PT_48N4Y6YP,normal,Not Reported,7681.0
+BS_893A91ZM,Tumor,PT_K8ZV7APT,tumor,Central Nervous System,8538.0
+BS_895FJ34T,Tumor,PT_7JQ24F35,tumor,Central Nervous System,341.0
+BS_89N80Q5Q,Blood Derived Normal,PT_PKHG2YFW,normal,Not Reported,5310.0
+BS_89RCN9PF,Tumor,PT_NZFFMZ0B,tumor,Central Nervous System,5524.0
+BS_8AEFKGN1,Blood Derived Normal,PT_SABHZ7XX,normal,Not Reported,7122.0
+BS_8AY2GM4G,Tumor,PT_3CHB9PK5,tumor,Central Nervous System,3455.0
+BS_8B1YF57H,Tumor,PT_48N4Y6YP,tumor,Central Nervous System,4436.0
+BS_8B6J1GTB,Blood Derived Normal,PT_CSKHQB16,normal,Not Reported,1460.0
+BS_8BD8WD38,Tumor,PT_VH6S71AC,tumor,Central Nervous System,2590.0
+BS_8BM1WTGR,Tumor,PT_BCN28SW9,tumor,Central Nervous System,2489.0
+BS_8BNM6DE1,Blood Derived Normal,PT_FKCPVY7V,normal,Not Reported,4143.0
+BS_8BS10XE2,Tumor,PT_QJ3144WH,tumor,Central Nervous System,6330.0
+BS_8CA214YR,Tumor,PT_S4YNE17X,tumor,Central Nervous System,8152.0
+BS_8CA6RYK8,Blood Derived Normal,PT_YQWG98Z5,normal,Not Reported,6251.0
+BS_8CDVTS20,Blood Derived Normal,PT_BCWGRGDB,normal,Not Reported,2837.0
+BS_8D0NYM46,Tumor,PT_PNED3GG3,tumor,Central Nervous System,2241.0
+BS_8D40GRF9,Blood Derived Normal,PT_P9RT6693,normal,Not Reported,3260.0
+BS_8D52JK1Q,Tumor,PT_1NN9AW39,tumor,Central Nervous System,3663.0
+BS_8EB1S8MK,Tumor,PT_XNMKQ4MR,tumor,Central Nervous System,1918.0
+BS_8EXFWVFX,Blood Derived Normal,PT_WGVEF96B,normal,Not Reported,2853.0
+BS_8F9BDWY4,Tumor,PT_XY404K0D,tumor,Central Nervous System,6417.0
+BS_8FSJDG2T,Tumor,PT_KVMF5TFW,tumor,Central Nervous System,2600.0
+BS_8H2XX24V,Tumor,PT_82MX6J77,tumor,Central Nervous System,1384.0
+BS_8HZ761SQ,Blood Derived Normal,PT_NSXP8AWV,normal,Not Reported,4838.0
+BS_8J09S6MZ,Tumor,PT_D8D108NY,tumor,Central Nervous System,6340.0
+BS_8J3B6ZB6,Tumor,PT_EF398HVC,tumor,Central Nervous System,2252.0
+BS_8JEJCH4Z,Blood Derived Normal,PT_G395P98S,normal,Not Reported,4532.0
+BS_8JFMP1T1,Tumor,PT_EYX2CP9F,tumor,Central Nervous System,7023.0
+BS_8MA5B8Y9,Tumor,PT_AP658JQV,tumor,Central Nervous System,5275.0
+BS_8NY9J9NQ,Tumor,PT_JEW5HG4W,tumor,Central Nervous System,5687.0
+BS_8PNA0V6R,Tumor,PT_QQZXYR4M,tumor,Central Nervous System,9490.0
+BS_8PRJTBE1,Blood Derived Normal,PT_1KEER2Q1,normal,Not Reported,
+BS_8Q2EAYJR,Blood Derived Normal,PT_D13X3N8F,normal,Not Reported,1144.0
+BS_8Q77HZ4R,Tumor,PT_YBJYA2CD,tumor,Central Nervous System,5456.0
+BS_8Q8CAY84,Tumor,PT_596H0BQF,tumor,Central Nervous System,477.0
+BS_8Q8N6AHW,Tumor,PT_37B5JRP1,tumor,Central Nervous System,5746.0
+BS_8QB4S4VA,Tumor,PT_8VRZRZ7R,tumor,Central Nervous System,3298.0
+BS_8R1DYXMB,Blood Derived Normal,PT_AQWDQW27,normal,Not Reported,748.0
+BS_8RCR7Y4B,Tumor,PT_RXJZ3C5G,tumor,Central Nervous System,7301.0
+BS_8RHPJ740,Tumor,PT_ZA95JQEB,tumor,Central Nervous System,2589.0
+BS_8S2CZBA6,Tumor,PT_S2SQJVGK,tumor,Central Nervous System,3991.0
+BS_8S86CM61,Tumor,PT_SA94083W,tumor,Central Nervous System,5019.0
+BS_8SETK1J4,Tumor,PT_8RB7TPS2,tumor,Central Nervous System,4073.0
+BS_8SKZ7BRN,Tumor,PT_9D2N4S5Z,tumor,Central Nervous System,2738.0
+BS_8SMZ11ER,Blood Derived Normal,PT_VQDNSYXM,normal,Not Reported,2855.0
+BS_8SYN7GXG,Tumor,PT_0MXPTTM3,tumor,Central Nervous System,9425.0
+BS_8T7DZV2F,Tumor,PT_62VNQ8C4,tumor,Central Nervous System,5235.0
+BS_8TFBNHT0,Tumor,PT_2FVTD0WR,tumor,Central Nervous System,1528.0
+BS_8VAZSJEN,Tumor,PT_6R95FQT2,tumor,Central Nervous System,5262.0
+BS_8W0FNBWF,Tumor,PT_JYZA0PNV,tumor,Central Nervous System,2321.0
+BS_8WJR4AA3,Tumor,PT_WG2Z95B5,tumor,Central Nervous System,383.0
+BS_8WPNFT03,Tumor,PT_CAYBADQC,tumor,Central Nervous System,241.0
+BS_8WTBCJT5,Blood Derived Normal,PT_EB89G70N,normal,Not Reported,4822.0
+BS_8X2PEXCW,Blood Derived Normal,PT_NWYSD53S,normal,Not Reported,1544.0
+BS_8XYJEWN4,Blood Derived Normal,PT_EN2RN5Y1,normal,Not Reported,3159.0
+BS_8YD46AZB,Blood Derived Normal,PT_WVC247PK,normal,Not Reported,1024.0
+BS_8Z3SCKB5,Tumor,PT_66XN3MT1,tumor,Central Nervous System,3902.0
+BS_8ZD6J47V,Cell Lines,PT_4347ZBEX,tumor,Central Nervous System,7884.0
+BS_8ZP3CBQA,Tumor,PT_T4VKB29K,tumor,Central Nervous System,1873.0
+BS_8ZS9F31R,Tumor,PT_DW2XRPC9,tumor,Central Nervous System,4384.0
+BS_8ZTNXCZJ,Blood Derived Normal,PT_M1RYN7B0,normal,Not Reported,1038.0
+BS_8ZY4GST0,Tumor,PT_V1HNAC2Q,tumor,Central Nervous System,2786.0
+BS_90B22NGP,Tumor,PT_JCECCFPB,tumor,Central Nervous System,382.0
+BS_912NX4Y0,Tumor,PT_1P436YMM,tumor,Central Nervous System,6969.0
+BS_91CV203N,Blood Derived Normal,PT_EDWA0XTP,normal,Not Reported,1517.0
+BS_91HP99HY,Tumor,PT_V482NWB8,tumor,Central Nervous System,4049.0
+BS_91VYM11A,Tumor,PT_MDWPRDBT,tumor,Central Nervous System,2146.0
+BS_922YMFYK,Tumor,PT_MXASQ2GW,tumor,Central Nervous System,4879.0
+BS_928HWFFM,Tumor,PT_RDJ40M73,tumor,Central Nervous System,6100.0
+BS_92HPNHFB,Blood Derived Normal,PT_FAD8FQ6S,normal,Not Reported,6287.0
+BS_92MT680S,Tumor,PT_98QMQZY7,tumor,Central Nervous System,2885.0
+BS_92SK6DD8,Blood Derived Normal,PT_YZME6QCY,normal,Not Reported,6001.0
+BS_92VDQ0NE,Tumor,PT_DFQAH7RS,tumor,Central Nervous System,1645.0
+BS_938K7FSV,Blood Derived Normal,PT_XP8AM1CH,normal,Not Reported,5713.0
+BS_93B38HPS,Tumor,PT_2ZXR2PDN,tumor,Central Nervous System,3941.0
+BS_93BV8AY9,Tumor,PT_S4YNE17X,tumor,Central Nervous System,4546.0
+BS_947CK40E,Tumor,PT_GCXG7800,tumor,Central Nervous System,7002.0
+BS_949NSSEH,Blood Derived Normal,PT_JEW5HG4W,normal,Not Reported,5687.0
+BS_94AP61Q5,Tumor,PT_DDFAZ345,tumor,Central Nervous System,1441.0
+BS_94MT16N2,Tumor,PT_JYZA0PNV,tumor,Central Nervous System,2321.0
+BS_95P46VE0,Blood Derived Normal,PT_CYVVA9AB,normal,Not Reported,4738.0
+BS_95RRF4NE,Tumor,PT_SRWZDG3N,tumor,Central Nervous System,5666.0
+BS_95W988HQ,Blood Derived Normal,PT_PGVQ4XRZ,normal,Not Reported,4513.0
+BS_969K7ZM1,Tumor,PT_S2ASFBP7,tumor,Central Nervous System,3355.0
+BS_96S0VQBN,Tumor,PT_1H2REHT2,tumor,Central Nervous System,9714.0
+BS_96TV932S,Blood Derived Normal,PT_NA8NZ0BN,normal,Not Reported,4033.0
+BS_9704T3DW,Blood Derived Normal,PT_KMHGNCNR,normal,Not Reported,1083.0
+BS_97241EMC,Blood Derived Normal,PT_XNMKQ4MR,normal,Not Reported,1918.0
+BS_9755PSCS,Tumor,PT_KBA2VNA2,tumor,Central Nervous System,6659.0
+BS_97M1E2DW,Tumor,PT_B38P3Y5T,tumor,Central Nervous System,3567.0
+BS_983Z6CA6,Tumor,PT_3KM9W8S8,tumor,Central Nervous System,713.0
+BS_98RN7Y9D,Blood Derived Normal,PT_ZVV78QP5,normal,Not Reported,3354.0
+BS_996ZS2A4,Tumor,PT_RX1EWBP9,tumor,Central Nervous System,1876.0
+BS_99B1XRZQ,Tumor,PT_3VCS1PPF,tumor,Central Nervous System,5233.0
+BS_99HARYGS,Blood Derived Normal,PT_W7FK539G,normal,Not Reported,1150.0
+BS_99MW9ECE,Blood Derived Normal,PT_82A9SDRN,normal,Not Reported,4234.0
+BS_99PPRCW4,Tumor,PT_BNARR0N6,tumor,Central Nervous System,376.0
+BS_9A5CF1QE,Blood Derived Normal,PT_66XN3MT1,normal,Not Reported,3902.0
+BS_9BBWSCD6,Blood Derived Normal,PT_PR4YBBH3,normal,Not Reported,3739.0
+BS_9BF58P80,Tumor,PT_BG7GAFK6,tumor,Central Nervous System,3385.0
+BS_9BGCH82S,Tumor,PT_D9NTSYSC,tumor,Central Nervous System,1935.0
+BS_9BJARSX3,Tumor,PT_41QYPSGV,tumor,Central Nervous System,5203.0
+BS_9BN45DFK,Tumor,PT_QD6KKKJH,tumor,Central Nervous System,3129.0
+BS_9CA93S6D,Tumor,PT_HSHPZAEZ,tumor,Central Nervous System,3734.0
+BS_9CMJ3QF6,Tumor,PT_RFGZ2JGP,tumor,Central Nervous System,4240.0
+BS_9D39MFHT,Tumor,PT_H6E09982,tumor,Central Nervous System,2857.0
+BS_9DFBHHB5,Tumor,PT_KMHGNCNR,tumor,Central Nervous System,1083.0
+BS_9DM8H1RX,Tumor,PT_SYHB12RN,tumor,Central Nervous System,2530.0
+BS_9DN4QR6E,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_9DZ253JY,Tumor,PT_N8W26H19,tumor,Central Nervous System,8427.0
+BS_9E41M9S0,Blood Derived Normal,PT_4XWYZYJS,normal,Not Reported,3085.0
+BS_9E632VPJ,Tumor,PT_GAM3E6M3,tumor,Central Nervous System,2365.0
+BS_9E6Q11G2,Tumor,PT_EYZ25B99,tumor,Central Nervous System,5738.0
+BS_9E7YVFJM,Tumor,PT_37WTWPZY,tumor,Central Nervous System,300.0
+BS_9F09XV62,Tumor,PT_C2VY5NM6,tumor,Central Nervous System,735.0
+BS_9F2J6VS1,Tumor,PT_0XN6EYXZ,tumor,Central Nervous System,3353.0
+BS_9F8D3A05,Blood Derived Normal,PT_8R00BMHH,normal,Not Reported,3290.0
+BS_9FHSNVS0,Tumor,PT_JV9G8MFD,tumor,Central Nervous System,362.0
+BS_9G69F50J,Tumor,PT_25Z2NX27,tumor,Central Nervous System,3674.0
+BS_9G7ETYHR,Tumor,PT_3VQEVNDD,tumor,Central Nervous System,722.0
+BS_9G82HJFA,Blood Derived Normal,PT_59D00MBQ,normal,Not Reported,3291.0
+BS_9GHGSRGG,Blood Derived Normal,PT_6TKJRSPW,normal,Not Reported,6286.0
+BS_9GJ23RHH,Tumor,PT_M2J30CF7,tumor,Central Nervous System,365.0
+BS_9GJHMA3J,Tumor,PT_MT27S7S4,tumor,Central Nervous System,7177.0
+BS_9GN1QA3Q,Tumor,PT_HFQNKP5X,tumor,Central Nervous System,2430.0
+BS_9GSWPZ44,Tumor,PT_K30AWQ8A,tumor,Central Nervous System,4087.0
+BS_9GT5XCF3,Blood Derived Normal,PT_PAW18EK3,normal,Not Reported,5681.0
+BS_9H6Z0MEG,Blood Derived Normal,PT_KBFM551M,normal,Not Reported,3425.0
+BS_9HA238XS,Tumor,PT_X84SD608,tumor,Central Nervous System,7215.0
+BS_9HDPJT21,Tumor,PT_Q25V9Y6M,tumor,Central Nervous System,1401.0
+BS_9HEMB7RK,Tumor,PT_W6AWJJK7,tumor,Central Nervous System,3923.0
+BS_9HSGV9TJ,Tumor,PT_P75ZXB1S,tumor,Central Nervous System,6447.0
+BS_9HVNGAB8,Blood Derived Normal,PT_V5ASTHRH,normal,Not Reported,6196.0
+BS_9HYDMBBW,Blood Derived Normal,PT_D5KHK0SS,normal,Not Reported,6552.0
+BS_9JVGXA2W,Tumor,PT_KVFS3Z2Q,tumor,Central Nervous System,6687.0
+BS_9KDA3HG6,Tumor,PT_5CKDR2SF,tumor,Central Nervous System,394.0
+BS_9M49SGAQ,Tumor,PT_4EDBZRM2,tumor,Central Nervous System,3940.0
+BS_9M5XJ10G,Tumor,PT_VH6S71AC,tumor,Central Nervous System,2590.0
+BS_9N3B3HZB,Tumor,PT_ZZRBX5JT,tumor,Central Nervous System,2967.0
+BS_9NF39QAW,Tumor,PT_4XVA57J7,tumor,Central Nervous System,3402.0
+BS_9NJHQE9F,Tumor,PT_VJZN69T9,tumor,Central Nervous System,880.0
+BS_9NRNDZD0,Blood Derived Normal,PT_BPKVVWVB,normal,Not Reported,3266.0
+BS_9NZ2D6AD,Tumor,PT_9YMRNZHH,tumor,Central Nervous System,5119.0
+BS_9P4NDTKJ,Tumor,PT_KBFM551M,tumor,Central Nervous System,3425.0
+BS_9P9MB8X8,Tumor,PT_45YH276T,tumor,Central Nervous System,623.0
+BS_9PB3XH5D,Tumor,PT_04YTK82N,tumor,Central Nervous System,1067.0
+BS_9PQPZPGM,Tumor,PT_N9KYV4WB,tumor,Central Nervous System,334.0
+BS_9Q6Z6VJC,Tumor,PT_M5HDHQNQ,tumor,Central Nervous System,1986.0
+BS_9QMVZ4C0,Tumor,PT_E546ZRXA,tumor,Central Nervous System,1538.0
+BS_9R1ENMBP,Blood Derived Normal,PT_MSQ6GSVP,normal,Not Reported,83.0
+BS_9R82A3VT,Tumor,PT_YT70KJ5P,tumor,Central Nervous System,315.0
+BS_9RT63JD9,Tumor,PT_AEDWCP8Z,tumor,Central Nervous System,
+BS_9S3N3Y5W,Blood Derived Normal,PT_N9CGVG02,normal,Not Reported,4438.0
+BS_9SJWWYQ4,Tumor,PT_3CVMBGD7,tumor,Central Nervous System,3815.0
+BS_9SVMVJ45,Tumor,PT_HJMP6PH2,tumor,Central Nervous System,2590.0
+BS_9TKZ0YP0,Blood Derived Normal,PT_6DB7B9WV,normal,Not Reported,52.0
+BS_9TSKXKGH,Blood Derived Normal,PT_M9XXJ4GR,normal,Not Reported,3893.0
+BS_9V633J1X,Tumor,PT_BTTM2HS5,tumor,Central Nervous System,1689.0
+BS_9W04ZPRR,Tumor,PT_ZTWCA9HX,tumor,Central Nervous System,
+BS_9W6FK6X4,Tumor,PT_CGWPWSXM,tumor,Central Nervous System,600.0
+BS_9X9E86DY,Tumor,PT_20ZM6THA,tumor,Central Nervous System,1889.0
+BS_9XHV04WE,Blood Derived Normal,PT_T8V9ES93,normal,Not Reported,6081.0
+BS_9XMMXFXW,Blood Derived Normal,PT_9M4CQX3M,normal,Not Reported,11587.0
+BS_9XVACXP0,Tumor,PT_387VK1T9,tumor,Central Nervous System,70.0
+BS_9XWJ88Q1,Tumor,PT_DEKWG1QG,tumor,Central Nervous System,2322.0
+BS_9YHX7QFW,Blood Derived Normal,PT_2YT37G8P,normal,Not Reported,4304.0
+BS_9YPJANGX,Tumor,PT_CWA1405H,tumor,Central Nervous System,3475.0
+BS_9ZFXXJPK,Tumor,PT_VBVZ2NAR,tumor,Central Nervous System,230.0
+BS_A0DYVX9J,Tumor,PT_QDGVJKE0,tumor,Central Nervous System,7354.0
+BS_A13BMEF5,Tumor,PT_TB8HPJBN,tumor,Central Nervous System,1436.0
+BS_A14Z8BBK,Tumor,PT_G1QNGVCZ,tumor,Central Nervous System,3712.0
+BS_A1A5ZH77,Blood Derived Normal,PT_VJZN69T9,normal,Not Reported,880.0
+BS_A1DV9T7G,Tumor,PT_9PJR0ZK7,tumor,Central Nervous System,6431.0
+BS_A1VEGWTR,Tumor,PT_5ABCFCSK,tumor,Central Nervous System,5804.0
+BS_A3EV6FXK,Tumor,PT_1Z015H6V,tumor,Central Nervous System,6307.0
+BS_A3QZB9Y2,Tumor,PT_HT4HJXY6,tumor,Central Nervous System,8061.0
+BS_A46RDWGM,Tumor,PT_K6G6BE6G,tumor,Central Nervous System,2480.0
+BS_A4JP70KJ,Blood Derived Normal,PT_DEKWG1QG,normal,Not Reported,2322.0
+BS_A4KYP5H0,Tumor,PT_QW5VW2PY,tumor,Central Nervous System,3655.0
+BS_A4QX5D2K,Blood Derived Normal,PT_NWYSD53S,normal,Not Reported,1544.0
+BS_A6YJ3WG2,Tumor,PT_C5FKRB1P,tumor,Central Nervous System,4529.0
+BS_A70G7S2W,Tumor,PT_YCMH9SQP,tumor,Central Nervous System,1505.0
+BS_A75SK7WA,Blood Derived Normal,PT_GHHY5AAE,normal,Not Reported,5191.0
+BS_A7MC2KR2,Tumor,PT_S2ASFBP7,tumor,Central Nervous System,3355.0
+BS_A7Q8G0Y1,Tumor,PT_PR4YBBH3,tumor,Central Nervous System,3778.0
+BS_A87NPZAP,Tumor,PT_X1XVE1XX,tumor,Central Nervous System,4917.0
+BS_A89VAPVV,Tumor,PT_A4KA01ZH,tumor,Central Nervous System,2.0
+BS_A94A7EJ4,Tumor,PT_ESHACWF6,tumor,Central Nervous System,1904.0
+BS_A9S5HT6P,Tumor,PT_9XAA8PF6,tumor,Central Nervous System,4964.0
+BS_AA164D3A,Tumor,PT_GCXG7800,tumor,Central Nervous System,7002.0
+BS_AA6DZJ9Z,Blood Derived Normal,PT_YY7CRV21,normal,Not Reported,4937.0
+BS_AB2C1EF9,Blood Derived Normal,PT_Z7YJ7MSM,normal,Not Reported,118.0
+BS_ABDWNW1A,Blood Derived Normal,PT_32J909WM,normal,Not Reported,860.0
+BS_ABENB1H2,Tumor,PT_N9CGVG02,tumor,Central Nervous System,4114.0
+BS_ABYF92Z9,Tumor,PT_6MB6RED3,tumor,Central Nervous System,2800.0
+BS_ABZ3BK38,Tumor,PT_S2BEPYQ0,tumor,Central Nervous System,3431.0
+BS_ACE6QKVF,Tumor,PT_7RMS6K08,tumor,Central Nervous System,2033.0
+BS_ACTR13BQ,Tumor,PT_WYR1DVHX,tumor,Central Nervous System,2537.0
+BS_ACZNJGV3,Blood Derived Normal,PT_HBT0C66Y,normal,Not Reported,1864.0
+BS_AD4JPN9Q,Tumor,PT_17W3GJPT,tumor,Central Nervous System,663.0
+BS_AEEKJ1QK,Tumor,PT_QA9WJ679,tumor,Central Nervous System,5417.0
+BS_AEJZG4A3,Blood Derived Normal,PT_EYZ25B99,normal,Not Reported,5738.0
+BS_AEMRNSQX,Tumor,PT_4TASAQKA,tumor,Central Nervous System,4386.0
+BS_AF5D41PD,Tumor,PT_KTRJ8TFY,tumor,Central Nervous System,2079.0
+BS_AF68VM9V,Blood Derived Normal,PT_C5FKRB1P,normal,Not Reported,4529.0
+BS_AF6A572P,Blood Derived Normal,PT_CWA1405H,normal,Not Reported,3475.0
+BS_AFAHY6HP,Tumor,PT_PSX2CSYX,tumor,Central Nervous System,2063.0
+BS_AFBPM6CN,Cell Lines,PT_C2D4JXS1,tumor,Central Nervous System,2307.0
+BS_AG0BZN6F,Tumor,PT_HT4HJXY6,tumor,Central Nervous System,4595.0
+BS_AG3D3435,Tumor,PT_7YSCM82T,tumor,Central Nervous System,327.0
+BS_AG4H9S3J,Tumor,PT_NFDHYPGT,tumor,Central Nervous System,221.0
+BS_AG6M7TJE,Tumor,PT_99S5BPE3,tumor,Central Nervous System,8339.0
+BS_AGAW7M7W,Tumor,PT_BF3PGTF7,tumor,Central Nervous System,4133.0
+BS_AGD2ATY1,Tumor,PT_ZZRBX5JT,tumor,Central Nervous System,1878.0
+BS_AGGH3QGS,Tumor,PT_XDV8W16W,tumor,Central Nervous System,5108.0
+BS_AGNSAKZG,Blood Derived Normal,PT_EG7PH32E,normal,Not Reported,5028.0
+BS_AGS1HHGF,Tumor,PT_HN0AXSZ0,tumor,Central Nervous System,7197.0
+BS_AGTPCRR4,Tumor,PT_TS0H697Y,tumor,Central Nervous System,4379.0
+BS_AH3RVK53,Cell Lines,PT_EN2RN5Y1,tumor,Central Nervous System,3159.0
+BS_AHAXPFG3,Tumor,PT_NK8A49X5,tumor,Central Nervous System,4896.0
+BS_AHEFXG7W,Tumor,PT_VY45XTT7,tumor,Central Nervous System,4284.0
+BS_AHT9PKVE,Tumor,PT_0T2EWNYR,tumor,Central Nervous System,1.0
+BS_AJ0T7DJ7,Tumor,PT_D5KHK0SS,tumor,Central Nervous System,6552.0
+BS_AJ6X83G5,Tumor,PT_TRXF649Z,tumor,Central Nervous System,3301.0
+BS_AJFG2QDD,Tumor,PT_2WA5PM32,tumor,Central Nervous System,2927.0
+BS_AJZ5H79X,Blood Derived Normal,PT_BWGZBVD1,normal,Not Reported,315.0
+BS_AK9BV52G,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_AKRHBPNZ,Tumor,PT_3NM45TQ8,tumor,Central Nervous System,2716.0
+BS_AM2TZPNS,Tumor,PT_NH8CJ84W,tumor,Central Nervous System,8750.0
+BS_AM70R8RG,Tumor,PT_PABK01H0,tumor,Central Nervous System,1076.0
+BS_AMQGM1V9,Tumor,PT_J3B812DT,tumor,Central Nervous System,218.0
+BS_AMZ70B6F,Tumor,PT_3VQEVNDD,tumor,Central Nervous System,722.0
+BS_AP0SZ364,Tumor,PT_PGVQ4XRZ,tumor,Central Nervous System,4513.0
+BS_APAQ2X2S,Tumor,PT_5ABCFCSK,tumor,Central Nervous System,5804.0
+BS_APXB3MQ5,Blood Derived Normal,PT_TVJ5EGMR,normal,Not Reported,3922.0
+BS_AQECMDPP,Tumor,PT_3A87PCQK,tumor,Central Nervous System,7650.0
+BS_AQMKA8NC,Tumor,PT_00G007DM,tumor,Central Nervous System,3178.0
+BS_AQQY8HMR,Tumor,PT_2BTC5TEN,tumor,Central Nervous System,3529.0
+BS_AR2BH0Z4,Tumor,PT_A0F23R7E,tumor,Central Nervous System,1464.0
+BS_ARBQDTT5,Tumor,PT_9M4CQX3M,tumor,Central Nervous System,11587.0
+BS_ARE4EM81,Tumor,PT_FAPEH6R1,tumor,Central Nervous System,4379.0
+BS_ARFQ1WG3,Tumor,PT_8GW4J4TD,tumor,Central Nervous System,6626.0
+BS_ARSZZ15F,Blood Derived Normal,PT_YXZPWFVB,normal,Not Reported,7768.0
+BS_ARW4NM3Z,Blood Derived Normal,PT_X8SK8120,normal,Not Reported,9701.0
+BS_AS05QBHE,Blood Derived Normal,PT_H024RK87,normal,Not Reported,6890.0
+BS_AS4CJ75A,Blood Derived Normal,PT_858H7ABM,normal,Not Reported,6704.0
+BS_ASJMZMN6,Blood Derived Normal,PT_JXGMAHHN,normal,Not Reported,796.0
+BS_ASXY97FK,Tumor,PT_JEA0AEMZ,tumor,Central Nervous System,2327.0
+BS_ATYBFKWJ,Saliva,PT_GGCQAGPS,normal,Not Reported,5132.0
+BS_AVS4DSZW,Tumor,PT_N9W4GT6D,tumor,Central Nervous System,3609.0
+BS_AVYNZHSB,Tumor,PT_S7WJ99PC,tumor,Central Nervous System,2936.0
+BS_AWDQEKK1,Tumor,PT_M2J30CF7,tumor,Central Nervous System,365.0
+BS_AWH9757B,Tumor,PT_59FJRPVX,tumor,Central Nervous System,3105.0
+BS_AWRNMZAY,Blood Derived Normal,PT_WE1CHTWK,normal,Not Reported,523.0
+BS_AWV1EDYB,Tumor,PT_Z4GS3ZQQ,tumor,Central Nervous System,1377.0
+BS_AXM96K20,Tumor,PT_54MH6Q46,tumor,Central Nervous System,1957.0
+BS_AXW0XBH8,Tumor,PT_CR2YBSPT,tumor,Central Nervous System,362.0
+BS_AYFJ1B57,Blood Derived Normal,PT_VTM2STE3,normal,Not Reported,3615.0
+BS_AYPBAHJ6,Tumor,PT_Y5KY6KN9,tumor,Central Nervous System,3324.0
+BS_AZ4ATNVV,Blood Derived Normal,PT_7P6J57H3,normal,Not Reported,1949.0
+BS_AZG06JFG,Blood Derived Normal,PT_3RN24N9X,normal,Not Reported,1469.0
+BS_AZN38B7V,Tumor,PT_ZCXS29JJ,tumor,Central Nervous System,4196.0
+BS_B0M7XY0G,Blood Derived Normal,PT_T3REPTTC,normal,Not Reported,754.0
+BS_B0SVFK4P,Tumor,PT_RRT2E7HK,tumor,Central Nervous System,5970.0
+BS_B19AWBBW,Tumor,PT_C9YDTZPA,tumor,Central Nervous System,1978.0
+BS_B1C6GZ84,Tumor,PT_2QZJ4T95,tumor,Central Nervous System,3035.0
+BS_B1HVNV0T,Tumor,PT_FYECBRPP,tumor,Central Nervous System,562.0
+BS_B1X2SB4P,Tumor,PT_06ERX8Z7,tumor,Central Nervous System,3635.0
+BS_B24PKKQB,Tumor,PT_596H0BQF,tumor,Central Nervous System,477.0
+BS_B2AFNXS1,Blood Derived Normal,PT_CW0BJE0Y,normal,Not Reported,883.0
+BS_B3M5SGPA,Tumor,PT_4XVA57J7,tumor,Central Nervous System,3402.0
+BS_B3RH9V17,Tumor,PT_2FK75B27,tumor,Central Nervous System,2538.0
+BS_B3WREYSV,Blood Derived Normal,PT_6Q0NPVP3,normal,Not Reported,871.0
+BS_B4DY7ET3,Tumor,PT_W17NV5YG,tumor,Central Nervous System,221.0
+BS_B4P1NP87,Tumor,PT_3VCS1PPF,tumor,Central Nervous System,4710.0
+BS_B4PPG3X5,Tumor,PT_7P6J57H3,tumor,Central Nervous System,1949.0
+BS_B53Z0T1Q,Tumor,PT_7RMS6K08,tumor,Central Nervous System,2033.0
+BS_B558FJXC,Tumor,PT_E8XM8JFZ,tumor,Central Nervous System,1302.0
+BS_B5Z2XV03,Tumor,PT_DH8A0SNQ,tumor,Central Nervous System,209.0
+BS_B61168DE,Tumor,PT_1NN9AW39,tumor,Central Nervous System,3663.0
+BS_B6H61NPY,Blood Derived Normal,PT_39HBKSGG,normal,Not Reported,4854.0
+BS_B6K0N6HS,Tumor,PT_NA8NZ0BN,tumor,Central Nervous System,3641.0
+BS_B6KCJF2B,Tumor,PT_NPHZQW6A,tumor,Central Nervous System,1245.0
+BS_B6M763JS,Tumor,PT_QT3MK7BZ,tumor,Central Nervous System,4744.0
+BS_B73JK7T1,Tumor,PT_CMB6TASJ,tumor,Central Nervous System,772.0
+BS_B741RZY9,Tumor,PT_ZS2YDFBE,tumor,Central Nervous System,5917.0
+BS_B7GEH89C,Tumor,PT_H57TEQDT,tumor,Central Nervous System,1227.0
+BS_B7QS4DHK,Tumor,PT_S4YNE17X,tumor,Central Nervous System,8202.0
+BS_B7SMC7HM,Blood Derived Normal,PT_Q38AT6JY,normal,Not Reported,1828.0
+BS_B7X8VXQ3,Tumor,PT_FAD8FQ6S,tumor,Central Nervous System,6287.0
+BS_B8T7M0WV,Tumor,PT_R1N5M7NH,tumor,Central Nervous System,5720.0
+BS_B900YTMN,Blood Derived Normal,PT_AKQZZPH8,normal,Not Reported,2815.0
+BS_B91XGSA5,Tumor,PT_QD6KKKJH,tumor,Central Nervous System,3129.0
+BS_B94G701Q,Tumor,PT_R9V5R1SY,tumor,Central Nervous System,1243.0
+BS_B9QP40ER,Tumor,PT_2JDDX6TJ,tumor,Central Nervous System,4253.0
+BS_B9V8RGTA,Tumor,PT_J50NZYZF,tumor,Central Nervous System,2877.0
+BS_BA0M71QZ,Tumor,PT_BCWGRGDB,tumor,Central Nervous System,2837.0
+BS_BA6AZWB3,Tumor,PT_YV2S3ES7,tumor,Central Nervous System,13333.0
+BS_BAVWP5JG,Tumor,PT_G5RA8E3N,tumor,Central Nervous System,4567.0
+BS_BB0YW800,Tumor,PT_XCX9W17B,tumor,Central Nervous System,2682.0
+BS_BBCM52QE,Tumor,PT_23K3YS1P,tumor,Central Nervous System,1808.0
+BS_BBHFKBE7,Tumor,PT_VE0Q731Y,tumor,Central Nervous System,1464.0
+BS_BBTT7DH4,Tumor,PT_7M2PGCBV,tumor,Central Nervous System,6322.0
+BS_BC936YNZ,Tumor,PT_KHX1WQ4H,tumor,Central Nervous System,4417.0
+BS_BD4RQ1G0,Tumor,PT_NMZBRFYS,tumor,Central Nervous System,3864.0
+BS_BE3DW3RB,Blood Derived Normal,PT_PHKSYE6Q,normal,Not Reported,4957.0
+BS_BFDEZK1C,Tumor,PT_5BWZA0NT,tumor,Central Nervous System,4456.0
+BS_BFK70293,Blood Derived Normal,PT_TRXF649Z,normal,Not Reported,3301.0
+BS_BG996C4D,Blood Derived Normal,PT_GY0QSY4H,normal,Not Reported,4406.0
+BS_BGW6PHHK,Blood Derived Normal,PT_ZN1F7RMP,normal,Not Reported,7032.0
+BS_BHR08WGW,Tumor,PT_6TZR2DH1,tumor,Central Nervous System,2660.0
+BS_BJDNWMJH,Tumor,PT_KVFS3Z2Q,tumor,Central Nervous System,6687.0
+BS_BKCPNFZ5,Blood Derived Normal,PT_1E3E6GMF,normal,Not Reported,2211.0
+BS_BKQZ550R,Tumor,PT_41WETNRC,tumor,Central Nervous System,978.0
+BS_BKR4E30C,Tumor,PT_E3S6H59E,tumor,Central Nervous System,4921.0
+BS_BM95DGCQ,Tumor,PT_SCBMTG0S,tumor,Central Nervous System,5593.0
+BS_BMHYK93N,Tumor,PT_X0FPPTMT,tumor,Central Nervous System,6412.0
+BS_BMMY0H73,Tumor,PT_X5TQR8V2,tumor,Central Nervous System,6470.0
+BS_BN986DF6,Tumor,PT_PFA762TK,tumor,Central Nervous System,796.0
+BS_BNFCXVYZ,Tumor,PT_KHX1WQ4H,tumor,Central Nervous System,4417.0
+BS_BPDT230W,Blood Derived Normal,PT_HXDCHQ9Y,normal,Not Reported,6654.0
+BS_BPSTSCBJ,Tumor,PT_ATE3YRH5,tumor,Central Nervous System,3106.0
+BS_BPWEFR89,Tumor,PT_FN4GEEFR,tumor,Central Nervous System,3977.0
+BS_BQ81D2BP,Tumor,PT_KTRJ8TFY,tumor,Central Nervous System,2079.0
+BS_BQWMQM2Y,Tumor,PT_MDWPRDBT,tumor,Central Nervous System,1527.0
+BS_BR1X3R68,Tumor,PT_ZN1F7RMP,tumor,Central Nervous System,7032.0
+BS_BS5X4H0Y,Tumor,PT_K5KH69Q1,tumor,Central Nervous System,1326.0
+BS_BSM3ZHW4,Tumor,PT_6TMT65YA,tumor,Central Nervous System,508.0
+BS_BSV07M7Z,Tumor,PT_PX4E85V1,tumor,Central Nervous System,1680.0
+BS_BT4WRQCA,Blood Derived Normal,PT_8ECE2D92,normal,Not Reported,3676.0
+BS_BVD7PWP5,Tumor,PT_203ZY782,tumor,Central Nervous System,532.0
+BS_BVRH3WGW,Blood Derived Normal,PT_9YNQJZ5G,normal,Not Reported,4039.0
+BS_BVSW4GTG,Tumor,PT_DACV00WF,tumor,Central Nervous System,
+BS_BWBDH9GM,Cell Lines,PT_JNEV57VK,tumor,Central Nervous System,3100.0
+BS_BWZTMWTM,Tumor,PT_F1086Z0A,tumor,Central Nervous System,1220.0
+BS_BX8AR74E,Tumor,PT_FN4GEEFR,tumor,Central Nervous System,3977.0
+BS_BXTHPE56,Blood Derived Normal,PT_A9F8Y6MA,normal,Not Reported,199.0
+BS_BXXJ9P8C,Tumor,PT_Y97DX151,tumor,Central Nervous System,6817.0
+BS_BYA3D12Q,Blood Derived Normal,PT_7T13FDWK,normal,Not Reported,4764.0
+BS_BYCX6VK1,Tumor,PT_3AWKWXEV,tumor,Central Nervous System,919.0
+BS_BYJDRXMK,Tumor,PT_DH8A0SNQ,tumor,Central Nervous System,1344.0
+BS_BZ4GKDP4,Tumor,PT_B0JFCN5W,tumor,Central Nervous System,4295.0
+BS_BZ7FK347,Blood Derived Normal,PT_63F63QY0,normal,Not Reported,5205.0
+BS_BZWM455T,Tumor,PT_44HPG5YT,tumor,Central Nervous System,301.0
+BS_C05FKR8X,Tumor,PT_ZWY04DCR,tumor,Central Nervous System,6026.0
+BS_C0XFDP38,Tumor,PT_NH8CJ84W,tumor,Central Nervous System,8750.0
+BS_C0YDDQKB,Tumor,PT_1EB5KHZX,tumor,Central Nervous System,666.0
+BS_C19DFVR5,Tumor,PT_X5TQR8V2,tumor,Central Nervous System,6470.0
+BS_C1RRDNF5,Tumor,PT_E3ADF4ZB,tumor,Central Nervous System,1352.0
+BS_C1X2TNTC,Blood Derived Normal,PT_8P368R5B,normal,Not Reported,4745.0
+BS_C2AV5D4A,Blood Derived Normal,PT_E3S6H59E,normal,Not Reported,4921.0
+BS_C2NH5FDT,Tumor,PT_PR4YBBH3,tumor,Central Nervous System,3778.0
+BS_C3KDA5ZC,Tumor,PT_YQWG98Z5,tumor,Central Nervous System,6251.0
+BS_C3P5BC92,Tumor,PT_T2M1338J,tumor,Central Nervous System,4342.0
+BS_C3X4AEK5,Tumor,PT_9YNQJZ5G,tumor,Central Nervous System,4039.0
+BS_C41DJZ1F,Tumor,PT_30H1KV15,tumor,Central Nervous System,4880.0
+BS_C4BTBM7G,Blood Derived Normal,PT_CWD717Q0,normal,Not Reported,3472.0
+BS_C51RB0YR,Tumor,PT_DMMKT7X1,tumor,Central Nervous System,5113.0
+BS_C524TC33,Blood Derived Normal,PT_8CZ6ANE0,normal,Not Reported,2507.0
+BS_C5RDMCCS,Tumor,PT_R10BSB9F,tumor,Central Nervous System,451.0
+BS_C6GBYR17,Tumor,PT_MBAXTJET,tumor,Central Nervous System,1896.0
+BS_C6NB914B,Tumor,PT_K8ZV7APT,tumor,Central Nervous System,8307.0
+BS_C6SKJG3N,Tumor,PT_XDV8W16W,tumor,Central Nervous System,5108.0
+BS_C6ZZ3FY5,Tumor,PT_X71D7G5S,tumor,Central Nervous System,5422.0
+BS_C75Y7S77,Blood Derived Normal,PT_CBAYDRF9,normal,Not Reported,4802.0
+BS_C7A2TYAC,Tumor,PT_JXGMAHHN,tumor,Central Nervous System,796.0
+BS_C7M1W9D1,Blood Derived Normal,PT_BZKJR4GK,normal,Not Reported,6565.0
+BS_C7N3J4NW,Tumor,PT_KDW5HHWQ,tumor,Central Nervous System,7848.0
+BS_C80S5N37,Tumor,PT_K2YDNZDA,tumor,Central Nervous System,809.0
+BS_C83TK159,Tumor,PT_1AAYYGGY,tumor,Central Nervous System,4608.0
+BS_C8EYP5BV,Blood Derived Normal,PT_2FVTD0WR,normal,Not Reported,7041.0
+BS_C8FMN2ZR,Blood Derived Normal,PT_3A0B29QT,normal,Not Reported,1687.0
+BS_C9A3X8GK,Blood Derived Normal,PT_EEKE0V9T,normal,Not Reported,6259.0
+BS_C9TNGEA0,Tumor,PT_3R0P995B,tumor,Central Nervous System,576.0
+BS_CB6VK7PB,Tumor,PT_JMW6Q6NH,tumor,Central Nervous System,432.0
+BS_CBMAWSAR,Tumor,PT_MNSEJCDM,tumor,Central Nervous System,2190.0
+BS_CBVA073E,Blood Derived Normal,PT_TS0FW57Z,normal,Not Reported,5766.0
+BS_CCZZ0NQF,Blood Derived Normal,PT_SYHB12RN,normal,Not Reported,2530.0
+BS_CD7AXQM8,Tumor,PT_8P368R5B,tumor,Central Nervous System,4745.0
+BS_CDKC1E2B,Tumor,PT_229DRV7B,tumor,Central Nervous System,5331.0
+BS_CEPD6BKP,Blood Derived Normal,PT_DA4WFQ96,normal,Not Reported,1058.0
+BS_CEZVJC67,Blood Derived Normal,PT_DTP4MMRA,normal,Not Reported,6951.0
+BS_CFEWVDG1,Tumor,PT_2D1KGV99,tumor,Central Nervous System,1386.0
+BS_CFPWSZB5,Tumor,PT_6BX46NVR,tumor,Central Nervous System,324.0
+BS_CGB2WS2A,Tumor,PT_VJ0M4E8Y,tumor,Central Nervous System,2154.0
+BS_CGCNC41M,Tumor,PT_1TGKS073,tumor,Central Nervous System,1314.0
+BS_CGXTFM67,Tumor,PT_M23Q0DC3,tumor,Central Nervous System,1740.0
+BS_CHAFNK64,Tumor,PT_T2M1338J,tumor,Central Nervous System,4342.0
+BS_CHDGRYHJ,Tumor,PT_82MX6J77,tumor,Central Nervous System,1384.0
+BS_CJFTT8ZC,Blood Derived Normal,PT_CGPJY881,normal,Not Reported,5213.0
+BS_CK7CPM73,Tumor,PT_RXT6KRR6,tumor,Central Nervous System,1218.0
+BS_CKWQKB3A,Blood Derived Normal,PT_WVAJN6WR,normal,Not Reported,7485.0
+BS_CKY2TTXG,Tumor,PT_M04EC74B,tumor,Central Nervous System,544.0
+BS_CMDFBW42,Blood Derived Normal,PT_GBDYKSPY,normal,Not Reported,8093.0
+BS_CN7PB0DN,Tumor,PT_FAQWD7GX,tumor,Central Nervous System,2195.0
+BS_CP435MAC,Tumor,PT_H57TEQDT,tumor,Central Nervous System,1227.0
+BS_CPYV7AHD,Tumor,PT_41QYPSGV,tumor,Central Nervous System,5203.0
+BS_CPZZR2R7,Tumor,PT_ZZ8SBJJ5,tumor,Central Nervous System,881.0
+BS_CQ8C6X4X,Tumor,PT_2VSDT9CK,tumor,Central Nervous System,1956.0
+BS_CQEETJ66,Tumor,PT_NXX0M835,tumor,Central Nervous System,4978.0
+BS_CQSAJ7BF,Tumor,PT_GPQJYAW4,tumor,Central Nervous System,4307.0
+BS_CREQ97QC,Tumor,PT_BCN28SW9,tumor,Central Nervous System,2489.0
+BS_CRKBDAYZ,Tumor,PT_S4YNE17X,tumor,Central Nervous System,8202.0
+BS_CS170P7T,Tumor,PT_GQDHZFJP,tumor,Central Nervous System,5654.0
+BS_CS66RYDA,Tumor,PT_S4YNE17X,tumor,Central Nervous System,8152.0
+BS_CSY11X7E,Tumor,PT_EGGY1XC0,tumor,Central Nervous System,1475.0
+BS_CTEM6SYF,Blood Derived Normal,PT_00G007DM,normal,Not Reported,1702.0
+BS_CTQ82WX9,Blood Derived Normal,PT_HGHV85PZ,normal,Not Reported,5326.0
+BS_CTR5X93B,Tumor,PT_XNMKQ4MR,tumor,Central Nervous System,1918.0
+BS_CVGFNCBJ,Tumor,PT_CB9PD1YP,tumor,Central Nervous System,6145.0
+BS_CW6NWAWQ,Blood Derived Normal,PT_02J5CWN5,normal,Not Reported,3722.0
+BS_CW9QV8AG,Tumor,PT_ZZ8SBJJ5,tumor,Central Nervous System,881.0
+BS_CWCDM1BZ,Blood Derived Normal,PT_RE6AXQM1,normal,Not Reported,1743.0
+BS_CWMK1Y3Y,Blood Derived Normal,PT_KN25EYMG,normal,Not Reported,1750.0
+BS_CWQ35N2K,Tumor,PT_6DB7B9WV,tumor,Central Nervous System,52.0
+BS_CX6KACX6,Tumor,PT_CSKHQB16,tumor,Central Nervous System,1460.0
+BS_CX6SQF8T,Blood Derived Normal,PT_EZS4SRH6,normal,Not Reported,5132.0
+BS_CXCKHP3Z,Tumor,PT_13MKXR8G,tumor,Central Nervous System,3470.0
+BS_CXDKK6KS,Tumor,PT_EC8R84NM,tumor,Central Nervous System,1344.0
+BS_CXN0498B,Tumor,PT_DEKWG1QG,tumor,Central Nervous System,2322.0
+BS_CXVGG342,Tumor,PT_2WVW55DA,tumor,Central Nervous System,994.0
+BS_CXVJK2FY,Tumor,PT_CYVVA9AB,tumor,Central Nervous System,4738.0
+BS_CYEY58NY,Tumor,PT_BDM0M83S,tumor,Central Nervous System,2037.0
+BS_CYKA9DP6,Blood Derived Normal,PT_NPPBNRVV,normal,Not Reported,3918.0
+BS_CYM7BP13,Blood Derived Normal,PT_WKNKNYHH,normal,Not Reported,888.0
+BS_CZ3ER8DY,Tumor,PT_ECMZCNTF,tumor,Central Nervous System,479.0
+BS_CZ3NA7KV,Tumor,PT_B5K3A4F4,tumor,Central Nervous System,5573.0
+BS_CZ82ANWP,Tumor,PT_868QRW9G,tumor,Central Nervous System,3642.0
+BS_CZGNQ9KQ,Blood Derived Normal,PT_XA8ASFJK,normal,Not Reported,6088.0
+BS_CZPQ493E,Tumor,PT_Z2KHR3GQ,tumor,Central Nervous System,4867.0
+BS_CZRA594T,Cell Lines,PT_3AWKWXEV,tumor,Central Nervous System,919.0
+BS_D09VWF8H,Tumor,PT_27FDWCVZ,tumor,Central Nervous System,3295.0
+BS_D0BGESQF,Tumor,PT_ZN1F7RMP,tumor,Central Nervous System,7032.0
+BS_D0RDN4K5,Tumor,PT_FF0MSK4D,tumor,Central Nervous System,6082.0
+BS_D144EJRQ,Tumor,PT_V8714N9H,tumor,Central Nervous System,761.0
+BS_D29RPBSZ,Tumor,PT_JNEV57VK,tumor,Central Nervous System,3100.0
+BS_D2BZ25FW,Tumor,PT_6N1QWCXE,tumor,Central Nervous System,2869.0
+BS_D2K9C7XR,Tumor,PT_N673SYWW,tumor,Central Nervous System,2963.0
+BS_D368BNRD,Tumor,PT_MDWPRDBT,tumor,Central Nervous System,1867.0
+BS_D3KVGMRJ,Tumor,PT_AQWDQW27,tumor,Central Nervous System,748.0
+BS_D3VQDD5A,Blood Derived Normal,PT_ZZ8SBJJ5,normal,Not Reported,881.0
+BS_D3XVXF05,Tumor,PT_S4YNE17X,tumor,Central Nervous System,6626.0
+BS_D3YBV7KB,Tumor,PT_NPPBNRVV,tumor,Central Nervous System,3918.0
+BS_D3ZV6MMY,Tumor,PT_5KP2E0DS,tumor,Central Nervous System,5871.0
+BS_D48QXYW6,Blood Derived Normal,PT_VPEMAQBN,normal,Not Reported,1709.0
+BS_D4K3JN7S,Blood Derived Normal,PT_ZG4J0EK0,normal,Not Reported,2050.0
+BS_D4PJYHZ2,Tumor,PT_9ZY739FB,tumor,Central Nervous System,4911.0
+BS_D4X1QMG0,Blood Derived Normal,PT_6PFFSB6D,normal,Not Reported,5690.0
+BS_D4YJXS6R,Blood Derived Normal,PT_2WA5PM32,normal,Not Reported,2927.0
+BS_D59VEERR,Tumor,PT_ER1C7KPB,tumor,Central Nervous System,5071.0
+BS_D5NQV7N5,Tumor,PT_VT6PJVQN,tumor,Central Nervous System,2759.0
+BS_D5P6EZ1M,Tumor,PT_WVAJN6WR,tumor,Central Nervous System,7485.0
+BS_D64Q07W9,Blood Derived Normal,PT_GKSABESN,normal,Not Reported,108.0
+BS_D6STCMQS,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_D6XHKZDZ,Tumor,PT_N32BYY8A,tumor,Central Nervous System,6381.0
+BS_D70Z2E3A,Blood Derived Normal,PT_RQ21EBK9,normal,Not Reported,3651.0
+BS_D7AKEXHJ,Blood Derived Normal,PT_GVDMG7KC,normal,Not Reported,8384.0
+BS_D7XRFE0R,Tumor,PT_RYMG3M91,tumor,Central Nervous System,3656.0
+BS_D8N31T39,Tumor,PT_2WVW55DA,tumor,Central Nervous System,245.0
+BS_D9FXAR11,Blood Derived Normal,PT_6MWPJ96F,normal,Not Reported,2889.0
+BS_D9GEXXHX,Tumor,PT_AQWDQW27,tumor,Central Nervous System,748.0
+BS_DAEM3WRX,Tumor,PT_EYWDFKA7,tumor,Central Nervous System,3612.0
+BS_DBDXCXT5,Tumor,PT_HFQNKP5X,tumor,Central Nervous System,2780.0
+BS_DBEX7AG2,Tumor,PT_38FS37DP,tumor,Central Nervous System,1053.0
+BS_DC5JYYPA,Blood Derived Normal,PT_W17NV5YG,normal,Not Reported,386.0
+BS_DC7XYYG8,Tumor,PT_66XN3MT1,tumor,Central Nervous System,3902.0
+BS_DCEAZ94R,Blood Derived Normal,PT_CYBYN18G,normal,Not Reported,3474.0
+BS_DD2N8CEX,Tumor,PT_MV5WXTQV,tumor,Central Nervous System,2288.0
+BS_DDH5HKJK,Blood Derived Normal,PT_40HTPY49,normal,Not Reported,2606.0
+BS_DE26D072,Tumor,PT_XTVQB9S4,tumor,Central Nervous System,535.0
+BS_DEHJF4C7,Tumor,PT_PFP1ZVHD,tumor,Central Nervous System,5216.0
+BS_DF6YZT8Y,Saliva,PT_AWBPNFM5,normal,Not Reported,8534.0
+BS_DF9MHMCK,Blood Derived Normal,PT_F3S9PB94,normal,Not Reported,4615.0
+BS_DFGS950G,Tumor,PT_JJ8QNAM8,tumor,Central Nervous System,4493.0
+BS_DFWFBYSN,Tumor,PT_RJ98S3KZ,tumor,Central Nervous System,4452.0
+BS_DGG7YE8R,Tumor,PT_NCDHZ8H8,tumor,Central Nervous System,1514.0
+BS_DGTPWJ59,Tumor,PT_X8SK8120,tumor,Central Nervous System,9701.0
+BS_DH86PF5A,Tumor,PT_B38P3Y5T,tumor,Central Nervous System,3567.0
+BS_DH8Z9WDK,Blood Derived Normal,PT_G8DRDA33,normal,Not Reported,6062.0
+BS_DHA5FMVW,Tumor,PT_ND34A6PR,tumor,Central Nervous System,2982.0
+BS_DHHCTYYW,Blood Derived Normal,PT_NFDHYPGT,normal,Not Reported,221.0
+BS_DHRJC5NK,Blood Derived Normal,PT_VE0Q731Y,normal,Not Reported,1464.0
+BS_DJ7XB1DM,Blood Derived Normal,PT_9B6KWJT2,normal,Not Reported,6096.0
+BS_DJAEYCW8,Blood Derived Normal,PT_1E3E6GMF,normal,Not Reported,2211.0
+BS_DJEVCH34,Tumor,PT_DFXQFYPV,tumor,Central Nervous System,3606.0
+BS_DKKJWR3M,Blood Derived Normal,PT_TKWTTRQ7,normal,Not Reported,7398.0
+BS_DKTB5YDM,Blood Derived Normal,PT_WTMSD2WB,normal,Not Reported,4340.0
+BS_DMBNB0EP,Tumor,PT_7T13FDWK,tumor,Central Nervous System,4764.0
+BS_DMD12ZRF,Blood Derived Normal,PT_0EWY6S6S,normal,Not Reported,3999.0
+BS_DMP1BV1H,Blood Derived Normal,PT_BQ8BQ01J,normal,Not Reported,8422.0
+BS_DMZP9G1H,Tumor,PT_2ZXR2PDN,tumor,Central Nervous System,3941.0
+BS_DNRQ0EN0,Blood Derived Normal,PT_HMF8J4EG,normal,Not Reported,2972.0
+BS_DNS7HB2K,Blood Derived Normal,PT_A06JR0E5,normal,Not Reported,2205.0
+BS_DP925FZV,Blood Derived Normal,PT_A325EYR2,normal,Not Reported,2850.0
+BS_DPF1CX0G,Tumor,PT_ZVV78QP5,tumor,Central Nervous System,3354.0
+BS_DQZV6K2W,Blood Derived Normal,PT_1AAYYGGY,normal,Not Reported,4608.0
+BS_DRD9QXR5,Tumor,PT_MQHST8YC,tumor,Central Nervous System,2143.0
+BS_DRNNKZYE,Blood Derived Normal,PT_596H0BQF,normal,Not Reported,477.0
+BS_DRVEFVQ5,Tumor,PT_1AAYYGGY,tumor,Central Nervous System,4608.0
+BS_DRY58DTF,Cell Lines,PT_Z4PJA6KT,tumor,Central Nervous System,3810.0
+BS_DS438CXE,Tumor,PT_0DXHDZJR,tumor,Central Nervous System,493.0
+BS_DSPH005J,Blood Derived Normal,PT_D3AN5M5W,normal,Not Reported,4337.0
+BS_DSS3S5XD,Tumor,PT_SDK91A16,tumor,Central Nervous System,5017.0
+BS_DT92H1MJ,Tumor,PT_76Q72M5T,tumor,Central Nervous System,4740.0
+BS_DTYN7DX6,Blood Derived Normal,PT_WGWMA5AZ,normal,Not Reported,5984.0
+BS_DV86M0Y7,Tumor,PT_2Z7GVDTM,tumor,Central Nervous System,4633.0
+BS_DVCQ8XDZ,Tumor,PT_0RN3VSXZ,tumor,Central Nervous System,2828.0
+BS_DVDT4VXQ,Cell Lines,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_DVQYQSVW,Tumor,PT_WWZ2Q14R,tumor,Central Nervous System,306.0
+BS_DW1CYEXP,Tumor,PT_2ECVKTTQ,tumor,Central Nervous System,4937.0
+BS_DW6P4EXB,Blood Derived Normal,PT_MV7Y44QQ,normal,Not Reported,3499.0
+BS_DY88N5ZT,Tumor,PT_DFCZAG9T,tumor,Central Nervous System,360.0
+BS_DY9NTFQR,Tumor,PT_XP8AM1CH,tumor,Central Nervous System,5713.0
+BS_E054DFJN,Tumor,PT_7T13FDWK,tumor,Central Nervous System,4764.0
+BS_E0AAK0V0,Tumor,PT_MV7Y44QQ,tumor,Central Nervous System,3499.0
+BS_E0H9DHVX,Blood Derived Normal,PT_GH6HM5QF,normal,Not Reported,525.0
+BS_E0N3PTPN,Tumor,PT_1H2REHT2,tumor,Central Nervous System,7374.0
+BS_E0S2Y0TS,Tumor,PT_6N825561,tumor,Central Nervous System,3289.0
+BS_E1CGF3KV,Tumor,PT_2PRV78FX,tumor,Central Nervous System,1389.0
+BS_E1EPMTD5,Blood Derived Normal,PT_7YGZ526E,normal,Not Reported,1168.0
+BS_E1SWA20C,Blood Derived Normal,PT_FYECBRPP,normal,Not Reported,562.0
+BS_E1VJCEWB,Tumor,PT_FN4GEEFR,tumor,Central Nervous System,5041.0
+BS_E2RXQ3JW,Tumor,PT_X1PRY0FC,tumor,Central Nervous System,736.0
+BS_E2Z940S4,Tumor,PT_QH9H491G,tumor,Central Nervous System,5482.0
+BS_E3BAT4C1,Tumor,PT_F3S9PB94,tumor,Central Nervous System,3049.0
+BS_E3EJHXQV,Tumor,PT_0CE0HFYB,tumor,Central Nervous System,3747.0
+BS_E42SSQGJ,Tumor,PT_3AWKWXEV,tumor,Central Nervous System,919.0
+BS_E45WEXMB,Blood Derived Normal,PT_9ZY739FB,normal,Not Reported,4911.0
+BS_E4F1D721,Tumor,PT_1DY2TP9N,tumor,Central Nervous System,9607.0
+BS_E4GC9EXR,Tumor,PT_W6AWJJK7,tumor,Central Nervous System,6468.0
+BS_E4QK839R,Tumor,PT_VZTTTP3Q,tumor,Central Nervous System,7945.0
+BS_E4SBS246,Blood Derived Normal,PT_2YCHME6S,normal,Not Reported,4797.0
+BS_E5B2YZJH,Tumor,PT_3A0B29QT,tumor,Central Nervous System,1687.0
+BS_E5H6CFYT,Tumor,PT_6Q0NPVP3,tumor,Central Nervous System,871.0
+BS_E5RKHG41,Blood Derived Normal,PT_V1HNAC2Q,normal,Not Reported,2786.0
+BS_E60JZ9Z3,Cell Lines,PT_Z4PJA6KT,tumor,Central Nervous System,3810.0
+BS_E7HEQZ1K,Tumor,PT_KMHGNCNR,tumor,Central Nervous System,421.0
+BS_E7JTAP8Y,Blood Derived Normal,PT_4159VCJY,normal,Not Reported,5094.0
+BS_E8MC6R2K,Tumor,PT_2E552BAR,tumor,Central Nervous System,7125.0
+BS_E8SJ36A6,Tumor,PT_J4MWGQFQ,tumor,Central Nervous System,2961.0
+BS_E94QRJDW,Tumor,PT_20ZM6THA,tumor,Central Nervous System,1889.0
+BS_E951SZ7T,Blood Derived Normal,PT_WE7HQN0C,normal,Not Reported,4318.0
+BS_E9ATGWME,Tumor,PT_R1DHB0ZT,tumor,Central Nervous System,1792.0
+BS_E9M7TDB6,Tumor,PT_H45M7M2T,tumor,Central Nervous System,4532.0
+BS_EBBQ7GD2,Blood Derived Normal,PT_KFYJBQB8,normal,Not Reported,257.0
+BS_EBMCTR80,Tumor,PT_8R00BMHH,tumor,Central Nervous System,2595.0
+BS_ECMB9SWH,Blood Derived Normal,PT_MTE126WM,normal,Not Reported,1936.0
+BS_EDCQ4M0R,Tumor,PT_KCTZZA3G,tumor,Central Nervous System,6344.0
+BS_EDZCAHR2,Tumor,PT_AQWDQW27,tumor,Central Nervous System,209.0
+BS_EE73VE7V,Tumor,PT_KTRJ8TFY,tumor,Central Nervous System,2079.0
+BS_EE7684YB,Saliva,PT_ZS2YDFBE,normal,Not Reported,5917.0
+BS_EF775B3K,Tumor,PT_XNTFM9XY,tumor,Central Nervous System,2049.0
+BS_EFBBP9H3,Tumor,PT_9AW9EWHA,tumor,Central Nervous System,2280.0
+BS_EFE4YEK3,Tumor,PT_RH59ET3M,tumor,Central Nervous System,3336.0
+BS_EFEZB0ZH,Tumor,PT_DW6V5V8E,tumor,Central Nervous System,1069.0
+BS_EFTRE3J4,Blood Derived Normal,PT_17NG0KW3,normal,Not Reported,2513.0
+BS_EH43PB49,Blood Derived Normal,PT_6N825561,normal,Not Reported,3289.0
+BS_EHBH0NYX,Tumor,PT_SSE4AH59,tumor,Central Nervous System,825.0
+BS_EHVYJAVA,Tumor,PT_GHHY5AAE,tumor,Central Nervous System,5054.0
+BS_EJ1H9PZY,Tumor,PT_DNAJYFZT,tumor,Central Nervous System,5083.0
+BS_EJ9JKM1C,Tumor,PT_HFQNKP5X,tumor,Central Nervous System,2549.0
+BS_EJV0N3BX,Tumor,PT_37B5JRP1,tumor,Central Nervous System,5324.0
+BS_EK5PCKY0,Tumor,PT_GFTCNWQ0,tumor,Central Nervous System,3907.0
+BS_EK6AB5ZC,Blood Derived Normal,PT_EW604JB3,normal,Not Reported,3084.0
+BS_EKR4NSNW,Tumor,PT_PY4QFHHV,tumor,Central Nervous System,5475.0
+BS_EM6VE8JM,Blood Derived Normal,PT_7KBMN6C2,normal,Not Reported,2859.0
+BS_EM975DQ6,Blood Derived Normal,PT_7JQ24F35,normal,Not Reported,341.0
+BS_EMMF4PZX,Tumor,PT_BZKJR4GK,tumor,Central Nervous System,6565.0
+BS_EMYET8F4,Tumor,PT_7H67Q7VS,tumor,Central Nervous System,498.0
+BS_EN2VK7NY,Tumor,PT_Y572BRC1,tumor,Central Nervous System,4520.0
+BS_ENKG5GF3,Tumor,PT_KCTZZA3G,tumor,Central Nervous System,6352.0
+BS_EP25TTAG,Tumor,PT_QDGVJKE0,tumor,Central Nervous System,7354.0
+BS_EPCD7XFA,Blood Derived Normal,PT_FYPWZBH0,normal,Not Reported,3360.0
+BS_EPM623G4,Tumor,PT_N3205P0D,tumor,Central Nervous System,6770.0
+BS_EQCAS6HV,Blood Derived Normal,PT_AW8WV14Y,normal,Not Reported,86.0
+BS_EQE19CB0,Tumor,PT_K63972GG,tumor,Central Nervous System,5769.0
+BS_EQG6D837,Blood Derived Normal,PT_DJ106XYS,normal,Not Reported,4489.0
+BS_ER05WTNS,Blood Derived Normal,PT_YMN5GV47,normal,Not Reported,1455.0
+BS_ER2MEZMV,Blood Derived Normal,PT_3KK1F95W,normal,Not Reported,4633.0
+BS_ERAWW3H7,Cell Lines,PT_3AWKWXEV,tumor,Central Nervous System,919.0
+BS_ERFMPQN3,Cell Lines,PT_VTM2STE3,tumor,Central Nervous System,3615.0
+BS_ERJAJ0KA,Tumor,PT_DXF7ZZQZ,tumor,Central Nervous System,1559.0
+BS_ERMGD2N5,Tumor,PT_2ECVKTTQ,tumor,Central Nervous System,6061.0
+BS_ERWT0ZWE,Tumor,PT_7BJBEBZT,tumor,Central Nervous System,2511.0
+BS_ESFA9S69,Blood Derived Normal,PT_J3B812DT,normal,Not Reported,218.0
+BS_ET04R6F9,Blood Derived Normal,PT_JWW33RTB,normal,Not Reported,4186.0
+BS_ET8CJXSF,Tumor,PT_VGXHFMND,tumor,Central Nervous System,4642.0
+BS_ETAATG3J,Blood Derived Normal,PT_BWFTKJXT,normal,Not Reported,6786.0
+BS_ETTZM63Y,Tumor,PT_17W3GJPT,tumor,Central Nervous System,663.0
+BS_EVCAC3NH,Tumor,PT_Z4GS3ZQQ,tumor,Central Nervous System,1279.0
+BS_EVE9103J,Blood Derived Normal,PT_RE6AXQM1,normal,Not Reported,1743.0
+BS_EVZW31ZP,Blood Derived Normal,PT_J06X17XH,normal,Not Reported,5146.0
+BS_EW74HRQW,Blood Derived Normal,PT_5D3AVPCW,normal,Not Reported,184.0
+BS_EXGBH3TD,Tumor,PT_T1FV709B,tumor,Central Nervous System,2217.0
+BS_EXKVBK51,Blood Derived Normal,PT_1DY2TP9N,normal,Not Reported,9607.0
+BS_EXTEGB51,Tumor,PT_K8ZV7APT,tumor,Central Nervous System,8538.0
+BS_EXYHZ6D4,Tumor,PT_2YCHME6S,tumor,Central Nervous System,4797.0
+BS_EYSS0ZDS,Tumor,PT_CM32ZCX6,tumor,Central Nervous System,2548.0
+BS_EYXVNC69,Blood Derived Normal,PT_Z4PJA6KT,normal,Not Reported,3810.0
+BS_EYYMKWB7,Tumor,PT_E79807KT,tumor,Central Nervous System,2809.0
+BS_EZ3147MX,Tumor,PT_KAQMYFYB,tumor,Central Nervous System,2219.0
+BS_F064HMTP,Tumor,PT_387VK1T9,tumor,Central Nervous System,70.0
+BS_F0GNWEJJ,Tumor,PT_EB0D3BXG,tumor,Central Nervous System,4447.0
+BS_F0JB4EAK,Tumor,PT_KBFM551M,tumor,Central Nervous System,3425.0
+BS_F0K8DMTS,Blood Derived Normal,PT_GCXG7800,normal,Not Reported,7002.0
+BS_F0WR427W,Blood Derived Normal,PT_7QKGGMKV,normal,Not Reported,3557.0
+BS_F1B71HTZ,Tumor,PT_1KEER2Q1,tumor,Central Nervous System,3826.0
+BS_F2D6YE08,Saliva,PT_X0FPPTMT,normal,Not Reported,9447.0
+BS_F42WG7E7,Blood Derived Normal,PT_5FR2YA6E,normal,Not Reported,4234.0
+BS_F46C86A9,Blood Derived Normal,PT_RM9AZ7A8,normal,Not Reported,6986.0
+BS_F48RA7QF,Tumor,PT_2C63FJAM,tumor,Central Nervous System,3825.0
+BS_F4D169Q7,Tumor,PT_DW6V5V8E,tumor,Central Nervous System,1069.0
+BS_F4E8R9VY,Tumor,PT_8ECE2D92,tumor,Central Nervous System,3676.0
+BS_F4Q2B3XZ,Blood Derived Normal,PT_T9F17G9F,normal,Not Reported,1886.0
+BS_F4V6RWJ9,Blood Derived Normal,PT_W6CW60K9,normal,Not Reported,2541.0
+BS_F5641KTR,Tumor,PT_JXSDFPNM,tumor,Central Nervous System,6279.0
+BS_F5BZSF3Q,Tumor,PT_D13X3N8F,tumor,Central Nervous System,1144.0
+BS_F5EX3ZY5,Blood Derived Normal,PT_EB0D3BXG,normal,Not Reported,4447.0
+BS_F5KRHGKC,Tumor,PT_92YX7KK9,tumor,Central Nervous System,6013.0
+BS_F5V8CWXT,Tumor,PT_3PK66TJY,tumor,Central Nervous System,629.0
+BS_F69GWP99,Blood Derived Normal,PT_HMY997GX,normal,Not Reported,2234.0
+BS_F6V1Y4QS,Tumor,PT_Z7YJ7MSM,tumor,Central Nervous System,118.0
+BS_F6Z5HFWH,Tumor,PT_JN3S17B3,tumor,Central Nervous System,4308.0
+BS_F7KYPE79,Tumor,PT_4RJ2EATN,tumor,Central Nervous System,1351.0
+BS_F8K4VQMF,Tumor,PT_J5NSRW1Y,tumor,Central Nervous System,4599.0
+BS_F8KR1QWE,Tumor,PT_9YMRNZHH,tumor,Central Nervous System,5119.0
+BS_F8N6CFQE,Tumor,PT_EZEMVRVT,tumor,Central Nervous System,1171.0
+BS_F8WRX1VY,Blood Derived Normal,PT_6R7AE0P3,normal,Not Reported,4996.0
+BS_F8Y7NRK8,Blood Derived Normal,PT_5P3XJ97K,normal,Not Reported,4667.0
+BS_F969DNHD,Tumor,PT_EEKE0V9T,tumor,Central Nervous System,6259.0
+BS_F9WKPDFG,Tumor,PT_203ZY782,tumor,Central Nervous System,532.0
+BS_F9Y4Z92G,Tumor,PT_G9A050X1,tumor,Central Nervous System,4065.0
+BS_F9ZTZ4YS,Tumor,PT_QT3MK7BZ,tumor,Central Nervous System,4744.0
+BS_FAQQ0GCQ,Tumor,PT_EPFX7V9H,tumor,Central Nervous System,7247.0
+BS_FAVRBEW7,Tumor,PT_WYVMWYVA,tumor,Central Nervous System,1223.0
+BS_FBJ516WW,Tumor,PT_HFQNKP5X,tumor,Central Nervous System,1653.0
+BS_FBJ5Q54N,Tumor,PT_FMK5VFYW,tumor,Central Nervous System,374.0
+BS_FBP5NZNR,Tumor,PT_WVAJN6WR,tumor,Central Nervous System,7485.0
+BS_FBZQ4DXA,Blood Derived Normal,PT_AC5SD9AC,normal,Not Reported,4742.0
+BS_FCAKKZ20,Tumor,PT_9S6WMQ92,tumor,Central Nervous System,6555.0
+BS_FCDAH728,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_FCPCSXCG,Blood Derived Normal,PT_1MW98VR1,normal,Not Reported,1872.0
+BS_FCXEAPJ1,Tumor,PT_SABHZ7XX,tumor,Central Nervous System,7122.0
+BS_FD2A9E05,Blood Derived Normal,PT_DQ3ZCHB6,normal,Not Reported,809.0
+BS_FEPRNEXX,Tumor,PT_00G007DM,tumor,Central Nervous System,3178.0
+BS_FEV5A0HN,Tumor,PT_6SH7PV1N,tumor,Central Nervous System,1405.0
+BS_FEYMKEK8,Tumor,PT_13MKXR8G,tumor,Central Nervous System,3470.0
+BS_FEYZXWG7,Blood Derived Normal,PT_04YTK82N,normal,Not Reported,1151.0
+BS_FF2TWA2W,Blood Derived Normal,PT_2Y3R515E,normal,Not Reported,3427.0
+BS_FF73TT6D,Tumor,PT_JP1FDKN9,tumor,Central Nervous System,7306.0
+BS_FFD25TTK,Tumor,PT_VJ0M4E8Y,tumor,Central Nervous System,2154.0
+BS_FFGQ61KQ,Blood Derived Normal,PT_EV71W1JW,normal,Not Reported,4502.0
+BS_FG649AWK,Tumor,PT_YY7CRV21,tumor,Central Nervous System,4937.0
+BS_FHDR7FJE,Blood Derived Normal,PT_SZJ7WZZW,normal,Not Reported,5344.0
+BS_FHE6Z73G,Tumor,PT_4ADZ9F53,tumor,Central Nervous System,4366.0
+BS_FHFVCQ41,Tumor,PT_N9SG16EC,tumor,Central Nervous System,8379.0
+BS_FJ9W9C74,Saliva,PT_MSBPMJ56,normal,Not Reported,6417.0
+BS_FJEBFQHG,Tumor,PT_AWMZ12NP,tumor,Central Nervous System,2448.0
+BS_FJEZ3ASV,Cell Lines,PT_4347ZBEX,tumor,Central Nervous System,7884.0
+BS_FJWZ3M7V,Tumor,PT_X1PRY0FC,tumor,Central Nervous System,736.0
+BS_FJZPQZ2C,Tumor,PT_3T3VGWC6,tumor,Central Nervous System,5955.0
+BS_FK3B5SDH,Tumor,PT_HGM20MW7,tumor,Central Nervous System,3558.0
+BS_FKDQJJB5,Tumor,PT_YFS3AWC0,tumor,Central Nervous System,1575.0
+BS_FKQ7F6D1,Tumor,PT_Y660CKCB,tumor,Central Nervous System,5769.0
+BS_FN07P04C,Tumor,PT_X7HC5YCY,tumor,Central Nervous System,6120.0
+BS_FNF1TCSW,Tumor,PT_Z9QE51C3,tumor,Central Nervous System,1400.0
+BS_FNM4BB83,Tumor,PT_VHS5RM2K,tumor,Central Nervous System,592.0
+BS_FNQMY128,Blood Derived Normal,PT_ND34A6PR,normal,Not Reported,2982.0
+BS_FPB0JGKX,Blood Derived Normal,PT_E6FTW238,normal,Not Reported,557.0
+BS_FQ2ZBMPA,Tumor,PT_XSS1ANXD,tumor,Central Nervous System,1391.0
+BS_FQ58DAZV,Blood Derived Normal,PT_C2VY5NM6,normal,Not Reported,735.0
+BS_FQX1PRAJ,Tumor,PT_K8ZV7APT,tumor,Central Nervous System,8307.0
+BS_FRM9TG02,Tumor,PT_3P3D97AB,tumor,Central Nervous System,5852.0
+BS_FRZ76GEG,Tumor,PT_2BTC5TEN,tumor,Central Nervous System,3529.0
+BS_FSK1AK5N,Blood Derived Normal,PT_57YP9ABV,normal,Not Reported,8217.0
+BS_FSM39DXA,Tumor,PT_NPETR8RY,tumor,Central Nervous System,2338.0
+BS_FT5H2TGH,Blood Derived Normal,PT_7FQ6VECA,normal,Not Reported,5918.0
+BS_FT95T4YP,Tumor,PT_NDVJE438,tumor,Central Nervous System,2820.0
+BS_FTKPQ5FZ,Tumor,PT_VR8T8JX8,tumor,Central Nervous System,3521.0
+BS_FTRXA2R5,Blood Derived Normal,PT_F9F3E8YR,normal,Not Reported,932.0
+BS_FVGXRPNG,Blood Derived Normal,PT_2Z7GVDTM,normal,Not Reported,4633.0
+BS_FVPMPMRJ,Tumor,PT_W17NV5YG,tumor,Central Nervous System,102.0
+BS_FVYBGMG1,Tumor,PT_9DMMZ08D,tumor,Central Nervous System,1540.0
+BS_FW28DA07,Blood Derived Normal,PT_BBHAD51D,normal,Not Reported,6500.0
+BS_FW5ECXXK,Tumor,PT_3C6QA9MA,tumor,Central Nervous System,3294.0
+BS_FWCKP4X1,Tumor,PT_GY0QSY4H,tumor,Central Nervous System,4406.0
+BS_FWMJPKCV,Tumor,PT_7VPSS2SN,tumor,Central Nervous System,3714.0
+BS_FWP8ZA4K,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_FX2P2WEG,Tumor,PT_0SPKM4S8,tumor,Central Nervous System,2005.0
+BS_FXDY881S,Tumor,PT_7F3ZPZB7,tumor,Central Nervous System,3365.0
+BS_FXJY0MNH,Tumor,PT_8P368R5B,tumor,Central Nervous System,4745.0
+BS_FYJMNRGK,Tumor,PT_XCCV6CW2,tumor,Central Nervous System,3931.0
+BS_FYRDYBMZ,Tumor,PT_ARCM3PXM,tumor,Central Nervous System,4938.0
+BS_G00FHF3Q,Tumor,PT_TKWTTRQ7,tumor,Central Nervous System,5075.0
+BS_G113MX63,Blood Derived Normal,PT_JCECCFPB,normal,Not Reported,382.0
+BS_G12HNXYX,Tumor,PT_5F4N0CAP,tumor,Central Nervous System,3722.0
+BS_G16NM5WJ,Tumor,PT_7E3V3JFX,tumor,Central Nervous System,594.0
+BS_G1Y281HX,Tumor,PT_P1290MMP,tumor,Central Nervous System,408.0
+BS_G2016BE5,Tumor,PT_TB8HPJBN,tumor,Central Nervous System,1436.0
+BS_G23JJAZY,Tumor,PT_23K3YS1P,tumor,Central Nervous System,1808.0
+BS_G3NN392N,Tumor,PT_QA9WJ679,tumor,Central Nervous System,5417.0
+BS_G3RJTBZD,Tumor,PT_3CHB9PK5,tumor,Central Nervous System,3455.0
+BS_G473TPVG,Blood Derived Normal,PT_XNTFM9XY,normal,Not Reported,2049.0
+BS_G4EX0H98,Tumor,PT_R63RHJWX,tumor,Central Nervous System,4058.0
+BS_G4NEC9N5,Blood Derived Normal,PT_976P4557,normal,Not Reported,6009.0
+BS_G5B1ZN5S,Blood Derived Normal,PT_EXJAEW1M,normal,Not Reported,5448.0
+BS_G5NHSFD4,Tumor,PT_TVJ5EGMR,tumor,Central Nervous System,3922.0
+BS_G5QBBHDV,Tumor,PT_27FDWCVZ,tumor,Central Nervous System,3295.0
+BS_G5VS97AD,Tumor,PT_C86SGM7B,tumor,Central Nervous System,5688.0
+BS_G61CN2V0,Tumor,PT_WY8REZ3P,tumor,Central Nervous System,5210.0
+BS_G63HYD6N,Tumor,PT_PKP1250P,tumor,Central Nervous System,5251.0
+BS_G64B5MDA,Blood Derived Normal,PT_SCCDBETQ,normal,Not Reported,5731.0
+BS_G6Z63GZD,Blood Derived Normal,PT_VPEMAQBN,normal,Not Reported,1709.0
+BS_G7AGNB5G,Tumor,PT_EYHJQQ8E,tumor,Central Nervous System,4457.0
+BS_G9MQM1KK,Tumor,PT_89XRZBSG,tumor,Central Nervous System,6779.0
+BS_G9XE3N9T,Tumor,PT_2VSDT9CK,tumor,Central Nervous System,1956.0
+BS_GAA327FP,Tumor,PT_0EWY6S6S,tumor,Central Nervous System,3999.0
+BS_GABF65KC,Blood Derived Normal,PT_WY8REZ3P,normal,Not Reported,5210.0
+BS_GAFJBRM5,Blood Derived Normal,PT_90W4HCNR,normal,Not Reported,360.0
+BS_GAGRGSSX,Tumor,PT_4J24F353,tumor,Central Nervous System,575.0
+BS_GAPT45QB,Blood Derived Normal,PT_CX58G6P6,normal,Not Reported,6349.0
+BS_GBQ6A3ST,Blood Derived Normal,PT_9BZETM0M,normal,Not Reported,6523.0
+BS_GBT44HST,Tumor,PT_M23Q0DC3,tumor,Central Nervous System,1740.0
+BS_GC3CH9TY,Tumor,PT_EJ8TKG2Z,tumor,Central Nervous System,3511.0
+BS_GCA4GET3,Tumor,PT_6TKJRSPW,tumor,Central Nervous System,6286.0
+BS_GCNH4CC0,Blood Derived Normal,PT_CTSQ5FHH,normal,Not Reported,1712.0
+BS_GCQEB05M,Tumor,PT_DMHFS0HX,tumor,Central Nervous System,3765.0
+BS_GCQFGDTX,Tumor,PT_PJSV0X4X,tumor,Central Nervous System,2638.0
+BS_GDHH6T5A,Tumor,PT_K8ZV7APT,tumor,Central Nervous System,6616.0
+BS_GDPZN3SD,Tumor,PT_FKWCVXNC,tumor,Central Nervous System,1178.0
+BS_GE2RVZE6,Tumor,PT_TKWTTRQ7,tumor,Central Nervous System,7398.0
+BS_GE6GWP4A,Blood Derived Normal,PT_1TB2V1PH,normal,Not Reported,5035.0
+BS_GERET530,Blood Derived Normal,PT_JV9G8MFD,normal,Not Reported,362.0
+BS_GEYA8N9C,Blood Derived Normal,PT_BF3PGTF7,normal,Not Reported,4354.0
+BS_GFKX8YM0,Blood Derived Normal,PT_23K3YS1P,normal,Not Reported,1808.0
+BS_GFM6EA61,Tumor,PT_HFQNKP5X,tumor,Central Nervous System,1653.0
+BS_GFS9JEE6,Tumor,PT_41WETNRC,tumor,Central Nervous System,978.0
+BS_GG9W3J9Y,Tumor,PT_J5NSRW1Y,tumor,Central Nervous System,4599.0
+BS_GGNKMKW9,Blood Derived Normal,PT_EZEMVRVT,normal,Not Reported,1171.0
+BS_GHNJ4CYC,Tumor,PT_1J2DT6MM,tumor,Central Nervous System,3602.0
+BS_GJNCYABP,Tumor,PT_7MZRW1DH,tumor,Central Nervous System,5688.0
+BS_GJWAV3E5,Blood Derived Normal,PT_9PJR0ZK7,normal,Not Reported,6431.0
+BS_GKFY1GX4,Blood Derived Normal,PT_HM2GMT2H,normal,Not Reported,604.0
+BS_GKJZGTFS,Blood Derived Normal,PT_VAJN5QP8,normal,Not Reported,6170.0
+BS_GKN0B47F,Tumor,PT_M5HDHQNQ,tumor,Central Nervous System,1986.0
+BS_GKPVZXYP,Tumor,PT_HMF8J4EG,tumor,Central Nervous System,2879.0
+BS_GKRMQS5W,Blood Derived Normal,PT_4347ZBEX,normal,Not Reported,7884.0
+BS_GKXD33YH,Tumor,PT_NK8A49X5,tumor,Central Nervous System,4896.0
+BS_GM9Y3AZ5,Tumor,PT_P4GDWHXA,tumor,Central Nervous System,7913.0
+BS_GMDQK06Q,Tumor,PT_FAQWD7GX,tumor,Central Nervous System,2195.0
+BS_GMJBGBWB,Tumor,PT_8GBF5MTD,tumor,Central Nervous System,1985.0
+BS_GMJP7PN2,Blood Derived Normal,PT_9C2G356W,normal,Not Reported,1982.0
+BS_GMQZNQH8,Tumor,PT_V0X73HEQ,tumor,Central Nervous System,1163.0
+BS_GNH80DDG,Blood Derived Normal,PT_BK92NM09,normal,Not Reported,1357.0
+BS_GNV89A5P,Tumor,PT_45P9F9MD,tumor,Central Nervous System,3856.0
+BS_GP9W8WG8,Blood Derived Normal,PT_NH8CJ84W,normal,Not Reported,8750.0
+BS_GR46VD0Q,Tumor,PT_S4YNE17X,tumor,Central Nervous System,1571.0
+BS_GRECE8Q9,Tumor,PT_GKSABESN,tumor,Central Nervous System,108.0
+BS_GRS3T427,Tumor,PT_ZMKMKCFQ,tumor,Central Nervous System,3924.0
+BS_GS1KR5PK,Tumor,PT_CXT81GRM,tumor,Central Nervous System,1545.0
+BS_GS9JCK55,Tumor,PT_Y7F2JZMQ,tumor,Central Nervous System,6132.0
+BS_GSF4J5DP,Blood Derived Normal,PT_NYBH025T,normal,Not Reported,797.0
+BS_GSKG0MB0,Blood Derived Normal,PT_ZA95JQEB,normal,Not Reported,2589.0
+BS_GSTHVZFR,Blood Derived Normal,PT_0MHKP408,normal,Not Reported,2581.0
+BS_GSVCN2XC,Tumor,PT_YZ8A8A36,tumor,Central Nervous System,643.0
+BS_GTAJFTTR,Tumor,PT_J302B8Y5,tumor,Central Nervous System,826.0
+BS_GTY5J0S4,Blood Derived Normal,PT_DPVW4M1W,normal,Not Reported,5064.0
+BS_GTZCFGRZ,Tumor,PT_4ADZ9F53,tumor,Central Nervous System,4366.0
+BS_GV3NZ9QD,Tumor,PT_N4PR21ME,tumor,Central Nervous System,887.0
+BS_GVA39GGG,Blood Derived Normal,PT_4XVA57J7,normal,Not Reported,3402.0
+BS_GW0GKWMS,Tumor,PT_P2NGYMG5,tumor,Central Nervous System,4559.0
+BS_GWCRMKE6,Tumor,PT_D5KHK0SS,tumor,Central Nervous System,6552.0
+BS_GWFF9E3C,Blood Derived Normal,PT_X71D7G5S,normal,Not Reported,5422.0
+BS_GWPJKM7G,Tumor,PT_1DRAVX4S,tumor,Central Nervous System,1249.0
+BS_GWSJ4Z9H,Tumor,PT_9GKVQ9QS,tumor,Central Nervous System,2097.0
+BS_GXACEYKB,Tumor,PT_8ECE2D92,tumor,Central Nervous System,3676.0
+BS_GXTFW99H,Cell Lines,PT_HNZNZ635,tumor,Central Nervous System,2199.0
+BS_GYA4V1RD,Tumor,PT_XWVQW6JX,tumor,Central Nervous System,6149.0
+BS_GYXSDZ56,Tumor,PT_5P3XJ97K,tumor,Central Nervous System,4667.0
+BS_H0638GZT,Tumor,PT_JSFBMK5V,tumor,Central Nervous System,5653.0
+BS_H0QWRJE2,Tumor,PT_MDWPRDBT,tumor,Central Nervous System,1867.0
+BS_H174820R,Tumor,PT_9DMMZ08D,tumor,Central Nervous System,1433.0
+BS_H17P6WH8,Blood Derived Normal,PT_VVCN8DXT,normal,Not Reported,2668.0
+BS_H1K33JVK,Tumor,PT_V8714N9H,tumor,Central Nervous System,761.0
+BS_H1MNXNHB,Tumor,PT_GNKRMTQY,tumor,Central Nervous System,2948.0
+BS_H1XPVS9A,Tumor,PT_T8V9ES93,tumor,Central Nervous System,6081.0
+BS_H1ZS5FMZ,Tumor,PT_MXK5R7RJ,tumor,Central Nervous System,5789.0
+BS_H281CW3G,Blood Derived Normal,PT_RXT6KRR6,normal,Not Reported,1218.0
+BS_H2K7XX4X,Tumor,PT_9HMVHQEH,tumor,Central Nervous System,2644.0
+BS_H3FE3TH9,Tumor,PT_1BV6ND1D,tumor,Central Nervous System,1453.0
+BS_H3TYF6GD,Tumor,PT_0MXPTTM3,tumor,Central Nervous System,9425.0
+BS_H3Y8FWHV,Tumor,PT_BWFTKJXT,tumor,Central Nervous System,6786.0
+BS_H4B5Y6S0,Tumor,PT_QYEF3JAT,tumor,Central Nervous System,4389.0
+BS_H4KBJDGN,Blood Derived Normal,PT_JSFBMK5V,normal,Not Reported,5653.0
+BS_H4NXBD2D,Tumor,PT_0CVRX4SJ,tumor,Central Nervous System,766.0
+BS_H50HR85Y,Tumor,PT_8R00BMHH,tumor,Central Nervous System,2595.0
+BS_H5KWGC03,Blood Derived Normal,PT_PABK01H0,normal,Not Reported,1076.0
+BS_H83DTMT2,Tumor,PT_HJA1ZYS1,tumor,Central Nervous System,1282.0
+BS_H8A9PSYA,Tumor,PT_XSS1ANXD,tumor,Central Nervous System,1391.0
+BS_H8E4K1DT,Tumor,PT_46F28BFH,tumor,Central Nervous System,6091.0
+BS_H8MAKDRB,Tumor,PT_GH27VJBD,tumor,Central Nervous System,2471.0
+BS_H8NWA41N,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_H97S5SQN,Tumor,PT_DMAF1J4A,tumor,Central Nervous System,2233.0
+BS_H9813KRS,Blood Derived Normal,PT_VBVZ2NAR,normal,Not Reported,230.0
+BS_HA20Y4XY,Tumor,PT_4ZSR5DY8,tumor,Central Nervous System,7562.0
+BS_HA8VYBMA,Blood Derived Normal,PT_ZTWCA9HX,normal,Not Reported,
+BS_HB03GSHF,Tumor,PT_CWA1405H,tumor,Central Nervous System,3475.0
+BS_HBAKYKQM,Tumor,PT_C94VR1Y2,tumor,Central Nervous System,2814.0
+BS_HBJZR69P,Tumor,PT_8WNA6M94,tumor,Central Nervous System,3529.0
+BS_HC44ZA0V,Tumor,PT_8RB7TPS2,tumor,Central Nervous System,4073.0
+BS_HC4T1EEP,Tumor,PT_WYVMWYVA,tumor,Central Nervous System,1223.0
+BS_HC5M8JTC,Tumor,PT_K39HM2JF,tumor,Central Nervous System,7619.0
+BS_HCP5C912,Tumor,PT_WG5PHHSQ,tumor,Central Nervous System,4176.0
+BS_HD4EJYE3,Tumor,PT_EZS4SRH6,tumor,Central Nervous System,4044.0
+BS_HE0WJRW6,Tumor,PT_JT9HH7M6,tumor,Central Nervous System,636.0
+BS_HE57E1RP,Tumor,PT_9DER14KH,tumor,Central Nervous System,3503.0
+BS_HEJ72V3F,Tumor,PT_NK8A49X5,tumor,Central Nervous System,4896.0
+BS_HF3RNN2T,Tumor,PT_DFXQFYPV,tumor,Central Nervous System,3606.0
+BS_HGKDT5AJ,Tumor,PT_0FGS6YME,tumor,Central Nervous System,5080.0
+BS_HGP0PV0D,Tumor,PT_3D74J8RZ,tumor,Central Nervous System,9463.0
+BS_HGPJ76NM,Blood Derived Normal,PT_XSS1ANXD,normal,Not Reported,1391.0
+BS_HHJZ05XC,Blood Derived Normal,PT_S4YNE17X,normal,Not Reported,6626.0
+BS_HHPA8NJ2,Tumor,PT_QW5VW2PY,tumor,Central Nervous System,3655.0
+BS_HJ7HYZ7N,Solid Tissue Normal,PT_KBFM551M,normal,Not Reported,3425.0
+BS_HJ95JNFN,Tumor,PT_MSQ6GSVP,tumor,Central Nervous System,83.0
+BS_HJ99CJ2R,Blood Derived Normal,PT_MT27S7S4,normal,Not Reported,7177.0
+BS_HJRTC9JQ,Tumor,PT_VTM2STE3,tumor,Central Nervous System,3615.0
+BS_HKZENFDA,Tumor,PT_DESHZ91V,tumor,Central Nervous System,5110.0
+BS_HM2ZG2J7,Blood Derived Normal,PT_PFA762TK,normal,Not Reported,796.0
+BS_HM5GFJN8,Cell Lines,PT_JNEV57VK,tumor,Central Nervous System,3100.0
+BS_HM5N78GV,Tumor,PT_GYJ97915,tumor,Central Nervous System,4024.0
+BS_HMWZ2893,Blood Derived Normal,PT_4TASAQKA,normal,Not Reported,4382.0
+BS_HN0SA3ZK,Blood Derived Normal,PT_XHYBZKCX,normal,Not Reported,8581.0
+BS_HN8DE43A,Tumor,PT_3WA7SBQ6,tumor,Central Nervous System,698.0
+BS_HNE6BPMH,Tumor,PT_V5ASTHRH,tumor,Central Nervous System,6196.0
+BS_HNWNZFHA,Blood Derived Normal,PT_7TRGHZBK,normal,Not Reported,1098.0
+BS_HPMX6CT4,Tumor,PT_CTSQ5FHH,tumor,Central Nervous System,1663.0
+BS_HQ5BJ6MW,Tumor,PT_E1TRJP8V,tumor,Central Nervous System,2419.0
+BS_HQEFFVM1,Blood Derived Normal,PT_CQ7EGCMB,normal,Not Reported,1004.0
+BS_HQFNQHVW,Tumor,PT_0NY38X3W,tumor,Central Nervous System,563.0
+BS_HS2BZ6T2,Blood Derived Normal,PT_MNR94DEV,normal,Not Reported,3870.0
+BS_HSHN8PBB,Tumor,PT_E78NHRWQ,tumor,Central Nervous System,1825.0
+BS_HSYF7G2D,Tumor,PT_1T7WF5S1,tumor,Central Nervous System,1846.0
+BS_HT2S4SW0,Blood Derived Normal,PT_RDJ40M73,normal,Not Reported,6136.0
+BS_HTEPAKCM,Tumor,PT_G3AVDN4E,tumor,Central Nervous System,2320.0
+BS_HTGDSPQA,Tumor,PT_4159VCJY,tumor,Central Nervous System,5094.0
+BS_HV8PFRBR,Tumor,PT_DEYCW197,tumor,Central Nervous System,3917.0
+BS_HVCBQ58H,Blood Derived Normal,PT_EQ5C5TEA,normal,Not Reported,4043.0
+BS_HW4J7JM8,Tumor,PT_EYHJQQ8E,tumor,Central Nervous System,4457.0
+BS_HW4MYBZ2,Tumor,PT_409Y4N1N,tumor,Central Nervous System,4334.0
+BS_HWGWYCY7,Tumor,PT_JT9HH7M6,tumor,Central Nervous System,636.0
+BS_HX0S30NE,Tumor,PT_H45M7M2T,tumor,Central Nervous System,4420.0
+BS_HYKV2TH9,Tumor,PT_KTRJ8TFY,tumor,Central Nervous System,2079.0
+BS_HZ707C55,Tumor,PT_ZZRBX5JT,tumor,Central Nervous System,2667.0
+BS_HZE3KYZ1,Tumor,PT_E4ECAFEN,tumor,Central Nervous System,5666.0
+BS_HZHEF797,Tumor,PT_7KBMN6C2,tumor,Central Nervous System,2859.0
+BS_HZNKSQ17,Tumor,PT_CXT81GRM,tumor,Central Nervous System,1221.0
+BS_HZRM07TW,Tumor,PT_EDWA0XTP,tumor,Central Nervous System,1032.0
+BS_HZV4WDTB,Tumor,PT_GERCQ0JG,tumor,Central Nervous System,3022.0
+BS_J037K4BM,Tumor,PT_Y572BRC1,tumor,Central Nervous System,4676.0
+BS_J1AB8PMA,Tumor,PT_0WMP712K,tumor,Central Nervous System,494.0
+BS_J33YVP27,Tumor,PT_ZD45GXZ0,tumor,Central Nervous System,1860.0
+BS_J354PJZN,Blood Derived Normal,PT_8WNA6M94,normal,Not Reported,3529.0
+BS_J483EMFP,Tumor,PT_ESHACWF6,tumor,Central Nervous System,1506.0
+BS_J4E9SW51,Tumor,PT_T8V9ES93,tumor,Central Nervous System,6081.0
+BS_J4GQPZS0,Tumor,PT_EYWDFKA7,tumor,Central Nervous System,3612.0
+BS_J4WKRNHA,Blood Derived Normal,PT_T5CR5HQZ,normal,Not Reported,5868.0
+BS_J52D4XQY,Tumor,PT_J50NZYZF,tumor,Central Nervous System,1988.0
+BS_J5596HKA,Blood Derived Normal,PT_3P3D97AB,normal,Not Reported,5852.0
+BS_J5J0EA7Y,Tumor,PT_2BJF83GQ,tumor,Central Nervous System,3531.0
+BS_J60G8DMK,Tumor,PT_G16WS1MW,tumor,Central Nervous System,9860.0
+BS_J6Q1Z24T,Blood Derived Normal,PT_1YQH5NSH,normal,Not Reported,2520.0
+BS_J6VKB1VE,Tumor,PT_CG2S2H2R,tumor,Central Nervous System,3007.0
+BS_J6VRW67C,Tumor,PT_0MHKP408,tumor,Central Nervous System,2581.0
+BS_J70GK8SM,Tumor,PT_QWR0EECG,tumor,Central Nervous System,2082.0
+BS_J71N7D09,Tumor,PT_TVK2KY36,tumor,Central Nervous System,3630.0
+BS_J764TSC8,Blood Derived Normal,PT_RFGZ2JGP,normal,Not Reported,4240.0
+BS_J7EMBT8S,Blood Derived Normal,PT_X1XVE1XX,normal,Not Reported,4917.0
+BS_J7WQHJDQ,Blood Derived Normal,PT_A594A46X,normal,Not Reported,2507.0
+BS_J8EH1N7V,Tumor,PT_MNSEJCDM,tumor,Central Nervous System,2190.0
+BS_J8EK6RNF,Tumor,PT_KBFM551M,tumor,Central Nervous System,3425.0
+BS_J8G4SH4Z,Tumor,PT_P4ZEFY19,tumor,Central Nervous System,4601.0
+BS_J8VX4D17,Tumor,PT_7E3V3JFX,tumor,Central Nervous System,594.0
+BS_J996NDK4,Blood Derived Normal,PT_VABP80N2,normal,Not Reported,4443.0
+BS_J9M165VZ,Blood Derived Normal,PT_8RB7TPS2,normal,Not Reported,4199.0
+BS_J9M42E4M,Blood Derived Normal,PT_814K3T0D,normal,Not Reported,2920.0
+BS_JA3XXP1Y,Tumor,PT_Y572BRC1,tumor,Central Nervous System,4520.0
+BS_JAEM78XS,Tumor,PT_82MX6J77,tumor,Central Nervous System,3504.0
+BS_JB3J82ZK,Tumor,PT_7WT6P5M8,tumor,Central Nervous System,1422.0
+BS_JB43XBCQ,Tumor,PT_1E3E6GMF,tumor,Central Nervous System,2211.0
+BS_JBGZ7HHZ,Tumor,PT_FZHGKJ0H,tumor,Central Nervous System,1667.0
+BS_JBHQ6G3J,Tumor,PT_JWW33RTB,tumor,Central Nervous System,4186.0
+BS_JBY9S5D4,Tumor,PT_VQDNSYXM,tumor,Central Nervous System,2855.0
+BS_JC2187NA,Tumor,PT_2CJ31SBX,tumor,Central Nervous System,1364.0
+BS_JC7E55BV,Tumor,PT_R5T773FS,tumor,Central Nervous System,2758.0
+BS_JC8YV5V9,Tumor,PT_98QMQZY7,tumor,Central Nervous System,1963.0
+BS_JCPKYHKY,Tumor,PT_GY0QSY4H,tumor,Central Nervous System,4406.0
+BS_JCWD4DMA,Tumor,PT_DMAF1J4A,tumor,Central Nervous System,2233.0
+BS_JD05XR6E,Tumor,PT_DMAF1J4A,tumor,Central Nervous System,2233.0
+BS_JD5FE0V5,Tumor,PT_YRNATR8Q,tumor,Central Nervous System,3480.0
+BS_JDD16DMY,Blood Derived Normal,PT_S2ASFBP7,normal,Not Reported,3355.0
+BS_JDMM2XG4,Tumor,PT_32J909WM,tumor,Central Nervous System,860.0
+BS_JDS0SYST,Tumor,PT_17NG0KW3,tumor,Central Nervous System,2513.0
+BS_JE1DF581,Tumor,PT_ZZRBX5JT,tumor,Central Nervous System,2667.0
+BS_JEPRW1KE,Blood Derived Normal,PT_962TCBVR,normal,Not Reported,1717.0
+BS_JEZBA2EW,Cell Lines,PT_G16VK7FR,tumor,Central Nervous System,2021.0
+BS_JF2EP1G9,Blood Derived Normal,PT_EJ8TKG2Z,normal,Not Reported,3511.0
+BS_JFB984RG,Tumor,PT_7KBMN6C2,tumor,Central Nervous System,2859.0
+BS_JFEZA9KE,Tumor,PT_F822DBA0,tumor,Central Nervous System,5291.0
+BS_JFR750KD,Tumor,PT_S2SQJVGK,tumor,Central Nervous System,3991.0
+BS_JG0BEXPR,Blood Derived Normal,PT_1N6ATKJS,normal,Not Reported,4940.0
+BS_JG9JZTA9,Tumor,PT_QK4XB83F,tumor,Central Nervous System,1546.0
+BS_JGA9BP3A,Tumor,PT_WE1CHTWK,tumor,Central Nervous System,523.0
+BS_JGKRN7NA,Cell Lines,PT_Y5KY6KN9,tumor,Central Nervous System,3324.0
+BS_JGPR9SR2,Tumor,PT_ECBD1D5J,tumor,Central Nervous System,5918.0
+BS_JGTBRH16,Blood Derived Normal,PT_M5HDHQNQ,normal,Not Reported,1986.0
+BS_JH29M4KG,Tumor,PT_0MHKP408,tumor,Central Nervous System,2581.0
+BS_JHEHVG4M,Blood Derived Normal,PT_VY45XTT7,normal,Not Reported,4284.0
+BS_JHGFJR3D,Tumor,PT_RRT2E7HK,tumor,Central Nervous System,5970.0
+BS_JHGW42S6,Tumor,PT_EB89G70N,tumor,Central Nervous System,4822.0
+BS_JHMWZ3NH,Blood Derived Normal,PT_M23Q0DC3,normal,Not Reported,1740.0
+BS_JJ593ZW7,Blood Derived Normal,PT_N3205P0D,normal,Not Reported,6770.0
+BS_JJNCV530,Blood Derived Normal,PT_NS1F6DT8,normal,Not Reported,5816.0
+BS_JJNSP29S,Tumor,PT_3SW2VHD5,tumor,Central Nervous System,4691.0
+BS_JJWC13GG,Tumor,PT_6VJ5PNKS,tumor,Central Nervous System,3979.0
+BS_JJZPY3BG,Tumor,PT_SJEG0MKD,tumor,Central Nervous System,2396.0
+BS_JK0VPG1T,Tumor,PT_ATS9XDJ5,tumor,Central Nervous System,3773.0
+BS_JK5GTHVG,Tumor,PT_G1QNGVCZ,tumor,Central Nervous System,3712.0
+BS_JKXA3FQC,Tumor,PT_4JG5KWE8,tumor,Central Nervous System,3872.0
+BS_JM979K1M,Tumor,PT_1TB2V1PH,tumor,Central Nervous System,5026.0
+BS_JMHG7GCN,Tumor,PT_5CNZ47XV,tumor,Central Nervous System,5020.0
+BS_JN7F983Y,Blood Derived Normal,PT_9DER14KH,normal,Not Reported,3503.0
+BS_JNFPEM6F,Blood Derived Normal,PT_TXFYRDP4,normal,Not Reported,1232.0
+BS_JNHXS2PQ,Blood Derived Normal,PT_W5GP3F6B,normal,Not Reported,2459.0
+BS_JNRAKEMV,Blood Derived Normal,PT_NTEKMKTX,normal,Not Reported,167.0
+BS_JNS7Q60A,Tumor,PT_M0FVZ88D,tumor,Central Nervous System,8389.0
+BS_JQB0CTE7,Blood Derived Normal,PT_0K0DPVF6,normal,Not Reported,2480.0
+BS_JQDT3FKQ,Blood Derived Normal,PT_9XAA8PF6,normal,Not Reported,4964.0
+BS_JQNF0FQP,Tumor,PT_FAD8FQ6S,tumor,Central Nervous System,6287.0
+BS_JQVAWTTM,Tumor,PT_M23Q0DC3,tumor,Central Nervous System,1740.0
+BS_JR56RQDC,Tumor,PT_AQWDQW27,tumor,Central Nervous System,398.0
+BS_JR5ATB7G,Tumor,PT_8M6W215T,tumor,Central Nervous System,6033.0
+BS_JRFVST47,Tumor,PT_9GKVQ9QS,tumor,Central Nervous System,2097.0
+BS_JRYJGYC4,Tumor,PT_S2BEPYQ0,tumor,Central Nervous System,3431.0
+BS_JS95PE0J,Tumor,PT_KZ04SDDS,tumor,Central Nervous System,2531.0
+BS_JSMAT49K,Tumor,PT_V2F0865M,tumor,Central Nervous System,2196.0
+BS_JSNJZERZ,Tumor,PT_YV2S3ES7,tumor,Central Nervous System,13333.0
+BS_JSPR854S,Tumor,PT_0H65S44B,tumor,Central Nervous System,1553.0
+BS_JT82QGXF,Tumor,PT_MSBPMJ56,tumor,Central Nervous System,3408.0
+BS_JTBM5TSE,Tumor,PT_WTMSD2WB,tumor,Central Nervous System,4340.0
+BS_JTMXAMB7,Tumor,PT_5F4N0CAP,tumor,Central Nervous System,3722.0
+BS_JTSWHVNR,Blood Derived Normal,PT_0RN3VSXZ,normal,Not Reported,2828.0
+BS_JVA2NQFF,Tumor,PT_4TASAQKA,tumor,Central Nervous System,4386.0
+BS_JVTQD8HH,Tumor,PT_8V3360DR,tumor,Central Nervous System,7605.0
+BS_JVW2JJ39,Tumor,PT_7570EHD9,tumor,Central Nervous System,2136.0
+BS_JWCX8R17,Tumor,PT_C4F1HPH5,tumor,Central Nervous System,2533.0
+BS_JWDK21ED,Tumor,PT_WMWFCG6J,tumor,Central Nervous System,5233.0
+BS_JWETX0BH,Blood Derived Normal,PT_KZ04SDDS,normal,Not Reported,2531.0
+BS_JWSR581E,Tumor,PT_6E8JYRXM,tumor,Central Nervous System,996.0
+BS_JX1PK0VW,Tumor,PT_38FS37DP,tumor,Central Nervous System,1053.0
+BS_JX449BF5,Tumor,PT_90W4HCNR,tumor,Central Nervous System,360.0
+BS_JX7S9MY7,Tumor,PT_B0JFCN5W,tumor,Central Nervous System,4295.0
+BS_JXEQWWJH,Blood Derived Normal,PT_78NQ0QQS,normal,Not Reported,4406.0
+BS_JXNZYGCR,Tumor,PT_3A87PCQK,tumor,Central Nervous System,7650.0
+BS_JZAENWRM,Blood Derived Normal,PT_7F3ZPZB7,normal,Not Reported,3365.0
+BS_JZKV3CQ1,Blood Derived Normal,PT_EYWDFKA7,normal,Not Reported,3609.0
+BS_JZRM1S3T,Tumor,PT_78NQ0QQS,tumor,Central Nervous System,4406.0
+BS_K049HVGR,Tumor,PT_3WA1XB8G,tumor,Central Nervous System,6528.0
+BS_K07KNTFY,Tumor,PT_00G007DM,tumor,Central Nervous System,464.0
+BS_K0R1DMA7,Blood Derived Normal,PT_NGDW8WVP,normal,Not Reported,6515.0
+BS_K17VQECG,Tumor,PT_KEQ53KRH,tumor,Central Nervous System,3424.0
+BS_K1ZCZDGY,Blood Derived Normal,PT_3PK66TJY,normal,Not Reported,730.0
+BS_K24D4BGK,Tumor,PT_SW4Q1HZP,tumor,Central Nervous System,3072.0
+BS_K25F4J3V,Tumor,PT_J302B8Y5,tumor,Central Nervous System,826.0
+BS_K2FHZGTK,Tumor,PT_AXMVG8QE,tumor,Central Nervous System,5948.0
+BS_K2S0JAFS,Blood Derived Normal,PT_H0HWHRPB,normal,Not Reported,3379.0
+BS_K2VYFVKZ,Tumor,PT_PFA762TK,tumor,Central Nervous System,1018.0
+BS_K3ER45RV,Tumor,PT_QEP13FH4,tumor,Central Nervous System,2696.0
+BS_K3N0H305,Blood Derived Normal,PT_R9V5R1SY,normal,Not Reported,1243.0
+BS_K3PPH522,Tumor,PT_BWFTKJXT,tumor,Central Nervous System,6786.0
+BS_K3Y06EKR,Tumor,PT_F0N89D15,tumor,Central Nervous System,2031.0
+BS_K3YT05M7,Tumor,PT_TEBD1SES,tumor,Central Nervous System,1038.0
+BS_K44TMQ9G,Blood Derived Normal,PT_W6AWJJK7,normal,Not Reported,6468.0
+BS_K4XGEGW0,Blood Derived Normal,PT_PF9EC93Q,normal,Not Reported,2446.0
+BS_K5802F84,Tumor,PT_NZFFMZ0B,tumor,Central Nervous System,5524.0
+BS_K65XZGKM,Blood Derived Normal,PT_D7KMPYTZ,normal,Not Reported,5282.0
+BS_K6A9Z04J,Tumor,PT_S4H6KA09,tumor,Central Nervous System,1412.0
+BS_K6BMXTW5,Tumor,PT_C1M4YF1R,tumor,Central Nervous System,2857.0
+BS_K74PZET7,Tumor,PT_ZG4J0EK0,tumor,Central Nervous System,2050.0
+BS_K756ZQDR,Blood Derived Normal,PT_FC0EF5ZT,normal,Not Reported,4482.0
+BS_K7A7QW76,Blood Derived Normal,PT_F27SA15G,normal,Not Reported,4641.0
+BS_K7MVS0Z7,Tumor,PT_ADTP7EHN,tumor,Central Nervous System,2938.0
+BS_K7R4CV56,Blood Derived Normal,PT_SRWZDG3N,normal,Not Reported,5666.0
+BS_K81DR8XG,Tumor,PT_GH6HM5QF,tumor,Central Nervous System,525.0
+BS_K89V7JNJ,Tumor,PT_868QRW9G,tumor,Central Nervous System,3642.0
+BS_K9NDFNWV,Blood Derived Normal,PT_ATE3YRH5,normal,Not Reported,3106.0
+BS_K9TB43R2,Blood Derived Normal,PT_YJGTKDV0,normal,Not Reported,2520.0
+BS_KA6B8TG8,Blood Derived Normal,PT_FKWCVXNC,normal,Not Reported,1178.0
+BS_KABQQA0T,Tumor,PT_W5GP3F6B,tumor,Central Nervous System,2459.0
+BS_KAD49R68,Tumor,PT_63F63QY0,tumor,Central Nervous System,5205.0
+BS_KAPQRSFM,Blood Derived Normal,PT_124TTG01,normal,Not Reported,5916.0
+BS_KAZENYZE,Tumor,PT_0WMP712K,tumor,Central Nervous System,494.0
+BS_KB9GJDCS,Tumor,PT_EB89G70N,tumor,Central Nervous System,4822.0
+BS_KBEX4RT2,Tumor,PT_84Q11Z5X,tumor,Central Nervous System,5362.0
+BS_KBM2MTND,Blood Derived Normal,PT_RJ1TJ2KH,normal,Not Reported,218.0
+BS_KBPBCWA0,Tumor,PT_0PT33SCF,tumor,Central Nervous System,1454.0
+BS_KBT7MQ6H,Tumor,PT_CYBYN18G,tumor,Central Nervous System,3474.0
+BS_KC1C1TZA,Blood Derived Normal,PT_XCCV6CW2,normal,Not Reported,3931.0
+BS_KC7HM9HA,Blood Derived Normal,PT_HYXSSCJ5,normal,Not Reported,2522.0
+BS_KCN7NG92,Tumor,PT_CB1XPA3W,tumor,Central Nervous System,5083.0
+BS_KD07YRG3,Blood Derived Normal,PT_0CRPE7YP,normal,Not Reported,3004.0
+BS_KDSTG5YY,Tumor,PT_2CJ31SBX,tumor,Central Nervous System,1364.0
+BS_KE56MMY0,Tumor,PT_9PJR0ZK7,tumor,Central Nervous System,6431.0
+BS_KEA474HN,Tumor,PT_EQ5C5TEA,tumor,Central Nervous System,4043.0
+BS_KF0ZXDER,Tumor,PT_CX58G6P6,tumor,Central Nervous System,6349.0
+BS_KF14TKFY,Blood Derived Normal,PT_2NQPX1R2,normal,Not Reported,5948.0
+BS_KFFMZDJ0,Blood Derived Normal,PT_G16VK7FR,normal,Not Reported,2021.0
+BS_KFRBXXV7,Tumor,PT_YBJYA2CD,tumor,Central Nervous System,5456.0
+BS_KFTEJV19,Blood Derived Normal,PT_H8Z52K09,normal,Not Reported,624.0
+BS_KG1YMTA4,Tumor,PT_ADTP7EHN,tumor,Central Nervous System,2938.0
+BS_KGG1WDT8,Blood Derived Normal,PT_QJ3144WH,normal,Not Reported,6330.0
+BS_KH0NFCWF,Tumor,PT_TH18S0JQ,tumor,Central Nervous System,4932.0
+BS_KH3859M5,Tumor,PT_DTP4MMRA,tumor,Central Nervous System,4988.0
+BS_KHJMCFQR,Tumor,PT_FKCPVY7V,tumor,Central Nervous System,4143.0
+BS_KHSYAB3J,Tumor,PT_7FZ8SE69,tumor,Central Nervous System,4402.0
+BS_KJQXZ8GK,Tumor,PT_FF0MSK4D,tumor,Central Nervous System,6082.0
+BS_KJTW1RBN,Tumor,PT_NESAQHB1,tumor,Central Nervous System,798.0
+BS_KK0JWATQ,Tumor,PT_XHYBZKCX,tumor,Central Nervous System,7442.0
+BS_KK5C8VCK,Tumor,PT_WWME595X,tumor,Central Nervous System,4259.0
+BS_KKV7WAG3,Blood Derived Normal,PT_K6G6BE6G,normal,Not Reported,2480.0
+BS_KKWQW01N,Tumor,PT_1N6ATKJS,tumor,Central Nervous System,4940.0
+BS_KM2EX0K6,Tumor,PT_PAW18EK3,tumor,Central Nervous System,5681.0
+BS_KM878Y43,Tumor,PT_GVDMG7KC,tumor,Central Nervous System,8384.0
+BS_KN5FPSJE,Blood Derived Normal,PT_203ZY782,normal,Not Reported,532.0
+BS_KN92S7YQ,Tumor,PT_HEGTYPQJ,tumor,Central Nervous System,4850.0
+BS_KND4B5CW,Tumor,PT_2NQPX1R2,tumor,Central Nervous System,5948.0
+BS_KNJ64STQ,Blood Derived Normal,PT_JN3EN2HR,normal,Not Reported,3887.0
+BS_KP0YNTAK,Tumor,PT_5SX0GRW1,tumor,Central Nervous System,2473.0
+BS_KP735TJ6,Tumor,PT_MSQ6GSVP,tumor,Central Nervous System,83.0
+BS_KPG4WCHS,Tumor,PT_Y74CVASJ,tumor,Central Nervous System,1717.0
+BS_KPT2WPHW,Tumor,PT_CR2YBSPT,tumor,Central Nervous System,362.0
+BS_KPWRDRFP,Tumor,PT_F822DBA0,tumor,Central Nervous System,5291.0
+BS_KQ6ZW085,Tumor,PT_SSE4AH59,tumor,Central Nervous System,825.0
+BS_KQPCYZ2K,Cell Lines,PT_A06JR0E5,tumor,Central Nervous System,2205.0
+BS_KQRAHH6Y,Tumor,PT_CSKHQB16,tumor,Central Nervous System,1460.0
+BS_KR4MP5ET,Tumor,PT_AQWDQW27,tumor,Central Nervous System,398.0
+BS_KRYAZ09R,Blood Derived Normal,PT_Y572BRC1,normal,Not Reported,3977.0
+BS_KRYYDC2X,Tumor,PT_RH59ET3M,tumor,Central Nervous System,3336.0
+BS_KSFM87N1,Blood Derived Normal,PT_95S99RWE,normal,Not Reported,1827.0
+BS_KSHETTQC,Tumor,PT_VAJN5QP8,tumor,Central Nervous System,6170.0
+BS_KSRKPT4Z,Blood Derived Normal,PT_23NZGSRJ,normal,Not Reported,1484.0
+BS_KSRYKCDE,Tumor,PT_S7YHNHSS,tumor,Central Nervous System,6195.0
+BS_KT9H4B1N,Tumor,PT_6DW5NFKX,tumor,Central Nervous System,4393.0
+BS_KTKMBKXB,Blood Derived Normal,PT_H57TEQDT,normal,Not Reported,1227.0
+BS_KV3XF9WV,Tumor,PT_GBDYKSPY,tumor,Central Nervous System,8093.0
+BS_KVAJYZ6F,Tumor,PT_JW2FDK4W,tumor,Central Nervous System,5511.0
+BS_KVNGNETA,Tumor,PT_GGCQAGPS,tumor,Central Nervous System,2265.0
+BS_KVV3G6NP,Tumor,PT_S2CXXZCF,tumor,Central Nervous System,1373.0
+BS_KVV7001W,Tumor,PT_E8XM8JFZ,tumor,Central Nervous System,1302.0
+BS_KVYCH9PB,Tumor,PT_DXF7ZZQZ,tumor,Central Nervous System,1559.0
+BS_KWMFKN38,Blood Derived Normal,PT_3QFBAXAN,normal,Not Reported,1552.0
+BS_KWQ8A6AJ,Blood Derived Normal,PT_E1TRJP8V,normal,Not Reported,2419.0
+BS_KX6J8TRK,Tumor,PT_XA8ASFJK,tumor,Central Nervous System,6168.0
+BS_KXCY5BN5,Tumor,PT_GH693TT8,tumor,Central Nervous System,738.0
+BS_KXGJ1HMG,Tumor,PT_P5HHJJPH,tumor,Central Nervous System,3739.0
+BS_KXH37MPN,Tumor,PT_AP9P5D7N,tumor,Central Nervous System,7737.0
+BS_KXMYBQ6N,Tumor,PT_0WKX8Q5X,tumor,Central Nervous System,5358.0
+BS_KY1CTGJ3,Tumor,PT_JSFBMK5V,tumor,Central Nervous System,6234.0
+BS_KYF0Q0E7,Tumor,PT_5FR2YA6E,tumor,Central Nervous System,4234.0
+BS_KYG3H6C6,Tumor,PT_MPRBGGEJ,tumor,Central Nervous System,5937.0
+BS_KYPMZZSY,Tumor,PT_1DSX4VJM,tumor,Central Nervous System,2627.0
+BS_KYPZRS4S,Tumor,PT_7TEHW6VQ,tumor,Central Nervous System,3998.0
+BS_KZCXH6EX,Blood Derived Normal,PT_FXPJM0MW,normal,Not Reported,1857.0
+BS_KZPR01BD,Tumor,PT_3873YK5S,tumor,Central Nervous System,2429.0
+BS_KZRK17FF,Blood Derived Normal,PT_Y74CVASJ,normal,Not Reported,1717.0
+BS_M026T44Q,Tumor,PT_BF3PGTF7,tumor,Central Nervous System,4133.0
+BS_M0B42FPR,Tumor,PT_KBFM551M,tumor,Central Nervous System,3425.0
+BS_M0QYNVK8,Tumor,PT_37B5JRP1,tumor,Central Nervous System,5324.0
+BS_M15PW2N0,Tumor,PT_S4A0R1PM,tumor,Central Nervous System,7628.0
+BS_M16CDR44,Tumor,PT_BDM0M83S,tumor,Central Nervous System,2037.0
+BS_M18CDDGK,Tumor,PT_NSXP8AWV,tumor,Central Nervous System,4838.0
+BS_M1PVEHCM,Tumor,PT_KBDP8ZCR,tumor,Central Nervous System,6692.0
+BS_M1Q77XK8,Blood Derived Normal,PT_DY6QG8QC,normal,Not Reported,3472.0
+BS_M1T1K5WV,Tumor,PT_C94VR1Y2,tumor,Central Nervous System,2814.0
+BS_M1TDS9CT,Tumor,PT_90W4HCNR,tumor,Central Nervous System,360.0
+BS_M1YHV93N,Tumor,PT_HBT0C66Y,tumor,Central Nervous System,1864.0
+BS_M28HG0NT,Tumor,PT_2WVW55DA,tumor,Central Nervous System,970.0
+BS_M28J7CGM,Blood Derived Normal,PT_HVZTF42R,normal,Not Reported,170.0
+BS_M2D1DQR4,Saliva,PT_7VSY72EK,normal,Not Reported,6362.0
+BS_M2MSWKBC,Tumor,PT_PAW18EK3,tumor,Central Nervous System,5681.0
+BS_M4923M40,Tumor,PT_MTE126WM,tumor,Central Nervous System,1936.0
+BS_M4E4H6NG,Tumor,PT_Y76A7PBA,tumor,Central Nervous System,4166.0
+BS_M4KBSYZ2,Blood Derived Normal,PT_2WVW55DA,normal,Not Reported,584.0
+BS_M4NVX721,Tumor,PT_FWD7NZQ0,tumor,Central Nervous System,5179.0
+BS_M4TTKPNR,Tumor,PT_YKVK5HTK,tumor,Central Nervous System,2211.0
+BS_M5FM63EB,Tumor,PT_KBFM551M,tumor,Central Nervous System,3425.0
+BS_M5M3BPDH,Blood Derived Normal,PT_6N1QWCXE,normal,Not Reported,2869.0
+BS_M659G06J,Cell Lines,PT_VAJN5QP8,tumor,Central Nervous System,6170.0
+BS_M7HCF7DW,Tumor,PT_2WVW55DA,tumor,Central Nervous System,970.0
+BS_M7KYG012,Blood Derived Normal,PT_C94VR1Y2,normal,Not Reported,2814.0
+BS_M7QJ8VF0,Tumor,PT_QD6KKKJH,tumor,Central Nervous System,3129.0
+BS_M85CXHDV,Tumor,PT_6PP78VNE,tumor,Central Nervous System,7095.0
+BS_M86ECPHK,Tumor,PT_74XM7BV7,tumor,Central Nervous System,1875.0
+BS_M8EA6R2A,Cell Lines,PT_4347ZBEX,tumor,Central Nervous System,7884.0
+BS_M8EBKZDG,Tumor,PT_6MWPJ96F,tumor,Central Nervous System,2897.0
+BS_M8M56Z4Y,Tumor,PT_K30AWQ8A,tumor,Central Nervous System,4087.0
+BS_M8MTVQ7H,Blood Derived Normal,PT_KTRJ8TFY,normal,Not Reported,2079.0
+BS_M8WP5T16,Tumor,PT_02J5CWN5,tumor,Central Nervous System,2223.0
+BS_M9C4RY4P,Tumor,PT_NMZBRFYS,tumor,Central Nervous System,3864.0
+BS_M9YZK3SP,Tumor,PT_DA4WFQ96,tumor,Central Nervous System,1058.0
+BS_MA1A3GY0,Tumor,PT_4XWYZYJS,tumor,Central Nervous System,3085.0
+BS_MA2T7ET1,Tumor,PT_1Z015H6V,tumor,Central Nervous System,6307.0
+BS_MAVSJH2Y,Tumor,PT_JN3EN2HR,tumor,Central Nervous System,3887.0
+BS_MAZNT95V,Blood Derived Normal,PT_NBSRQAMS,normal,Not Reported,4589.0
+BS_MB7WN0ZB,Tumor,PT_5BWZA0NT,tumor,Central Nervous System,4456.0
+BS_MBSTWZA6,Tumor,PT_9C2G356W,tumor,Central Nervous System,1982.0
+BS_MBYEK6HV,Tumor,PT_N8W26H19,tumor,Central Nervous System,8427.0
+BS_MCFJEQJ9,Blood Derived Normal,PT_W5GP3F6B,normal,Not Reported,2459.0
+BS_MCM78YPC,Tumor,PT_XHYBZKCX,tumor,Central Nervous System,7442.0
+BS_MCWEQ2PN,Blood Derived Normal,PT_4ADZ9F53,normal,Not Reported,4366.0
+BS_MD3DT41J,Tumor,PT_WP871F5S,tumor,Central Nervous System,5137.0
+BS_MDBT7S5Z,Tumor,PT_QTDY0Y9A,tumor,Central Nervous System,4290.0
+BS_MDHYHEBH,Blood Derived Normal,PT_26V72ZXB,normal,Not Reported,4170.0
+BS_MDVMT75X,Tumor,PT_Y32AQSEY,tumor,Central Nervous System,5844.0
+BS_ME3HKN2C,Tumor,PT_3WA1XB8G,tumor,Central Nervous System,6528.0
+BS_ME97J1GA,Tumor,PT_962TCBVR,tumor,Central Nervous System,2402.0
+BS_MEPW36WF,Tumor,PT_RJ98S3KZ,tumor,Central Nervous System,4452.0
+BS_MF47B9ZW,Tumor,PT_7F485CXV,tumor,Central Nervous System,308.0
+BS_MF9X3PKH,Tumor,PT_XXZHRPNM,tumor,Central Nervous System,1667.0
+BS_MFTAVQ5C,Tumor,PT_T4VKB29K,tumor,Central Nervous System,1873.0
+BS_MGAMKKBD,Tumor,PT_6R7AE0P3,tumor,Central Nervous System,4996.0
+BS_MGBEMNYR,Tumor,PT_ECMZCNTF,tumor,Central Nervous System,479.0
+BS_MGY2V5N4,Tumor,PT_Z7YJ7MSM,tumor,Central Nervous System,118.0
+BS_MHT5C2AP,Tumor,PT_37WTWPZY,tumor,Central Nervous System,300.0
+BS_MJ8EGM54,Tumor,PT_69C7CBFW,tumor,Central Nervous System,250.0
+BS_MJJZJMTK,Tumor,PT_MNHMAH0S,tumor,Central Nervous System,4261.0
+BS_MKGT5WZD,Blood Derived Normal,PT_QPY0H50V,normal,Not Reported,3050.0
+BS_MKM0EEN1,Tumor,PT_W4XVT4AJ,tumor,Central Nervous System,2020.0
+BS_MKP2Y41Z,Tumor,PT_3R0P995B,tumor,Central Nervous System,576.0
+BS_MKSMSB6J,Blood Derived Normal,PT_Q3EP24V1,normal,Not Reported,2399.0
+BS_MKYS4YRC,Blood Derived Normal,PT_K2YDNZDA,normal,Not Reported,809.0
+BS_MM20BVW9,Tumor,PT_JXSDFPNM,tumor,Central Nervous System,6279.0
+BS_MMNRZ1EQ,Tumor,PT_WG2Z95B5,tumor,Central Nervous System,383.0
+BS_MN13H3T4,Blood Derived Normal,PT_76Q72M5T,normal,Not Reported,4019.0
+BS_MN2FX68Z,Blood Derived Normal,PT_NCDHZ8H8,normal,Not Reported,1514.0
+BS_MN5XVP5A,Tumor,PT_RPC00TAJ,tumor,Central Nervous System,7671.0
+BS_MQCKXD60,Tumor,PT_FCM7XPVR,tumor,Central Nervous System,6440.0
+BS_MRX1SPFB,Tumor,PT_H024RK87,tumor,Central Nervous System,6890.0
+BS_MS87PMR7,Tumor,PT_H4H6RD7Y,tumor,Central Nervous System,4066.0
+BS_MS9061DG,Blood Derived Normal,PT_R1DHB0ZT,normal,Not Reported,1792.0
+BS_MSB1RDAJ,Tumor,PT_VVCN8DXT,tumor,Central Nervous System,2668.0
+BS_MSGYZ69T,Tumor,PT_VTF65Y63,tumor,Central Nervous System,3195.0
+BS_MT15SGJN,Tumor,PT_99S5BPE3,tumor,Central Nervous System,6718.0
+BS_MT5ZSRG4,Tumor,PT_ZR8MQRVG,tumor,Central Nervous System,3578.0
+BS_MTA50F0G,Blood Derived Normal,PT_ATS9XDJ5,normal,Not Reported,3773.0
+BS_MTDQBCQK,Blood Derived Normal,PT_YJBPEF4V,normal,Not Reported,7149.0
+BS_MV6ASWV9,Tumor,PT_ESHACWF6,tumor,Central Nervous System,1904.0
+BS_MVC1NCZX,Tumor,PT_BWN251DF,tumor,Central Nervous System,6288.0
+BS_MVK4CG1G,Blood Derived Normal,PT_ECMZCNTF,normal,Not Reported,1043.0
+BS_MVW01FPB,Tumor,PT_3KM9W8S8,tumor,Central Nervous System,190.0
+BS_MVYA262V,Blood Derived Normal,PT_9GKVQ9QS,normal,Not Reported,2097.0
+BS_MW16Y7ME,Tumor,PT_DFQAH7RS,tumor,Central Nervous System,10205.0
+BS_MW63FCZC,Tumor,PT_6SH7PV1N,tumor,Central Nervous System,1405.0
+BS_MW6YMRBJ,Tumor,PT_YZME6QCY,tumor,Central Nervous System,6001.0
+BS_MW74GF38,Tumor,PT_02MVZZSW,tumor,Central Nervous System,4666.0
+BS_MWKJF6XH,Tumor,PT_JXGMAHHN,tumor,Central Nervous System,796.0
+BS_MWV7PRDK,Saliva,PT_WWME595X,normal,Not Reported,7655.0
+BS_MWWZBQ60,Tumor,PT_VCD0W8HG,tumor,Central Nervous System,4320.0
+BS_MWXDJFWW,Tumor,PT_CEWNZVKF,tumor,Central Nervous System,3725.0
+BS_MWZCP1XW,Tumor,PT_J50NZYZF,tumor,Central Nervous System,2877.0
+BS_MX23ZY0Y,Cell Lines,PT_Y5KY6KN9,tumor,Central Nervous System,3324.0
+BS_MY9D8XZ1,Tumor,PT_YPCR2XRS,tumor,Central Nervous System,6437.0
+BS_MZB884N9,Tumor,PT_2YCHME6S,tumor,Central Nervous System,4797.0
+BS_MZJJRDZF,Tumor,PT_1BV6ND1D,tumor,Central Nervous System,1453.0
+BS_N05BJ03T,Blood Derived Normal,PT_RKECV80K,normal,Not Reported,4138.0
+BS_N0877CX1,Tumor,PT_RRG1V7EP,tumor,Central Nervous System,230.0
+BS_N0DNCXRW,Blood Derived Normal,PT_9GKVQ9QS,normal,Not Reported,2097.0
+BS_N0X0S3JD,Blood Derived Normal,PT_E79807KT,normal,Not Reported,2809.0
+BS_N0Z6V2YG,Tumor,PT_C2VY5NM6,tumor,Central Nervous System,735.0
+BS_N1E0H8YQ,Tumor,PT_CGPJY881,tumor,Central Nervous System,5213.0
+BS_N1WCEX2B,Blood Derived Normal,PT_RA6AGBA7,normal,Not Reported,3591.0
+BS_N210XMKR,Tumor,PT_C95KPXSW,tumor,Central Nervous System,4438.0
+BS_N2A2JA32,Blood Derived Normal,PT_X5TQR8V2,normal,Not Reported,6470.0
+BS_N2JD3VX6,Tumor,PT_3NM45TQ8,tumor,Central Nervous System,2716.0
+BS_N2TDDQ9Y,Blood Derived Normal,PT_YBJYA2CD,normal,Not Reported,5456.0
+BS_N4B1SZZH,Tumor,PT_K94ZVZMX,tumor,Central Nervous System,4526.0
+BS_N4B3WB8W,Tumor,PT_RFB07MZS,tumor,Central Nervous System,1385.0
+BS_N4D5BPQP,Blood Derived Normal,PT_TGTJECMR,normal,Not Reported,4431.0
+BS_N559C2Y0,Blood Derived Normal,PT_HT4HJXY6,normal,Not Reported,8061.0
+BS_N56BGDK6,Blood Derived Normal,PT_6GDPNFA6,normal,Not Reported,1848.0
+BS_N5B2CZMH,Tumor,PT_3SW2VHD5,tumor,Central Nervous System,4691.0
+BS_N5DVEJXT,Tumor,PT_VBVZ2NAR,tumor,Central Nervous System,230.0
+BS_N5VYY66W,Tumor,PT_WG5PHHSQ,tumor,Central Nervous System,4176.0
+BS_N6N147BY,Tumor,PT_X648RVMK,tumor,Central Nervous System,1732.0
+BS_N6NE6B3W,Tumor,PT_H0HWHRPB,tumor,Central Nervous System,3379.0
+BS_N6XWSD15,Blood Derived Normal,PT_CGWPWSXM,normal,Not Reported,600.0
+BS_N8D9FH6M,Tumor,PT_EW604JB3,tumor,Central Nervous System,1244.0
+BS_N8J1DP02,Tumor,PT_VE0Q731Y,tumor,Central Nervous System,1464.0
+BS_N8WXTFN4,Tumor,PT_AWMZ12NP,tumor,Central Nervous System,2514.0
+BS_N9BF56FP,Tumor,PT_98QMQZY7,tumor,Central Nervous System,2885.0
+BS_N9N1X78X,Tumor,PT_4JG5KWE8,tumor,Central Nervous System,3872.0
+BS_N9SMBR24,Tumor,PT_25Z2NX27,tumor,Central Nervous System,5253.0
+BS_NASADC3P,Tumor,PT_DTP4MMRA,tumor,Central Nervous System,4988.0
+BS_NB42PWZN,Tumor,PT_99S5BPE3,tumor,Central Nervous System,8173.0
+BS_NB509KST,Tumor,PT_EPFX7V9H,tumor,Central Nervous System,7247.0
+BS_NB5XWMJT,Tumor,PT_ZR8MQRVG,tumor,Central Nervous System,3578.0
+BS_NB9XXBW6,Tumor,PT_WGVEF96B,tumor,Central Nervous System,2853.0
+BS_NBM9CPE4,Blood Derived Normal,PT_SBHN5F68,normal,Not Reported,3108.0
+BS_NCF4MJ9S,Blood Derived Normal,PT_3R0P995B,normal,Not Reported,481.0
+BS_NCGGFG6H,Tumor,PT_3T3VGWC6,tumor,Central Nervous System,5955.0
+BS_NDC69214,Tumor,PT_229DRV7B,tumor,Central Nervous System,5331.0
+BS_NDFDQBCZ,Tumor,PT_QPY0H50V,tumor,Central Nervous System,2989.0
+BS_NDN62H0S,Tumor,PT_124TTG01,tumor,Central Nervous System,5916.0
+BS_NDRDM2A9,Tumor,PT_PZVE3FWF,tumor,Central Nervous System,7015.0
+BS_NDSWS9TS,Tumor,PT_GH693TT8,tumor,Central Nervous System,738.0
+BS_NEVYM2FP,Tumor,PT_EN2RN5Y1,tumor,Central Nervous System,3159.0
+BS_NEX92KQH,Tumor,PT_WGWMA5AZ,tumor,Central Nervous System,5984.0
+BS_NF8F99FQ,Blood Derived Normal,PT_SCBMTG0S,normal,Not Reported,5593.0
+BS_NFRXNAFE,Tumor,PT_RXT6KRR6,tumor,Central Nervous System,1218.0
+BS_NFT9VHMJ,Tumor,PT_N56EYD4Z,tumor,Central Nervous System,3724.0
+BS_NFTVRVAF,Blood Derived Normal,PT_G1QNGVCZ,normal,Not Reported,3712.0
+BS_NG0CR0EP,Tumor,PT_DY6QG8QC,tumor,Central Nervous System,2939.0
+BS_NGHK9RZP,Tumor,PT_2SCVQ2N6,tumor,Central Nervous System,4770.0
+BS_NGSG2KB6,Tumor,PT_KTRJ8TFY,tumor,Central Nervous System,2079.0
+BS_NGY0TE6S,Tumor,PT_W6CW60K9,tumor,Central Nervous System,2541.0
+BS_NH7K4CD9,Tumor,PT_ZD45GXZ0,tumor,Central Nervous System,1860.0
+BS_NHEDGJ66,Blood Derived Normal,PT_GWX2XSM0,normal,Not Reported,2772.0
+BS_NHFB2YJR,Blood Derived Normal,PT_GH27VJBD,normal,Not Reported,2471.0
+BS_NHMPQ8Q1,Tumor,PT_FZHGKJ0H,tumor,Central Nervous System,1667.0
+BS_NHRNZRQV,Tumor,PT_YXJQGT69,tumor,Central Nervous System,6236.0
+BS_NJ4WPQVK,Tumor,PT_EV71W1JW,tumor,Central Nervous System,4502.0
+BS_NJFK43N3,Tumor,PT_KFYJBQB8,tumor,Central Nervous System,257.0
+BS_NJV6A585,Tumor,PT_X84SD608,tumor,Central Nervous System,7215.0
+BS_NKEAAFMW,Tumor,PT_T03AT4BJ,tumor,Central Nervous System,4428.0
+BS_NKNDVFFR,Blood Derived Normal,PT_RRG1V7EP,normal,Not Reported,256.0
+BS_NKRYMHEP,Tumor,PT_RT1J9P8J,tumor,Central Nervous System,2589.0
+BS_NMJPX8VQ,Tumor,PT_EJ8TKG2Z,tumor,Central Nervous System,3511.0
+BS_NMQTPVFW,Tumor,PT_7QKGGMKV,tumor,Central Nervous System,3557.0
+BS_NNFDFAFM,Tumor,PT_V1HNAC2Q,tumor,Central Nervous System,2786.0
+BS_NNPEC7W1,Tumor,PT_59D00MBQ,tumor,Central Nervous System,3702.0
+BS_NPA6CZQF,Tumor,PT_RSDTCFDA,tumor,Central Nervous System,4946.0
+BS_NPQJ20KX,Tumor,PT_6MWPJ96F,tumor,Central Nervous System,2889.0
+BS_NQB91P48,Tumor,PT_C1M4YF1R,tumor,Central Nervous System,2857.0
+BS_NQFH3GZH,Tumor,PT_6PYNBA9C,tumor,Central Nervous System,
+BS_NR3P3GN2,Tumor,PT_DJ106XYS,tumor,Central Nervous System,4489.0
+BS_NR9FRY5T,Tumor,PT_YDWBWTVN,tumor,Central Nervous System,2846.0
+BS_NRFQEQKP,Tumor,PT_3RN24N9X,tumor,Central Nervous System,1469.0
+BS_NRPG5K4K,Tumor,PT_962TCBVR,tumor,Central Nervous System,2402.0
+BS_NS7GSHB9,Tumor,PT_RMK36R2E,tumor,Central Nervous System,3746.0
+BS_NS8G0465,Tumor,PT_NXX0M835,tumor,Central Nervous System,4978.0
+BS_NT9NZYFD,Tumor,PT_FC0EF5ZT,tumor,Central Nervous System,4482.0
+BS_NTV9Z7SE,Blood Derived Normal,PT_QD6KKKJH,normal,Not Reported,3129.0
+BS_NTXHP7QR,Tumor,PT_BZKJR4GK,tumor,Central Nervous System,6565.0
+BS_NVKGSMXS,Tumor,PT_DA4WFQ96,tumor,Central Nervous System,1058.0
+BS_NWXG4ZNS,Blood Derived Normal,PT_Y5KY6KN9,normal,Not Reported,3324.0
+BS_NWYBD9CA,Tumor,PT_82A9SDRN,tumor,Central Nervous System,4234.0
+BS_NXZSD2KK,Tumor,PT_XTVQB9S4,tumor,Central Nervous System,291.0
+BS_NY51QX79,Blood Derived Normal,PT_JMW6Q6NH,normal,Not Reported,432.0
+BS_NY9MPC8F,Blood Derived Normal,PT_0MXPTTM3,normal,Not Reported,9425.0
+BS_NYS8TRCB,Tumor,PT_76Q72M5T,tumor,Central Nervous System,4740.0
+BS_NYVVN7SD,Tumor,PT_2WVW55DA,tumor,Central Nervous System,584.0
+BS_NZ71XCG3,Tumor,PT_7FQ6VECA,tumor,Central Nervous System,5918.0
+BS_NZRJE7QA,Tumor,PT_BWGZBVD1,tumor,Central Nervous System,315.0
+BS_P0KQFXNC,Tumor,PT_12JTZFC2,tumor,Central Nervous System,1615.0
+BS_P0QF87WC,Tumor,PT_8GN3TQRM,tumor,Central Nervous System,2842.0
+BS_P0QJ1QAH,Tumor,PT_JNEV57VK,tumor,Central Nervous System,3100.0
+BS_P0W5VJH4,Tumor,PT_DH8A0SNQ,tumor,Central Nervous System,209.0
+BS_P1JY6XK5,Blood Derived Normal,PT_J5NSRW1Y,normal,Not Reported,4636.0
+BS_P277RYX5,Tumor,PT_Y7F2JZMQ,tumor,Central Nervous System,6132.0
+BS_P2QCH2SY,Blood Derived Normal,PT_QZN7FZER,normal,Not Reported,6256.0
+BS_P36C0ABE,Tumor,PT_4Z34K4XB,tumor,Central Nervous System,3509.0
+BS_P39SQPTS,Tumor,PT_01MZ62KG,tumor,Central Nervous System,546.0
+BS_P3EVK3C2,Tumor,PT_S21ZTKPS,tumor,Central Nervous System,4938.0
+BS_P3KD5EQG,Tumor,PT_P9RT6693,tumor,Central Nervous System,3260.0
+BS_P3P96WCD,Tumor,PT_D7KMPYTZ,tumor,Central Nervous System,4729.0
+BS_P3PF53V8,Tumor,PT_S0Q27J13,tumor,Central Nervous System,6258.0
+BS_P3W89XQY,Blood Derived Normal,PT_94EHCMXA,normal,Not Reported,1855.0
+BS_P42V737Y,Tumor,PT_82MX6J77,tumor,Central Nervous System,3504.0
+BS_P44PE00R,Tumor,PT_APPA7SFD,tumor,Central Nervous System,222.0
+BS_P4D8Y3S8,Tumor,PT_F1086Z0A,tumor,Central Nervous System,1220.0
+BS_P4K6WK9Y,Tumor,PT_RA6AGBA7,tumor,Central Nervous System,3591.0
+BS_P4NX9MPA,Tumor,PT_DFQAH7RS,tumor,Central Nervous System,10205.0
+BS_P4Z4YP0P,Blood Derived Normal,PT_C2D4JXS1,normal,Not Reported,2307.0
+BS_P52FTQNA,Blood Derived Normal,PT_KXB1PJV0,normal,Not Reported,4216.0
+BS_P65SHPNZ,Blood Derived Normal,PT_1VQWQ0TC,normal,Not Reported,7049.0
+BS_P6NWC51S,Tumor,PT_ZS2YDFBE,tumor,Central Nervous System,5917.0
+BS_P78BDBZE,Blood Derived Normal,PT_6VD8J6FB,normal,Not Reported,6784.0
+BS_P78SMRBS,Tumor,PT_YXZPWFVB,tumor,Central Nervous System,7768.0
+BS_P7CY04E7,Tumor,PT_RRG1V7EP,tumor,Central Nervous System,230.0
+BS_P7EY9DXG,Tumor,PT_H8Z52K09,tumor,Central Nervous System,624.0
+BS_P7VR731D,Tumor,PT_W5GP3F6B,tumor,Central Nervous System,2459.0
+BS_P862EP9P,Blood Derived Normal,PT_2SCVQ2N6,normal,Not Reported,4770.0
+BS_P8AER10J,Blood Derived Normal,PT_EN2RN5Y1,normal,Not Reported,3159.0
+BS_P8WN8XEQ,Tumor,PT_X71D7G5S,tumor,Central Nervous System,5422.0
+BS_P99S85CY,Tumor,PT_GR8P8NY5,tumor,Central Nervous System,1235.0
+BS_P9JP6JFA,Cell Lines,PT_Y5KY6KN9,tumor,Central Nervous System,3324.0
+BS_PAYW4RCK,Blood Derived Normal,PT_5KP2E0DS,normal,Not Reported,5871.0
+BS_PC2YQ4F6,Tumor,PT_YJBPEF4V,tumor,Central Nervous System,7149.0
+BS_PC83EJY8,Blood Derived Normal,PT_3VQEVNDD,normal,Not Reported,722.0
+BS_PCKWEEVT,Blood Derived Normal,PT_F0N89D15,normal,Not Reported,2031.0
+BS_PDC04A1K,Blood Derived Normal,PT_1YQH5NSH,normal,Not Reported,2520.0
+BS_PDRNE606,Tumor,PT_0FKQ3XGV,tumor,Central Nervous System,3604.0
+BS_PEDGRK8S,Tumor,PT_RKECV80K,tumor,Central Nervous System,4138.0
+BS_PEFRDKDZ,Tumor,PT_ZRQQC2S9,tumor,Central Nervous System,5407.0
+BS_PEP9NZXN,Tumor,PT_7TEHW6VQ,tumor,Central Nervous System,3998.0
+BS_PF6TP3FX,Blood Derived Normal,PT_2FK75B27,normal,Not Reported,2569.0
+BS_PF7546KW,Blood Derived Normal,PT_J0SZ1SX5,normal,Not Reported,210.0
+BS_PFE6M2EW,Blood Derived Normal,PT_4ZSR5DY8,normal,Not Reported,7562.0
+BS_PFSB20M7,Blood Derived Normal,PT_YV2S3ES7,normal,Not Reported,13333.0
+BS_PFXDWV9R,Tumor,PT_BTTM2HS5,tumor,Central Nervous System,1689.0
+BS_PGHK1JRW,Tumor,PT_TV5DYHNC,tumor,Central Nervous System,1113.0
+BS_PGK832G2,Cell Lines,PT_VTM2STE3,tumor,Central Nervous System,3615.0
+BS_PHMN1WB3,Saliva,PT_G16WS1MW,normal,Not Reported,12806.0
+BS_PJ08ZW9A,Tumor,PT_CQ7EGCMB,tumor,Central Nervous System,744.0
+BS_PJK0M1X0,Blood Derived Normal,PT_06ERX8Z7,normal,Not Reported,3635.0
+BS_PJPGVD62,Tumor,PT_ZZRBX5JT,tumor,Central Nervous System,1878.0
+BS_PK18H7E7,Tumor,PT_2YT37G8P,tumor,Central Nervous System,4304.0
+BS_PKK3BZRG,Tumor,PT_PHKSYE6Q,tumor,Central Nervous System,4957.0
+BS_PKKNB5PY,Blood Derived Normal,PT_RFB07MZS,normal,Not Reported,1385.0
+BS_PKW05VZV,Tumor,PT_279D9QZ8,tumor,Central Nervous System,7464.0
+BS_PKZ1HWNB,Cell Lines,PT_4347ZBEX,tumor,Central Nervous System,7884.0
+BS_PMFR8NPN,Tumor,PT_N673SYWW,tumor,Central Nervous System,2963.0
+BS_PMSZKZP7,Tumor,PT_DQ3ZCHB6,tumor,Central Nervous System,809.0
+BS_PN1V5KM9,Blood Derived Normal,PT_T2M1338J,normal,Not Reported,7212.0
+BS_PN2CE34A,Tumor,PT_54MH6Q46,tumor,Central Nervous System,1957.0
+BS_PNXDHDF3,Tumor,PT_A9YAZJNN,tumor,Central Nervous System,8688.0
+BS_PNYN0AYD,Cell Lines,PT_C2D4JXS1,tumor,Central Nervous System,2307.0
+BS_PP4WJBNR,Tumor,PT_RFF7MKTC,tumor,Central Nervous System,1818.0
+BS_PPY0EWPG,Tumor,PT_PR4YBBH3,tumor,Central Nervous System,3739.0
+BS_PQ6QEVE8,Tumor,PT_RGX23JFP,tumor,Central Nervous System,4776.0
+BS_PQ7CQFYR,Tumor,PT_R0M1QBY4,tumor,Central Nervous System,2964.0
+BS_PQVTB6BB,Tumor,PT_9W4WTVFZ,tumor,Central Nervous System,2870.0
+BS_PRAEF32W,Tumor,PT_3PK66TJY,tumor,Central Nervous System,629.0
+BS_PRR8K9GE,Tumor,PT_CEWNZVKF,tumor,Central Nervous System,3725.0
+BS_PS0P3QJ3,Tumor,PT_6D9C46GC,tumor,Central Nervous System,192.0
+BS_PSAZZC71,Blood Derived Normal,PT_V07ZH5JS,normal,Not Reported,5399.0
+BS_PSNBFWQV,Tumor,PT_J50NZYZF,tumor,Central Nervous System,1988.0
+BS_PSW27ZTE,Tumor,PT_67R1AF5R,tumor,Central Nervous System,395.0
+BS_PT1DC3ZF,Blood Derived Normal,PT_HV6C0T34,normal,Not Reported,1612.0
+BS_PTYP388A,Blood Derived Normal,PT_N673SYWW,normal,Not Reported,2963.0
+BS_PV130A29,Tumor,PT_YRMG61G8,tumor,Central Nervous System,2264.0
+BS_PVJXA07K,Blood Derived Normal,PT_46F28BFH,normal,Not Reported,6108.0
+BS_PVYMDM18,Tumor,PT_KN25EYMG,tumor,Central Nervous System,1750.0
+BS_PVZJCXS1,Tumor,PT_DACV00WF,tumor,Central Nervous System,116.0
+BS_PXCPK5XS,Tumor,PT_1B1Z7BRQ,tumor,Central Nervous System,5284.0
+BS_PXD19CBF,Blood Derived Normal,PT_2C63FJAM,normal,Not Reported,3918.0
+BS_PY472W3B,Blood Derived Normal,PT_3A87PCQK,normal,Not Reported,7650.0
+BS_PY51XH82,Blood Derived Normal,PT_SSE4AH59,normal,Not Reported,825.0
+BS_PYVPKH11,Tumor,PT_NTEKMKTX,tumor,Central Nervous System,167.0
+BS_PZ35809R,Blood Derived Normal,PT_KVFS3Z2Q,normal,Not Reported,6687.0
+BS_PZDTK87A,Tumor,PT_J3B812DT,tumor,Central Nervous System,218.0
+BS_PZE7R1WM,Blood Derived Normal,PT_ZD45GXZ0,normal,Not Reported,1860.0
+BS_PZVHMSYN,Tumor,PT_0MJEAART,tumor,Central Nervous System,4098.0
+BS_Q07P48SY,Blood Derived Normal,PT_S7JCQ3TH,normal,Not Reported,2038.0
+BS_Q0T0VAXT,Blood Derived Normal,PT_WYR1DVHX,normal,Not Reported,2537.0
+BS_Q0XBZP88,Tumor,PT_TS0FW57Z,tumor,Central Nervous System,5766.0
+BS_Q13FQ8FV,Tumor,PT_1DSX4VJM,tumor,Central Nervous System,2627.0
+BS_Q14B10B6,Blood Derived Normal,PT_D215EQAP,normal,Not Reported,2873.0
+BS_Q1SPJ467,Blood Derived Normal,PT_WG2Z95B5,normal,Not Reported,383.0
+BS_Q2T9ZRM0,Tumor,PT_J4MWGQFQ,tumor,Central Nervous System,2961.0
+BS_Q2TEFDZ7,Blood Derived Normal,PT_YRMG61G8,normal,Not Reported,2350.0
+BS_Q3ANJDVG,Tumor,PT_962TCBVR,tumor,Central Nervous System,1717.0
+BS_Q3TBCK4V,Tumor,PT_BK92NM09,tumor,Central Nervous System,1357.0
+BS_Q4NCA4E4,Blood Derived Normal,PT_N4PR21ME,normal,Not Reported,1274.0
+BS_Q50P97Y0,Tumor,PT_S0PBN4M7,tumor,Central Nervous System,392.0
+BS_Q5ABAC4M,Blood Derived Normal,PT_NPETR8RY,normal,Not Reported,1223.0
+BS_Q5AH9TH0,Blood Derived Normal,PT_YT70KJ5P,normal,Not Reported,315.0
+BS_Q5WZYWCT,Tumor,PT_XHYBZKCX,tumor,Central Nervous System,6895.0
+BS_Q5XKTB1V,Tumor,PT_SBHN5F68,tumor,Central Nervous System,2539.0
+BS_Q69BHVQX,Blood Derived Normal,PT_7DP91QDJ,normal,Not Reported,6092.0
+BS_Q6GVRAWK,Tumor,PT_VPEMAQBN,tumor,Central Nervous System,1709.0
+BS_Q6K6BVTF,Blood Derived Normal,PT_K8ZV7APT,normal,Not Reported,6616.0
+BS_Q79NP5YY,Tumor,PT_4Z34K4XB,tumor,Central Nervous System,3509.0
+BS_Q7NF95N0,Blood Derived Normal,PT_JYZA0PNV,normal,Not Reported,2378.0
+BS_Q7R8BT07,Blood Derived Normal,PT_KZ56XHJT,normal,Not Reported,2773.0
+BS_Q807ENGY,Tumor,PT_0H65S44B,tumor,Central Nervous System,1553.0
+BS_Q80JX5G6,Blood Derived Normal,PT_S0PBN4M7,normal,Not Reported,708.0
+BS_Q88059DJ,Tumor,PT_AXMVG8QE,tumor,Central Nervous System,5948.0
+BS_Q9NHTR7G,Tumor,PT_NBSRQAMS,tumor,Central Nervous System,4589.0
+BS_Q9V7A95C,Tumor,PT_1DRAVX4S,tumor,Central Nervous System,1249.0
+BS_QA0W86WP,Tumor,PT_NPPBNRVV,tumor,Central Nervous System,3918.0
+BS_QAG1RDXN,Tumor,PT_2WVW55DA,tumor,Central Nervous System,584.0
+BS_QB7YGKN1,Tumor,PT_9P7P6YAQ,tumor,Central Nervous System,6114.0
+BS_QB84TBA3,Tumor,PT_JC4DHFJR,tumor,Central Nervous System,4656.0
+BS_QBR4WCQ2,Tumor,PT_6PFFSB6D,tumor,Central Nervous System,5690.0
+BS_QBZDQX7A,Tumor,PT_EZW3S4F1,tumor,Central Nervous System,941.0
+BS_QC3XCE6X,Tumor,PT_GB8MNK85,tumor,Central Nervous System,6723.0
+BS_QC5FNXGH,Tumor,PT_45YH276T,tumor,Central Nervous System,623.0
+BS_QD22MJJ5,Tumor,PT_QAX38GM7,tumor,Central Nervous System,4786.0
+BS_QDGHHS4S,Tumor,PT_FFRHWB74,tumor,Central Nervous System,4774.0
+BS_QE5B0T7R,Tumor,PT_H0HWHRPB,tumor,Central Nervous System,3379.0
+BS_QE7WAAKC,Tumor,PT_KDW5HHWQ,tumor,Central Nervous System,7848.0
+BS_QEGZ6CYZ,Blood Derived Normal,PT_VH6S71AC,normal,Not Reported,2728.0
+BS_QEYPFYHD,Tumor,PT_M0AP3Z15,tumor,Central Nervous System,5027.0
+BS_QF5VVZX5,Tumor,PT_CGWPWSXM,tumor,Central Nervous System,600.0
+BS_QFH9XM6Q,Tumor,PT_KAQMYFYB,tumor,Central Nervous System,2219.0
+BS_QG3PYXB4,Blood Derived Normal,PT_A0F23R7E,normal,Not Reported,1464.0
+BS_QG6V29H7,Tumor,PT_59D00MBQ,tumor,Central Nervous System,3283.0
+BS_QGEEVNAS,Blood Derived Normal,PT_NNZQ09SH,normal,Not Reported,4683.0
+BS_QGX93WPF,Tumor,PT_P4ZEFY19,tumor,Central Nervous System,4601.0
+BS_QH82PBMB,Tumor,PT_JQ45JK94,tumor,Central Nervous System,2750.0
+BS_QHS3V0GP,Tumor,PT_NESAQHB1,tumor,Central Nervous System,798.0
+BS_QHTDJG77,Tumor,PT_BRTVGGRK,tumor,Central Nervous System,3424.0
+BS_QK61ST4T,Tumor,PT_WVC247PK,tumor,Central Nervous System,1024.0
+BS_QKT3TJVK,Tumor,PT_8VRZRZ7R,tumor,Central Nervous System,3298.0
+BS_QM1Z8R38,Tumor,PT_5CNZ47XV,tumor,Central Nervous System,5020.0
+BS_QMBK2FV7,Blood Derived Normal,PT_S4A0R1PM,normal,Not Reported,7668.0
+BS_QMDRA3VT,Blood Derived Normal,PT_FFRHWB74,normal,Not Reported,4774.0
+BS_QMG7XNEW,Tumor,PT_DMMKT7X1,tumor,Central Nervous System,5113.0
+BS_QMHND3QK,Tumor,PT_ND34A6PR,tumor,Central Nervous System,2982.0
+BS_QMY84KF4,Tumor,PT_3VCS1PPF,tumor,Central Nervous System,5233.0
+BS_QNAQGAV6,Tumor,PT_XCX9W17B,tumor,Central Nervous System,2616.0
+BS_QNNX91SM,Tumor,PT_CSKHQB16,tumor,Central Nervous System,1460.0
+BS_QNYDD0TY,Blood Derived Normal,PT_VTF65Y63,normal,Not Reported,3195.0
+BS_QP6MSKRE,Tumor,PT_MKDQZ17N,tumor,Central Nervous System,55.0
+BS_QPPPGYP4,Tumor,PT_CZRDBM1Q,tumor,Central Nervous System,2907.0
+BS_QPSQPDR8,Blood Derived Normal,PT_QA9WJ679,normal,Not Reported,5417.0
+BS_QQP17PDQ,Tumor,PT_8GN3TQRM,tumor,Central Nervous System,2515.0
+BS_QRDT19KS,Tumor,PT_24DDXEB5,tumor,Central Nervous System,2678.0
+BS_QRH793AV,Tumor,PT_7M2PGCBV,tumor,Central Nervous System,3895.0
+BS_QRNSKFMS,Tumor,PT_B5VQ16GW,tumor,Central Nervous System,2687.0
+BS_QSDKJM8T,Tumor,PT_WPYCXMDA,tumor,Central Nervous System,5628.0
+BS_QSHPVH0P,Blood Derived Normal,PT_1P436YMM,normal,Not Reported,6969.0
+BS_QSMFVHSB,Tumor,PT_0WKX8Q5X,tumor,Central Nervous System,5358.0
+BS_QSTAVWGE,Tumor,PT_JP1FDKN9,tumor,Central Nervous System,7306.0
+BS_QT3NZ2YZ,Tumor,PT_NESAQHB1,tumor,Central Nervous System,729.0
+BS_QTF9SJGP,Blood Derived Normal,PT_R5T773FS,normal,Not Reported,2758.0
+BS_QTSXW7DA,Tumor,PT_ZD9AYB6F,tumor,Central Nervous System,1850.0
+BS_QV51J756,Tumor,PT_CWD717Q0,tumor,Central Nervous System,3472.0
+BS_QVS9AXGC,Blood Derived Normal,PT_NEB4WEAT,normal,Not Reported,4116.0
+BS_QW5QYXGG,Blood Derived Normal,PT_JPWVCTAJ,normal,Not Reported,7587.0
+BS_QW60M0FE,Tumor,PT_7M2PGCBV,tumor,Central Nervous System,3895.0
+BS_QWM9BPDY,Cell Lines,PT_JNEV57VK,tumor,Central Nervous System,3100.0
+BS_QWNBZ9RJ,Tumor,PT_00G007DM,tumor,Central Nervous System,464.0
+BS_QWS88QXE,Tumor,PT_0DXHDZJR,tumor,Central Nervous System,493.0
+BS_QWTE1CWR,Tumor,PT_1H2REHT2,tumor,Central Nervous System,9602.0
+BS_QX12J6W1,Tumor,PT_XRQHMBHB,tumor,Central Nervous System,2847.0
+BS_QX754ADQ,Tumor,PT_5KRVE8E4,tumor,Central Nervous System,4180.0
+BS_QX8PTX5X,Blood Derived Normal,PT_ZRQQC2S9,normal,Not Reported,5407.0
+BS_QXKRN6CR,Tumor,PT_RM5S859Q,tumor,Central Nervous System,4519.0
+BS_QXZTRMWM,Tumor,PT_1VQWQ0TC,tumor,Central Nervous System,7049.0
+BS_QYFY15FA,Blood Derived Normal,PT_5KRVE8E4,normal,Not Reported,4180.0
+BS_QYGZMWPC,Blood Derived Normal,PT_CXT81GRM,normal,Not Reported,1221.0
+BS_QYPHA40N,Cell Lines,PT_3AWKWXEV,tumor,Central Nervous System,919.0
+BS_QYQNZDD8,Blood Derived Normal,PT_TPSMT960,normal,Not Reported,637.0
+BS_QYWGB52C,Tumor,PT_2Z7GVDTM,tumor,Central Nervous System,4633.0
+BS_QZFEB94Q,Tumor,PT_25Z2NX27,tumor,Central Nervous System,5253.0
+BS_QZPGVNBB,Tumor,PT_RYMG3M91,tumor,Central Nervous System,3656.0
+BS_QZRP3NSG,Cell Lines,PT_KBFM551M,tumor,Central Nervous System,3425.0
+BS_QZT3SPY7,Tumor,PT_26V72ZXB,tumor,Central Nervous System,4170.0
+BS_QZTPJ8YW,Tumor,PT_3V5GTCJR,tumor,Central Nervous System,3371.0
+BS_R035Q020,Blood Derived Normal,PT_0NY38X3W,normal,Not Reported,563.0
+BS_R0JC16SG,Blood Derived Normal,PT_XRQHMBHB,normal,Not Reported,2841.0
+BS_R13X6TMW,Tumor,PT_J0SZ1SX5,tumor,Central Nervous System,210.0
+BS_R1CV479M,Tumor,PT_F3S9PB94,tumor,Central Nervous System,3049.0
+BS_R1G6SG0K,Tumor,PT_KEQ53KRH,tumor,Central Nervous System,3424.0
+BS_R1RMKH1B,Tumor,PT_HQ89KPKT,tumor,Central Nervous System,3999.0
+BS_R1ZBTEAG,Tumor,PT_ATS9XDJ5,tumor,Central Nervous System,3773.0
+BS_R244Z0WX,Tumor,PT_JPWVCTAJ,tumor,Central Nervous System,7587.0
+BS_R2J0DCAT,Blood Derived Normal,PT_BG7GAFK6,normal,Not Reported,3385.0
+BS_R2Z4MK3F,Blood Derived Normal,PT_NESAQHB1,normal,Not Reported,798.0
+BS_R333SVK1,Blood Derived Normal,PT_JP1FDKN9,normal,Not Reported,7306.0
+BS_R3WB0PP7,Tumor,PT_WP871F5S,tumor,Central Nervous System,6428.0
+BS_R439VVPK,Tumor,PT_26V72ZXB,tumor,Central Nervous System,4170.0
+BS_R483NVWW,Blood Derived Normal,PT_5CNZ47XV,normal,Not Reported,5020.0
+BS_R4Y180DM,Tumor,PT_NBSRQAMS,tumor,Central Nervous System,4589.0
+BS_R5G3QP11,Tumor,PT_XRQHMBHB,tumor,Central Nervous System,2847.0
+BS_R5SNFB5B,Tumor,PT_C2D4JXS1,tumor,Central Nervous System,2307.0
+BS_R634WKN7,Tumor,PT_7JQ24F35,tumor,Central Nervous System,341.0
+BS_R6CKWZW6,Tumor,PT_M9XXJ4GR,tumor,Central Nervous System,3893.0
+BS_R6WNEEE4,Tumor,PT_EGGY1XC0,tumor,Central Nervous System,1475.0
+BS_R726FKHP,Tumor,PT_RXJZ3C5G,tumor,Central Nervous System,7301.0
+BS_R7HZCZ8B,Tumor,PT_0CRPE7YP,tumor,Central Nervous System,3004.0
+BS_R7NTZR4C,Tumor,PT_0MXPTTM3,tumor,Central Nervous System,9425.0
+BS_R7TZRSZT,Blood Derived Normal,PT_P5HHJJPH,normal,Not Reported,3739.0
+BS_R7YMKNJN,Tumor,PT_RM5S859Q,tumor,Central Nervous System,4519.0
+BS_R82MYPKB,Tumor,PT_FHDZNN40,tumor,Central Nervous System,130.0
+BS_R8ZKDFWH,Tumor,PT_YXZPWFVB,tumor,Central Nervous System,7768.0
+BS_R913E3VB,Tumor,PT_VABP80N2,tumor,Central Nervous System,4443.0
+BS_R922P3XJ,Tumor,PT_F9F3E8YR,tumor,Central Nervous System,932.0
+BS_R94EDP5H,Tumor,PT_2WVW55DA,tumor,Central Nervous System,245.0
+BS_R9B92M75,Tumor,PT_1YQH5NSH,tumor,Central Nervous System,2520.0
+BS_R9V82BC1,Tumor,PT_3J0ASVHN,tumor,Central Nervous System,946.0
+BS_RA0VCMWC,Tumor,PT_2FVTD0WR,tumor,Central Nervous System,7041.0
+BS_RAFVMB92,Blood Derived Normal,PT_9AW9EWHA,normal,Not Reported,2280.0
+BS_RB2S0KDF,Tumor,PT_A9YAZJNN,tumor,Central Nervous System,8688.0
+BS_RB3PE7G3,Blood Derived Normal,PT_MDWPRDBT,normal,Not Reported,1527.0
+BS_RB8VSEVG,Tumor,PT_5P3XJ97K,tumor,Central Nervous System,4667.0
+BS_RCAZ62J7,Tumor,PT_A4KA01ZH,tumor,Central Nervous System,2.0
+BS_RCC8BXVE,Tumor,PT_WWZ2Q14R,tumor,Central Nervous System,306.0
+BS_RCCN63K6,Tumor,PT_RPC00TAJ,tumor,Central Nervous System,7816.0
+BS_RCFQ31XF,Tumor,PT_3R0P995B,tumor,Central Nervous System,481.0
+BS_RD4D5F9F,Tumor,PT_NTEKMKTX,tumor,Central Nervous System,167.0
+BS_RFMQ7T0T,Tumor,PT_E3Y5BBSF,tumor,Central Nervous System,1709.0
+BS_RG2CTN65,Blood Derived Normal,PT_1BV6ND1D,normal,Not Reported,1453.0
+BS_RG6JK7ZN,Tumor,PT_2WVW55DA,tumor,Central Nervous System,994.0
+BS_RGPSEMHC,Tumor,PT_3A2Q62RD,tumor,Central Nervous System,2184.0
+BS_RGSJMSRE,Tumor,PT_RMK36R2E,tumor,Central Nervous System,3746.0
+BS_RGSMX7QD,Tumor,PT_4EDBZRM2,tumor,Central Nervous System,3940.0
+BS_RH9PMH3G,Tumor,PT_C4F1HPH5,tumor,Central Nervous System,2533.0
+BS_RHD7XPNP,Tumor,PT_JN3EN2HR,tumor,Central Nervous System,3887.0
+BS_RHEBGZF8,Tumor,PT_9A6RPJ97,tumor,Central Nervous System,2994.0
+BS_RJ0CHRKK,Blood Derived Normal,PT_E546ZRXA,normal,Not Reported,1538.0
+BS_RJM8JYAV,Blood Derived Normal,PT_CSKHQB16,normal,Not Reported,1460.0
+BS_RK06RAFZ,Blood Derived Normal,PT_EYX2CP9F,normal,Not Reported,7023.0
+BS_RKDSFDS1,Blood Derived Normal,PT_C9YDTZPA,normal,Not Reported,1978.0
+BS_RKNNAG23,Blood Derived Normal,PT_EYHJQQ8E,normal,Not Reported,4457.0
+BS_RNNWQNGX,Blood Derived Normal,PT_HGM20MW7,normal,Not Reported,3558.0
+BS_RP8JJ88Z,Blood Derived Normal,PT_0EBP2PBD,normal,Not Reported,2801.0
+BS_RQ5Z7KNW,Tumor,PT_G3AVDN4E,tumor,Central Nervous System,2320.0
+BS_RQPK5NY1,Blood Derived Normal,PT_QEMT1845,normal,Not Reported,5719.0
+BS_RQSKD7PN,Tumor,PT_2E552BAR,tumor,Central Nervous System,7300.0
+BS_RR12T74P,Tumor,PT_DTP4MMRA,tumor,Central Nervous System,4988.0
+BS_RR3DKGKY,Tumor,PT_Q38AT6JY,tumor,Central Nervous System,1828.0
+BS_RRAEQZ97,Tumor,PT_FXPJM0MW,tumor,Central Nervous System,1857.0
+BS_RREVQG9H,Blood Derived Normal,PT_D1WJ3BJX,normal,Not Reported,5620.0
+BS_RSRPX3S8,Tumor,PT_GR8P8NY5,tumor,Central Nervous System,1235.0
+BS_RVFDSK8D,Saliva,PT_5ABCFCSK,normal,Not Reported,8243.0
+BS_RVSEDNJ4,Tumor,PT_HGHV85PZ,tumor,Central Nervous System,5209.0
+BS_RVT7EHNX,Blood Derived Normal,PT_5K5CZXYB,normal,Not Reported,5151.0
+BS_RW50H521,Blood Derived Normal,PT_RJ98S3KZ,normal,Not Reported,4452.0
+BS_RWJ0571Q,Tumor,PT_RYMG3M91,tumor,Central Nervous System,3656.0
+BS_RWJZFTP9,Tumor,PT_S0PBN4M7,tumor,Central Nervous System,392.0
+BS_RX1YTZ7F,Tumor,PT_4XB3YTJM,tumor,Central Nervous System,1897.0
+BS_RX561Y2K,Blood Derived Normal,PT_ZZTQQVCT,normal,Not Reported,4326.0
+BS_RXN5T5YT,Tumor,PT_PR4YBBH3,tumor,Central Nervous System,3739.0
+BS_RXP2ZRQT,Cell Lines,PT_JSFBMK5V,tumor,Central Nervous System,6234.0
+BS_RXSBJ929,Tumor,PT_8GN3TQRM,tumor,Central Nervous System,2596.0
+BS_RZHVM2QD,Blood Derived Normal,PT_MNHMAH0S,normal,Not Reported,4261.0
+BS_RZNNEX1Y,Tumor,PT_WYF217NZ,tumor,Central Nervous System,2478.0
+BS_S0175QKX,Tumor,PT_0NY38X3W,tumor,Central Nervous System,563.0
+BS_S0NVKYR6,Blood Derived Normal,PT_FAPEH6R1,normal,Not Reported,4379.0
+BS_S0T3CQ97,Tumor,PT_63HDZHCN,tumor,Central Nervous System,2938.0
+BS_S0WS43HJ,Blood Derived Normal,PT_RGX23JFP,normal,Not Reported,4776.0
+BS_S1KK7XRH,Tumor,PT_YJBPEF4V,tumor,Central Nervous System,7149.0
+BS_S1M423AB,Tumor,PT_BRTVGGRK,tumor,Central Nervous System,3424.0
+BS_S1QGSH0W,Blood Derived Normal,PT_A06JR0E5,normal,Not Reported,2205.0
+BS_S2N3XTKS,Blood Derived Normal,PT_RX1EWBP9,normal,Not Reported,1876.0
+BS_S2TA8R29,Tumor,PT_4A2H0KNR,tumor,Central Nervous System,1007.0
+BS_S34SCYW4,Tumor,PT_TVK2KY36,tumor,Central Nervous System,3630.0
+BS_S3VV60EP,Blood Derived Normal,PT_8GW4J4TD,normal,Not Reported,6626.0
+BS_S458NMKH,Tumor,PT_S2SQJVGK,tumor,Central Nervous System,4222.0
+BS_S4V9E1XJ,Tumor,PT_Y572BRC1,tumor,Central Nervous System,4676.0
+BS_S50KQEXV,Tumor,PT_MPRBGGEJ,tumor,Central Nervous System,5937.0
+BS_S573YGV3,Blood Derived Normal,PT_S3FJSBJT,normal,Not Reported,6194.0
+BS_S588W9V2,Blood Derived Normal,PT_2ZXR2PDN,normal,Not Reported,3941.0
+BS_S5EPM2VY,Blood Derived Normal,PT_FHDZNN40,normal,Not Reported,130.0
+BS_S5P8VTN5,Tumor,PT_858H7ABM,tumor,Central Nervous System,6704.0
+BS_S69QZAJR,Tumor,PT_5JA1N2H4,tumor,Central Nervous System,1816.0
+BS_S6EXG9N9,Blood Derived Normal,PT_QQ9JGEY9,normal,Not Reported,6349.0
+BS_S6NJRR5W,Tumor,PT_VTF65Y63,tumor,Central Nervous System,3195.0
+BS_S6Q7NKA3,Tumor,PT_9S6WMQ92,tumor,Central Nervous System,6992.0
+BS_S6S7SK3P,Tumor,PT_37B5JRP1,tumor,Central Nervous System,5746.0
+BS_S71RJ8DH,Tumor,PT_E6FTW238,tumor,Central Nervous System,557.0
+BS_S75EZJDW,Blood Derived Normal,PT_S0Q27J13,normal,Not Reported,6338.0
+BS_S791VC80,Tumor,PT_8GN3TQRM,tumor,Central Nervous System,2842.0
+BS_S7CZY2CH,Tumor,PT_BXXZE0CQ,tumor,Central Nervous System,3153.0
+BS_S7MPY3T4,Blood Derived Normal,PT_DH8A0SNQ,normal,Not Reported,15.0
+BS_S7S6YEHA,Tumor,PT_8GBF5MTD,tumor,Central Nervous System,1985.0
+BS_S88G7BXH,Tumor,PT_94EHCMXA,tumor,Central Nervous System,1855.0
+BS_S8A23A9V,Blood Derived Normal,PT_4B34NTJB,normal,Not Reported,3147.0
+BS_S8CT9Z7J,Blood Derived Normal,PT_5M8A47WW,normal,Not Reported,603.0
+BS_S9929Z8B,Tumor,PT_AWMZ12NP,tumor,Central Nervous System,2448.0
+BS_S9CT40AZ,Blood Derived Normal,PT_ZWY04DCR,normal,Not Reported,6026.0
+BS_SAA624A4,Tumor,PT_EG7PH32E,tumor,Central Nervous System,5028.0
+BS_SB12W1XT,Tumor,PT_3AWKWXEV,tumor,Central Nervous System,919.0
+BS_SBFNFZ8B,Tumor,PT_1EB5KHZX,tumor,Central Nervous System,666.0
+BS_SCCY3YMQ,Blood Derived Normal,PT_K30AWQ8A,normal,Not Reported,4087.0
+BS_SCQNN2A2,Tumor,PT_H8Z52K09,tumor,Central Nervous System,624.0
+BS_SD28E0SC,Tumor,PT_N3HVMV06,tumor,Central Nervous System,5416.0
+BS_SD8YBRBR,Tumor,PT_TPDB1WC8,tumor,Central Nervous System,1845.0
+BS_SDA4RMMG,Tumor,PT_EW604JB3,tumor,Central Nervous System,1244.0
+BS_SDCNP7MW,Tumor,PT_3KWSRWZN,tumor,Central Nervous System,4590.0
+BS_SDDK3Q44,Blood Derived Normal,PT_HFQNKP5X,normal,Not Reported,1653.0
+BS_SDT1J3A7,Tumor,PT_9AHA6KW3,tumor,Central Nervous System,2096.0
+BS_SDZY6RZ3,Tumor,PT_5GQ76YZJ,tumor,Central Nervous System,1933.0
+BS_SE82EQF8,Tumor,PT_TD6ST5MG,tumor,Central Nervous System,129.0
+BS_SEERSEV2,Blood Derived Normal,PT_FZHGKJ0H,normal,Not Reported,2368.0
+BS_SES41DAX,Tumor,PT_GKSABESN,tumor,Central Nervous System,108.0
+BS_SF02KBCG,Blood Derived Normal,PT_EGGY1XC0,normal,Not Reported,1475.0
+BS_SFH8TGKT,Tumor,PT_D215EQAP,tumor,Central Nervous System,2759.0
+BS_SFKZSJN1,Tumor,PT_409Y4N1N,tumor,Central Nervous System,4334.0
+BS_SFRQXM76,Tumor,PT_DPVW4M1W,tumor,Central Nervous System,5064.0
+BS_SFZ3A07S,Tumor,PT_6TZR2DH1,tumor,Central Nervous System,2660.0
+BS_SG7EPZ4W,Blood Derived Normal,PT_DW6V5V8E,normal,Not Reported,1069.0
+BS_SGS26NXP,Blood Derived Normal,PT_JNEV57VK,normal,Not Reported,2869.0
+BS_SHJA4MR0,Tumor,PT_Z4BF2NSB,tumor,Central Nervous System,5908.0
+BS_SHMC4902,Tumor,PT_TPSMT960,tumor,Central Nervous System,637.0
+BS_SK4H5MJQ,Tumor,PT_RSDTCFDA,tumor,Central Nervous System,4946.0
+BS_SK68QV3Y,Blood Derived Normal,PT_H876VB6R,normal,Not Reported,575.0
+BS_SK949N33,Tumor,PT_E1TRJP8V,tumor,Central Nervous System,2419.0
+BS_SKGJ5SY9,Tumor,PT_D1WJ3BJX,tumor,Central Nervous System,5620.0
+BS_SKRY0BJ4,Tumor,PT_HNZNZ635,tumor,Central Nervous System,2199.0
+BS_SKWPQHER,Blood Derived Normal,PT_Y660CKCB,normal,Not Reported,5796.0
+BS_SM8VQFPD,Tumor,PT_5KP2E0DS,tumor,Central Nervous System,5871.0
+BS_SMCPASF0,Tumor,PT_XXZHRPNM,tumor,Central Nervous System,1667.0
+BS_SMRT95TG,Blood Derived Normal,PT_RH59ET3M,normal,Not Reported,3336.0
+BS_SN2CD2FC,Blood Derived Normal,PT_P4ZEFY19,normal,Not Reported,4601.0
+BS_SNC5WMVN,Tumor,PT_X8SK8120,tumor,Central Nervous System,9701.0
+BS_SNRF1RKC,Blood Derived Normal,PT_KTRJ8TFY,normal,Not Reported,2079.0
+BS_SNVM7CZT,Tumor,PT_H2HT2WQX,tumor,Central Nervous System,1292.0
+BS_SP3ND4W3,Blood Derived Normal,PT_QQZXYR4M,normal,Not Reported,9490.0
+BS_SP886CE6,Blood Derived Normal,PT_27FDWCVZ,normal,Not Reported,3295.0
+BS_SQSH5G7A,Tumor,PT_DPVW4M1W,tumor,Central Nervous System,5064.0
+BS_SQT11CPC,Blood Derived Normal,PT_NTK39NNV,normal,Not Reported,5518.0
+BS_SQX5E15Z,Tumor,PT_1N6ATKJS,tumor,Central Nervous System,4940.0
+BS_SS95SWY2,Blood Derived Normal,PT_WG5PHHSQ,normal,Not Reported,4176.0
+BS_SSVBWYPN,Blood Derived Normal,PT_HN0AXSZ0,normal,Not Reported,7197.0
+BS_SSYNTXDC,Tumor,PT_PJFTMJ6H,tumor,Central Nervous System,3256.0
+BS_ST3Z2B9B,Tumor,PT_2SCVQ2N6,tumor,Central Nervous System,4770.0
+BS_ST9MMP22,Blood Derived Normal,PT_ECBD1D5J,normal,Not Reported,5918.0
+BS_STNH7YSX,Tumor,PT_9BZETM0M,tumor,Central Nervous System,6523.0
+BS_STZ2C71Q,Blood Derived Normal,PT_NK8A49X5,normal,Not Reported,4896.0
+BS_SW8JSYQ7,Blood Derived Normal,PT_YDWBWTVN,normal,Not Reported,2846.0
+BS_SWHQ8FDW,Tumor,PT_ESHACWF6,tumor,Central Nervous System,1506.0
+BS_SWHT4TC3,Blood Derived Normal,PT_6VJ5PNKS,normal,Not Reported,3979.0
+BS_SXCZ3CXN,Tumor,PT_CMB6TASJ,tumor,Central Nervous System,772.0
+BS_SXRS2P6T,Tumor,PT_7YGZ526E,tumor,Central Nervous System,1168.0
+BS_SY0S6QFV,Blood Derived Normal,PT_C4F1HPH5,normal,Not Reported,2533.0
+BS_SYGKQD8M,Tumor,PT_RGX23JFP,tumor,Central Nervous System,4776.0
+BS_SYGXZY9V,Saliva,PT_D7FS86D8,normal,Not Reported,8812.0
+BS_SYWRCE3Z,Tumor,PT_RM9AZ7A8,tumor,Central Nervous System,6986.0
+BS_SZ8VDANB,Blood Derived Normal,PT_6PJ126FF,normal,Not Reported,5353.0
+BS_SZYRB89G,Blood Derived Normal,PT_T5KEXCK7,normal,Not Reported,1097.0
+BS_T0RKFEKR,Tumor,PT_AYVKQZRB,tumor,Central Nervous System,5247.0
+BS_T1DVKKJB,Tumor,PT_JP1FDKN9,tumor,Central Nervous System,3143.0
+BS_T1QMEH1N,Tumor,PT_EXJAEW1M,tumor,Central Nervous System,5448.0
+BS_T1SNKF50,Tumor,PT_CYBYN18G,tumor,Central Nervous System,3474.0
+BS_T1W4JA94,Tumor,PT_QT9T89S5,tumor,Central Nervous System,480.0
+BS_T1YHK6B7,Tumor,PT_DNH1VP67,tumor,Central Nervous System,2224.0
+BS_T2025VEQ,Blood Derived Normal,PT_7BJBEBZT,normal,Not Reported,2511.0
+BS_T20VY3XN,Blood Derived Normal,PT_AYZA2WCW,normal,Not Reported,3206.0
+BS_T2QPMZCM,Tumor,PT_6VJ5PNKS,tumor,Central Nervous System,3979.0
+BS_T3DGY9J9,Tumor,PT_JSFBMK5V,tumor,Central Nervous System,5653.0
+BS_T3FD64Z7,Blood Derived Normal,PT_S7YHNHSS,normal,Not Reported,6195.0
+BS_T3H5AY8A,Tumor,PT_KMHGNCNR,tumor,Central Nervous System,421.0
+BS_T3VJQSYM,Blood Derived Normal,PT_DEDRCQWH,normal,Not Reported,516.0
+BS_T4JFN54G,Tumor,PT_8XZY6MM1,tumor,Central Nervous System,2810.0
+BS_T4P3J13C,Tumor,PT_N9KYV4WB,tumor,Central Nervous System,334.0
+BS_T54TAE3R,Tumor,PT_E3S6H59E,tumor,Central Nervous System,4921.0
+BS_T55Y4Z0Y,Tumor,PT_VBNP6JFB,tumor,Central Nervous System,371.0
+BS_T5772838,Blood Derived Normal,PT_W3FSA7NH,normal,Not Reported,2940.0
+BS_T5HPW4Z0,Tumor,PT_ZG4J0EK0,tumor,Central Nervous System,2050.0
+BS_T5T21G7N,Tumor,PT_KMHGNCNR,tumor,Central Nervous System,1083.0
+BS_T5TB5NM7,Blood Derived Normal,PT_RFF7MKTC,normal,Not Reported,1818.0
+BS_T5WVTGV8,Blood Derived Normal,PT_E78NHRWQ,normal,Not Reported,1825.0
+BS_T77MXWTX,Blood Derived Normal,PT_387VK1T9,normal,Not Reported,70.0
+BS_T7WMJ08W,Tumor,PT_40HTPY49,tumor,Central Nervous System,2606.0
+BS_T8C13KNH,Tumor,PT_WE7HQN0C,tumor,Central Nervous System,4318.0
+BS_T8TCEBB1,Tumor,PT_78NQ0QQS,tumor,Central Nervous System,4406.0
+BS_T97EP8H0,Tumor,PT_QT9T89S5,tumor,Central Nervous System,480.0
+BS_T99M7842,Tumor,PT_MA0J8DSN,tumor,Central Nervous System,1817.0
+BS_T9T3R2J0,Tumor,PT_T3REPTTC,tumor,Central Nervous System,754.0
+BS_TA48KCWF,Blood Derived Normal,PT_7TEHW6VQ,normal,Not Reported,3998.0
+BS_TA9WP4TH,Tumor,PT_B7QRTN72,tumor,Central Nervous System,1694.0
+BS_TAHV8N04,Tumor,PT_KCTZZA3G,tumor,Central Nervous System,6344.0
+BS_TARPGT44,Blood Derived Normal,PT_S7WJ99PC,normal,Not Reported,4370.0
+BS_TBWYAFSM,Tumor,PT_625X34JX,tumor,Central Nervous System,6152.0
+BS_TBYS2Z4H,Blood Derived Normal,PT_0H65S44B,normal,Not Reported,1553.0
+BS_TCGEZJ5F,Tumor,PT_W17NV5YG,tumor,Central Nervous System,221.0
+BS_TD1ZEQ7R,Tumor,PT_MRTHX2AQ,tumor,Central Nervous System,1689.0
+BS_TDEFAPNH,Tumor,PT_GYJ97915,tumor,Central Nervous System,4024.0
+BS_TDN8NVYJ,Blood Derived Normal,PT_YFS3AWC0,normal,Not Reported,1575.0
+BS_TE01WW4M,Blood Derived Normal,PT_E4ECAFEN,normal,Not Reported,5666.0
+BS_TE0GVDNG,Tumor,PT_2FK75B27,tumor,Central Nervous System,2538.0
+BS_TE8QFF7T,Tumor,PT_01MZ62KG,tumor,Central Nervous System,546.0
+BS_TF5TTEXH,Cell Lines,PT_Z4PJA6KT,tumor,Central Nervous System,3810.0
+BS_TF6H437Q,Tumor,PT_VJBVXB08,tumor,Central Nervous System,1039.0
+BS_TG80SF4Z,Blood Derived Normal,PT_T4VKB29K,normal,Not Reported,1883.0
+BS_TG93XC55,Tumor,PT_DDFAZ345,tumor,Central Nervous System,1441.0
+BS_TGEBNSS2,Blood Derived Normal,PT_5VAKED5F,normal,Not Reported,1607.0
+BS_TGS109T3,Tumor,PT_18QG3Z4H,tumor,Central Nervous System,4098.0
+BS_TGW6HC4X,Tumor,PT_X0FPPTMT,tumor,Central Nervous System,6412.0
+BS_TH4A63J7,Blood Derived Normal,PT_164RNWTT,normal,Not Reported,2549.0
+BS_THDBV4G0,Blood Derived Normal,PT_2JDDX6TJ,normal,Not Reported,4253.0
+BS_THH0CE5A,Tumor,PT_1J2DT6MM,tumor,Central Nervous System,3602.0
+BS_THSPSG2Z,Tumor,PT_M0FVZ88D,tumor,Central Nervous System,8389.0
+BS_TJTEF70D,Tumor,PT_MDWPRDBT,tumor,Central Nervous System,1527.0
+BS_TK84K675,Tumor,PT_MDWPRDBT,tumor,Central Nervous System,2230.0
+BS_TKRHXGZQ,Blood Derived Normal,PT_XWVQW6JX,normal,Not Reported,6149.0
+BS_TM9MH0RP,Tumor,PT_59D00MBQ,tumor,Central Nervous System,3291.0
+BS_TMTV769C,Tumor,PT_8FWP7BR3,tumor,Central Nervous System,4574.0
+BS_TNQKJZCP,Tumor,PT_9DER14KH,tumor,Central Nervous System,3503.0
+BS_TNRHHYNC,Tumor,PT_S8E3281G,tumor,Central Nervous System,6592.0
+BS_TP6GSAB6,Blood Derived Normal,PT_5SX0GRW1,normal,Not Reported,2342.0
+BS_TPX7YY57,Tumor,PT_QEMT1845,tumor,Central Nervous System,5719.0
+BS_TQ0J7WJQ,Tumor,PT_WGVEF96B,tumor,Central Nervous System,2853.0
+BS_TQ5QHR17,Tumor,PT_M7NFAC5G,tumor,Central Nervous System,212.0
+BS_TQYACCGG,Blood Derived Normal,PT_DACV00WF,normal,Not Reported,116.0
+BS_TRGECFNP,Tumor,PT_VCD0W8HG,tumor,Central Nervous System,4320.0
+BS_TRKH2SPE,Tumor,PT_RA6AGBA7,tumor,Central Nervous System,3591.0
+BS_TTRNJ8DJ,Blood Derived Normal,PT_HQ89KPKT,normal,Not Reported,3999.0
+BS_TTVB22NF,Blood Derived Normal,PT_TD6ST5MG,normal,Not Reported,1448.0
+BS_TTZA89Y4,Blood Derived Normal,PT_2VSDT9CK,normal,Not Reported,1956.0
+BS_TV12GQHS,Blood Derived Normal,PT_HEGTYPQJ,normal,Not Reported,6148.0
+BS_TV5B86ZD,Tumor,PT_9BZETM0M,tumor,Central Nervous System,6523.0
+BS_TV8HD883,Blood Derived Normal,PT_4EDBZRM2,normal,Not Reported,3940.0
+BS_TWCW8QZV,Blood Derived Normal,PT_ADTP7EHN,normal,Not Reported,2938.0
+BS_TX2WGF8K,Tumor,PT_KCTZZA3G,tumor,Central Nervous System,6352.0
+BS_TX8C5VAJ,Cell Lines,PT_HNZNZ635,tumor,Central Nervous System,2199.0
+BS_TXY8QYWA,Tumor,PT_H876VB6R,tumor,Central Nervous System,372.0
+BS_TXZ7KHTQ,Tumor,PT_VWZZTK38,tumor,Central Nervous System,4231.0
+BS_TYAYZ9ZW,Tumor,PT_NV584F7Q,tumor,Central Nervous System,2066.0
+BS_TYCE05MW,Blood Derived Normal,PT_6E8JYRXM,normal,Not Reported,996.0
+BS_TYFD8ZMG,Tumor,PT_WGVEF96B,tumor,Central Nervous System,2853.0
+BS_TYKJ8G2G,Tumor,PT_EYWDFKA7,tumor,Central Nervous System,3609.0
+BS_TZ5D0A7R,Tumor,PT_8SDJXNFR,tumor,Central Nervous System,1580.0
+BS_TZPJHKQR,Tumor,PT_N8W26H19,tumor,Central Nervous System,5401.0
+BS_TZQ8XNQQ,Blood Derived Normal,PT_6DW5NFKX,normal,Not Reported,4393.0
+BS_TZVFR600,Tumor,PT_RFB07MZS,tumor,Central Nervous System,1385.0
+BS_V0Q1G94N,Tumor,PT_Y572BRC1,tumor,Central Nervous System,3977.0
+BS_V1P84V9F,Blood Derived Normal,PT_0CE0HFYB,normal,Not Reported,3747.0
+BS_V2MDX7HG,Tumor,PT_D13X3N8F,tumor,Central Nervous System,1144.0
+BS_V3REENH9,Tumor,PT_P9RT6693,tumor,Central Nervous System,3260.0
+BS_V3SC6NWH,Tumor,PT_7DP91QDJ,tumor,Central Nervous System,6092.0
+BS_V3Z3DB4N,Tumor,PT_PF9EC93Q,tumor,Central Nervous System,2446.0
+BS_V3ZNXRHK,Tumor,PT_GDDWPDMC,tumor,Central Nervous System,6711.0
+BS_V4W81SFC,Tumor,PT_W17NV5YG,tumor,Central Nervous System,102.0
+BS_V6HKXX1Z,Tumor,PT_V9WP047R,tumor,Central Nervous System,2212.0
+BS_V72GX2AZ,Tumor,PT_V07ZH5JS,tumor,Central Nervous System,5399.0
+BS_V72H4RQS,Tumor,PT_KN25EYMG,tumor,Central Nervous System,1750.0
+BS_V733WCVK,Blood Derived Normal,PT_3KWSRWZN,normal,Not Reported,4590.0
+BS_V79WFJ6N,Tumor,PT_AP9P5D7N,tumor,Central Nervous System,7737.0
+BS_V7BJM89K,Tumor,PT_94EHCMXA,tumor,Central Nervous System,1855.0
+BS_V89HGTET,Tumor,PT_N9CGVG02,tumor,Central Nervous System,4114.0
+BS_V8G6BZRR,Tumor,PT_8GW4J4TD,tumor,Central Nervous System,6626.0
+BS_V8GEAEZJ,Blood Derived Normal,PT_YGN06RPZ,normal,Not Reported,2886.0
+BS_V8JGE8N1,Blood Derived Normal,PT_PX4E85V1,normal,Not Reported,1680.0
+BS_V96WVE3Z,Tumor,PT_H3WWDMW9,tumor,Central Nervous System,486.0
+BS_V9HVBBDW,Tumor,PT_CTSQ5FHH,tumor,Central Nervous System,1663.0
+BS_VA07453Z,Tumor,PT_GHHY5AAE,tumor,Central Nervous System,5054.0
+BS_VA0KWD52,Blood Derived Normal,PT_69C7CBFW,normal,Not Reported,250.0
+BS_VA5T4KAA,Tumor,PT_2ZTXV44P,tumor,Central Nervous System,1889.0
+BS_VA9JGYAX,Blood Derived Normal,PT_VJBVXB08,normal,Not Reported,1039.0
+BS_VAAHBH60,Tumor,PT_GH27VJBD,tumor,Central Nervous System,2471.0
+BS_VARR255N,Tumor,PT_W3FSA7NH,tumor,Central Nervous System,3271.0
+BS_VBB1XSPW,Blood Derived Normal,PT_279D9QZ8,normal,Not Reported,7771.0
+BS_VCCX0CTG,Blood Derived Normal,PT_8V3360DR,normal,Not Reported,7605.0
+BS_VCE73HPW,Tumor,PT_1YQH5NSH,tumor,Central Nervous System,2520.0
+BS_VDSR4X6N,Tumor,PT_HGHV85PZ,tumor,Central Nervous System,5209.0
+BS_VF099E8S,Tumor,PT_ZCXS29JJ,tumor,Central Nervous System,4196.0
+BS_VF1R7VC2,Blood Derived Normal,PT_SW4Q1HZP,normal,Not Reported,3072.0
+BS_VF5XWFXD,Tumor,PT_JNEV57VK,tumor,Central Nervous System,2869.0
+BS_VHD4ARSG,Tumor,PT_4XWYZYJS,tumor,Central Nervous System,3085.0
+BS_VHG85P93,Blood Derived Normal,PT_8SDJXNFR,normal,Not Reported,1580.0
+BS_VJ2S5DVS,Tumor,PT_MT27S7S4,tumor,Central Nervous System,7177.0
+BS_VJ7200DX,Blood Derived Normal,PT_3WA7SBQ6,normal,Not Reported,698.0
+BS_VJAC9H58,Tumor,PT_SABHZ7XX,tumor,Central Nervous System,7122.0
+BS_VJVDJABP,Tumor,PT_XX2VW3D9,tumor,Central Nervous System,2038.0
+BS_VK46N40F,Tumor,PT_QZN7FZER,tumor,Central Nervous System,6256.0
+BS_VKGSMV3F,Blood Derived Normal,PT_C9YDTZPA,normal,Not Reported,1978.0
+BS_VKH9KYDB,Tumor,PT_HEGTYPQJ,tumor,Central Nervous System,4850.0
+BS_VKYEM67A,Tumor,PT_V482NWB8,tumor,Central Nervous System,4049.0
+BS_VM2GYF7B,Blood Derived Normal,PT_XDV8W16W,normal,Not Reported,5108.0
+BS_VMEX27TN,Tumor,PT_5AF1501D,tumor,Central Nervous System,4869.0
+BS_VMMJYN8Z,Tumor,PT_WY8REZ3P,tumor,Central Nervous System,5210.0
+BS_VMQMGSJY,Tumor,PT_63F63QY0,tumor,Central Nervous System,5205.0
+BS_VMZMGB7B,Tumor,PT_3D74J8RZ,tumor,Central Nervous System,9190.0
+BS_VN983YRH,Blood Derived Normal,PT_41QYPSGV,normal,Not Reported,5203.0
+BS_VNBX1SEV,Blood Derived Normal,PT_RSDTCFDA,normal,Not Reported,4946.0
+BS_VNE0ZPBS,Tumor,PT_F9F3E8YR,tumor,Central Nervous System,932.0
+BS_VNK9XYV9,Tumor,PT_WYR1DVHX,tumor,Central Nervous System,2537.0
+BS_VNWKNRY4,Tumor,PT_EB0D3BXG,tumor,Central Nervous System,4447.0
+BS_VP3C8WZT,Tumor,PT_962TCBVR,tumor,Central Nervous System,1359.0
+BS_VP3FYM4W,Blood Derived Normal,PT_DMAF1J4A,normal,Not Reported,2233.0
+BS_VP4S1XTC,Blood Derived Normal,PT_J50NZYZF,normal,Not Reported,1988.0
+BS_VP4WNVZG,Blood Derived Normal,PT_VJ0M4E8Y,normal,Not Reported,2154.0
+BS_VP5Y45Z7,Tumor,PT_YMN5GV47,tumor,Central Nervous System,1455.0
+BS_VPBMDMQX,Tumor,PT_STRDJQ01,tumor,Central Nervous System,475.0
+BS_VPJ9CARN,Tumor,PT_AC5SD9AC,tumor,Central Nervous System,1598.0
+BS_VPMKHW9X,Tumor,PT_WPYCXMDA,tumor,Central Nervous System,5628.0
+BS_VPNXJE2S,Tumor,PT_V5ASTHRH,tumor,Central Nervous System,6196.0
+BS_VQC2PE2B,Tumor,PT_9B6KWJT2,tumor,Central Nervous System,4947.0
+BS_VQEPFE1P,Tumor,PT_0RN3VSXZ,tumor,Central Nervous System,2828.0
+BS_VR7FR1NE,Tumor,PT_6MWPJ96F,tumor,Central Nervous System,2897.0
+BS_VT6C6N6K,Tumor,PT_1NZGDP3P,tumor,Central Nervous System,882.0
+BS_VTJ9ESSV,Tumor,PT_MA0J8DSN,tumor,Central Nervous System,1817.0
+BS_VTTTQYQA,Tumor,PT_5FR2YA6E,tumor,Central Nervous System,4234.0
+BS_VVD8TJNE,Tumor,PT_WWME595X,tumor,Central Nervous System,4259.0
+BS_VVFBW0YH,Tumor,PT_7QKGGMKV,tumor,Central Nervous System,3557.0
+BS_VVTHDRBD,Tumor,PT_Y76A7PBA,tumor,Central Nervous System,4166.0
+BS_VW4XN9Y7,Tumor,PT_0SPKM4S8,tumor,Central Nervous System,2005.0
+BS_VW85Q4XJ,Tumor,PT_2YT37G8P,tumor,Central Nervous System,1310.0
+BS_VW96PFKQ,Tumor,PT_3RN24N9X,tumor,Central Nervous System,1469.0
+BS_VXDGXQKZ,Cell Lines,PT_VPEMAQBN,tumor,Central Nervous System,1709.0
+BS_VXEFKW5P,Tumor,PT_S4YNE17X,tumor,Central Nervous System,4546.0
+BS_VXHWZJDC,Tumor,PT_5X061J42,tumor,Central Nervous System,2813.0
+BS_VXNT1TDB,Tumor,PT_PGVQ4XRZ,tumor,Central Nervous System,4513.0
+BS_VZ4NGF34,Blood Derived Normal,PT_DFXQFYPV,normal,Not Reported,3606.0
+BS_W1385R8Y,Tumor,PT_Y585X1BS,tumor,Central Nervous System,3215.0
+BS_W18SF91A,Tumor,PT_HBT0C66Y,tumor,Central Nervous System,1864.0
+BS_W1T5T8WS,Blood Derived Normal,PT_GERCQ0JG,normal,Not Reported,3022.0
+BS_W23ERYW3,Tumor,PT_TV5DYHNC,tumor,Central Nervous System,1113.0
+BS_W2QCHQ7E,Tumor,PT_Z4BF2NSB,tumor,Central Nervous System,5908.0
+BS_W311713R,Tumor,PT_JEA0AEMZ,tumor,Central Nervous System,2327.0
+BS_W36RZSFA,Tumor,PT_7TRGHZBK,tumor,Central Nervous System,1098.0
+BS_W3R2DQ86,Tumor,PT_K94ZVZMX,tumor,Central Nervous System,4526.0
+BS_W3R88RFP,Tumor,PT_2ECVKTTQ,tumor,Central Nervous System,4937.0
+BS_W41S7B55,Tumor,PT_NGDW8WVP,tumor,Central Nervous System,6429.0
+BS_W489E0R2,Blood Derived Normal,PT_FMK5VFYW,normal,Not Reported,374.0
+BS_W4DB5RP1,Tumor,PT_XKVFVBY4,tumor,Central Nervous System,2372.0
+BS_W4H1D4Y6,Tumor,PT_X7HC5YCY,tumor,Central Nervous System,6120.0
+BS_W4HGV6E7,Tumor,PT_2C63FJAM,tumor,Central Nervous System,3825.0
+BS_W4ZEEWZA,Blood Derived Normal,PT_ZZWYKZZ8,normal,Not Reported,3171.0
+BS_W50WEJE7,Tumor,PT_25Z2NX27,tumor,Central Nervous System,3674.0
+BS_W5P7SPDH,Tumor,PT_NPETR8RY,tumor,Central Nervous System,1223.0
+BS_W60RQAKK,Tumor,PT_CSZ9QA1N,tumor,Central Nervous System,3633.0
+BS_W644VEVE,Tumor,PT_XA98HG1C,tumor,Central Nervous System,4021.0
+BS_W6AC5J3C,Tumor,PT_16EJ7BZ9,tumor,Central Nervous System,3708.0
+BS_W6B48DD5,Tumor,PT_GPQJYAW4,tumor,Central Nervous System,4307.0
+BS_W72364MN,Tumor,PT_PKCTFSV2,tumor,Central Nervous System,11609.0
+BS_W74D279Q,Tumor,PT_JP1FDKN9,tumor,Central Nervous System,3143.0
+BS_W75GCHPW,Blood Derived Normal,PT_ESHACWF6,normal,Not Reported,1904.0
+BS_W7FP2G3F,Tumor,PT_GERCQ0JG,tumor,Central Nervous System,3022.0
+BS_W7MFJZ5A,Tumor,PT_C5FKRB1P,tumor,Central Nervous System,4529.0
+BS_W7P0FTAQ,Blood Derived Normal,PT_FCM7XPVR,normal,Not Reported,6535.0
+BS_W80TJC27,Tumor,PT_R6WWH1QX,tumor,Central Nervous System,2896.0
+BS_W82P51ED,Blood Derived Normal,PT_X8S0H6TG,normal,Not Reported,2144.0
+BS_W8DA9AXT,Tumor,PT_E3Y5BBSF,tumor,Central Nervous System,1709.0
+BS_W97QQYKQ,Tumor,PT_GKWWWJ0X,tumor,Central Nervous System,432.0
+BS_W9AT0MR7,Tumor,PT_8RB3EKNP,tumor,Central Nervous System,2059.0
+BS_W9FW1PAE,Tumor,PT_4ZSR5DY8,tumor,Central Nervous System,7562.0
+BS_W9N9844Q,Tumor,PT_3CHB9PK5,tumor,Central Nervous System,2908.0
+BS_W9P0PFDH,Tumor,PT_S7WJ99PC,tumor,Central Nervous System,2936.0
+BS_WA65EGJJ,Blood Derived Normal,PT_M0FVZ88D,normal,Not Reported,8389.0
+BS_WAXJY4XQ,Tumor,PT_8GN3TQRM,tumor,Central Nervous System,2515.0
+BS_WB8P21ED,Tumor,PT_8XZY6MM1,tumor,Central Nervous System,2810.0
+BS_WCAMS5WN,Blood Derived Normal,PT_KHX1WQ4H,normal,Not Reported,4417.0
+BS_WCNPE0AC,Tumor,PT_FYECBRPP,tumor,Central Nervous System,562.0
+BS_WCQW99V3,Blood Derived Normal,PT_CEWNZVKF,normal,Not Reported,3725.0
+BS_WCRKYV0T,Tumor,PT_GVDMG7KC,tumor,Central Nervous System,8384.0
+BS_WD37M8SD,Tumor,PT_XNTFM9XY,tumor,Central Nervous System,2049.0
+BS_WD7AQV83,Tumor,PT_7JQ24F35,tumor,Central Nervous System,492.0
+BS_WDSA6GVS,Blood Derived Normal,PT_AWMZ12NP,normal,Not Reported,2573.0
+BS_WDTHGVYN,Blood Derived Normal,PT_E3ADF4ZB,normal,Not Reported,1352.0
+BS_WDTT7PG2,Tumor,PT_ZMKMKCFQ,tumor,Central Nervous System,6135.0
+BS_WE3Q8A73,Tumor,PT_GY99ZJHV,tumor,Central Nervous System,670.0
+BS_WEGGXVYA,Tumor,PT_HXDCHQ9Y,tumor,Central Nervous System,6654.0
+BS_WFD0GE5X,Tumor,PT_WKNKNYHH,tumor,Central Nervous System,888.0
+BS_WG203ECV,Tumor,PT_962TCBVR,tumor,Central Nervous System,1717.0
+BS_WGK8ZMVA,Tumor,PT_DNAJYFZT,tumor,Central Nervous System,5083.0
+BS_WH5HDE0A,Tumor,PT_H3WWDMW9,tumor,Central Nervous System,222.0
+BS_WH8G4VFB,Tumor,PT_R4T1V1K4,tumor,Central Nervous System,3717.0
+BS_WH8KWW5J,Tumor,PT_9PJR0ZK7,tumor,Central Nervous System,6879.0
+BS_WHZT48VG,Blood Derived Normal,PT_V1HNAC2Q,normal,Not Reported,2786.0
+BS_WJ7GMQTF,Tumor,PT_FC0EF5ZT,tumor,Central Nervous System,4482.0
+BS_WJ9H4NZZ,Tumor,PT_8GN3TQRM,tumor,Central Nervous System,2596.0
+BS_WJB33V17,Tumor,PT_59FJRPVX,tumor,Central Nervous System,3105.0
+BS_WJF6ZXWN,Tumor,PT_DJ106XYS,tumor,Central Nervous System,4489.0
+BS_WJGFDRWK,Tumor,PT_PJFTMJ6H,tumor,Central Nervous System,3256.0
+BS_WKD534RB,Blood Derived Normal,PT_VCD0W8HG,normal,Not Reported,4320.0
+BS_WKESC3XN,Tumor,PT_1H2REHT2,tumor,Central Nervous System,9714.0
+BS_WM0ZMCCN,Blood Derived Normal,PT_FWD7NZQ0,normal,Not Reported,5179.0
+BS_WMEHNDSK,Tumor,PT_B54PH840,tumor,Central Nervous System,577.0
+BS_WMEYJGDC,Tumor,PT_PNED3GG3,tumor,Central Nervous System,2241.0
+BS_WMVYQREN,Blood Derived Normal,PT_7WT6P5M8,normal,Not Reported,1422.0
+BS_WNKT1PAM,Blood Derived Normal,PT_1NN9AW39,normal,Not Reported,3663.0
+BS_WP2D11SK,Tumor,PT_EDWA0XTP,tumor,Central Nervous System,1032.0
+BS_WP2FY512,Blood Derived Normal,PT_6TMT65YA,normal,Not Reported,508.0
+BS_WP9J88EB,Tumor,PT_SZJ7WZZW,tumor,Central Nervous System,5344.0
+BS_WP9M8J6W,Blood Derived Normal,PT_NMZBRFYS,normal,Not Reported,3864.0
+BS_WPCBK1EG,Tumor,PT_Z4PJA6KT,tumor,Central Nervous System,3810.0
+BS_WPV7N6NQ,Tumor,PT_C71G98K3,tumor,Central Nervous System,6904.0
+BS_WQ19Z6MD,Tumor,PT_FXPJM0MW,tumor,Central Nervous System,1857.0
+BS_WQFHXEKC,Blood Derived Normal,PT_N56EYD4Z,normal,Not Reported,3724.0
+BS_WRHDP7WF,Tumor,PT_FHDZNN40,tumor,Central Nervous System,130.0
+BS_WRJNMEX2,Tumor,PT_6TKJRSPW,tumor,Central Nervous System,6286.0
+BS_WRQHPSXQ,Tumor,PT_4159VCJY,tumor,Central Nervous System,5094.0
+BS_WRRTNKYE,Blood Derived Normal,PT_CAYBADQC,normal,Not Reported,241.0
+BS_WSFB4SA2,Tumor,PT_CB9PD1YP,tumor,Central Nervous System,6145.0
+BS_WSQMAA33,Tumor,PT_92YX7KK9,tumor,Central Nervous System,6013.0
+BS_WV0S8N4M,Tumor,PT_32J909WM,tumor,Central Nervous System,860.0
+BS_WVRCPEH1,Blood Derived Normal,PT_NPHZQW6A,normal,Not Reported,1245.0
+BS_WVS02TZK,Tumor,PT_NNZQ09SH,tumor,Central Nervous System,4683.0
+BS_WVW3W6ZB,Tumor,PT_M1RYN7B0,tumor,Central Nervous System,1038.0
+BS_WWHGAHR5,Blood Derived Normal,PT_NDVJE438,normal,Not Reported,3649.0
+BS_WWKNJSJ5,Tumor,PT_RJ1TJ2KH,tumor,Central Nervous System,626.0
+BS_WX0BJEC6,Cell Lines,PT_EN2RN5Y1,tumor,Central Nervous System,3159.0
+BS_WXKCR17Q,Tumor,PT_5GQ76YZJ,tumor,Central Nervous System,1933.0
+BS_WY0TAJD8,Blood Derived Normal,PT_DMAF1J4A,normal,Not Reported,2233.0
+BS_WY5KYSHJ,Tumor,PT_9S6WMQ92,tumor,Central Nervous System,5534.0
+BS_WYERXS4G,Tumor,PT_46F28BFH,tumor,Central Nervous System,6091.0
+BS_WYF8NGSD,Tumor,PT_BBHAD51D,tumor,Central Nervous System,6500.0
+BS_WYG77VVP,Tumor,PT_DH8A0SNQ,tumor,Central Nervous System,1344.0
+BS_WYTDVC0Y,Tumor,PT_KBFM551M,tumor,Central Nervous System,3425.0
+BS_WYX72YAC,Blood Derived Normal,PT_1J2DT6MM,normal,Not Reported,3602.0
+BS_WZ662J49,Blood Derived Normal,PT_3PSG2DQT,normal,Not Reported,5034.0
+BS_X0F9AYEC,Tumor,PT_Y8HSH496,tumor,Central Nervous System,3109.0
+BS_X0XM8PYJ,Blood Derived Normal,PT_3D74J8RZ,normal,Not Reported,9190.0
+BS_X0XXN9BK,Tumor,PT_Z4BF2NSB,tumor,Central Nervous System,5908.0
+BS_X16PENSA,Tumor,PT_50ZFWMZE,tumor,Central Nervous System,1570.0
+BS_X1DSETVE,Tumor,PT_89XRZBSG,tumor,Central Nervous System,7387.0
+BS_X1R0N8QS,Tumor,PT_EZS4SRH6,tumor,Central Nervous System,4044.0
+BS_X1TRW9RH,Tumor,PT_8ATS9ATC,tumor,Central Nervous System,3863.0
+BS_X23724NJ,Tumor,PT_Y8RNS9JE,tumor,Central Nervous System,3215.0
+BS_X2QTK3QD,Tumor,PT_T2M1338J,tumor,Central Nervous System,7212.0
+BS_X4DD4KSZ,Tumor,PT_A06JR0E5,tumor,Central Nervous System,2205.0
+BS_X4VBHJSZ,Blood Derived Normal,PT_K94ZVZMX,normal,Not Reported,5077.0
+BS_X4X1SFSE,Tumor,PT_VVCN8DXT,tumor,Central Nervous System,2668.0
+BS_X4ZVTJEK,Blood Derived Normal,PT_T1FV709B,normal,Not Reported,4411.0
+BS_X59HSFGG,Tumor,PT_CB1XPA3W,tumor,Central Nervous System,5083.0
+BS_X5H2K1XG,Blood Derived Normal,PT_K63972GG,normal,Not Reported,5769.0
+BS_X5VN0FW0,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_X6361T19,Tumor,PT_CX58G6P6,tumor,Central Nervous System,6349.0
+BS_X67GTEM6,Tumor,PT_F9G665B1,tumor,Central Nervous System,660.0
+BS_X6H86RTA,Tumor,PT_CSKHQB16,tumor,Central Nervous System,1460.0
+BS_X75SX2EH,Blood Derived Normal,PT_QW5VW2PY,normal,Not Reported,4833.0
+BS_X7EQKJZH,Blood Derived Normal,PT_QT9T89S5,normal,Not Reported,1183.0
+BS_X7QJCVJB,Tumor,PT_NV584F7Q,tumor,Central Nervous System,2066.0
+BS_X8YB5G5J,Tumor,PT_Z2KHR3GQ,tumor,Central Nervous System,4867.0
+BS_X91K8KMG,Tumor,PT_1TGKS073,tumor,Central Nervous System,1314.0
+BS_X9DDS508,Blood Derived Normal,PT_0FKQ3XGV,normal,Not Reported,3604.0
+BS_X9EGD530,Tumor,PT_YGN06RPZ,tumor,Central Nervous System,1383.0
+BS_X9PJ715R,Tumor,PT_S3FJSBJT,tumor,Central Nervous System,6188.0
+BS_XAKR8MYK,Blood Derived Normal,PT_GPQJYAW4,normal,Not Reported,4307.0
+BS_XBBBE8V2,Tumor,PT_XWVQW6JX,tumor,Central Nervous System,6149.0
+BS_XBE002WV,Tumor,PT_D3AN5M5W,tumor,Central Nervous System,4337.0
+BS_XBQZYS8G,Tumor,PT_W7FK539G,tumor,Central Nervous System,1150.0
+BS_XCA92FF3,Blood Derived Normal,PT_X84SD608,normal,Not Reported,7215.0
+BS_XCFNEZ8E,Tumor,PT_5D3AVPCW,tumor,Central Nervous System,184.0
+BS_XCKDRRYT,Blood Derived Normal,PT_02MVZZSW,normal,Not Reported,4666.0
+BS_XCNGQ25H,Tumor,PT_YVG4H0F1,tumor,Central Nervous System,5536.0
+BS_XCW7C66J,Blood Derived Normal,PT_JXSDFPNM,normal,Not Reported,6279.0
+BS_XDE7MG7P,Blood Derived Normal,PT_VGXHFMND,normal,Not Reported,4642.0
+BS_XDY9BYRK,Tumor,PT_VT6PJVQN,tumor,Central Nervous System,2759.0
+BS_XEVMEYFS,Tumor,PT_7TRGHZBK,tumor,Central Nervous System,1098.0
+BS_XEY2VWR9,Blood Derived Normal,PT_9DMMZ08D,normal,Not Reported,1433.0
+BS_XF0ZX2B3,Tumor,PT_GAM3E6M3,tumor,Central Nervous System,2365.0
+BS_XF1CNRP4,Blood Derived Normal,PT_RYMG3M91,normal,Not Reported,3656.0
+BS_XFT4ENH2,Blood Derived Normal,PT_F1086Z0A,normal,Not Reported,1220.0
+BS_XG0DBWVT,Tumor,PT_Y660CKCB,tumor,Central Nervous System,5769.0
+BS_XGDPK33A,Tumor,PT_G16VK7FR,tumor,Central Nervous System,2021.0
+BS_XGMXJKFX,Tumor,PT_Q90R6M3E,tumor,Central Nervous System,3026.0
+BS_XGSA3GQE,Tumor,PT_HV6C0T34,tumor,Central Nervous System,1612.0
+BS_XGVSX8BX,Tumor,PT_6GDPNFA6,tumor,Central Nervous System,1820.0
+BS_XH5JP8DB,Tumor,PT_T1FV709B,tumor,Central Nervous System,2217.0
+BS_XHAQXDR0,Tumor,PT_PFA762TK,tumor,Central Nervous System,796.0
+BS_XHCYEE2S,Tumor,PT_NEB4WEAT,tumor,Central Nervous System,4116.0
+BS_XHT3F34T,Blood Derived Normal,PT_89XRZBSG,normal,Not Reported,6779.0
+BS_XJTW0P8P,Tumor,PT_6DB7B9WV,tumor,Central Nervous System,52.0
+BS_XJWNW9E8,Blood Derived Normal,PT_67R1AF5R,normal,Not Reported,395.0
+BS_XJZQA3AP,Tumor,PT_B54PH840,tumor,Central Nervous System,577.0
+BS_XKE77TR4,Tumor,PT_GKWWWJ0X,tumor,Central Nervous System,432.0
+BS_XKHY9A6D,Blood Derived Normal,PT_Y8RNS9JE,normal,Not Reported,3215.0
+BS_XKKB4MZV,Tumor,PT_RV0RDER2,tumor,Central Nervous System,853.0
+BS_XKM2EAT4,Tumor,PT_HJMP6PH2,tumor,Central Nervous System,880.0
+BS_XKP747AS,Tumor,PT_CGPJY881,tumor,Central Nervous System,5213.0
+BS_XKXDH0YJ,Tumor,PT_5SNX4PMK,tumor,Central Nervous System,8710.0
+BS_XM1AHBDJ,Tumor,PT_7P6J57H3,tumor,Central Nervous System,1949.0
+BS_XM302FF4,Tumor,PT_SCCDBETQ,tumor,Central Nervous System,5731.0
+BS_XM3ER1N6,Blood Derived Normal,PT_G9A050X1,normal,Not Reported,4065.0
+BS_XMNBSBGN,Tumor,PT_H876VB6R,tumor,Central Nervous System,372.0
+BS_XMP45ADN,Blood Derived Normal,PT_TVK2KY36,normal,Not Reported,3631.0
+BS_XMP9XNR9,Cell Lines,PT_Y5KY6KN9,tumor,Central Nervous System,3324.0
+BS_XN449RAJ,Blood Derived Normal,PT_1TGKS073,normal,Not Reported,1314.0
+BS_XNTQBZAJ,Tumor,PT_X1XVE1XX,tumor,Central Nervous System,4917.0
+BS_XNYQS1WG,Tumor,PT_G16VK7FR,tumor,Central Nervous System,2021.0
+BS_XPSD2NRJ,Tumor,PT_AKQZZPH8,tumor,Central Nervous System,2815.0
+BS_XPZAD9PP,Tumor,PT_A06JR0E5,tumor,Central Nervous System,2205.0
+BS_XQ0Y2PMV,Blood Derived Normal,PT_6SH7PV1N,normal,Not Reported,2531.0
+BS_XQ5SFW35,Tumor,PT_N32BYY8A,tumor,Central Nervous System,6381.0
+BS_XQF18WZP,Tumor,PT_RE6AXQM1,tumor,Central Nervous System,1743.0
+BS_XQFPDAB6,Blood Derived Normal,PT_GDDWPDMC,normal,Not Reported,6711.0
+BS_XQYHPBFS,Tumor,PT_AZQ230WT,tumor,Central Nervous System,371.0
+BS_XR81Q21W,Blood Derived Normal,PT_2E552BAR,normal,Not Reported,7125.0
+BS_XRF8D151,Blood Derived Normal,PT_MPRBGGEJ,normal,Not Reported,5937.0
+BS_XSWF2MR1,Tumor,PT_SMDEQVHJ,tumor,Central Nervous System,675.0
+BS_XV5XFKE8,Blood Derived Normal,PT_V482NWB8,normal,Not Reported,4049.0
+BS_XVBX7ZK1,Tumor,PT_YJGTKDV0,tumor,Central Nervous System,2520.0
+BS_XVNNWN2Z,Tumor,PT_3P3D97AB,tumor,Central Nervous System,5852.0
+BS_XVYRXN8J,Tumor,PT_BK92NM09,tumor,Central Nervous System,1357.0
+BS_XW26N96W,Tumor,PT_RGX23JFP,tumor,Central Nervous System,155.0
+BS_XWBMBWC6,Blood Derived Normal,PT_JQ45JK94,normal,Not Reported,2750.0
+BS_XWQTX5HH,Tumor,PT_WP871F5S,tumor,Central Nervous System,5137.0
+BS_XXMXCGJ7,Blood Derived Normal,PT_HJA1ZYS1,normal,Not Reported,1282.0
+BS_XZM79E42,Tumor,PT_2JDDX6TJ,tumor,Central Nervous System,4253.0
+BS_XZTV0J8W,Tumor,PT_HJMP6PH2,tumor,Central Nervous System,880.0
+BS_Y08D5P8N,Tumor,PT_H024RK87,tumor,Central Nervous System,6890.0
+BS_Y0DGBKTY,Tumor,PT_7P6J57H3,tumor,Central Nervous System,1949.0
+BS_Y0PCBNJV,Tumor,PT_S2CXXZCF,tumor,Central Nervous System,1373.0
+BS_Y2C78JC4,Tumor,PT_NTK39NNV,tumor,Central Nervous System,5518.0
+BS_Y2Z06EDG,Blood Derived Normal,PT_T93J9EGZ,normal,Not Reported,883.0
+BS_Y3472DYJ,Tumor,PT_N4PR21ME,tumor,Central Nervous System,887.0
+BS_Y3ETG5AE,Tumor,PT_YMN5GV47,tumor,Central Nervous System,1455.0
+BS_Y3G1X98S,Tumor,PT_7M2PGCBV,tumor,Central Nervous System,6322.0
+BS_Y43VC4VG,Tumor,PT_BDNE55YT,tumor,Central Nervous System,1472.0
+BS_Y4ZX0YX7,Tumor,PT_DA2TJAV1,tumor,Central Nervous System,923.0
+BS_Y5DA59M3,Tumor,PT_QEP13FH4,tumor,Central Nervous System,2696.0
+BS_Y63AQ2ZX,Blood Derived Normal,PT_B38P3Y5T,normal,Not Reported,3388.0
+BS_Y6D4JQS8,Blood Derived Normal,PT_P2NGYMG5,normal,Not Reported,4559.0
+BS_Y6FTH24P,Blood Derived Normal,PT_3SW2VHD5,normal,Not Reported,5136.0
+BS_Y6ZSGEPG,Blood Derived Normal,PT_TH18S0JQ,normal,Not Reported,4932.0
+BS_Y74XAFJX,Tumor,PT_MNSEJCDM,tumor,Central Nervous System,2190.0
+BS_Y7A7J675,Blood Derived Normal,PT_01MZ62KG,normal,Not Reported,546.0
+BS_Y7CA8B5R,Tumor,PT_7FQ6VECA,tumor,Central Nervous System,5918.0
+BS_Y7F9E2E9,Tumor,PT_ZZTQQVCT,tumor,Central Nervous System,4326.0
+BS_Y8D1F5WW,Tumor,PT_ABMAQYY2,tumor,Central Nervous System,3816.0
+BS_Y8FH8822,Blood Derived Normal,PT_BWN251DF,normal,Not Reported,6288.0
+BS_Y96RP1HJ,Tumor,PT_1AAYYGGY,tumor,Central Nervous System,4608.0
+BS_Y9GHDZKS,Tumor,PT_PHKSYE6Q,tumor,Central Nervous System,4957.0
+BS_YA0KMBRT,Tumor,PT_MV5WXTQV,tumor,Central Nervous System,2288.0
+BS_YA8RBGD8,Tumor,PT_F27SA15G,tumor,Central Nervous System,4641.0
+BS_YB07VF1X,Tumor,PT_HFQNKP5X,tumor,Central Nervous System,2430.0
+BS_YB2RXRHT,Tumor,PT_H45M7M2T,tumor,Central Nervous System,4532.0
+BS_YB4SNTJY,Blood Derived Normal,PT_G5RA8E3N,normal,Not Reported,4930.0
+BS_YB99Q6TN,Tumor,PT_A325EYR2,tumor,Central Nervous System,2774.0
+BS_YBCQBCQC,Tumor,PT_2NQPX1R2,tumor,Central Nervous System,5948.0
+BS_YBJBSRHV,Tumor,PT_9CSZBV2P,tumor,Central Nervous System,5157.0
+BS_YCREDZTJ,Tumor,PT_N3HVMV06,tumor,Central Nervous System,5416.0
+BS_YCT0FK91,Blood Derived Normal,PT_45P9F9MD,normal,Not Reported,5266.0
+BS_YDEVMD24,Tumor,PT_NK8A49X5,tumor,Central Nervous System,4896.0
+BS_YE1MAQYJ,Tumor,PT_ZZRBX5JT,tumor,Central Nervous System,2967.0
+BS_YEB88D32,Tumor,PT_N56EYD4Z,tumor,Central Nervous System,3724.0
+BS_YEEV8386,Blood Derived Normal,PT_3MNY9BRY,normal,Not Reported,4077.0
+BS_YEQVW4ND,Tumor,PT_NA8NZ0BN,tumor,Central Nervous System,3641.0
+BS_YETBN0RQ,Tumor,PT_17NG0KW3,tumor,Central Nervous System,2513.0
+BS_YETTZ1NC,Tumor,PT_EV71W1JW,tumor,Central Nervous System,4502.0
+BS_YEW22W35,Tumor,PT_9N0SR1D7,tumor,Central Nervous System,5418.0
+BS_YEWX69X4,Tumor,PT_K39HM2JF,tumor,Central Nervous System,7619.0
+BS_YFKXF7K2,Blood Derived Normal,PT_FF0MSK4D,normal,Not Reported,6494.0
+BS_YG0A13JH,Tumor,PT_2FVTD0WR,tumor,Central Nervous System,1528.0
+BS_YG4EJAF4,Blood Derived Normal,PT_V3Q78E6F,normal,Not Reported,337.0
+BS_YGQS4660,Tumor,PT_S2SQJVGK,tumor,Central Nervous System,4222.0
+BS_YH05F9DB,Tumor,PT_YVG4H0F1,tumor,Central Nervous System,5536.0
+BS_YH4DYNQ2,Tumor,PT_4ZSR5DY8,tumor,Central Nervous System,4640.0
+BS_YH60H2FS,Tumor,PT_B7QRTN72,tumor,Central Nervous System,1694.0
+BS_YHXMYDBN,Tumor,PT_KZ56XHJT,tumor,Central Nervous System,2773.0
+BS_YHZ69SDZ,Blood Derived Normal,PT_B0JFCN5W,normal,Not Reported,4295.0
+BS_YJ0QJJZB,Blood Derived Normal,PT_50ZFWMZE,normal,Not Reported,1570.0
+BS_YJCZY95C,Blood Derived Normal,PT_3WA1XB8G,normal,Not Reported,6528.0
+BS_YK5XX7NX,Blood Derived Normal,PT_1AAYYGGY,normal,Not Reported,4608.0
+BS_YK6VQ9SJ,Tumor,PT_57YP9ABV,tumor,Central Nervous System,8217.0
+BS_YKD3WYFB,Blood Derived Normal,PT_XA98HG1C,normal,Not Reported,3332.0
+BS_YKQP4SBX,Tumor,PT_57YP9ABV,tumor,Central Nervous System,8217.0
+BS_YKT1NAJQ,Blood Derived Normal,PT_3AWKWXEV,normal,Not Reported,919.0
+BS_YMAJC22S,Tumor,PT_ZMKMKCFQ,tumor,Central Nervous System,6135.0
+BS_YMDPFK0V,Tumor,PT_KQK98ZVP,tumor,Central Nervous System,1119.0
+BS_YNEQJ6AH,Tumor,PT_NS1F6DT8,tumor,Central Nervous System,5816.0
+BS_YNN71TNT,Blood Derived Normal,PT_1EB5KHZX,normal,Not Reported,666.0
+BS_YPCTK927,Tumor,PT_0CRPE7YP,tumor,Central Nervous System,3004.0
+BS_YR1X1SSH,Blood Derived Normal,PT_V0X73HEQ,normal,Not Reported,1163.0
+BS_YR9C74CN,Blood Derived Normal,PT_S4H6KA09,normal,Not Reported,1655.0
+BS_YRC54VPP,Tumor,PT_QH9H491G,tumor,Central Nervous System,7337.0
+BS_YVFFHJ1Q,Tumor,PT_YDWBWTVN,tumor,Central Nervous System,2846.0
+BS_YVH56WW3,Blood Derived Normal,PT_7M2PGCBV,normal,Not Reported,6322.0
+BS_YVMEEBKC,Tumor,PT_DMHFS0HX,tumor,Central Nervous System,3765.0
+BS_YVRSCEC6,Blood Derived Normal,PT_9S6WMQ92,normal,Not Reported,6992.0
+BS_YVWRMH36,Blood Derived Normal,PT_Q25V9Y6M,normal,Not Reported,1401.0
+BS_YWHDJ7FE,Blood Derived Normal,PT_DEYCW197,normal,Not Reported,3917.0
+BS_YWM1RMFT,Blood Derived Normal,PT_3CVMBGD7,normal,Not Reported,3815.0
+BS_YXCVR90M,Tumor,PT_6R95FQT2,tumor,Central Nervous System,5262.0
+BS_YXPWKF92,Blood Derived Normal,PT_13MKXR8G,normal,Not Reported,3470.0
+BS_YXW56D0Z,Blood Derived Normal,PT_N3HVMV06,normal,Not Reported,5506.0
+BS_YXWZB6S7,Blood Derived Normal,PT_ZCXS29JJ,normal,Not Reported,4196.0
+BS_YY5B2XDD,Tumor,PT_1KEER2Q1,tumor,Central Nervous System,3826.0
+BS_YYAPSA5P,Tumor,PT_AW8WV14Y,tumor,Central Nervous System,86.0
+BS_YZ0P5E8H,Tumor,PT_JCECCFPB,tumor,Central Nervous System,382.0
+BS_YZ2YNEJJ,Tumor,PT_VBNP6JFB,tumor,Central Nervous System,371.0
+BS_YZ2Z1Q6Y,Tumor,PT_TH18S0JQ,tumor,Central Nervous System,4932.0
+BS_YZ3MRCXX,Blood Derived Normal,PT_5F4N0CAP,normal,Not Reported,3722.0
+BS_YZD4SSMA,Cell Lines,PT_V1HNAC2Q,tumor,Central Nervous System,2786.0
+BS_Z0AVVB1V,Tumor,PT_SJEG0MKD,tumor,Central Nervous System,2396.0
+BS_Z14Z2JMW,Tumor,PT_9ZY739FB,tumor,Central Nervous System,4911.0
+BS_Z1A875MW,Tumor,PT_D9NTSYSC,tumor,Central Nervous System,1935.0
+BS_Z1BBZ01F,Tumor,PT_QQ9JGEY9,tumor,Central Nervous System,6349.0
+BS_Z263QQQV,Blood Derived Normal,PT_WPYCXMDA,normal,Not Reported,5628.0
+BS_Z28VKGNS,Tumor,PT_GSSQYQKV,tumor,Central Nervous System,4351.0
+BS_Z2NWPQKF,Tumor,PT_YY7CRV21,tumor,Central Nervous System,4937.0
+BS_Z34PQDYT,Tumor,PT_HN0AXSZ0,tumor,Central Nervous System,7197.0
+BS_Z370T42N,Blood Derived Normal,PT_HGM20MW7,normal,Not Reported,3558.0
+BS_Z3RCA1T9,Tumor,PT_C9YDTZPA,tumor,Central Nervous System,1978.0
+BS_Z45HD492,Tumor,PT_T3REPTTC,tumor,Central Nervous System,754.0
+BS_Z4Q8RH5M,Tumor,PT_0K0DPVF6,tumor,Central Nervous System,2480.0
+BS_Z4S81HG1,Tumor,PT_QPY0H50V,tumor,Central Nervous System,2989.0
+BS_Z56904ZW,Blood Derived Normal,PT_8FWP7BR3,normal,Not Reported,4574.0
+BS_Z5D6G1S6,Tumor,PT_39HBKSGG,tumor,Central Nervous System,4854.0
+BS_Z5JH1FMC,Blood Derived Normal,PT_SJEG0MKD,normal,Not Reported,2396.0
+BS_Z5VJCFNP,Tumor,PT_5X061J42,tumor,Central Nervous System,2813.0
+BS_Z61JVJ03,Tumor,PT_0EBP2PBD,tumor,Central Nervous System,2801.0
+BS_Z64NEPNE,Tumor,PT_C5FKRB1P,tumor,Central Nervous System,4529.0
+BS_Z6BWR941,Tumor,PT_YJGTKDV0,tumor,Central Nervous System,2520.0
+BS_Z6GF2TDX,Blood Derived Normal,PT_7YSCM82T,normal,Not Reported,327.0
+BS_Z6MC4N8D,Tumor,PT_3PSG2DQT,tumor,Central Nervous System,5034.0
+BS_Z72QAZC7,Tumor,PT_HJA1ZYS1,tumor,Central Nervous System,1282.0
+BS_Z7681S6Y,Blood Derived Normal,PT_N9W4GT6D,normal,Not Reported,3609.0
+BS_Z7890YNR,Tumor,PT_99S5BPE3,tumor,Central Nervous System,8339.0
+BS_Z7G68ZS2,Tumor,PT_5SNX4PMK,tumor,Central Nervous System,8710.0
+BS_Z7PKVY9J,Tumor,PT_M0AP3Z15,tumor,Central Nervous System,5027.0
+BS_Z7R92XX6,Tumor,PT_XA8ASFJK,tumor,Central Nervous System,6168.0
+BS_Z7Y2466H,Tumor,PT_9B6KWJT2,tumor,Central Nervous System,4947.0
+BS_Z82320N1,Blood Derived Normal,PT_A4KA01ZH,normal,Not Reported,2.0
+BS_Z85M2R3N,Tumor,PT_QJ3144WH,tumor,Central Nervous System,6330.0
+BS_Z8E250HZ,Blood Derived Normal,PT_CB9PD1YP,normal,Not Reported,6145.0
+BS_Z8F3GM85,Tumor,PT_FZP24XYK,tumor,Central Nervous System,6006.0
+BS_Z8GRJ71M,Tumor,PT_8SF8D0M9,tumor,Central Nervous System,2435.0
+BS_Z8YZ6QGS,Tumor,PT_S0Q27J13,tumor,Central Nervous System,6258.0
+BS_Z9NCH2XA,Tumor,PT_NBY8PZR9,tumor,Central Nervous System,1620.0
+BS_Z9PKZ4RT,Tumor,PT_PFP1ZVHD,tumor,Central Nervous System,5216.0
+BS_Z9WDGDVR,Blood Derived Normal,PT_EPFX7V9H,normal,Not Reported,7247.0
+BS_Z9ZS6ZS2,Tumor,PT_QQ9JGEY9,tumor,Central Nervous System,6349.0
+BS_ZA9XT151,Tumor,PT_WP871F5S,tumor,Central Nervous System,6428.0
+BS_ZAH4FHV2,Tumor,PT_9M4CQX3M,tumor,Central Nervous System,11587.0
+BS_ZAN8EYCC,Blood Derived Normal,PT_K5KH69Q1,normal,Not Reported,1326.0
+BS_ZAT0XJE5,Tumor,PT_JV9G8MFD,tumor,Central Nervous System,362.0
+BS_ZBWQG7VR,Tumor,PT_PKP1250P,tumor,Central Nervous System,5251.0
+BS_ZCY4ECNV,Tumor,PT_FYPWZBH0,tumor,Central Nervous System,3360.0
+BS_ZD5HN296,Tumor,PT_89XRZBSG,tumor,Central Nervous System,6779.0
+BS_ZDBEHEPY,Blood Derived Normal,PT_GAM3E6M3,normal,Not Reported,2365.0
+BS_ZDSXV5N1,Blood Derived Normal,PT_8GBF5MTD,normal,Not Reported,1985.0
+BS_ZECKZTFC,Tumor,PT_X8S0H6TG,tumor,Central Nervous System,2144.0
+BS_ZF34SJGN,Tumor,PT_7KTAH3RD,tumor,Central Nervous System,2834.0
+BS_ZF6BSFNF,Tumor,PT_NWYSD53S,tumor,Central Nervous System,1544.0
+BS_ZG51DA8Z,Blood Derived Normal,PT_KZ56XHJT,normal,Not Reported,2773.0
+BS_ZH1FBX50,Tumor,PT_7JQ24F35,tumor,Central Nervous System,915.0
+BS_ZH666SJW,Blood Derived Normal,PT_M0AP3Z15,normal,Not Reported,5027.0
+BS_ZH6PC8KM,Tumor,PT_7VPSS2SN,tumor,Central Nervous System,3714.0
+BS_ZHHAM3AN,Tumor,PT_J06X17XH,tumor,Central Nervous System,5348.0
+BS_ZHJFX6C9,Tumor,PT_DEDRCQWH,tumor,Central Nervous System,516.0
+BS_ZJ3VP0AP,Blood Derived Normal,PT_TV5DYHNC,normal,Not Reported,1113.0
+BS_ZJF3N0DE,Blood Derived Normal,PT_0T2EWNYR,normal,Not Reported,1.0
+BS_ZJSMC22A,Tumor,PT_TGTJECMR,tumor,Central Nervous System,4431.0
+BS_ZJT1REVB,Tumor,PT_7KTAH3RD,tumor,Central Nervous System,2834.0
+BS_ZJZFT0AJ,Tumor,PT_2YT37G8P,tumor,Central Nervous System,1310.0
+BS_ZJZXDPTP,Tumor,PT_VREE80NP,tumor,Central Nervous System,10749.0
+BS_ZKFEMJZ8,Tumor,PT_DFQAH7RS,tumor,Central Nervous System,1645.0
+BS_ZKZACPVV,Tumor,PT_A9F8Y6MA,tumor,Central Nervous System,199.0
+BS_ZM9EYYDT,Blood Derived Normal,PT_QK4XB83F,normal,Not Reported,1546.0
+BS_ZMPNTK3D,Blood Derived Normal,PT_GR8P8NY5,normal,Not Reported,1235.0
+BS_ZMW21B7R,Blood Derived Normal,PT_XXZHRPNM,normal,Not Reported,1667.0
+BS_ZMZFKVWZ,Blood Derived Normal,PT_VHS5RM2K,normal,Not Reported,592.0
+BS_ZN8136D9,Tumor,PT_AYZA2WCW,tumor,Central Nervous System,3206.0
+BS_ZNB7T5SZ,Blood Derived Normal,PT_RMK36R2E,normal,Not Reported,3746.0
+BS_ZP36WDVS,Blood Derived Normal,PT_B54PH840,normal,Not Reported,577.0
+BS_ZP89F1JY,Tumor,PT_MNR94DEV,tumor,Central Nervous System,3870.0
+BS_ZPF89720,Tumor,PT_AXVH36AM,tumor,Central Nervous System,4526.0
+BS_ZQ76ZBEX,Tumor,PT_VJBVXB08,tumor,Central Nervous System,1039.0
+BS_ZQKGJD70,Tumor,PT_VBG3Z18B,tumor,Central Nervous System,2784.0
+BS_ZQY1P7NR,Saliva,PT_229DRV7B,normal,Not Reported,6048.0
+BS_ZR75EKKX,Tumor,PT_9S6WMQ92,tumor,Central Nervous System,6555.0
+BS_ZR96A4FH,Tumor,PT_E546ZRXA,tumor,Central Nervous System,1538.0
+BS_ZRM0W01M,Tumor,PT_EYZ25B99,tumor,Central Nervous System,5738.0
+BS_ZRVFD8TY,Saliva,PT_WYVMWYVA,normal,Not Reported,4517.0
+BS_ZS1QRMXS,Tumor,PT_8RB7TPS2,tumor,Central Nervous System,4199.0
+BS_ZSAHMF4V,Blood Derived Normal,PT_TEBD1SES,normal,Not Reported,1038.0
+BS_ZSH09N84,Tumor,PT_MNSEJCDM,tumor,Central Nervous System,2190.0
+BS_ZTWGFWTX,Tumor,PT_TEBD1SES,tumor,Central Nervous System,1038.0
+BS_ZV1P6W9C,Tumor,PT_ZVYRFGEN,tumor,Central Nervous System,1407.0
+BS_ZV21J6YW,Tumor,PT_VY45XTT7,tumor,Central Nervous System,4284.0
+BS_ZV68CES9,Tumor,PT_F0N89D15,tumor,Central Nervous System,2031.0
+BS_ZV9Z3SY6,Tumor,PT_S3FJSBJT,tumor,Central Nervous System,6188.0
+BS_ZVFTWY6Y,Blood Derived Normal,PT_NXX0M835,normal,Not Reported,4978.0
+BS_ZVWE73JZ,Tumor,PT_59D00MBQ,tumor,Central Nervous System,3283.0
+BS_ZVX2GRD6,Tumor,PT_RKECV80K,tumor,Central Nervous System,4138.0
+BS_ZVXHWM3N,Blood Derived Normal,PT_37WTWPZY,normal,Not Reported,300.0
+BS_ZVZDDW2G,Tumor,PT_E3ADF4ZB,tumor,Central Nervous System,1352.0
+BS_ZWR9W4FX,Tumor,PT_4RJ2EATN,tumor,Central Nervous System,1351.0
+BS_ZX1YPQ88,Tumor,PT_W6CW60K9,tumor,Central Nervous System,2541.0
+BS_ZX3ZSN8F,Blood Derived Normal,PT_R63RHJWX,normal,Not Reported,4163.0
+BS_ZXQ7H95W,Blood Derived Normal,PT_M9XXJ4GR,normal,Not Reported,3893.0
+BS_ZXYDSBM9,Tumor,PT_R63RHJWX,tumor,Central Nervous System,4058.0
+BS_ZY319KJ4,Blood Derived Normal,PT_Z4BF2NSB,normal,Not Reported,5908.0
+BS_ZY3SVMA5,Blood Derived Normal,PT_1T7WF5S1,normal,Not Reported,1846.0
+BS_ZZHCTPFR,Blood Derived Normal,PT_GH693TT8,normal,Not Reported,738.0
+BS_ZZJF26C4,Tumor,PT_ZA95JQEB,tumor,Central Nervous System,2589.0
+BS_ZZMYDZJW,Tumor,PT_5M8A47WW,tumor,Central Nervous System,603.0
+BS_ZZPBANDD,Tumor,PT_9YNQJZ5G,tumor,Central Nervous System,4039.0
+BS_ZZWMD6FA,Tumor,PT_RGX23JFP,tumor,Central Nervous System,155.0
