@@ -1,0 +1,27 @@
+cohort_participant_id,age_at_diagnosis_days,tumor_descriptor,pathology_diagnosis,pathology_free_text_diagnosis,harmonized_diagnosis
+C121278,193,Progressive,Other,hamartoma,"Benign tumor, hamartoma"
+C140220,6062,Initial CNS Tumor,Other,osteoblastoma,"Benign tumor, osteoblastoma"
+C16236,315,Initial CNS Tumor,Other,dermoid cyst,"Benign tumor, dermoid cyst"
+C333699,4066,Initial CNS Tumor,Other,rathke cleft cyst,"Benign tumor, rathke cleft cyst"
+C385236,3708,Initial CNS Tumor,Other,meningioangiomatosis,"Benign tumor, meningioangiomatosis"
+C445014,2299,Initial CNS Tumor,Other,osteoblastoma,"Benign tumor, osteoblastoma"
+C47601,3999,Initial CNS Tumor,Other,ganglioneuroma,Ganglioneuroma
+C573918,5410,Initial CNS Tumor,Other,epidermoid cyst,"Benign tumor, epidermoid cyst"
+C641937,5593,Initial CNS Tumor,Other,prolactinoma,"Benign tumor, prolactinoma"
+C654360,4176,Initial CNS Tumor,Other,meningioangiomatosis,"Benign tumor, meningioangiomatosis"
+C673548,241,Initial CNS Tumor,Other,non- langerhans histiocytosis (jxg- cns),Other
+C702084,22,Initial CNS Tumor,Other,medullooepithelioma,"Embryonal tumor with multilayer rosettes, NOS"
+C704667,1,Initial CNS Tumor,Other,"embryonal tumor, nos, congenital type","CNS Embryonal tumor, NOS"
+C727053,532,Initial CNS Tumor,Other,choroid plexus cyst,Choroid plexus cyst
+C744519,5690,Initial CNS Tumor,Other,myxoid spindle cell tumor,Myxoid spindle cell tumor
+C74784,3674,Initial CNS Tumor,Other,ossifying fibroma,"Benign tumor, ossifying fibroma"
+C74784,3674,Progressive,Other,fibroma,"Benign tumor, fibroma"
+C788061,1282,Initial CNS Tumor,Other,dermoid cyst,"Benign tumor, dermoid cyst"
+C788184,1326,Initial CNS Tumor,Other,dermoid inclusion cyst,"Benign tumor, dermoid inclusion cyst"
+C805281,6114,Initial CNS Tumor,Other,glioneuronal tumor,Glial-neuronal tumor NOS
+C805527,Not Reported,Progressive,Other,inclusion cyst,"Benign tumor, inclusion cyst"
+C820164,47,Recurrence,Other,neuroepithelial neoplasm,Glial-neuronal tumor NOS
+C897039,4111,Recurrence,Other,arteriovenous malformation,Arteriovenous malformation
+C947223,1553,Initial CNS Tumor,Other,perineuroma,"Benign tumor, perineuroma"
+C955956,3663,Initial CNS Tumor,Other,malignant melanocytic neoplasm,Melanocytic tumor
+C965304,5719,Initial CNS Tumor,Other,"epilepsy, chronic rasmussen encephalitis","Epilepsy, chronic rasmussen encephalitis"
