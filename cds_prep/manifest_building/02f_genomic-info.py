@@ -205,4 +205,3 @@ out["library_id"] = (
 
 
 out.to_csv("data/submission_packet/genomic_info.csv", index=False)
-breakpoint()

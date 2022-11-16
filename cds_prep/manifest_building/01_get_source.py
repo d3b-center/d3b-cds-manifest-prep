@@ -23,9 +23,9 @@ DB_URL = os.getenv("DATABASE_URL")
 
 logger.info("Loading local files")
 # Load in data from open Data Projects
-cbtn_open_data = pd.read_csv(
-    "/home/ubuntu/mount/public_files_cbtn.txt", sep="\t"
-)[["bs_id", "File Name", "File location"]].rename(
+cbtn_open_data = pd.read_csv("data/public_files_cbtn.txt", sep="\t")[
+    ["bs_id", "File Name", "File location"]
+].rename(
     columns={
         "bs_id": "bs_id_cavatica",
         "File Name": "file_name_cavatica",
@@ -34,9 +34,9 @@ cbtn_open_data = pd.read_csv(
 )
 cbtn_open_data["open_access"] = True
 
-pnoc003_open_data = pd.read_csv(
-    "/home/ubuntu/mount/public_files_pnoc003.txt", sep="\t"
-)[["bs_id", "File Name", "File location"]].rename(
+pnoc003_open_data = pd.read_csv("data/public_files_pnoc003.txt", sep="\t")[
+    ["bs_id", "File Name", "File location"]
+].rename(
     columns={
         "bs_id": "bs_id_cavatica",
         "File Name": "file_name_cavatica",
@@ -44,9 +44,9 @@ pnoc003_open_data = pd.read_csv(
     }
 )
 
-pnoc008_open_data = pd.read_csv(
-    "/home/ubuntu/mount/public_files_pnoc008.txt", sep="\t"
-)[["bs_id", "File Name", "File location"]].rename(
+pnoc008_open_data = pd.read_csv("data/public_files_pnoc008.txt", sep="\t")[
+    ["bs_id", "File Name", "File location"]
+].rename(
     columns={
         "bs_id": "bs_id_cavatica",
         "File Name": "file_name_cavatica",
@@ -55,7 +55,7 @@ pnoc008_open_data = pd.read_csv(
 )
 
 pnoc003_harmonized_data = pd.read_csv(
-    "/home/ubuntu/mount/PNOC003-datastes_harmonized_manifest.txt", sep="\t"
+    "data/PNOC003-datastes_harmonized_manifest.txt", sep="\t"
 )[["BS_ID", "File Name", "File location"]].rename(
     columns={
         "BS_ID": "bs_id_cavatica",
@@ -65,7 +65,7 @@ pnoc003_harmonized_data = pd.read_csv(
 )
 
 pnoc008_harmonized_data = pd.read_csv(
-    "/home/ubuntu/mount/PNOC008-datastes_harmonized_manifest.txt", sep="\t"
+    "data/PNOC008-datastes_harmonized_manifest.txt", sep="\t"
 )[["BS_ID", "File Name", "File location"]].rename(
     columns={
         "BS_ID": "bs_id_cavatica",

@@ -17,7 +17,6 @@ genomic_info_table = pd.read_csv(submission_packet_prefix + "genomic_info.csv")
 sample_manifest = pd.read_csv(submission_packet_prefix + "sample.csv")
 diagnosis_manifest = pd.read_csv(submission_packet_prefix + "diagnosis.csv")
 
-
 # samples
 sample_list = sample_manifest["sample_id"].drop_duplicates().to_list()
 mapping_sample_list = mapping["sample_id"].drop_duplicates().to_list()
@@ -31,6 +30,7 @@ for sample in tqdm(mapping_sample_list):
     if sample not in sample_list:
         print(sample)
 
+breakpoint()
 # participants
 participant_list = (
     participant_manifest["participant_id"].drop_duplicates().to_list()
@@ -69,6 +69,7 @@ sample_participant_list = (
 for participant in tqdm(participant_list):
     if participant not in sample_participant_list:
         print(participant)
+
 print("all sample_manifest participants in participant manifest")
 for participant in tqdm(sample_participant_list):
     if participant not in participant_list:
@@ -76,12 +77,14 @@ for participant in tqdm(sample_participant_list):
 
 
 # files
+breakpoint()
 print("all files in mapping")
 file_list = file_manifest["file_id"].drop_duplicates().to_list()
 mapping_file_list = mapping["file_id"].drop_duplicates().to_list()
+foo = []
 for file in tqdm(file_list):
     if file not in mapping_file_list:
-        print(file)
+        foo.append(file)
 
 print("all mapping files in file manifest")
 for file in tqdm(mapping_file_list):

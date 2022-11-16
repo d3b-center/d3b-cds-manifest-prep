@@ -152,7 +152,7 @@ new_diagnosis_manifest = diagnosis_manifest[
     ~diagnosis_manifest["participant_id"].isin(participants_to_remove)
 ]
 
-
+# breakpoint()
 new_file_manifest.to_csv("data/submission_packet/file.csv", index=False)
 new_mapping.to_csv(
     "data/submission_packet/file_sample_participant_map.csv", index=False

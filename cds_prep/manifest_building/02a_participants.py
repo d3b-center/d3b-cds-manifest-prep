@@ -21,7 +21,7 @@ merged_cbtn = pd.read_csv("data/temp/ccdi_manifest_cbtn-with_kfids.csv")
 s3scrapes = pd.read_csv("data/temp/s3scrapes.csv")
 # Load scrape of cds bucket
 scrape = pd.read_csv(
-    "/home/ubuntu/d3b-cds-manifest-prep/genomics_bucket/data/cds_scrape.tsv",
+    "data/cds_scrape.tsv",
     sep="\t",
 )
 scrape["file_url_in_cds"] = "s3://" + scrape["Bucket"] + "/" + scrape["Key"]

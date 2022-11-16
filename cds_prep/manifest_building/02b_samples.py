@@ -3,7 +3,7 @@ from ast import literal_eval
 
 import pandas as pd
 import psycopg2
-import sevenbridges as sbg
+
 from d3b_cavatica_tools.utils.logging import get_logger
 
 from queries import (
