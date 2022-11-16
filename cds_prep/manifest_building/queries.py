@@ -156,9 +156,10 @@ def diagnosis_sample_query(sample_list):
     from biospecimen_diagnosis bsdx
     join diagnosis dx on bsdx.diagnosis_id = dx.kf_id
     join biospecimen bs on bs.kf_id = bsdx.biospecimen_id
+    join participant p on p.kf_id = bs.participant_id
     where bsdx.biospecimen_id in ({str(sample_list)[1:-1]})
           and dx.source_text_diagnosis not in ('Other', 'Not Available', 'Not Reported', 'No tumor')
-          and bs.source_text_tissue_type = 'Tumor'
+          -- and bs.source_text_tissue_type = 'Tumor'
     """  # noqa
     return query
 
