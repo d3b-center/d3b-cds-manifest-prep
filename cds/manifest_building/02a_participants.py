@@ -1,10 +1,10 @@
 import os
 from ast import literal_eval
 
-import pandas as pd
-import psycopg2
 from d3b_cavatica_tools.utils.logging import get_logger
 
+import pandas as pd
+import psycopg2
 from queries import participant_query
 from utils import *
 
