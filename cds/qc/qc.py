@@ -329,6 +329,16 @@ def qc_submission_package(
         file_list, mapping_file_list, genomic_info_file_list
     )
 
-    bucket_scrape = get_bucket_scrape(conn, bucket=p30_seq_files_bucket_name)
+    bucket_scrape = get_bucket_scrape(conn, p30_seq_files_bucket_name)
     bucket_file_qc_df = qc_bucket_files(file_manifest, bucket_scrape)
-    breakpoint()
+    # save qc results to files:
+    pd.DataFrame.from_dict(sample_qc_dict, orient="index").to_csv(
+        "data/qc/samples.csv"
+    )
+    pd.DataFrame.from_dict(participant_qc_dict, orient="index").to_csv(
+        "data/qc/participants.csv"
+    )
+    pd.DataFrame.from_dict(file_qc_dict, orient="index").to_csv(
+        "data/qc/files.csv"
+    )
+    bucket_file_qc_df.to_csv("data/qc/bucket_file.csv", index=False)
