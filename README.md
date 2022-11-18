@@ -4,16 +4,16 @@
 
 ### Install latest release: 
 
-'''python
+```python
 pip install git+https://github.com/d3b-center/d3b-cds-manifest-prep.git@latest-release
-'''
+```
 
 ### Install Most Recent Development Version
 
 
-'''python
+```python
 pip install git+https://github.com/d3b-center/d3b-cds-manifest-prep.git
-'''
+```
 
 ## Usage
 
