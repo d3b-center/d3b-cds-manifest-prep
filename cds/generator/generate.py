@@ -2,6 +2,7 @@ from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.constants import all_generator_list
 from cds.generator.participant.build_manifest import build_participant_table
+from cds.generator.sample.build_manifest import build_sample_table
 
 import pandas as pd
 
@@ -15,7 +16,9 @@ def generate_submission_package(
         logger.info("Generating all manifests in submission packet")
         generator_list = all_generator_list
     else:
-        logger.info("Generating specified manifests in submission packet")
+        logger.info(
+            f"Generating specified manifests in submission packet: {generator_list}"
+        )
 
     logger.info("Reading seed file")
     file_sample_participant_map = pd.read_csv(seed_file)
@@ -31,7 +34,10 @@ def generate_submission_package(
         file_sample_participant_map["file_id"].drop_duplicates().to_list()
     )
     if "participant" in generator_list:
-        breakpoint()
         build_participant_table(
             postgres_connection_url, participant_list, submission_package_dir
+        )
+    if "sample" in generator_list:
+        build_sample_table(
+            postgres_connection_url, sample_list, submission_package_dir
         )
