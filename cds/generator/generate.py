@@ -17,7 +17,8 @@ def generate_submission_package(
         generator_list = all_generator_list
     else:
         logger.info(
-            f"Generating specified manifests in submission packet: {generator_list}"
+            "Generating specified manifests in submission packet: "
+            + str(generator_list)
         )
 
     logger.info("Reading seed file")
