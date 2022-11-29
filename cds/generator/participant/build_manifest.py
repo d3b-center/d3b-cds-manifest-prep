@@ -29,6 +29,7 @@ def build_participant_table(db_url, participant_list, submission_packager_dir):
     participant_table["ethnicity"] = participant_table["ethnicity"].apply(
         lambda x: ethnicity_map.get(x)
     )
+    logger.info("saving sample manifest to file")
     participant_table.to_csv(
         f"{submission_packager_dir}/participant.csv", index=False
     )
