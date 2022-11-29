@@ -1,7 +1,10 @@
 """
 Copies contents of prd dataservice to local dataservice for a particular study
 """
-from cds.common.constants import submission_package_default_dir
+from cds.common.constants import (
+    all_generator_list,
+    submission_package_default_dir,
+)
 from cds.generator.generate import generate_submission_package
 from cds.qc.qc import qc_submission_package
 
@@ -72,7 +75,7 @@ def cds(ctx, postgres_connection_url, submission_packager_dir):
     "generator",
     multiple=True,
     type=click.Choice(
-        ["all", "participant", "sample", "file", "genomic_info"],
+        all_generator_list,
         case_sensitive=False,
     ),
     default=["all"],
