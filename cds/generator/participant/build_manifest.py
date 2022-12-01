@@ -11,7 +11,7 @@ import psycopg2
 logger = get_logger(__name__, testing_mode=False)
 
 
-def build_participant_table(db_url, participant_list, submission_packager_dir):
+def build_participant_table(db_url, participant_list, submission_package_dir):
     logger.info("Building participant table")
     logger.info("connecting to database")
     conn = psycopg2.connect(db_url)
@@ -31,5 +31,5 @@ def build_participant_table(db_url, participant_list, submission_packager_dir):
     )
     logger.info("saving sample manifest to file")
     participant_table.to_csv(
-        f"{submission_packager_dir}/participant.csv", index=False
+        f"{submission_package_dir}/participant.csv", index=False
     )
