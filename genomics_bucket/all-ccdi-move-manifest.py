@@ -1,10 +1,10 @@
 import os
 
+from d3b_cavatica_tools.utils.logging import get_logger
+
 import pandas as pd
 import psycopg2
 import sevenbridges as sbg
-from d3b_cavatica_tools.utils.logging import get_logger
-
 from queries import (
     all_scrapes_sql,
     already_transferred_sql,
@@ -119,7 +119,6 @@ cbtn_manifest["s3path"] = cbtn_manifest["s3path"].apply(
 )
 
 conn.close()
-
 logger.info("getting unique values for each file from cbtn")
 unique_cbtn = build_unique_file_manifest(cbtn_manifest)
 unique_cbtn["name"] = unique_cbtn["s3path"].apply(
@@ -484,6 +483,10 @@ genomic_info_table_raw = pd.read_sql(
     conn,
 )
 
+# bar = pd.read_sql(
+#     sequencing_query2(sl),
+#     conn,
+# )
 # gi = build_unique_genomic_manifest(genomic_info_table_raw)
 genomic_info_table = genomic_info_table_raw[
     [
@@ -508,6 +511,7 @@ genomic_info_table = genomic_info_table_raw[
         "reference_genome": "reference_genome_assembly",
     }
 )
+breakpoint()
 source_map = {
     "WGS": "GENOMIC",
     "RNA-Seq": "TRANSCRIPTOMIC",
