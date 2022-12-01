@@ -35,7 +35,12 @@ def load_pbta_histologies():
     return pd.read_csv(fname, sep="\t")
 
 
-def build_diagnosis_table(db_url, sample_list, submission_package_dir):
+def build_diagnosis_table(
+    db_url,
+    sample_list,
+    submission_package_dir,
+    generate_sample_diagnosis_map=True,
+):
     logger.info("Building diagnosis table")
     logger.info("connecting to database")
     conn = psycopg2.connect(db_url)
@@ -54,7 +59,7 @@ def build_diagnosis_table(db_url, sample_list, submission_package_dir):
         ]
         .rename(
             columns={
-                "Kids_First_Biospecimen_ID": "diagnosis_id",
+                "Kids_First_Biospecimen_ID": "sample_id",
                 "Kids_First_Participant_ID": "participant_id",
             }
         )
@@ -67,10 +72,10 @@ def build_diagnosis_table(db_url, sample_list, submission_package_dir):
         axis=1,
     )
     histology_diagnosis = histology_diagnosis[
-        ["diagnosis_id", "primary_diagnosis", "participant_id"]
+        ["sample_id", "primary_diagnosis", "participant_id"]
     ]
     histology_diagnosis["diagnosis_id"] = (
-        "DG__" + histology_diagnosis["diagnosis_id"]
+        "DG__" + histology_diagnosis["sample_id"]
     )
     histology_diagnosis = (
         histology_diagnosis.join(
@@ -78,7 +83,7 @@ def build_diagnosis_table(db_url, sample_list, submission_package_dir):
         )
         .drop(columns="primary_diagnosis")
         .melt(
-            id_vars=["diagnosis_id", "participant_id"],
+            id_vars=["diagnosis_id", "participant_id", "sample_id"],
             var_name="dx_number",
             value_name="primary_diagnosis",
         )
@@ -89,6 +94,13 @@ def build_diagnosis_table(db_url, sample_list, submission_package_dir):
         + "__"
         + histology_diagnosis["dx_number"].apply(str)
     )
+    if generate_sample_diagnosis_map:
+        logger.info("generating sample-diagnosis mapping.")
+        mapping = histology_diagnosis[["diagnosis_id", "sample_id"]]
+        mapping.to_csv(
+            f"{submission_package_dir}diagnosis_sample_mapping.csv", index=False
+        )
+
     histology_diagnosis = histology_diagnosis[
         ["diagnosis_id", "primary_diagnosis", "participant_id"]
     ]
