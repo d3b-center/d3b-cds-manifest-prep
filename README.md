@@ -51,5 +51,5 @@ This will generate both the sample and participant manifests.
 ### QC a submission manifest
 
 ```sh
-cds -c $DATABASE_URL qc -d data/submission_packet/
+cds -c $DATABASE_URL -d data/submission_packet/ qc
 ```
