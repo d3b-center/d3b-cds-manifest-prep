@@ -116,6 +116,44 @@ def sample_query(sample_list):
     return query
 
 
+def file_query(
+    file_list, bucket_name="cds-246-phs002517-sequencefiles-p30-fy20/"
+):
+    query = f"""
+    with file_info as (
+        select hashes.s3path as file_url_in_cds,
+            file_name, 
+            size as file_size,
+            replace(
+                hashes.s3path,
+                '{bucket_name}',
+                ''
+            ) kf_s3path,
+            md5 md5sum
+        from file_metadata.hashes hashes
+        join file_metadata.aws_scrape aws on hashes.s3path = aws.s3path
+        where hashes.s3path like '%cds-246-phs002517-sequencefiles-p30-fy20%'
+    ),
+    kf_info as (
+        select kf_id, 
+            file_format as file_type,
+            url
+        from genomic_file gf
+        join file_metadata.indexd_scrape idx on gf.latest_did = idx.did
+        where kf_id in ({str(file_list)[1:-1]})
+    )
+    select kf_id,
+        file_url_in_cds, 
+        file_name,
+        file_type,
+        file_size, 
+        md5sum
+    from kf_info
+    join file_info on kf_info.url = file_info.kf_s3path
+    """
+    return query
+
+
 def sequencing_query(sample_list):
     query = f"""
     select distinct bsgf.biospecimen_id,
