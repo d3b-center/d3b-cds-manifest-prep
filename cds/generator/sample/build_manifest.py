@@ -9,7 +9,7 @@ import psycopg2
 logger = get_logger(__name__, testing_mode=False)
 
 
-def build_sample_table(db_url, sample_list, submission_packager_dir):
+def build_sample_table(db_url, sample_list, submission_package_dir):
     logger.info("Building sample table")
     logger.info("connecting to database")
     conn = psycopg2.connect(db_url)
@@ -26,4 +26,4 @@ def build_sample_table(db_url, sample_list, submission_packager_dir):
     ].apply(lambda x: anatomical_site_map.get(x))
     sample_table["sample_type"] = sample_table.apply(sample_type, axis=1)
     logger.info("saving sample manifest to file")
-    sample_table.to_csv(f"{submission_packager_dir}/sample.csv", index=False)
+    sample_table.to_csv(f"{submission_package_dir}/sample.csv", index=False)

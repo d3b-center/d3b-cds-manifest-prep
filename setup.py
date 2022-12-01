@@ -30,4 +30,6 @@ setup(
     },
     python_requires=">=3.6, <4",
     install_requires=requirements,
+    include_package_data=True,
+    package_data={"": ["data/CBTN - ICD-O.xlsx", "data/pbta-histologies.tsv"]},
 )
