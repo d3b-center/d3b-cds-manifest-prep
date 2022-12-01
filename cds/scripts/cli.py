@@ -3,6 +3,7 @@ Copies contents of prd dataservice to local dataservice for a particular study
 """
 from cds.common.constants import (
     all_generator_list,
+    default_postgres_url,
     submission_package_default_dir,
 )
 from cds.generator.generate import generate_submission_package
@@ -18,6 +19,7 @@ import pandas as pd
     "--postgres_connection_url",
     type=str,
     required=True,
+    default=default_postgres_url,
     help="Connection URL to KF Postgres",
 )
 @click.option(
@@ -83,8 +85,9 @@ def cds(ctx, postgres_connection_url, submission_packager_dir):
 )
 @click.pass_context
 def generate_submission(ctx, seed_file, generator):
-    """Copy the kf_ids from the ids in the given file from
-    the source dataservice to the target dataservice
+    """
+    Generate a CDS submission manifest or manifests using a seed
+    file_sample_participant mapping.
     """
     generate_submission_package(
         ctx.obj["postgres_connection_url"],
