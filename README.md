@@ -15,6 +15,10 @@ pip install git+https://github.com/d3b-center/d3b-cds-manifest-prep.git@latest-r
 pip install git+https://github.com/d3b-center/d3b-cds-manifest-prep.git
 ```
 
+## Data
+
+The most recently generated manifest can be found at [`data/submission_packet`](data/submission_packet)
+
 ## Usage
 
 ### Generate CDS Submission Manifest
