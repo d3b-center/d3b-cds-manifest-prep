@@ -3,6 +3,7 @@ from d3b_cavatica_tools.utils.logging import get_logger
 from cds.common.constants import all_generator_list
 from cds.generator.diagnosis.build_manifest import build_diagnosis_table
 from cds.generator.file.build_manifest import build_file_table
+from cds.generator.genomic_info.build_manifest import build_genomic_info_table
 from cds.generator.participant.build_manifest import build_participant_table
 from cds.generator.sample.build_manifest import build_sample_table
 
@@ -51,4 +52,10 @@ def generate_submission_package(
     if "file" in generator_list:
         build_file_table(
             postgres_connection_url, file_list, submission_package_dir
+        )
+    if "genomic_info" in generator_list:
+        build_genomic_info_table(
+            postgres_connection_url,
+            file_sample_participant_map,
+            submission_package_dir,
         )
