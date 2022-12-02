@@ -14,3 +14,5 @@ all_generator_list = [
 default_postgres_url = (
     "postgresql://username:password@localhost:5432/default_database"
 )
+
+seq_file_bucket_name = "cds-246-phs002517-sequencefiles-p30-fy20/"
