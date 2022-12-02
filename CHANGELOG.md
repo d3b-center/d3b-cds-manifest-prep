@@ -1,5 +1,17 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.2.0
+
+### Summary
+
+- Emojis: 🍱 x1
+- Categories: Other Changes x1
+
+### New features and changes
+
+- [#11](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/11) - 🍱 add submission packet and submission_packet zip to release - [4e2ceb11](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/4e2ceb114ca86a0ae9ddbbb999902c3984ac5e2d) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.1.0
 
 ### Summary
