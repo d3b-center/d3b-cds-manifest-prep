@@ -1,5 +1,19 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.4.0
+
+### Summary
+
+- Emojis: 🍱 x2, 🔥 x1
+- Categories: Removals x1, Other Changes x2
+
+### New features and changes
+
+- [#21](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/21) - 🍱 Pkg data - [3998516e](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/3998516e96c531e98990377e431015e8626cd2be) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#20](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/20) - 🍱 move and create package data files - [2d426463](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/2d4264636e2927c0fcbd2eb024dc60e1093c41da) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#19](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/19) - 🔥 Repo cleanup - [f8525d20](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/f8525d20d7440872ff1e7422544805872b3d5dcb) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.3.0
 
 ### Summary
