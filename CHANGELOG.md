@@ -1,5 +1,17 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.3.0
+
+### Summary
+
+- Emojis: 🔧 x1
+- Categories: Other Changes x1
+
+### New features and changes
+
+- [#13](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/13) - 🔧 add prepare_assets for release maker - [45ede186](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/45ede1865f891ebac92e49c4ace3fa6b76e85597) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.2.0
 
 ### Summary
