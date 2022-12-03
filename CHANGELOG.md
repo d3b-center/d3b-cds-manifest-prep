@@ -4,11 +4,12 @@
 
 ### Summary
 
-- Emojis: 🚑️ x1, 🔧 x1
-- Categories: Other Changes x2
+- Emojis: 📝 x1, 🚑️ x1, 🔧 x1
+- Categories: Documentation x1, Other Changes x2
 
 ### New features and changes
 
+- [#17](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/17) - 📝 add readme for zip files - [1465792e](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/1465792ea8a0caceb4b02f68c33279498921253b) by [chris-s-friedman](https://github.com/chris-s-friedman)
 - [#15](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/15) - 🚑️ fix prepare assets - [bd17d4da](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/bd17d4dac888de28d2f6674df6d146908a6366af) by [chris-s-friedman](https://github.com/chris-s-friedman)
 - [#13](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/13) - 🔧 add prepare_assets for release maker - [45ede186](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/45ede1865f891ebac92e49c4ace3fa6b76e85597) by [chris-s-friedman](https://github.com/chris-s-friedman)
 
