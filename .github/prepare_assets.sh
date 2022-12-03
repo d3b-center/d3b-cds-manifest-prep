@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-ZIP_NAME = "data/zip/submission_package_${1}.zip"
+ZIP_NAME="data/zip/submission_package_${1}.zip"
 
 zip -r "${ZIP_NAME}"  data/submission_packet/*
 
