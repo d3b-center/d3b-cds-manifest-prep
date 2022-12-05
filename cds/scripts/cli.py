@@ -15,7 +15,7 @@ import pkg_resources
 
 
 @click.group()
-@click.version_option()
+@click.version_option(package_name="d3b-cds-manifest-tools")
 @click.option(
     "-c",
     "--postgres_connection_url",
