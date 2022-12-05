@@ -16,3 +16,5 @@ default_postgres_url = (
 )
 
 seq_file_bucket_name = "cds-246-phs002517-sequencefiles-p30-fy20/"
+
+file_sample_participant_map_default = "data/file_sample_participant_map.csv"

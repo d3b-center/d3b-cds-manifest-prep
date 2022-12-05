@@ -28,18 +28,28 @@ The most recently generated manifest can be found at [`data/submission_packet`](
 #### Generate a submission packet
 
 ```sh
-cds -c $DATABASE_URL generate -f data/file_sample_participant_map.csv
+cds -c $DATABASE_URL generate
 ```
 
 This uses the environment variable `$DATABASE_URL`. This is expected to be a 
 postgres connection url to kidsfirst postgres dataservice.
 
-The `-f` option points to a file_sample_participant mapping.
+By default, the file-sample-participant mapping bundled in this package 
+[here](cds/data/file_sample_participant_map.csv) is used to generate the 
+manifests.
+
+#### Generate a submission packet using a specific file-sample-participant map
+
+The `-f` option specifies the seed file-sample-participant map to use.
+
+```sh
+cds -c $DATABASE_URL generate -f path/to/file_sample_participant_map.csv
+```
 
 #### generate only a specific manifest in the submission packet
 
 ```sh
-cds -c $DATABASE_URL generate -f data/file_sample_participant_map.csv -g sample
+cds -c $DATABASE_URL generate -g sample
 ```
 
 This will generate only the sample manifest.
@@ -47,7 +57,7 @@ This will generate only the sample manifest.
 #### generate specific manifests in the submission packet
 
 ```sh
-cds -c $DATABASE_URL generate -f data/file_sample_participant_map.csv -g sample -g participant
+cds -c $DATABASE_URL generate -g sample -g participant
 ```
 
 This will generate both the sample and participant manifests.
