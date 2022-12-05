@@ -15,6 +15,7 @@ import pkg_resources
 
 
 @click.group()
+@click.version_option()
 @click.option(
     "-c",
     "--postgres_connection_url",
