@@ -1,5 +1,23 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.5.0
+
+### Summary
+
+- Emojis: 🍱 x1, 🚑️ x3, 🚸 x2, 🚚 x1
+- Categories: Fixes x2, Other Changes x5
+
+### New features and changes
+
+- [#29](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/29) - 🍱 updated submission_packet after changes from 0.2.0 - [166d7760](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/166d776007d1fd17f2553ec361c58c0105292fde) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#28](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/28) - 🚑️ Fix imports - [254053a1](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/254053a1709f823371261b10418bef354b596e6e) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#27](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/27) - 🚑️ specify package_name for version - [29ab5eac](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/29ab5eacea33b1bf31e6270e13af541fe4bca33a) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#26](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/26) - 🚸 add --version option - [14140b24](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/14140b2486ea0399c14e4d70dd44bdac4fe89d61) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#25](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/25) - 🚑️ reuirements needs click - [9577eaa4](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/9577eaa41cd84884d156aaa221f5211c92a3f4d9) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#24](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/24) - 🚸 bundle file-sample-participant map with package - [9108322a](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/9108322a38f4b209aee0ee3957b173a5da52e55c) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#23](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/23) - 🚚 move old zip package to zip directory - [d95315f7](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/d95315f744d2576ee878a1294aea7768d4a79abd) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.4.0
 
 ### Summary
