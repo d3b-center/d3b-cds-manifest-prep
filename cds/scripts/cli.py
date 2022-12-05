@@ -4,13 +4,14 @@ Copies contents of prd dataservice to local dataservice for a particular study
 from cds.common.constants import (
     all_generator_list,
     default_postgres_url,
+    file_sample_participant_map_default,
     submission_package_default_dir,
 )
 from cds.generator.generate import generate_submission_package
 from cds.qc.qc import qc_submission_package
 
 import click
-import pandas as pd
+import pkg_resources
 
 
 @click.group()
@@ -68,6 +69,9 @@ def cds(ctx, postgres_connection_url, submission_packager_dir):
     "--seed_file",
     type=click.Path(exists=True, dir_okay=False),
     required=True,
+    default=pkg_resources.resource_filename(
+        "cds", file_sample_participant_map_default
+    ),
     help="CSV file that maps all the files, samples, and participants to "
     + "use to generate the manifests.",
 )
