@@ -6,3 +6,4 @@ boto3
 pandas
 tqdm
 psycopg2-binary
+click
