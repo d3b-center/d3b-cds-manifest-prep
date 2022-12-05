@@ -1,9 +1,7 @@
-d3b_utils @ git+https://github.com/d3b-center/d3b-utils-python.git
-kf_utils @ git+https://github.com/kids-first/kf-utils-python.git
 d3b_cavatica_tools @ git+https://github.com/d3b-center/d3b-cavatica-python-tools.git
-kf_lib_data_ingest @ git+https://github.com/kids-first/kf-lib-data-ingest.git
 boto3
 pandas
 tqdm
 psycopg2-binary
 click
+openpyxl
