@@ -16,5 +16,5 @@ zip -r "${ZIP_NAME}" "${ZIP_DATA_DIR}/" -x "${ZIP_DATA_DIR}/submission_packet/RE
 echo "${ZIP_NAME}" > .github/release_assets.txt
 
 # Add new version to bug report form
-awk -v version_id="${1}" '/new_versions_here/ { print; print "        - " version_id; next }1' .github/ISSUE_TEMPLATE/submission_pkg_bug_report.md > tmp_submission_bug_report
-cp tmp_submission_bug_report .github/ISSUE_TEMPLATE/submission_pkg_bug_report.md
+awk -v version_id="${1}" '/new_versions_here/ { print; print "        - " version_id; next }1' .github/ISSUE_TEMPLATE/submission_pkg_bug_report.yml > tmp_submission_bug_report
+cp tmp_submission_bug_report .github/ISSUE_TEMPLATE/submission_pkg_bug_report.yml
