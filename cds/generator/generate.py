@@ -37,6 +37,11 @@ def generate_submission_package(
     file_list = (
         file_sample_participant_map["file_id"].drop_duplicates().to_list()
     )
+    # Save the seed file
+    seed_file.to_csv(
+        f"{submission_package_dir}/file_sample_participant_map.csv", index=False
+    )
+
     if "participant" in generator_list:
         build_participant_table(
             postgres_connection_url, participant_list, submission_package_dir
