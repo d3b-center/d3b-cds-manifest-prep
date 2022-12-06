@@ -1,4 +1,3 @@
----
 name: Submission Package Bug
 about: Report an bug found in a submission package
 title: ''
@@ -43,4 +42,3 @@ body:
         - file.csv
         - file_sample_participant_map.csv
         - genomic_info.csv
----
