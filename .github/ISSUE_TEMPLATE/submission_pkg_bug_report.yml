@@ -1,5 +1,6 @@
 name: Submission Package Bug
-title: 'Report a bug found in a submission package'
+description: 'Report a bug found in a submission package'
+title: "Submission Package bug - "
 labels: bug, submission_package
 assignees: 'chris-s-friedman'
 body:
