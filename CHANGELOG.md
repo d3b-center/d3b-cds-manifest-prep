@@ -1,5 +1,19 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.5.2
+
+### Summary
+
+- Emojis: 🐛 x1, 🔧 x1, ✨ x1
+- Categories: Additions x1, Fixes x1, Other Changes x1
+
+### New features and changes
+
+- [#50](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/50) - 🐛 didn't uncomment the important parts - [0da3fa18](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/0da3fa1873ee1ed34f163f39c26710a5d4d94bcd) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#47](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/47) - 🔧 add prerelease to config - [ebcbe783](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/ebcbe783138c29e145de1d5716ec01a787b0a6dc) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#46](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/46) - ✨ setup pre-release script to update readme and submission bug_report - [1cf9c881](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/1cf9c88125c67c7867bf5d7e484df2a3f9460843) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.5.1
 
 ### Summary
