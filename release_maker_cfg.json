@@ -1,4 +1,4 @@
 {
   "project_title": "D3B CDS Manifest Prep",
-  "pre_release_script": ""
+  "pre_release_script": "scripts/prerelease.sh"
 }
