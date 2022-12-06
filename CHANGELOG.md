@@ -1,5 +1,24 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.5.1
+
+### Summary
+
+- Emojis: 🐛 x6, 🔧 x1, 🚸 x1
+- Categories: Fixes x7, Other Changes x1
+
+### New features and changes
+
+- [#44](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/44) - 🐛 set correct submission issue bug frontmatter - [a6c75c1f](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/a6c75c1f6eb6af6b4491782b66f0ee2c247b895c) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#43](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/43) - 🐛 set submission_issue opts to labels for checkbox - [ee9311a2](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/ee9311a2579855f26b5e4450d62c04e47637d1b2) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#42](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/42) - 🐛 options for effected files must be hashable - [1da54eb6](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/1da54eb6841af75a7ec9788adebc06ded8e7d664) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#41](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/41) - 🐛 submission issue template wants strings - [b66fdc04](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/b66fdc04ead9559f071bd16f91075e329ba6b1c1) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#40](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/40) - 🐛 fix_submission_package_bug_report - [bae5acaf](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/bae5acaf67bb723b3b8d1f7b57dec46e5128dfe2) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#39](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/39) - 🐛 submission_bug_report is yml - [5a946a22](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/5a946a22f4eff41fda4bc9086fe162fab4ee8b8f) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#38](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/38) - 🔧 add issue templates - [437ab049](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/437ab049ce38c7d81519ec3e7ec83db66fbb5b34) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#37](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/37) - 🚸 output zip directory has version number in top level inside zip - [2ddff1d6](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/2ddff1d647f405906e5d4830955fc9302ce27556) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.5.0
 
 ### Summary
