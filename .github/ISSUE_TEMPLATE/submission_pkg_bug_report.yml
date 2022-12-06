@@ -34,10 +34,10 @@ body:
       label: Effected file(s)
       description: Select the file(s) relating to this bug
       options: 
-        - sample.csv
-        - participant.csv
-        - diagnosis.csv
-        - diagnosis_sample_mapping.csv
-        - file.csv
-        - file_sample_participant_map.csv
-        - genomic_info.csv
+        - sample
+        - participant
+        - diagnosis
+        - diagnosis_sample_mapping
+        - file
+        - file_sample_participant_map
+        - genomic_info
