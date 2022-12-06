@@ -34,10 +34,10 @@ body:
       label: Effected file(s)
       description: Select the file(s) relating to this bug
       options: 
-        - sample
-        - participant
-        - diagnosis
-        - diagnosis_sample_mapping
-        - file
-        - file_sample_participant_map
-        - genomic_info
+        - label: sample
+        - label: participant
+        - label: diagnosis
+        - label: diagnosis_sample_mapping
+        - label: file
+        - label: file_sample_participant_map
+        - label: genomic_info
