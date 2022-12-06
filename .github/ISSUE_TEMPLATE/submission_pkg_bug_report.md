@@ -1,0 +1,46 @@
+---
+name: Submission Package Bug
+about: Report an bug found in a submission package
+title: ''
+labels: bug, submission_package
+assignees: 'chris-s-friedman'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this bug!
+  - type: textarea
+    id: description
+    attributes: 
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+  - type: textarea
+    id: expectation
+    attributes: 
+      label: Expected behavior
+      description: A clear and concise description of what you expected the data to look like.
+  - type: dropdown
+    id: release
+    attributes:
+      label: Version ID
+      description: Select the version number relating to this bug
+      options: # new_versions_here
+        - 0.5.0
+        - 0.4.0
+        - 0.3.0
+        - 0.2.0
+        - 0.1.0
+  - type: checkboxes
+    id: effected_files
+    attributes: 
+      label: Effected file(s)
+      description: Select the file(s) relating to this bug
+      options: 
+        - sample.csv
+        - participant.csv
+        - diagnosis.csv
+        - diagnosis_sample_mapping.csv
+        - file.csv
+        - file_sample_participant_map.csv
+        - genomic_info.csv
+---
