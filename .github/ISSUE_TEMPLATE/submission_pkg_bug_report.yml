@@ -1,5 +1,5 @@
 name: Submission Package Bug
-title: 'Report n bug found in a submission package'
+title: 'Report a bug found in a submission package'
 labels: bug, submission_package
 assignees: 'chris-s-friedman'
 body:
@@ -23,11 +23,11 @@ body:
       label: Version ID
       description: Select the version number relating to this bug
       options: # new_versions_here
-        - 0.5.0
-        - 0.4.0
-        - 0.3.0
-        - 0.2.0
-        - 0.1.0
+        - "0.5.0"
+        - "0.4.0"
+        - "0.3.0"
+        - "0.2.0"
+        - "0.1.0"
   - type: checkboxes
     id: effected_files
     attributes: 
