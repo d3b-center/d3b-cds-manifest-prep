@@ -1,5 +1,19 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.5.3
+
+### Summary
+
+- Emojis: 🐛 x2, ✨ x1
+- Categories: Additions x1, Fixes x2
+
+### New features and changes
+
+- [#54](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/54) - 🐛 handle participants that are missing diagnoses - [af74b616](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/af74b6164b3c750e4a834f34e50b6d2e5cf98680) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#53](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/53) - 🐛 save the fsp map - [bbc8b048](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/bbc8b0484c369d4d17ded6d9764a15332a01de7e) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#52](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/52) - ✨ save the seed mapping file to the output directory - [2054dd96](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/2054dd96aa2e96ac69de2736830c2be1ee53cb66) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.5.2
 
 ### Summary
