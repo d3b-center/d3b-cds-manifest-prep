@@ -37,6 +37,34 @@ def load_pbta_histologies():
     return pd.read_csv(fname, sep="\t")
 
 
+def find_missing_diagnoses(participants_missing_diagnoses, fsp, conn):
+    missing_samples = (
+        fsp[fsp["participant_id"].isin(participants_missing_diagnoses)][
+            "sample_id"
+        ]
+        .drop_duplicates()
+        .to_list()
+    )
+    missing_diagnoses = pd.read_sql(
+        diagnosis_query(missing_samples, "Tumor"), conn
+    )
+    # check that all participants have diagnoses
+    missing_participants = [
+        p
+        for p in participants_missing_diagnoses
+        if p not in missing_diagnoses["participant_id"].to_list()
+    ]
+    if len(missing_participants) > 0:
+        missing_samples = (
+            fsp[fsp["participant_id"].isin(missing_participants)]["sample_id"]
+            .drop_duplicates()
+            .to_list()
+        )
+        more_diagnoses = pd.read_sql(diagnosis_query(missing_samples), conn)
+        missing_diagnoses = pd.concat([missing_diagnoses, more_diagnoses])
+    return missing_diagnoses
+
+
 def build_diagnosis_table(
     db_url,
     sample_list,
@@ -83,12 +111,7 @@ def build_diagnosis_table(
         for p in fsp["participant_id"].drop_duplicates().to_list()
         if p not in histology_diagnosis["participant_id"].to_list()
     ]
-    missing_samples = (
-        fsp[fsp["participant_id"].isin(missing_participants)]["sample_id"]
-        .drop_duplicates()
-        .to_list()
-    )
-    missing_diagnoses = pd.read_sql(diagnosis_query(missing_samples), conn)
+    missing_diagnoses = find_missing_diagnoses(missing_participants, fsp, conn)
     # breakpoint()
     combined_diagnoses = pd.concat([histology_diagnosis, missing_diagnoses])
     combined_diagnoses["diagnosis_id"] = (

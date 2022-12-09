@@ -1,30 +1,66 @@
 diagnosis_id,primary_diagnosis,participant_id,disease_type
 DG__BS_007JTNB8__0,Ependymoma,PT_1MW98VR1,9391/3 
 DG__BS_007JTNB8__0,Oligodendroglioma,PT_1MW98VR1,9450/3
+DG__BS_007JTNB8__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_1MW98VR1,9400/0
 DG__BS_0J57HJ1S__0,Ependymoma,PT_03K77G7N,9391/3 
 DG__BS_0J57HJ1S__0,Oligodendroglioma,PT_03K77G7N,9450/3
+DG__BS_0J57HJ1S__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_03K77G7N,9400/0
+DG__BS_K6DDD96R__0,Ependymoma,PT_333GHVG7,9391/3 
+DG__BS_K6DDD96R__0,Oligodendroglioma,PT_333GHVG7,9450/3
+DG__BS_K6DDD96R__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_333GHVG7,9400/0
 DG__BS_ZYPMR035__0,Oligodendroglioma,PT_03K77G7N,9450/3
+DG__BS_ZYPMR035__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_03K77G7N,9400/3 
+DG__BS_Y9C602Y4__0,Oligodendroglioma,PT_BC6JG69J,9450/3
+DG__BS_Y9C602Y4__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_BC6JG69J,9400/3 
 DG__BS_00TRPEQX__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_MDWPRDBT,9400/3 
 DG__BS_00TRPEQX__0,Pilocytic Astrocytoma,PT_MDWPRDBT,9421/3
+DG__BS_00TRPEQX__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_MDWPRDBT,9400/3 
 DG__BS_2853394H__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_0EBP2PBD,9400/3 
 DG__BS_2853394H__0,Pilocytic Astrocytoma,PT_0EBP2PBD,9421/3
+DG__BS_2853394H__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_0EBP2PBD,9400/3 
+DG__BS_S8756VS8__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_NTV1B352,9400/3 
+DG__BS_S8756VS8__0,Pilocytic Astrocytoma,PT_NTV1B352,9421/3
+DG__BS_S8756VS8__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_NTV1B352,9400/3 
 DG__BS_Z61JVJ03__0,Pilocytic Astrocytoma,PT_0EBP2PBD,9421/3
+DG__BS_Z61JVJ03__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_0EBP2PBD,9400/3 
+DG__BS_1GFP3T8N__0,Pilocytic Astrocytoma,PT_P1F0AHMT,9421/3
+DG__BS_1GFP3T8N__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_P1F0AHMT,9400/3 
 DG__BS_014EVM2D__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_S21ZTKPS,9400/0
 DG__BS_014EVM2D__0,"High grade glioma, WHO Grade III-IV",PT_S21ZTKPS,
+DG__BS_014EVM2D__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_S21ZTKPS,9400/3 
 DG__BS_D6J2BGDJ__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_0FGS6YME,9400/0
 DG__BS_D6J2BGDJ__0,"High grade glioma, WHO Grade III-IV",PT_0FGS6YME,
+DG__BS_D6J2BGDJ__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_0FGS6YME,9400/3 
+DG__BS_81S538NW__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_PEHEAEVT,9400/0
+DG__BS_81S538NW__0,"High grade glioma, WHO Grade III-IV",PT_PEHEAEVT,
+DG__BS_81S538NW__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_PEHEAEVT,9400/3 
 DG__BS_01DQH017__0,Ependymoma,PT_CYVVA9AB,9391/3 
 DG__BS_01DQH017__0,"High grade glioma, WHO Grade III-IV",PT_CYVVA9AB,
+DG__BS_01DQH017__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_CYVVA9AB,9400/0
 DG__BS_HGKDT5AJ__0,Ependymoma,PT_0FGS6YME,9391/3 
 DG__BS_HGKDT5AJ__0,"High grade glioma, WHO Grade III-IV",PT_0FGS6YME,
+DG__BS_HGKDT5AJ__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_0FGS6YME,9400/0
+DG__BS_J4WKRNHA__0,Ependymoma,PT_T5CR5HQZ,9391/3 
+DG__BS_J4WKRNHA__0,"High grade glioma, WHO Grade III-IV",PT_T5CR5HQZ,
+DG__BS_J4WKRNHA__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_T5CR5HQZ,9400/0
 DG__BS_01Y5F4PN__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_QK4XB83F,9400/0
+DG__BS_01Y5F4PN__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_QK4XB83F,9400/3 
 DG__BS_01Y5F4PN__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_QK4XB83F,9400/3 
 DG__BS_DFTX5Q9V__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_1FQFJ0V1,9400/0
 DG__BS_DFTX5Q9V__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_1FQFJ0V1,9400/3 
+DG__BS_DFTX5Q9V__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_1FQFJ0V1,9400/3 
+DG__BS_ZBEZT4XY__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_YSYNKHAE,9400/0
+DG__BS_ZBEZT4XY__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_YSYNKHAE,9400/3 
+DG__BS_ZBEZT4XY__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_YSYNKHAE,9400/3 
 DG__BS_02NZT8CE__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_2BJF83GQ,9400/0
+DG__BS_02NZT8CE__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_2BJF83GQ,9400/3 
 DG__BS_02NZT8CE__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_2BJF83GQ,9400/3 
 DG__BS_T2F48Z4E__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_1FQFJ0V1,9400/0
 DG__BS_T2F48Z4E__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_1FQFJ0V1,9400/3 
+DG__BS_T2F48Z4E__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_1FQFJ0V1,9400/3 
+DG__BS_H9YGSVB9__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_ZH3SBJPZ,9400/0
+DG__BS_H9YGSVB9__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_ZH3SBJPZ,9400/3 
+DG__BS_H9YGSVB9__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_ZH3SBJPZ,9400/3 
 DG__BS_02W5H7K5__0,Histiocytic tumor,PT_J06X17XH,
 DG__BS_02W5H7K5__0,Oligodendroglioma,PT_J06X17XH,9450/3
 DG__BS_6NJRE82B__0,Histiocytic tumor,PT_20JVK3TZ,
