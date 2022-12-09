@@ -1,5 +1,7 @@
 from d3b_cavatica_tools.utils.logging import get_logger
 
+from cds.common.queries import diagnosis_query
+
 import pandas as pd
 import pkg_resources
 import psycopg2
@@ -35,11 +37,40 @@ def load_pbta_histologies():
     return pd.read_csv(fname, sep="\t")
 
 
+def find_missing_diagnoses(participants_missing_diagnoses, fsp, conn):
+    missing_samples = (
+        fsp[fsp["participant_id"].isin(participants_missing_diagnoses)][
+            "sample_id"
+        ]
+        .drop_duplicates()
+        .to_list()
+    )
+    missing_diagnoses = pd.read_sql(
+        diagnosis_query(missing_samples, "Tumor"), conn
+    )
+    # check that all participants have diagnoses
+    missing_participants = [
+        p
+        for p in participants_missing_diagnoses
+        if p not in missing_diagnoses["participant_id"].to_list()
+    ]
+    if len(missing_participants) > 0:
+        missing_samples = (
+            fsp[fsp["participant_id"].isin(missing_participants)]["sample_id"]
+            .drop_duplicates()
+            .to_list()
+        )
+        more_diagnoses = pd.read_sql(diagnosis_query(missing_samples), conn)
+        missing_diagnoses = pd.concat([missing_diagnoses, more_diagnoses])
+    return missing_diagnoses
+
+
 def build_diagnosis_table(
     db_url,
     sample_list,
     submission_package_dir,
     generate_sample_diagnosis_map=True,
+    fsp=False,
 ):
     logger.info("Building diagnosis table")
     logger.info("connecting to database")
@@ -74,12 +105,21 @@ def build_diagnosis_table(
     histology_diagnosis = histology_diagnosis[
         ["sample_id", "primary_diagnosis", "participant_id"]
     ]
-    histology_diagnosis["diagnosis_id"] = (
-        "DG__" + histology_diagnosis["sample_id"]
+    # Hanlde any participants missing a diagnosis
+    missing_participants = [
+        p
+        for p in fsp["participant_id"].drop_duplicates().to_list()
+        if p not in histology_diagnosis["participant_id"].to_list()
+    ]
+    missing_diagnoses = find_missing_diagnoses(missing_participants, fsp, conn)
+    # breakpoint()
+    combined_diagnoses = pd.concat([histology_diagnosis, missing_diagnoses])
+    combined_diagnoses["diagnosis_id"] = (
+        "DG__" + combined_diagnoses["sample_id"]
     )
-    histology_diagnosis = (
-        histology_diagnosis.join(
-            histology_diagnosis["primary_diagnosis"].str.split(";", expand=True)
+    combined_diagnoses = (
+        combined_diagnoses.join(
+            combined_diagnoses["primary_diagnosis"].str.split(";", expand=True)
         )
         .drop(columns="primary_diagnosis")
         .melt(
@@ -89,23 +129,23 @@ def build_diagnosis_table(
         )
         .dropna()
     )
-    histology_diagnosis["diagnosis_id"] = (
-        histology_diagnosis["diagnosis_id"]
+    combined_diagnoses["diagnosis_id"] = (
+        combined_diagnoses["diagnosis_id"]
         + "__"
-        + histology_diagnosis["dx_number"].apply(str)
+        + combined_diagnoses["dx_number"].apply(str)
     )
     if generate_sample_diagnosis_map:
         logger.info("generating sample-diagnosis mapping.")
-        mapping = histology_diagnosis[["diagnosis_id", "sample_id"]]
+        mapping = combined_diagnoses[["diagnosis_id", "sample_id"]]
         mapping.to_csv(
             f"{submission_package_dir}diagnosis_sample_mapping.csv", index=False
         )
 
-    histology_diagnosis = histology_diagnosis[
+    combined_diagnoses = combined_diagnoses[
         ["diagnosis_id", "primary_diagnosis", "participant_id"]
     ]
 
-    diagnoses_manifest = histology_diagnosis.merge(
+    diagnoses_manifest = combined_diagnoses.merge(
         ontology,
         how="left",
         on="primary_diagnosis",
