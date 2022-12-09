@@ -52,7 +52,11 @@ def generate_submission_package(
         )
     if "diagnosis" in generator_list:
         build_diagnosis_table(
-            postgres_connection_url, sample_list, submission_package_dir
+            postgres_connection_url,
+            sample_list,
+            submission_package_dir,
+            True,
+            file_sample_participant_map,
         )
     if "file" in generator_list:
         build_file_table(
