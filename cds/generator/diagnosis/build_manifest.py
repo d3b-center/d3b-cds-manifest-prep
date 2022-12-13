@@ -31,9 +31,11 @@ def load_ontology_mapping():
     return diagnosis_icdo
 
 
-def load_pbta_histologies():
+def load_histologies():
     logger.debug("loading histology file")
-    fname = pkg_resources.resource_filename("cds", "data/pbta-histologies.tsv")
+    fname = pkg_resources.resource_filename(
+        "cds", "data/openpedcan-histologies.tsv"
+    )
     return pd.read_csv(fname, sep="\t")
 
 
@@ -77,8 +79,7 @@ def build_diagnosis_table(
     conn = psycopg2.connect(db_url)
     # load the ontology mapping
     ontology = load_ontology_mapping()
-    histologies = load_pbta_histologies()
-
+    histologies = load_histologies()
     histology_diagnosis = (
         histologies[histologies["Kids_First_Biospecimen_ID"].isin(sample_list)][
             [
