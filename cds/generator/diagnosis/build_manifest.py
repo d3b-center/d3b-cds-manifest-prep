@@ -34,9 +34,9 @@ def load_ontology_mapping():
 def load_histologies():
     logger.debug("loading histology file")
     fname = pkg_resources.resource_filename(
-        "cds", "data/openpedcan-histologies.tsv"
+        "cds", "data/openpedcan_histologies.csv"
     )
-    return pd.read_csv(fname, sep="\t")
+    return pd.read_csv(fname)
 
 
 def find_missing_diagnoses(participants_missing_diagnoses, fsp, conn):
