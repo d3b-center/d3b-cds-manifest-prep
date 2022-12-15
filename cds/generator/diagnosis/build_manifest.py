@@ -12,6 +12,11 @@ logger = get_logger(__name__, testing_mode=False)
 
 
 def load_ontology_mapping():
+    """load the ontology mapping
+
+    :return: mapping between diagnosis and icd-o code
+    :rtype: pandas.DataFrame
+    """
     logger.debug("loading ontology mapping")
     fname = pkg_resources.resource_filename("cds", "data/CBTN - ICD-O.xlsx")
     diagnosis_icdo_a = pd.read_excel(fname, sheet_name="CBTN")[
@@ -34,6 +39,11 @@ def load_ontology_mapping():
 
 
 def load_histologies():
+    """Load the histologies data
+
+    :return: histologies data
+    :rtype: pandas.DataFrame
+    """
     logger.debug("loading histology file")
     fname = pkg_resources.resource_filename(
         "cds", "data/openpedcan_histologies.csv"
@@ -141,6 +151,21 @@ def dx_from_histology(sample_list, histologies, fsp):
 
 
 def find_missing_diagnoses(participants_missing_diagnoses, fsp, conn):
+    """discover missing diagnoses
+
+    discover missing diagnoses if a diagnosis can't be found in the histologies
+    file.
+
+    :param participants_missing_diagnoses: participant ids of participants
+    missing diagnoses
+    :type participants_missing_diagnoses: list
+    :param fsp: mapping between file sample and participants
+    :type fsp: pandas.DataFrame
+    :param conn: database connection object to kf prd postgres
+    :type conn: psycopg2.connection
+    :return: diagnosis mapping for specified participants
+    :rtype: pandas.DataFrame
+    """
     missing_samples = (
         fsp[fsp["participant_id"].isin(participants_missing_diagnoses)][
             "sample_id"
@@ -175,6 +200,23 @@ def build_diagnosis_table(
     generate_sample_diagnosis_map=True,
     fsp=False,
 ):
+    """Build the diagnosis manifest
+
+    Build the diagnosis manifest. Map participants and specimens to their
+    respective diagnoses.
+
+    :param db_url: database url to KF prd postgres
+    :type db_url: str
+    :param sample_list: samples to get diagnoses for
+    :type sample_list: list
+    :param submission_package_dir: directory to save the output manifest
+    :type submission_package_dir: str
+    :param generate_sample_diagnosis_map: generate a mapping between sample and
+    diagnosis, defaults to True
+    :type generate_sample_diagnosis_map: bool, optional
+    :param fsp: mapping between file sample and participant, defaults to False
+    :type fsp: pd.DataFrame or bool, optional
+    """
     logger.info("Building diagnosis table")
     logger.info("connecting to database")
     conn = psycopg2.connect(db_url)
