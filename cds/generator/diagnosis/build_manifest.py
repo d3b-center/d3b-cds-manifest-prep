@@ -58,7 +58,8 @@ def dx_from_histology(sample_list, histologies, fsp):
 
     1.  the histology is queried by participant_id.
     2.  extract diagnosis from the pathology_diagnosis column. If `Other` use
-        the value in broad_histology.
+        the value in broad_histology. If broad_histology is NA, use
+        pathology_free_text_diagnosis.
     3.  For every participant, remove any rows containing no diagnosis. If this
         cleaning removes all diagnoses for a participant, associate all of that
         participant's samples with all diagnoses for that participant,
@@ -74,6 +75,15 @@ def dx_from_histology(sample_list, histologies, fsp):
     :return: diagnoses extracted from the histology table
     rtype: pandas.DataFrame
     """
+
+    def extract_diagnosis(row):
+        dx = row["pathology_diagnosis"]
+        if dx == "Other":
+            dx = row["broad_histology"]
+            if pd.isna(dx):
+                dx = row["pathology_free_text_diagnosis"]
+        return dx
+
     participant_list = fsp["participant_id"].drop_duplicates().to_list()
     participant_diagnosis = histologies[
         histologies["Kids_First_Participant_ID"].isin(participant_list)
@@ -83,6 +93,7 @@ def dx_from_histology(sample_list, histologies, fsp):
             "Kids_First_Participant_ID",
             "pathology_diagnosis",
             "broad_histology",
+            "pathology_free_text_diagnosis",
         ]
     ].rename(
         columns={
@@ -92,13 +103,15 @@ def dx_from_histology(sample_list, histologies, fsp):
     )
     # extract the diagnosis
     participant_diagnosis["primary_diagnosis"] = participant_diagnosis.apply(
-        lambda row: row["broad_histology"]
-        if row["pathology_diagnosis"] == "Other"
-        else row["pathology_diagnosis"],
+        extract_diagnosis,
         axis=1,
     )
     participant_diagnosis = participant_diagnosis.drop(
-        columns=["broad_histology", "pathology_diagnosis"]
+        columns=[
+            "broad_histology",
+            "pathology_diagnosis",
+            "pathology_free_text_diagnosis",
+        ]
     )
     # build table of diagnoses related to samples in sample list
     sample_diagnosis = participant_diagnosis[
