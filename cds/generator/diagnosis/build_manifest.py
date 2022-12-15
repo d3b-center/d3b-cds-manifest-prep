@@ -199,6 +199,7 @@ def build_diagnosis_table(
     submission_package_dir,
     generate_sample_diagnosis_map=True,
     fsp=False,
+    find_missing_dx_in_dataservice=False,
 ):
     """Build the diagnosis manifest
 
@@ -214,6 +215,10 @@ def build_diagnosis_table(
     :param generate_sample_diagnosis_map: generate a mapping between sample and
     diagnosis, defaults to True
     :type generate_sample_diagnosis_map: bool, optional
+    :param find_missing_dx_in_dataservice: for participants not found in the
+    histology table, should diagnosis be searched for in the dataservice,
+    defaults to False
+    :type find_missing_dx_in_dataservice: bool, optional
     :param fsp: mapping between file sample and participant, defaults to False
     :type fsp: pd.DataFrame or bool, optional
     """
@@ -225,45 +230,54 @@ def build_diagnosis_table(
     histologies = load_histologies()
     histology_diagnosis = dx_from_histology(sample_list, histologies, fsp)
     # Hanlde any participants missing a diagnosis
-    missing_participants = [
-        p
-        for p in fsp["participant_id"].drop_duplicates().to_list()
-        if p not in histology_diagnosis["participant_id"].to_list()
-    ]
-    missing_diagnoses = find_missing_diagnoses(missing_participants, fsp, conn)
-    combined_diagnoses = pd.concat([histology_diagnosis, missing_diagnoses])
-    combined_diagnoses["diagnosis_id"] = (
-        "DG__" + combined_diagnoses["sample_id"]
-    )
-    combined_diagnoses = (
-        combined_diagnoses.join(
-            combined_diagnoses["primary_diagnosis"].str.split(";", expand=True)
+    if find_missing_dx_in_dataservice:
+        missing_participants = [
+            p
+            for p in fsp["participant_id"].drop_duplicates().to_list()
+            if p not in histology_diagnosis["participant_id"].to_list()
+        ]
+        missing_diagnoses = find_missing_diagnoses(
+            missing_participants, fsp, conn
         )
-        .drop(columns="primary_diagnosis")
-        .melt(
-            id_vars=["diagnosis_id", "participant_id", "sample_id"],
-            var_name="dx_number",
-            value_name="primary_diagnosis",
+        combined_diagnoses = pd.concat([histology_diagnosis, missing_diagnoses])
+        combined_diagnoses["diagnosis_id"] = (
+            "DG__" + combined_diagnoses["sample_id"]
         )
-        .dropna()
-    )
-    combined_diagnoses["diagnosis_id"] = (
-        combined_diagnoses["diagnosis_id"]
+        combined_diagnoses = (
+            combined_diagnoses.join(
+                combined_diagnoses["primary_diagnosis"].str.split(
+                    ";", expand=True
+                )
+            )
+            .drop(columns="primary_diagnosis")
+            .melt(
+                id_vars=["diagnosis_id", "participant_id", "sample_id"],
+                var_name="dx_number",
+                value_name="primary_diagnosis",
+            )
+            .dropna()
+        )
+        diagnosis_table = combined_diagnoses
+    else:
+        diagnosis_table = histology_diagnosis
+
+    diagnosis_table["diagnosis_id"] = (
+        diagnosis_table["diagnosis_id"]
         + "__"
-        + combined_diagnoses["dx_number"].apply(str)
+        + diagnosis_table["dx_number"].apply(str)
     )
     if generate_sample_diagnosis_map:
         logger.info("generating sample-diagnosis mapping.")
-        mapping = combined_diagnoses[["diagnosis_id", "sample_id"]]
+        mapping = diagnosis_table[["diagnosis_id", "sample_id"]]
         mapping.to_csv(
             f"{submission_package_dir}diagnosis_sample_mapping.csv", index=False
         )
 
-    combined_diagnoses = combined_diagnoses[
+    diagnosis_table = diagnosis_table[
         ["diagnosis_id", "primary_diagnosis", "participant_id"]
     ]
 
-    diagnoses_manifest = combined_diagnoses.merge(
+    diagnoses_manifest = diagnosis_table.merge(
         ontology,
         how="left",
         on="primary_diagnosis",
