@@ -1,5 +1,31 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.5.4
+
+# Updated Diagnoses
+
+Updated logic for picking diagnosis from pathology_diagnosis, broad_histology, and pathology_free_text_diagnosis
+
+### Summary
+
+- Emojis: ✨ x1, 🚨 x1, 🍱 x3, 🐛 x1, ♻️ x2, 📝 x2, 🔥 x1
+- Categories: Additions x1, Documentation x2, Removals x1, Fixes x2, Other Changes x5
+
+### New features and changes
+
+- [#67](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/67) - ✨ use pathology_free_text for participants missing dx - [d0893aa5](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/d0893aa5d1c39f47bf123749b9e7d61f8ac3e4e0) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#66](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/66) - 🚨 fix markdownlint warnings - [b4654405](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/b4654405df779c0929826de5620a509cec4e0001) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#64](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/64) - 🍱 add updated outputs in diagnosis table - [610e161f](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/610e161f371e00f01eeb3f92aed9c2552f368f45) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#63](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/63) - 🐛 diagnosis_id did not work unless finding_missing_dx - [db34f40b](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/db34f40bb17e15d9f416191583b2289386b1b565) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#62](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/62) - ♻️ make searching for missing dx in the ds optional - [b63d29a3](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/b63d29a354d6ee4eb9857e201f6a012a60f887f2) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#61](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/61) - 📝 add documentation for diagnosis table - [2bfc6bef](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/2bfc6bef0fbb02483199bfe6a442ca002a1b064a) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#60](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/60) - 🔥 remove a breakpoint in diagnosis generator - [01741bba](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/01741bba33e8ef0f1eb836dba4275659541a899a) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#59](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/59) - ♻️ extract diagnosis from histology in its own func - [983092cb](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/983092cbf852434c8e6c29592734f5dc9a9cc973) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#58](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/58) - 📝 add readme for package data - [e952d805](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/e952d805331f75bc331c246334be61ac0e8817af) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#57](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/57) - 🍱 use openpedcan histologies table - [ce3d9432](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/ce3d94323b108a2a2cec11f9d614ea21b4666d8b) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#56](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/56) - 🍱 use openpedcan histology file - [5f272039](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/5f272039011f0080ce594fc8b3ea875004888b83) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.5.3
 
 ### Summary
