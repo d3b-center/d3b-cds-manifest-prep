@@ -189,7 +189,6 @@ def build_diagnosis_table(
         if p not in histology_diagnosis["participant_id"].to_list()
     ]
     missing_diagnoses = find_missing_diagnoses(missing_participants, fsp, conn)
-    # breakpoint()
     combined_diagnoses = pd.concat([histology_diagnosis, missing_diagnoses])
     combined_diagnoses["diagnosis_id"] = (
         "DG__" + combined_diagnoses["sample_id"]
