@@ -240,27 +240,23 @@ def build_diagnosis_table(
             missing_participants, fsp, conn
         )
         combined_diagnoses = pd.concat([histology_diagnosis, missing_diagnoses])
-        combined_diagnoses["diagnosis_id"] = (
-            "DG__" + combined_diagnoses["sample_id"]
-        )
-        combined_diagnoses = (
-            combined_diagnoses.join(
-                combined_diagnoses["primary_diagnosis"].str.split(
-                    ";", expand=True
-                )
-            )
-            .drop(columns="primary_diagnosis")
-            .melt(
-                id_vars=["diagnosis_id", "participant_id", "sample_id"],
-                var_name="dx_number",
-                value_name="primary_diagnosis",
-            )
-            .dropna()
-        )
         diagnosis_table = combined_diagnoses
     else:
         diagnosis_table = histology_diagnosis
 
+    diagnosis_table["diagnosis_id"] = "DG__" + diagnosis_table["sample_id"]
+    diagnosis_table = (
+        diagnosis_table.join(
+            diagnosis_table["primary_diagnosis"].str.split(";", expand=True)
+        )
+        .drop(columns="primary_diagnosis")
+        .melt(
+            id_vars=["diagnosis_id", "participant_id", "sample_id"],
+            var_name="dx_number",
+            value_name="primary_diagnosis",
+        )
+        .dropna()
+    )
     diagnosis_table["diagnosis_id"] = (
         diagnosis_table["diagnosis_id"]
         + "__"
