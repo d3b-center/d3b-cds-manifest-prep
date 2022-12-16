@@ -1,5 +1,21 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.7.0
+
+### Updated seed mapping file 
+
+Removed 33 files from the file sample participant mapping.
+
+### Summary
+
+- Emojis: 🍱 x1
+- Categories: Other Changes x1
+
+### New features and changes
+
+- [#70](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/70) - 🍱 remove 33 dgd files from mapping and regenerate - [be6747f0](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/be6747f058a4733cf0392680e440be4e56591ff3) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.6.0
 
 # Updated Diagnoses
