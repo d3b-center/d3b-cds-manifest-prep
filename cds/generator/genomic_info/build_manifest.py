@@ -81,8 +81,8 @@ def order_columns(manifest):
     :rtype: pandas.DataFrame
     """
     columns = [
-        "sample_id",
         "file_id",
+        "sample_id",
         "bases",
         "number_of_reads",
         "coverage",
