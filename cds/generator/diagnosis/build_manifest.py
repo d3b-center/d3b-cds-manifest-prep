@@ -224,6 +224,17 @@ def order_columns(manifest):
 
 
 def generate_diagnosis_id(diagnosis_table):
+    """generate unique diagnosis ids
+
+    generate the diagnosis manifest with diagnosis IDS that are unique
+
+    :param diagnosis_table: diagnosis table without ids. Requires columns
+    `sample_id`, and `primary_diagnosis`.
+    :type diagnosis_table: pandas.DataFrame
+    :return: diagnosis manifest with added column `diagnosis_id` with diagnoses
+    that are unique.
+    :rtype: pandas.DataFrame
+    """
     diagnosis_table["diagnosis_id"] = "DG__" + diagnosis_table["sample_id"]
     grouped_dx = diagnosis_table.sort_values(
         ["diagnosis_id", "primary_diagnosis"]
