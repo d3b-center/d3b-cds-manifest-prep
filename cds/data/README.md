@@ -35,5 +35,5 @@ and instrument models.
 ## `updated_NCI_submit.xlsx`
 
 This is a mapping from the bioinformatics unit between samples and genomic 
-sequencing information. Use the tab `updated_NCI_submit`. The tab `check` has
-information that was used during QC to guide the bioinformatics team.  
+sequencing information.
+
