@@ -9,6 +9,25 @@ import psycopg2
 logger = get_logger(__name__, testing_mode=False)
 
 
+def order_columns(manifest):
+    """order columns in the manifest
+
+    :param manifest: The manifest to order columns for
+    :type manifest: pandas.DataFrame
+    :return: The manifest with columns needed in the correct order
+    :rtype: pandas.DataFrame
+    """
+    columns = [
+        "sample_id",
+        "sample_type",
+        "participant_id",
+        "sample_tumor_status",
+        "sample_anatomical_site",
+        "sample_age_at_collection",
+    ]
+    return manifest[columns]
+
+
 def build_sample_table(db_url, sample_list, submission_package_dir):
     logger.info("Building sample table")
     logger.info("connecting to database")
@@ -25,5 +44,6 @@ def build_sample_table(db_url, sample_list, submission_package_dir):
         "sample_tumor_status"
     ].apply(lambda x: anatomical_site_map.get(x))
     sample_table["sample_type"] = sample_table.apply(sample_type, axis=1)
+    sample_table = order_columns(sample_table)
     logger.info("saving sample manifest to file")
     sample_table.to_csv(f"{submission_package_dir}/sample.csv", index=False)
