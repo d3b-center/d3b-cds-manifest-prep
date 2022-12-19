@@ -206,6 +206,23 @@ def find_missing_diagnoses(participants_missing_diagnoses, fsp, conn):
     return missing_diagnoses
 
 
+def order_columns(manifest):
+    """order columns in the manifest
+
+    :param manifest: The manifest to order columns for
+    :type manifest: pandas.DataFrame
+    :return: The manifest with columns needed in the correct order
+    :rtype: pandas.DataFrame
+    """
+    columns = [
+        "diagnosis_id",
+        "primary_diagnosis",
+        "participant_id",
+        "disease_type",
+    ]
+    return manifest[columns]
+
+
 def build_diagnosis_table(
     db_url,
     sample_list,
@@ -291,6 +308,8 @@ def build_diagnosis_table(
         how="left",
         on="primary_diagnosis",
     ).dropna(subset=["primary_diagnosis"])
+
+    diagnoses_manifest = order_columns(diagnoses_manifest)
     diagnoses_manifest.to_csv(
         f"{submission_package_dir}diagnosis.csv", index=False
     )

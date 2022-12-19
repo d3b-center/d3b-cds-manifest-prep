@@ -72,6 +72,33 @@ def get_file_genomes(file_list, conn):
     return genomes_ds[["file_id", "reference_genome_assembly"]]
 
 
+def order_columns(manifest):
+    """order columns in the manifest
+
+    :param manifest: The manifest to order columns for
+    :type manifest: pandas.DataFrame
+    :return: The manifest with columns needed in the correct order
+    :rtype: pandas.DataFrame
+    """
+    columns = [
+        "sample_id",
+        "file_id",
+        "bases",
+        "number_of_reads",
+        "coverage",
+        "avg_read_length",
+        "insert_size",
+        "platform",
+        "instrument_model",
+        "library_source",
+        "library_strategy",
+        "library_layout",
+        "reference_genome_assembly",
+        "library_id",
+    ]
+    return manifest[columns]
+
+
 def build_genomic_info_table(
     db_url, file_sample_participant_map, submission_package_dir
 ):
@@ -104,6 +131,7 @@ def build_genomic_info_table(
     genomic_info["library_id"] = (
         genomic_info["sample_id"] + "__" + genomic_info["file_id"]
     )
+    genomic_info = order_columns(genomic_info)
     genomic_info.to_csv(
         f"{submission_package_dir}/genomic_info.csv", index=False
     )
