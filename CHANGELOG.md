@@ -1,5 +1,25 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.9.0
+
+### Force column Order and fix diagnosis IDs 
+
+
+1. Column order is now enforced. In previous releases, column order was unstable and could change. Now column order is enforced directly before saving tables to file.
+2. Per #84, diagnosis IDs were not unique. diagnosis IDs are now made unique.
+
+### Summary
+
+- Emojis: 🐛 x2, ✨ x1
+- Categories: Additions x1, Fixes x2
+
+### New features and changes
+
+- [#89](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/89) - 🐛 file id comes before sample in genomic_info - [79f5627e](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/79f5627e3675a52d50471ad40000202545eb70cd) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#88](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/88) - 🐛 fix issue where diagnosis ids weren't unique - [bd17f4b8](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/bd17f4b8f371825a24b0c2cf7c8641bb819a668b) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#83](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/83) - ✨ order columns in output manifests - [3be104af](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/3be104af2bb77deb646a926d3686af916898ae66) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.8.1
 
 ### Summary
