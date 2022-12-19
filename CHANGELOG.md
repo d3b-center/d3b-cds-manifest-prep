@@ -1,5 +1,23 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.7.1
+
+### Pull file endpoint updates 
+
+The file endpoint was updated to fix issues related to #31 as well as issues with file format. some bam.bai files had the file_format of `bam`, when they should have had the format `bai`. After consulting with @zhangb1, also found that file_format values for `.n2.results`, `.BEST.results`, and some `.theta2.total.cns` needed to be updated. 
+
+After all of these updates were made in the dataservice, the cds submission packet was regenerated for this release.
+
+### Summary
+
+- Emojis: 🍱 x1
+- Categories: Other Changes x1
+
+### New features and changes
+
+- [#72](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/72) - 🍱 re-generated manifest to get file updates from ds - [d728e87d](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/d728e87d874a8ef5d0ccd6b9585fef5cbd57c612) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.7.0
 
 ### Updated seed mapping file 
