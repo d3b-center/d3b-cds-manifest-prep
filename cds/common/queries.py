@@ -1,7 +1,6 @@
 """
 SQL queries used to build manifests of things in the CCDI Genomics Bucket
 """
-import pandas as pd
 
 
 def participant_query(participant_list):
@@ -15,14 +14,14 @@ def participant_query(participant_list):
 
 def sample_query(sample_list):
     query = f"""
-    select bs.kf_id as sample_id, 
-           composition as sample_type, 
-           bs.participant_id as participant_id, 
-           source_text_tissue_type as sample_tumor_status, 
-           source_text_anatomical_site as sample_anatomical_site, 
+    select bs.kf_id as sample_id,
+           composition as sample_type,
+           bs.participant_id as participant_id,
+           source_text_tissue_type as sample_tumor_status,
+           source_text_anatomical_site as sample_anatomical_site,
            age_at_event_days as sample_age_at_collection
     from biospecimen bs
-    join participant p on p.kf_id = bs.participant_id 
+    join participant p on p.kf_id = bs.participant_id
     where bs.kf_id in ({str(sample_list)[1:-1]})
     """
     return query
@@ -30,7 +29,7 @@ def sample_query(sample_list):
 
 def file_kf_query(file_list):
     query = f"""
-    select kf_id, 
+    select kf_id,
            file_format as file_type,
            controlled_access,
            url
@@ -83,8 +82,8 @@ def file_query(file_list, bucket_name):
 def file_genome_query(file_list):
     query = f"""
         select kf_id as file_id, reference_genome, is_harmonized
-        from genomic_file 
-        where kf_id in ({str(file_list)[1:-1]}) 
+        from genomic_file
+        where kf_id in ({str(file_list)[1:-1]})
         """
     return query
 
