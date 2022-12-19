@@ -32,8 +32,7 @@ This is a mapping of rw diagnoses to ICD-O codes.
 This is a mapping from the biuinformatics unit between samples and platforms
 and instrument models.
 
-## `updated_NCI_submit.xlsx`
+## `updated_nci_submit.csv`
 
 This is a mapping from the bioinformatics unit between samples and genomic
-sequencing information. Use the tab `updated_NCI_submit`. The tab `check` has
-information that was used during QC to guide the bioinformatics team.  
+sequencing information.
