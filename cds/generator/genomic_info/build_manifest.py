@@ -1,7 +1,6 @@
 from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.queries import file_genome_query
-from cds.generator.genomic_info.mapping import *
 
 import pandas as pd
 import pkg_resources
