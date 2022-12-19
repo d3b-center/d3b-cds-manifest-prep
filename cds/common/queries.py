@@ -80,40 +80,9 @@ def file_query(file_list, bucket_name):
     return query
 
 
-def sequencing_query(sample_list):
-    query = f"""
-    select distinct bsgf.biospecimen_id,
-        segf.sequencing_experiment_id,
-        se.sequencing_center_id,
-        se.external_id,
-        se.experiment_strategy,
-        se.is_paired_end as se_paired_end,
-        se.platform,
-        se.instrument_model
-    from biospecimen_genomic_file bsgf
-        join genomic_file gf on gf.kf_id = bsgf.genomic_file_id
-        join sequencing_experiment_genomic_file segf
-            on gf.kf_id = segf.genomic_file_id
-        join sequencing_experiment se
-            on se.kf_id = segf.sequencing_experiment_id
-    where bsgf.biospecimen_id in ({str(sample_list)[1:-1]})
-    """
-    return query
-
-
-def harmonized_file_query(file_list):
-    query = f"""
-        select kf_id
-        from genomic_file 
-        where kf_id in ({str(file_list)[1:-1]}) 
-              and is_harmonized
-        """
-    return query
-
-
 def file_genome_query(file_list):
     query = f"""
-        select kf_id as file_id, reference_genome
+        select kf_id as file_id, reference_genome, is_harmonized
         from genomic_file 
         where kf_id in ({str(file_list)[1:-1]}) 
         """
