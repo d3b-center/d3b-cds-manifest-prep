@@ -1,5 +1,23 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.8.0
+
+### Use the new bix mapping to generate genomic_info table
+
+The seed for generating the genomic_info table is now changed to the new mapping manifest.
+
+### Summary
+
+- Emojis: 🍱 x3
+- Categories: Other Changes x3
+
+### New features and changes
+
+- [#77](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/77) - 🍱 Use the new mapping table for more accurate genomic info - [6b0e20bf](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/6b0e20bfde9f508fd2d131b1314cf114d06d87f5) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#76](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/76) - 🍱 use csv instead of xlsx for bix manifest - [4d6453c9](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/4d6453c95738e88eb4b6ed1ab1659892f0d76ae2) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#74](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/74) - 🍱 add new bix manifest to seed genomic_info table - [410d266a](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/410d266a823f376a197a6968c9cd8bf1497d3e4a) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.7.1
 
 ### Pull file endpoint updates 
