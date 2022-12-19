@@ -24,6 +24,7 @@ body:
       label: Version ID
       description: Select the version number relating to this bug
       options: # new_versions_here
+        - "0.9.0"
         - "0.8.1"
         - "0.8.0"
         - "0.7.1"
