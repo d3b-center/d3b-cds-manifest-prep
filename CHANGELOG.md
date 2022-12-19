@@ -1,5 +1,17 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.8.1
+
+### Summary
+
+- Emojis: 🐛 x1
+- Categories: Fixes x1
+
+### New features and changes
+
+- [#80](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/80) - 🐛 add sample missing from bix manifest - [2986844d](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/2986844d7cb9bf0522d6bcf1f588538a04870011) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.8.0
 
 ### Use the new bix mapping to generate genomic_info table
