@@ -223,6 +223,24 @@ def order_columns(manifest):
     return manifest[columns]
 
 
+def generate_diagnosis_id(diagnosis_table):
+    diagnosis_table["diagnosis_id"] = "DG__" + diagnosis_table["sample_id"]
+    grouped_dx = diagnosis_table.sort_values(
+        ["diagnosis_id", "primary_diagnosis"]
+    ).groupby("diagnosis_id", group_keys=False)
+
+    def grouped_dx_id(grp):
+        grp_len = len(grp)
+        grp["dx_number"] = range(grp_len)
+        return grp
+
+    dx_with_ids = grouped_dx.apply(grouped_dx_id)
+    dx_with_ids["diagnosis_id"] = (
+        dx_with_ids["diagnosis_id"] + "__" + dx_with_ids["dx_number"].apply(str)
+    )
+    return dx_with_ids
+
+
 def build_diagnosis_table(
     db_url,
     sample_list,
@@ -274,24 +292,20 @@ def build_diagnosis_table(
     else:
         diagnosis_table = histology_diagnosis
 
-    diagnosis_table["diagnosis_id"] = "DG__" + diagnosis_table["sample_id"]
     diagnosis_table = (
         diagnosis_table.join(
             diagnosis_table["primary_diagnosis"].str.split(";", expand=True)
         )
         .drop(columns="primary_diagnosis")
         .melt(
-            id_vars=["diagnosis_id", "participant_id", "sample_id"],
+            id_vars=["participant_id", "sample_id"],
             var_name="dx_number",
             value_name="primary_diagnosis",
         )
         .dropna()
+        .drop_duplicates()
     )
-    diagnosis_table["diagnosis_id"] = (
-        diagnosis_table["diagnosis_id"]
-        + "__"
-        + diagnosis_table["dx_number"].apply(str)
-    )
+    diagnosis_table = generate_diagnosis_id(diagnosis_table)
     if generate_sample_diagnosis_map:
         logger.info("generating sample-diagnosis mapping.")
         mapping = diagnosis_table[["diagnosis_id", "sample_id"]]
