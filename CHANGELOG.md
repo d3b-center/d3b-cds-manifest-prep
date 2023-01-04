@@ -34,8 +34,8 @@
 
 ### New features and changes
 
-- [#89](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/89) - 🐛 file id comes before sample in genomic_info - [79f5627e](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/79f5627e3675a52d50471ad40000202545eb70cd) by [chris-s-friedman](https://github.com/chris-s-friedman)
-- [#88](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/88) - 🐛 fix issue where diagnosis ids weren't unique - [bd17f4b8](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/bd17f4b8f371825a24b0c2cf7c8641bb819a668b) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#89](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/89) - 🐛 file ID comes before sample in genomic_info - [79f5627e](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/79f5627e3675a52d50471ad40000202545eb70cd) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#88](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/88) - 🐛 fix issue where diagnosis IDs weren't unique - [bd17f4b8](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/bd17f4b8f371825a24b0c2cf7c8641bb819a668b) by [chris-s-friedman](https://github.com/chris-s-friedman)
 - [#83](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/83) - ✨ order columns in output manifests - [3be104af](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/3be104af2bb77deb646a926d3686af916898ae66) by [chris-s-friedman](https://github.com/chris-s-friedman)
 
 
