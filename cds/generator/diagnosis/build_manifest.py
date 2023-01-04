@@ -303,6 +303,10 @@ def build_diagnosis_table(
     else:
         diagnosis_table = histology_diagnosis
 
+    diagnosis_table.reset_index(
+        drop=True, inplace=True
+    )  # some diagnoses may share indices
+
     diagnosis_table = (
         diagnosis_table.join(
             diagnosis_table["primary_diagnosis"].str.split(";", expand=True)
