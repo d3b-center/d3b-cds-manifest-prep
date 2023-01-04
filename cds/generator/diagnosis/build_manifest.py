@@ -307,6 +307,8 @@ def build_diagnosis_table(
         drop=True, inplace=True
     )  # some diagnoses may share indices
 
+    # split diagnoses on `;` because some are `;` delimited, then generate
+    # diagnosis ids
     diagnosis_table = (
         diagnosis_table.join(
             diagnosis_table["primary_diagnosis"].str.split(";", expand=True)
