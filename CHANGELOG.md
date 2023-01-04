@@ -1,5 +1,24 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.10.0
+
+### qc sample diagnosis and fix diagnoses 
+
+
+1. qc the sample-diagnosis mapping file 
+2. As discovered in #92, some samples have multiple diagnoses. after investigating this, some diagnoses were found to be mapped to incorrect participants. this fixes that.
+
+### Summary
+
+- Emojis: 🐛 x1, ✨ x1
+- Categories: Additions x1, Fixes x1
+
+### New features and changes
+
+- [#93](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/93) - 🐛 reset indices of diagnosis table before splitting and joining - [2100a145](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/2100a1450ab6b6fd799d16eaf2bbe5a860b077a8) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#91](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/91) - ✨ add testing for samples in sample diagnoses manifest - [ab70ba0e](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/ab70ba0ef88b253ecd418170a82f663d7d19afa2) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.9.0
 
 ### Force column Order and fix diagnosis IDs 
