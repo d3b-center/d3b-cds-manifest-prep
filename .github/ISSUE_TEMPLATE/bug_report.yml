@@ -1,0 +1,40 @@
+---
+name: Bug report
+description: Create a report to help us improve
+title: "Bug Report: "
+labels: bug
+assignees: "chris-s-friedman"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this bug!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: To reproduce
+      description: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+  - type: textarea
+    attributes:
+      label: Environment
+      description: |
+        examples:
+          - **OS**: Ubuntu 20.04
+          - **python**: 3.8
+      value: |
+        - OS:
+        - python:
+      render: markdown
+    validations:
+      required: True
+---
