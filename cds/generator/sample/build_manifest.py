@@ -1,7 +1,11 @@
 from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.queries import sample_query
-from cds.generator.sample.mapping import *
+from cds.generator.sample.mapping import (
+    anatomical_site_map,
+    sample_type,
+    status_map,
+)
 
 import pandas as pd
 import psycopg2

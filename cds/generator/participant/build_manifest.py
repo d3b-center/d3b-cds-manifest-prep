@@ -1,7 +1,7 @@
 from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.queries import participant_query
-from cds.generator.participant.map import *
+from cds.generator.participant.map import ethnicity_map, gender_map, race_map
 
 import pandas as pd
 import psycopg2
