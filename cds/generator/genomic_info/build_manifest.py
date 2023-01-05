@@ -135,3 +135,4 @@ def build_genomic_info_table(
     genomic_info.to_csv(
         f"{submission_package_dir}/genomic_info.csv", index=False
     )
+    return genomic_info

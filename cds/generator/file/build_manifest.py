@@ -41,3 +41,4 @@ def build_file_table(db_url, file_list, submission_package_dir):
     file_table = order_columns(file_table)
     logger.info("saving file manifest to file")
     file_table.to_csv(f"{submission_package_dir}/file.csv", index=False)
+    return file_table

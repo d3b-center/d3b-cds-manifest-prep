@@ -47,3 +47,4 @@ def build_sample_table(db_url, sample_list, submission_package_dir):
     sample_table = order_columns(sample_table)
     logger.info("saving sample manifest to file")
     sample_table.to_csv(f"{submission_package_dir}/sample.csv", index=False)
+    return sample_table
