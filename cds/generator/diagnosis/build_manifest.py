@@ -280,6 +280,9 @@ def build_diagnosis_table(
     :type find_missing_dx_in_dataservice: bool, optional
     :param fsp: mapping between file sample and participant, defaults to False
     :type fsp: pd.DataFrame or bool, optional
+    :return: Diagnosis table and *if generate_sample_diagnosis_map is True*,
+    diagnosis-sample mapping table, otherwise None
+    :rtype: tuple
     """
     logger.info("Building diagnosis table")
     logger.info("connecting to database")
@@ -343,3 +346,8 @@ def build_diagnosis_table(
     diagnoses_manifest.to_csv(
         f"{submission_package_dir}diagnosis.csv", index=False
     )
+
+    if generate_sample_diagnosis_map:
+        return (diagnoses_manifest, mapping)
+    else:
+        return (diagnoses_manifest, None)

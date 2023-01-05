@@ -1,7 +1,11 @@
 from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.queries import sample_query
-from cds.generator.sample.mapping import *
+from cds.generator.sample.mapping import (
+    anatomical_site_map,
+    sample_type,
+    status_map,
+)
 
 import pandas as pd
 import psycopg2
@@ -47,3 +51,4 @@ def build_sample_table(db_url, sample_list, submission_package_dir):
     sample_table = order_columns(sample_table)
     logger.info("saving sample manifest to file")
     sample_table.to_csv(f"{submission_package_dir}/sample.csv", index=False)
+    return sample_table

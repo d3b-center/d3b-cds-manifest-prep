@@ -1,9 +1,7 @@
-from ast import literal_eval
-
 from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.constants import seq_file_bucket_name
-from cds.common.queries import file_bucket_query, file_kf_query, file_query
+from cds.common.queries import file_query
 
 import pandas as pd
 import psycopg2
@@ -41,3 +39,4 @@ def build_file_table(db_url, file_list, submission_package_dir):
     file_table = order_columns(file_table)
     logger.info("saving file manifest to file")
     file_table.to_csv(f"{submission_package_dir}/file.csv", index=False)
+    return file_table
