@@ -57,7 +57,10 @@ def build_participant_table(db_url, participant_list, submission_package_dir):
     participant_table["ethnicity"] = participant_table["ethnicity"].apply(
         lambda x: ethnicity_map.get(x)
     )
-    participant_table = order_columns(participant_table)
+    # Set the column order and sort on key column
+    participant_table = order_columns(participant_table).sort_values(
+        "participant_id"
+    )
     logger.info("saving sample manifest to file")
     participant_table.to_csv(
         f"{submission_package_dir}/participant.csv", index=False

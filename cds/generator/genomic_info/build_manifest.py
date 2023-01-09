@@ -133,9 +133,9 @@ def build_genomic_info_table(
     genomic_info["library_id"] = (
         genomic_info["sample_id"] + "__" + genomic_info["file_id"]
     )
-    genomic_info = order_columns(genomic_info)
+    # Set the column order and sort on key column
+    genomic_info = order_columns(genomic_info).sort_values("library_id")
     genomic_info.to_csv(
         f"{submission_package_dir}/genomic_info.csv", index=False
     )
-    breakpoint()
     return genomic_info
