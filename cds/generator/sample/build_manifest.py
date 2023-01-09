@@ -61,7 +61,8 @@ def build_sample_table(db_url, sample_list, submission_package_dir):
         "sample_tumor_status"
     ].apply(lambda x: anatomical_site_map.get(x))
     sample_table["sample_type"] = sample_table.apply(sample_type, axis=1)
-    sample_table = order_columns(sample_table)
+    # Set the column order and sort on key column
+    sample_table = order_columns(sample_table).sort_values("sample_id")
     logger.info("saving sample manifest to file")
     sample_table.to_csv(f"{submission_package_dir}/sample.csv", index=False)
     return sample_table

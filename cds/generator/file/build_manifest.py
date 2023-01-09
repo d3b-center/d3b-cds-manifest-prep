@@ -49,7 +49,8 @@ def build_file_table(db_url, file_list, submission_package_dir):
 
     logger.info("Querying for manifest of files")
     file_table = pd.read_sql(file_query(file_list, seq_file_bucket_name), conn)
-    file_table = order_columns(file_table)
+    # Set the column order and sort on key column
+    file_table = order_columns(file_table).sort_values("file_id")
     logger.info("saving file manifest to file")
     file_table.to_csv(f"{submission_package_dir}/file.csv", index=False)
     return file_table

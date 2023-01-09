@@ -328,7 +328,10 @@ def build_diagnosis_table(
     diagnosis_table = generate_diagnosis_id(diagnosis_table)
     if generate_sample_diagnosis_map:
         logger.info("generating sample-diagnosis mapping.")
-        mapping = diagnosis_table[["diagnosis_id", "sample_id"]]
+        # Set the column order and sort on key column
+        mapping = diagnosis_table[["diagnosis_id", "sample_id"]].sort_values(
+            ["diagnosis_id", "sample_id"]
+        )
         mapping.to_csv(
             f"{submission_package_dir}diagnosis_sample_mapping.csv", index=False
         )
@@ -342,7 +345,10 @@ def build_diagnosis_table(
         how="left",
         on="primary_diagnosis",
     ).dropna(subset=["primary_diagnosis"])
-    diagnoses_manifest = order_columns(diagnoses_manifest)
+    # Set the column order and sort on key column
+    diagnoses_manifest = order_columns(diagnoses_manifest).sort_values(
+        "diagnosis_id"
+    )
     diagnoses_manifest.to_csv(
         f"{submission_package_dir}diagnosis.csv", index=False
     )
