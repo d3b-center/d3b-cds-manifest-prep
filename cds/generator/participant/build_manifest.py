@@ -27,6 +27,19 @@ def order_columns(manifest):
 
 
 def build_participant_table(db_url, participant_list, submission_package_dir):
+    """Build the participant table
+
+    Build the participant manifest
+
+    :param db_url: database url to KF prd postgres
+    :type db_url: str
+    :param participant_list: participant IDs to have in the participant manifest
+    :type participant_list: list
+    :param submission_package_dir: directory to save the output manifest
+    :type submission_package_dir: str
+    :return: participant table
+    :rtype: pandas.DataFrame
+    """
     logger.info("Building participant table")
     logger.info("connecting to database")
     conn = psycopg2.connect(db_url)
