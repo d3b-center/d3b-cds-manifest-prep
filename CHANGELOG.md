@@ -1,5 +1,23 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.10.1
+
+### Add build_manifest docstrings and return manifests
+
+1. add docstrings for 🧑‍💻
+2. return output manifests in build_manifest functions. this is so that outputs can be handled in the future. Note that diagnosis output is different from other manifest outputs because it's a tuple of both the diagnosis_table and diagnosis_sample_mapping.
+
+### Summary
+
+- Emojis: 📝 x1, ✨ x1
+- Categories: Additions x1, Documentation x1
+
+### New features and changes
+
+- [#101](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/101) - 📝 add docstrings for build_manifest functions - [6b8bb461](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/6b8bb46192d6ea22380cb9b93be9ee1471971eba) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#99](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/99) - ✨ return output tables in build functions - [4962ea90](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/4962ea90c6fba16de4b2c24d2672804999d661b4) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.10.0
 
 ### qc sample diagnosis and fix diagnoses 
