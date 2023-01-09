@@ -33,6 +33,19 @@ def order_columns(manifest):
 
 
 def build_sample_table(db_url, sample_list, submission_package_dir):
+    """Build the sample table
+
+    Build the sample manifest
+
+    :param db_url: database url to KF prd postgres
+    :type db_url: str
+    :param sample_list: sample IDs to have in the sample manifest
+    :type sample_list: list
+    :param submission_package_dir: directory to save the output manifest
+    :type submission_package_dir: str
+    :return: sample table
+    :rtype: pandas.DataFrame
+    """
     logger.info("Building sample table")
     logger.info("connecting to database")
     conn = psycopg2.connect(db_url)

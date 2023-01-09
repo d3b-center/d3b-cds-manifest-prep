@@ -30,6 +30,19 @@ def order_columns(manifest):
 
 
 def build_file_table(db_url, file_list, submission_package_dir):
+    """Build the file table
+
+    Build the file manifest
+
+    :param db_url: database url to KF prd postgres
+    :type db_url: str
+    :param file_list: file IDs to have in the file manifest
+    :type file_list: list
+    :param submission_package_dir: directory to save the output manifest
+    :type submission_package_dir: str
+    :return: file table
+    :rtype: pandas.DataFrame
+    """
     logger.info("Building file table")
     logger.info("connecting to database")
     conn = psycopg2.connect(db_url)

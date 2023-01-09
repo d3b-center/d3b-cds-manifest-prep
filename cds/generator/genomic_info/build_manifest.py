@@ -111,6 +111,8 @@ def build_genomic_info_table(
     :type file_sample_participant_map: pandas.DataFrame
     :param submission_package_dir: directory to save the output manifest
     :type submission_package_dir: str
+    :return: genomic_info table
+    :rtype: pandas.DataFrame
     """
     logger.info("Building genomic_info table")
     logger.info("connecting to database")
@@ -135,4 +137,5 @@ def build_genomic_info_table(
     genomic_info.to_csv(
         f"{submission_package_dir}/genomic_info.csv", index=False
     )
+    breakpoint()
     return genomic_info
