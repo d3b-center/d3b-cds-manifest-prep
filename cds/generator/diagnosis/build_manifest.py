@@ -272,16 +272,16 @@ def build_diagnosis_table(
     :param submission_package_dir: directory to save the output manifest
     :type submission_package_dir: str
     :param generate_sample_diagnosis_map: generate a mapping between sample and
-    diagnosis, defaults to True
+        diagnosis, defaults to True
     :type generate_sample_diagnosis_map: bool, optional
     :param find_missing_dx_in_dataservice: for participants not found in the
-    histology table, should diagnosis be searched for in the dataservice,
-    defaults to False
+        histology table, should diagnosis be searched for in the dataservice,
+        defaults to False
     :type find_missing_dx_in_dataservice: bool, optional
     :param fsp: mapping between file sample and participant, defaults to False
     :type fsp: pd.DataFrame or bool, optional
     :return: Diagnosis table and *if generate_sample_diagnosis_map is True*,
-    diagnosis-sample mapping table, otherwise None
+        diagnosis-sample mapping table, otherwise None
     :rtype: tuple
     """
     logger.info("Building diagnosis table")
