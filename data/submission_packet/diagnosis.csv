@@ -242,6 +242,7 @@ DG__BS_3BDAG9YN__0,Medulloblastoma,PT_62VNQ8C4,9470/3
 DG__BS_3BMGF6GN__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_Y8RNS9JE,9400/3 
 DG__BS_3BVVWHP5__0,Subependymal Giant Cell Astrocytoma (SEGA),PT_JW6FBEFK,9384/1 
 DG__BS_3C4YAMKJ__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_YGN06RPZ,9400/0
+DG__BS_3C702XH4__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_GQZ84ACS,9400/0
 DG__BS_3CG2N4PD__0,Medulloblastoma,PT_CXT81GRM,9470/3
 DG__BS_3DCBDJAT__0,Meningioma,PT_AKQZZPH8,9530/0 
 DG__BS_3DYRAZE7__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_E78NHRWQ,9400/0
@@ -285,7 +286,7 @@ DG__BS_3Y44RJXS__0,Ganglioglioma,PT_W6AWJJK7,9505/1
 DG__BS_3YB86F30__0,Oligodendroglioma,PT_88F5PD21,9450/3
 DG__BS_3Z40EZHD__0,Brainstem glioma- Diffuse intrinsic pontine glioma,PT_9GKVQ9QS,9385/3
 DG__BS_3ZASRA3A__0,epidermoid cyst,PT_D7FS86D8,
-DG__BS_3ZMH8578__0,Not Reported,PT_GQZ84ACS,
+DG__BS_3ZMH8578__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_GQZ84ACS,9400/0
 DG__BS_3ZPJAK9A__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_3QFBAXAN,9400/3 
 DG__BS_401R3KV0__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_MBAXTJET,9400/0
 DG__BS_402W79TS__0,Brainstem glioma- Diffuse intrinsic pontine glioma,PT_KTRJ8TFY,9385/3
@@ -369,7 +370,7 @@ DG__BS_52DAPP1Y__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_WYF217NZ,940
 DG__BS_52ETE050__0,Brainstem glioma- Diffuse intrinsic pontine glioma,PT_HGM20MW7,9385/3
 DG__BS_52MPKTJH__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_KX84KH6K,9400/3 
 DG__BS_53CTGDQG__0,Meningioma,PT_3D74J8RZ,9530/0 
-DG__BS_53GQKVEX__0,Not Reported,PT_GQZ84ACS,
+DG__BS_53GQKVEX__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_GQZ84ACS,9400/0
 DG__BS_53JGYCCZ__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_D9A6G154,9400/3 
 DG__BS_53M8PP88__0,Ependymoma,PT_NPETR8RY,9391/3 
 DG__BS_53TV75NN__0,Atypical Teratoid Rhabdoid Tumor (ATRT),PT_HVZTF42R,9508/3
@@ -602,6 +603,7 @@ DG__BS_8JFMP1T1__0,Dysembryoplastic neuroepithelial tumor (DNET),PT_EYX2CP9F,941
 DG__BS_8MA5B8Y9__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_AP658JQV,9400/3 
 DG__BS_8NY9J9NQ__0,Meningioma,PT_JEW5HG4W,9530/0 
 DG__BS_8PNA0V6R__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_QQZXYR4M,9400/3 
+DG__BS_8PRJTBE1__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_1KEER2Q1,9400/0
 DG__BS_8Q77HZ4R__0,Choroid plexus papilloma,PT_YBJYA2CD,9390/0
 DG__BS_8Q8CAY84__0,hamartoma,PT_596H0BQF,
 DG__BS_8Q8N6AHW__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_37B5JRP1,9400/3 
@@ -852,7 +854,7 @@ DG__BS_BSH6G8JC__0,Medulloblastoma,PT_39HBKSGG,9470/3
 DG__BS_BSM3ZHW4__0,Ependymoma,PT_6TMT65YA,9391/3 
 DG__BS_BSV07M7Z__0,Medulloblastoma,PT_PX4E85V1,9470/3
 DG__BS_BVD7PWP5__0,choroid plexus cyst,PT_203ZY782,
-DG__BS_BVSW4GTG__0,Not Reported,PT_DACV00WF,
+DG__BS_BVSW4GTG__0,Medulloblastoma,PT_DACV00WF,9470/3
 DG__BS_BWBDH9GM__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_JNEV57VK,9400/3 
 DG__BS_BWZTMWTM__0,Chordoma,PT_F1086Z0A,9370/3
 DG__BS_BX8AR74E__0,Medulloblastoma,PT_FN4GEEFR,9470/3
@@ -947,7 +949,7 @@ DG__BS_D5P6EZ1M__0,Schwannoma,PT_WVAJN6WR,9560/1
 DG__BS_D6J2BGDJ__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_0FGS6YME,9400/3 
 DG__BS_D6STCMQS__0,Brainstem glioma- Diffuse intrinsic pontine glioma,PT_KZ56XHJT,9385/3
 DG__BS_D6XHKZDZ__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_N32BYY8A,9400/3 
-DG__BS_D70HNP90__0,Not Reported,PT_DACV00WF,
+DG__BS_D70HNP90__0,Medulloblastoma,PT_DACV00WF,9470/3
 DG__BS_D7PRJEMD__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_DW2XRPC9,9400/3 
 DG__BS_D7XRFE0R__0,Brainstem glioma- Diffuse intrinsic pontine glioma,PT_RYMG3M91,9385/3
 DG__BS_D8N31T39__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_2WVW55DA,9400/0
@@ -1061,7 +1063,7 @@ DG__BS_F064HMTP__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_387VK1T9,
 DG__BS_F0FGPYXV__0,Dysplasia/Gliosis,PT_APPA7SFD,
 DG__BS_F0GNWEJJ__0,Neuroblastoma,PT_EB0D3BXG,9500/3
 DG__BS_F0JB4EAK__0,Brainstem glioma- Diffuse intrinsic pontine glioma,PT_KBFM551M,9385/3
-DG__BS_F1B71HTZ__0,Not Reported,PT_1KEER2Q1,
+DG__BS_F1B71HTZ__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_1KEER2Q1,9400/0
 DG__BS_F21R36MM__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_83ECX0KT,9400/3 
 DG__BS_F48RA7QF__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_2C63FJAM,9400/0
 DG__BS_F4D169Q7__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_DW6V5V8E,9400/0
@@ -1662,7 +1664,7 @@ DG__BS_PSNBFWQV__0,Ewings Sarcoma,PT_J50NZYZF,9364/3
 DG__BS_PSW27ZTE__0,Ependymoma,PT_67R1AF5R,9391/3 
 DG__BS_PV130A29__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_YRMG61G8,9400/0
 DG__BS_PVYMDM18__0,Medulloblastoma,PT_KN25EYMG,9470/3
-DG__BS_PVZJCXS1__0,Not Reported,PT_DACV00WF,
+DG__BS_PVZJCXS1__0,Medulloblastoma,PT_DACV00WF,9470/3
 DG__BS_PXCPK5XS__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_1B1Z7BRQ,9400/3 
 DG__BS_PYVPKH11__0,Medulloblastoma,PT_NTEKMKTX,9470/3
 DG__BS_PZDTK87A__0,Dysplasia/Gliosis,PT_J3B812DT,
@@ -1921,6 +1923,7 @@ DG__BS_TPB6WVF4__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_GBCZ0RW3,
 DG__BS_TPX7YY57__0,"epilepsy, chronic rasmussen encephalitis",PT_QEMT1845,
 DG__BS_TQ0J7WJQ__0,Brainstem glioma- Diffuse intrinsic pontine glioma,PT_WGVEF96B,9385/3
 DG__BS_TQ5QHR17__0,Neurofibroma/Plexiform,PT_M7NFAC5G,9550/0 
+DG__BS_TQYACCGG__0,Medulloblastoma,PT_DACV00WF,9470/3
 DG__BS_TR0FSM4R__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_2JDDX6TJ,9400/3 
 DG__BS_TR2P8KRF__0,High-grade glioma/astrocytoma (WHO grade III/IV),PT_D9A6G154,9400/3 
 DG__BS_TRGECFNP__0,Brainstem glioma- Diffuse intrinsic pontine glioma,PT_VCD0W8HG,9385/3
@@ -2206,7 +2209,7 @@ DG__BS_YRNJ7Z3E__0,Oligodendroglioma,PT_SJ0VD2C8,9450/3
 DG__BS_YVFFHJ1Q__0,Schwannoma,PT_YDWBWTVN,9560/1
 DG__BS_YVMEEBKC__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_DMHFS0HX,9400/0
 DG__BS_YXCVR90M__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_6R95FQT2,9400/0
-DG__BS_YY5B2XDD__0,Not Reported,PT_1KEER2Q1,
+DG__BS_YY5B2XDD__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_1KEER2Q1,9400/0
 DG__BS_YYAPSA5P__0,Medulloblastoma,PT_AW8WV14Y,9470/3
 DG__BS_YZ0P5E8H__0,Atypical Teratoid Rhabdoid Tumor (ATRT),PT_JCECCFPB,9508/3
 DG__BS_YZ2YNEJJ__0,Low-grade glioma/astrocytoma (WHO grade I/II),PT_VBNP6JFB,9400/0
