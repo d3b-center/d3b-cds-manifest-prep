@@ -1,5 +1,24 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.11.0
+
+### Use updated histologies file
+
+updates the histologies file used for the diagnosis manifest. This is related to #100. This isn't a complete fix,but fixes all the oligo samples.
+
+### Summary
+
+- Emojis: 🍱 x1, ✨ x2, 🔥 x1
+- Categories: Additions x3, Removals x1
+
+### New features and changes
+
+- [#106](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/106) - 🍱 updated histologies data - [15f41c79](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/15f41c7974cd7a838f1fdcddb2d1aee23e16a52c) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#105](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/105) - ✨ Generate histologies file - [e8b59bfa](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/e8b59bfa9e54cf80ee679aff5baaa0ddd5b62349) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#104](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/104) - 🔥 remove unused module for utils - [6fd29a6d](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/6fd29a6d3683ac3455b1f6b5a3422946996c3f56) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#103](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/103) - ✨ sort values of all the output manifests - [a49e7140](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/a49e7140a02a9b0a11901a4310e19665a7506aa1) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.10.1
 
 ### Add build_manifest docstrings and return manifests
