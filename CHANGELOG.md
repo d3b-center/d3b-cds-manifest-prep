@@ -1,5 +1,23 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.11.1
+
+### Remove last `not reported` diagnoses
+
+Updates the diagnosis table with the last diagnosis that were not reported.
+
+### Summary
+
+- Emojis: 🍱 x2, 🚑️ x1
+- Categories: Additions x2, Other Changes x1
+
+### New features and changes
+
+- [#110](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/110) - 🍱 remove not reported diagnoses from diagnosis manifest - [c9d85ba8](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/c9d85ba83529029afba6d58cc6cd656bae1f1f38) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#109](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/109) - 🚑️ remove duplicated entries from histologies - [951ae3cb](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/951ae3cbecd1aeba47d97a124455054bc84593f3) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#108](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/108) - 🍱 update histologies file with manual diagnoses - [7ab9493c](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/7ab9493c7bb014ca2a61cdbd3171c832cb19e8e1) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.11.0
 
 ### Use updated histologies file
