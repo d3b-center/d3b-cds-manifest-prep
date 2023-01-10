@@ -102,3 +102,17 @@ where bs.kf_id in ({str(sample_list)[1:-1]})
             query + f"and bs.source_text_tissue_type = '{sample_tissue_type}'"
         )
     return query
+
+
+def histologies_query():
+    """build query for getting contents of histologies table
+
+    :return: query that gets contents of the histologies table
+    :rtype: str
+    """
+    query = """
+    SELECT *
+    FROM prod_reporting.openpedcan_histologies
+    ORDER BY "Kids_First_Biospecimen_ID"
+    """
+    return query

@@ -7,6 +7,7 @@ from cds.common.constants import (
     file_sample_participant_map_default,
     submission_package_default_dir,
 )
+from cds.data.fetch_histologies import fetch_histologies_file
 from cds.generator.generate import generate_submission_package
 from cds.qc.qc import qc_submission_package
 
@@ -109,6 +110,20 @@ def qc_submission(ctx):
     qc_submission_package(
         ctx.obj["postgres_connection_url"], ctx.obj["submission_packager_dir"]
     )
+
+
+@cds.command("gen_histologies")
+@click.option(
+    "-o",
+    "--output_filename",
+    type=click.File(mode="w"),
+    required=True,
+    help="Filename of where to save the histologies file",
+)
+@click.pass_context
+def regenerate_histologies_data(ctx, output_filename):
+    """Regenerate histologies data"""
+    fetch_histologies_file(ctx.obj["postgres_connection_url"], output_filename)
 
 
 if __name__ == "__main__":
