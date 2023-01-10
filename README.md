@@ -78,3 +78,9 @@ This will generate both the sample and participant manifests.
 ```sh
 cds -c $DATABASE_URL -d data/submission_packet/ qc
 ```
+
+### Generate the histologies file
+
+```sh
+cds -c $D3BWAREHOUSE_URL gen_histologies -o openpedcan_histologies.csv
+```
