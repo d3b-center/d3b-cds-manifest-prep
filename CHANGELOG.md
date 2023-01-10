@@ -1,5 +1,22 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.12.0
+
+### Use updated base and read counts
+
+Some values were mungled by excel. this unmungles those values.
+
+### Summary
+
+- Emojis: 🍱 x2
+- Categories: Additions x2
+
+### New features and changes
+
+- [#113](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/113) - 🍱 updated genomic_info table with correct bases and read counts - [fe87d481](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/fe87d4818d4eeb4c586cf245f2503af16f43a830) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#112](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/112) - 🍱 updated nci submit from bix - [a3a05dbc](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/a3a05dbc38fffd220b7b43b18aa33f1940e77cad) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.11.1
 
 ### Remove last `not reported` diagnoses
