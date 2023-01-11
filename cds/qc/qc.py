@@ -3,6 +3,7 @@ import os
 from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.constants import p30_seq_files_bucket_name
+from cds.qc.diagnoses import qc_diagnoses
 from cds.qc.files import get_bucket_scrape, qc_bucket_files, qc_files
 from cds.qc.participants import qc_participants
 from cds.qc.samples import qc_samples
@@ -78,6 +79,9 @@ def qc_submission_package(
     genomic_info_file_list = (
         genomic_info_table["file_id"].drop_duplicates().to_list()
     )
+    diagnosis_list = (
+        diagnosis_manifest["diagnosis_id"].drop_duplicates().to_list()
+    )
     diagnosis_sample_map_sample_list = (
         diagnosis_sample_mapping["sample_id"].drop_duplicates().to_list()
     )
@@ -98,6 +102,9 @@ def qc_submission_package(
         diagnosis_participant_list,
         sample_participant_list,
     )
+    diagnosis_qc_dict = qc_diagnoses(
+        diagnosis_list, diagnosis_sample_map_diagnosis_list
+    )
     file_qc_dict = qc_files(
         file_list, mapping_file_list, genomic_info_file_list
     )
@@ -110,6 +117,9 @@ def qc_submission_package(
     )
     pd.DataFrame.from_dict(participant_qc_dict, orient="index").to_csv(
         "data/qc/participants.csv"
+    )
+    pd.DataFrame.from_dict(diagnosis_qc_dict, orient="index").to_csv(
+        "data/qc/diagnoses.csv"
     )
     pd.DataFrame.from_dict(file_qc_dict, orient="index").to_csv(
         "data/qc/files.csv"
