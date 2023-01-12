@@ -1,5 +1,23 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.13.0
+
+### Set diagnosis as an attribute of event, not aliquot
+
+Set diagnosis as an attribute of event, not aliquot. Set diagnosis IDs as the 7316 (event) ID.
+
+### Summary
+
+- Emojis: ✨ x2, ♻️ x1
+- Categories: Additions x3
+
+### New features and changes
+
+- [#118](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/118) - ✨ New diagnosis ids - [9a5216fd](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/9a5216fdc21d037aefb1db1339c968dd5179a5de) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#117](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/117) - ✨ add qc of diagnoses - [0392c252](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/0392c2520fbf4a4d3ef1d6288d9c504fb7314eb7) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#116](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/116) - ♻️ move qc functions to submodules of qc - [8dd03057](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/8dd03057129355cdea3f2fc7ef0eef0674c47b16) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.12.0
 
 ### Use updated base and read counts
