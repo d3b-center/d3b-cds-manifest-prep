@@ -1,5 +1,3 @@
-from itertools import product
-
 from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.queries import diagnosis_query
