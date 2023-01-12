@@ -91,12 +91,14 @@ def dx_from_histology(sample_list, histologies, fsp):
         [
             "Kids_First_Biospecimen_ID",
             "Kids_First_Participant_ID",
+            "sample_id",
             "pathology_diagnosis",
             "broad_histology",
             "pathology_free_text_diagnosis",
         ]
     ].rename(
         columns={
+            "sample_id": "event_id",
             "Kids_First_Biospecimen_ID": "sample_id",
             "Kids_First_Participant_ID": "participant_id",
         }
@@ -135,10 +137,9 @@ def dx_from_histology(sample_list, histologies, fsp):
                 participant_diagnosis["participant_id"] == participant
             ]
             diagnosis_list = (
-                participant_dx["primary_diagnosis"]
+                participant_dx[["event_id", "primary_diagnosis"]]
                 .dropna()
                 .drop_duplicates()
-                .to_list()
             )
             if len(diagnosis_list) > 0:
                 participant_samples = (
@@ -146,14 +147,19 @@ def dx_from_histology(sample_list, histologies, fsp):
                     .drop_duplicates()
                     .to_list()
                 )
-                cleaned_dx = pd.DataFrame(
-                    product(participant_samples, [participant], diagnosis_list),
-                    columns=[
+                sample_events = participant_dx[
+                    participant_dx["sample_id"].isin(participant_samples)
+                ][["sample_id", "event_id"]].drop_duplicates()
+                cleaned_dx = sample_events.merge(diagnosis_list, how="left")
+                cleaned_dx["participant_id"] = participant
+                cleaned_dx = cleaned_dx[
+                    [
                         "sample_id",
                         "participant_id",
+                        "event_id",
                         "primary_diagnosis",
-                    ],
-                )
+                    ]
+                ]
             else:
                 logger.warning(f"No diagnoses found for {participant}")
         else:
@@ -235,15 +241,16 @@ def generate_diagnosis_id(diagnosis_table):
     that are unique.
     :rtype: pandas.DataFrame
     """
-    diagnosis_table["diagnosis_id"] = "DG__" + diagnosis_table["sample_id"]
+    diagnosis_table["diagnosis_id"] = "DG__" + diagnosis_table["event_id"]
     grouped_dx = diagnosis_table.sort_values(
         ["diagnosis_id", "primary_diagnosis"]
     ).groupby("diagnosis_id", group_keys=False)
 
     def grouped_dx_id(grp):
-        grp_len = len(grp)
-        grp["dx_number"] = range(grp_len)
-        return grp
+        diagnoses = grp[["primary_diagnosis"]].drop_duplicates()
+        diagnoses["dx_number"] = range(len(diagnoses))
+        grp_ids = grp.drop(columns="dx_number").merge(diagnoses)
+        return grp_ids
 
     dx_with_ids = grouped_dx.apply(grouped_dx_id)
     dx_with_ids["diagnosis_id"] = (
@@ -318,7 +325,7 @@ def build_diagnosis_table(
         )
         .drop(columns="primary_diagnosis")
         .melt(
-            id_vars=["participant_id", "sample_id"],
+            id_vars=["participant_id", "sample_id", "event_id"],
             var_name="dx_number",
             value_name="primary_diagnosis",
         )
@@ -346,8 +353,10 @@ def build_diagnosis_table(
         on="primary_diagnosis",
     ).dropna(subset=["primary_diagnosis"])
     # Set the column order and sort on key column
-    diagnoses_manifest = order_columns(diagnoses_manifest).sort_values(
-        "diagnosis_id"
+    diagnoses_manifest = (
+        order_columns(diagnoses_manifest)
+        .sort_values("diagnosis_id")
+        .drop_duplicates()
     )
     diagnoses_manifest.to_csv(
         f"{submission_package_dir}diagnosis.csv", index=False
