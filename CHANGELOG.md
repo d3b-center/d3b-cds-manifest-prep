@@ -1,5 +1,28 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.14.0
+
+### Updates to diagnoses
+
+This release includes a few updates to diagnoses:
+
+1. remove diagnoses from the histologies file that were manually assigned, that are attached to normal samples.
+2. Only include normal samples in the diagnosis-sample mapping table.
+3. test that only and all tumor samples are in the diagnosis-sample mapping table.
+4. if a participant's only samples in CDS are normal, and all of those samples only come from events that have only normal samples, extract the diagnoses from other events for the participant. Set the diagnosis ID to be based of the C-ID instead of the 7316 ID.
+
+### Summary
+
+- Emojis: 🐛 x2, ✅ x1
+- Categories: Additions x1, Fixes x2
+
+### New features and changes
+
+- [#124](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/124) - 🐛 Fix histologies file - [01269fdf](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/01269fdffb570810e6df5c310713a70b7e6e01b9) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#123](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/123) - ✅ add test for diagnosis_sample map file - [38d8ddaa](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/38d8ddaa1584c951f314e78d34fe4c2dbf46e409) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#122](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/122) - 🐛 missing diagnoses and remove normal samples from bs_dx - [ce3e2a9d](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/ce3e2a9deb6d8a517be556a0ea252ecf7d58f002) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.13.0
 
 ### Set diagnosis as an attribute of event, not aliquot
