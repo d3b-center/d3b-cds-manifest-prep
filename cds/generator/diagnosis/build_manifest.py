@@ -8,6 +8,10 @@ import psycopg2
 
 logger = get_logger(__name__, testing_mode=False)
 
+# Don't warn when assigning things in a way that pandas doesn't like:
+# https://stackoverflow.com/a/20627316/5975765
+pd.options.mode.chained_assignment = None
+
 
 def load_ontology_mapping():
     """load the ontology mapping
@@ -148,7 +152,23 @@ def dx_from_histology(sample_list, histologies, fsp):
                 sample_events = participant_dx[
                     participant_dx["sample_id"].isin(participant_samples)
                 ][["sample_id", "event_id"]].drop_duplicates()
-                cleaned_dx = sample_events.merge(diagnosis_list, how="left")
+                cleaned_dx = diagnosis_list[
+                    diagnosis_list["event_id"].isin(
+                        sample_events["event_id"].to_list()
+                    )
+                ]
+                if len(cleaned_dx) == 0:
+                    # check if there are no diagnoses associated with the
+                    # event(s) from the participant's samples. This happenes
+                    # when the participant has no tumor samples associated with
+                    # the event from which the samples they are submitting come
+                    # from.
+                    cleaned_dx = diagnosis_list
+                    # Set the event ID to be the participant C-ID
+                    cleaned_dx["event_id"] = histologies[
+                        histologies["Kids_First_Participant_ID"] == participant
+                    ]["cohort_participant_id"].unique()[0]
+                cleaned_dx["sample_id"] = pd.NA
                 cleaned_dx["participant_id"] = participant
                 cleaned_dx = cleaned_dx[
                     [
@@ -327,15 +347,19 @@ def build_diagnosis_table(
             var_name="dx_number",
             value_name="primary_diagnosis",
         )
-        .dropna()
+        .dropna(subset=["primary_diagnosis"])
         .drop_duplicates()
     )
     diagnosis_table = generate_diagnosis_id(diagnosis_table)
     if generate_sample_diagnosis_map:
         logger.info("generating sample-diagnosis mapping.")
         # Set the column order and sort on key column
-        mapping = diagnosis_table[["diagnosis_id", "sample_id"]].sort_values(
-            ["diagnosis_id", "sample_id"]
+        mapping = (
+            diagnosis_table[["diagnosis_id", "sample_id"]].sort_values(
+                ["diagnosis_id", "sample_id"]
+            )
+            # drop rows from the mapping table where there is no sample
+            .dropna(subset=["sample_id"])
         )
         mapping.to_csv(
             f"{submission_package_dir}diagnosis_sample_mapping.csv", index=False
@@ -359,7 +383,6 @@ def build_diagnosis_table(
     diagnoses_manifest.to_csv(
         f"{submission_package_dir}diagnosis.csv", index=False
     )
-
     if generate_sample_diagnosis_map:
         return (diagnoses_manifest, mapping)
     else:
