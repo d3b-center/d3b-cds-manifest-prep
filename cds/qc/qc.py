@@ -6,7 +6,7 @@ from cds.common.constants import p30_seq_files_bucket_name
 from cds.qc.diagnoses import qc_diagnoses
 from cds.qc.files import get_bucket_scrape, qc_bucket_files, qc_files
 from cds.qc.participants import qc_participants
-from cds.qc.samples import qc_samples
+from cds.qc.samples import qc_diagnosis_samples, qc_samples
 
 import pandas as pd
 import psycopg2
@@ -105,6 +105,9 @@ def qc_submission_package(
     diagnosis_qc_dict = qc_diagnoses(
         diagnosis_list, diagnosis_sample_map_diagnosis_list
     )
+    diagnosis_sample_qc_dict = qc_diagnosis_samples(
+        diagnosis_sample_map_sample_list, sample_manifest
+    )
     file_qc_dict = qc_files(
         file_list, mapping_file_list, genomic_info_file_list
     )
@@ -123,5 +126,8 @@ def qc_submission_package(
     )
     pd.DataFrame.from_dict(file_qc_dict, orient="index").to_csv(
         "data/qc/files.csv"
+    )
+    pd.DataFrame.from_dict(diagnosis_sample_qc_dict, orient="index").to_csv(
+        "data/qc/diagnosis_samples.csv"
     )
     bucket_file_qc_df.to_csv("data/qc/bucket_file.csv", index=False)
