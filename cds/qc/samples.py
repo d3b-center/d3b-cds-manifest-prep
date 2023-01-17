@@ -84,3 +84,41 @@ def qc_samples(
         len(not_in_diagnosis_sample_map), "samples", "diagnosis_sample_mapping"
     )
     return result_dict
+
+
+def qc_diagnosis_samples(diagnosis_sample_map_sample_list, sample_manifest):
+    tumor_samples = sample_manifest[
+        sample_manifest["sample_tumor_status"] == "tumor"
+    ]["sample_id"].to_list()
+    all_samples = list(set(diagnosis_sample_map_sample_list + tumor_samples))
+
+    result_dict = {
+        i: {
+            "in_tumor_list": None,
+            "in_diagnosis_sample_map": None,
+        }
+        for i in all_samples
+    }
+    logger.info(
+        "Checking that only & all tumor samples are in the diagnosis sample map"
+    )
+    not_in_diagnosis_sample_map = []
+    not_in_tumor_list = []
+    for sample in tqdm(all_samples):
+        in_tumor_list = sample in tumor_samples
+        in_diagnosis_sample_map = sample in diagnosis_sample_map_sample_list
+        result_dict[sample]["in_tumor_list"] = in_tumor_list
+        result_dict[sample]["in_diagnosis_sample_map"] = in_diagnosis_sample_map
+        if not in_tumor_list:
+            not_in_tumor_list.append(sample)
+            logger.debug(f"{sample} not in tumor list")
+        if not in_diagnosis_sample_map:
+            not_in_diagnosis_sample_map.append(sample)
+            logger.debug(f"{sample} not in diagnosis-sample mapping")
+    report_qc_result(len(not_in_tumor_list), "samples", "list of tumors")
+    report_qc_result(
+        len(not_in_diagnosis_sample_map),
+        "tumor samples",
+        "diagnosis_sample_mapping",
+    )
+    return result_dict
