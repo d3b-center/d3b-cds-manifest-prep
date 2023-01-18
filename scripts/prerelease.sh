@@ -8,7 +8,7 @@ awk -v version_id="${1}" '/new_versions_here/ { print; print "        - \x22" ve
 cp tmp/submission_bug_report .github/ISSUE_TEMPLATE/submission_pkg_bug_report.yml
 
 # Update the readme
-awk -v version_id="${1}" '/insert_version_url_here/ { print; print "The most recently generated manifest can be found [here](https://github.com/d3b-center/d3b-cds-manifest-prep/releases/tag/" version_id ")."; next }1' README.md > tmp/readme
+sed -E "s/[0-9]+\.[0-9]+\.[0-9]+/${1}/g" README.md > tmp/readme
 cp tmp/readme README.md
 
 rm -rf tmp
