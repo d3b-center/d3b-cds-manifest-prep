@@ -1,5 +1,23 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 0.14.1
+
+### updated sample information from redcap
+
+One sample was updated in redcap and another sample had some database updates.
+This release has those sample updates.
+
+### Summary
+
+- Emojis: 🍱 x1, 🔥 x1
+- Categories: Additions x1, Removals x1
+
+### New features and changes
+
+- [#128](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/128) - 🍱 updated sample manifest after redcap updates - [31e48521](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/31e485215beb87b13c3ee580c2de004b94455e1c) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#127](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/127) - 🔥 Remove unused data files - [71426ec3](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/71426ec3e93d60ab1841f6742d9a3aad4fecfc50) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.14.0
 
 ### Updates to diagnoses
