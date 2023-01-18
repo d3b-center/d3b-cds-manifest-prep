@@ -12,11 +12,7 @@ also copied to the output directory as the file-sample-participant map.
 
 This is an export from the d3b warehouse. This is used to generate diagnoses.
 
-Generated with:
-
-```sql
-SELECT * FROM prod_reporting.openpedcan_histologies
-```
+Generated with [this script](fetch_histologies.py)
 
 ## `CBTN - ICD-O.xlsx`
 
