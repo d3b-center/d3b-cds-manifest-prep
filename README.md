@@ -1,11 +1,13 @@
 # d3b-cds-manifest-prep
 
+<!-- markdownlint-disable -->
 <p align="center">
   <a href="https://github.com/d3b-center/d3b-cds-manifest-prep/blob/master/LICENSE"><img src="https://img.shields.io/github/license/d3b-center/d3b-cds-manifest-prep"></a>
   <a href="https://github.com/marketplace/actions/super-linter"><img src="https://github.com/d3b-center/d3b-cds-manifest-prep/workflows/Lint%20Code%20Base/badge.svg"></a>
   <a href="https://gitmoji.dev"><img src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" alt="Gitmoji"/></a>
   <a href="https://github.com/d3b-center/d3b-cds-manifest-prep/releases/tag/0.14.0"><img src="https://img.shields.io/github/v/release/d3b-center/d3b-cds-manifest-prep"></a>
 </p>
+<!-- markdownlint-restore -->
 
 ## Installation
 
