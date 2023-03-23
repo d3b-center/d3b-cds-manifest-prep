@@ -5,3 +5,4 @@ tqdm
 psycopg2-binary
 click
 openpyxl
+sqlalchemy
