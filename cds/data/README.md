@@ -8,6 +8,10 @@ This is the seed file mapping files, samples, and participants. This file is
 used by default to generate all the manifests in the submision. This file is
 also copied to the output directory as the file-sample-participant map.
 
+## `x01_fsp.csv`
+
+This is the seed file mapping files, samples, and participants in the CBTN X01.
+
 ## `openpedcan_histologies.csv`
 
 This is an export from the d3b warehouse. This is used to generate diagnoses.
