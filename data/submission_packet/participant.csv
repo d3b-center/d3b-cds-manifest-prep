@@ -1,1032 +1,3009 @@
 participant_id,gender,race,ethnicity
-PT_00G007DM,male,white,not hispanic or latino
-PT_01MZ62KG,male,white,not hispanic or latino
-PT_02J5CWN5,male,black or african american,not hispanic or latino
-PT_02MVZZSW,female,white,not hispanic or latino
-PT_03K77G7N,male,white,not hispanic or latino
-PT_04YTK82N,male,white,not hispanic or latino
-PT_06ERX8Z7,female,black or african american,not hispanic or latino
-PT_06H29FCG,female,white,not hispanic or latino
-PT_0CE0HFYB,male,white,not hispanic or latino
-PT_0CRPE7YP,male,white,not hispanic or latino
-PT_0CVRX4SJ,female,other,hispanic or latino
+PT_01D4RQ1T,female,white,not hispanic or latino
+PT_01SH4F1X,male,white,not hispanic or latino
+PT_02QZ7Z0H,male,asian,not hispanic or latino
+PT_0324HWD5,female,white,not hispanic or latino
+PT_043JRPKD,male,other,hispanic or latino
+PT_0449KSQ3,female,other,hispanic or latino
+PT_044E82CH,male,not reported,not reported
+PT_047YGDRW,male,other,unknown
+PT_04P52JQ5,male,white,not hispanic or latino
+PT_04V47WFC,male,white,not hispanic or latino
+PT_04X0KGW6,female,other,not hispanic or latino
+PT_04XY7EC0,male,black or african american,unknown
+PT_05YHTAF5,female,not reported,not reported
+PT_062ZW10V,male,white,not hispanic or latino
+PT_063H3MR1,female,not reported,not reported
+PT_06CBC911,female,not reported,not reported
+PT_07BY1MFH,female,not reported,not reported
+PT_0845HVPH,male,not reported,not reported
+PT_08F29CAG,male,white,not hispanic or latino
+PT_08M919BH,male,white,not hispanic or latino
+PT_0A4BP180,female,white,not hispanic or latino
+PT_0AGB3GAN,male,white,not hispanic or latino
+PT_0AVBHZ3K,male,other,hispanic or latino
+PT_0B7RX64K,female,not reported,not reported
+PT_0B9ZAY2A,female,not reported,not reported
+PT_0BSG3R3N,female,black or african american,not hispanic or latino
+PT_0C2JVCWA,male,not reported,not reported
+PT_0C90BJ9Q,male,not reported,not reported
+PT_0D0YGGBW,female,white,not hispanic or latino
+PT_0DM10YSE,female,other,not hispanic or latino
 PT_0DWRY9ZX,male,white,not hispanic or latino
-PT_0DXHDZJR,male,white,not hispanic or latino
-PT_0EBP2PBD,female,white,not hispanic or latino
-PT_0EWY6S6S,male,white,not hispanic or latino
-PT_0F3RHT8J,female,other,not hispanic or latino
+PT_0EPJ0Q6Z,female,not reported,not reported
+PT_0ER3Y4Z3,male,white,not hispanic or latino
+PT_0F33CR3H,female,white,not hispanic or latino
+PT_0F4NVB9Y,female,not reported,not reported
 PT_0FGS6YME,male,white,not hispanic or latino
-PT_0FKQ3XGV,male,white,not hispanic or latino
-PT_0H65S44B,male,asian,not hispanic or latino
-PT_0K0DPVF6,male,white,not hispanic or latino
+PT_0FNG5FK3,male,other,hispanic or latino
+PT_0GXY8D5Z,female,not reported,not reported
+PT_0H6QJYMW,female,not reported,not reported
+PT_0H8VY9HP,male,white,not hispanic or latino
+PT_0HAZ9J7V,male,white,not hispanic or latino
+PT_0HMGVRFR,female,white,not hispanic or latino
+PT_0HP91WBQ,male,not reported,not reported
+PT_0HWM9J8S,female,not reported,not reported
+PT_0HYDGJH6,female,not reported,not reported
+PT_0J07HTRF,female,white,not hispanic or latino
+PT_0J9EXR2F,male,other,hispanic or latino
+PT_0JR4HCPP,female,not reported,not reported
+PT_0KQ8ZAKE,female,not reported,not reported
+PT_0KTVJ74J,male,white,not hispanic or latino
+PT_0M01V1PW,male,white,not hispanic or latino
+PT_0MH0V9SN,female,white,not hispanic or latino
 PT_0MHKP408,female,white,not hispanic or latino
-PT_0MJEAART,female,white,not hispanic or latino
-PT_0MXPTTM3,male,white,not hispanic or latino
-PT_0NY38X3W,male,white,not hispanic or latino
+PT_0MPRTNFR,female,not reported,not reported
+PT_0MTH60B8,female,not reported,not reported
+PT_0NDWJQ1T,female,not reported,not reported
+PT_0NQHC0QZ,male,not reported,not reported
+PT_0P6XWBXW,female,not reported,not reported
 PT_0PT33SCF,female,white,not hispanic or latino
-PT_0RN3VSXZ,female,white,not hispanic or latino
-PT_0SPKM4S8,male,black or african american,not hispanic or latino
-PT_0T2EWNYR,female,white,not hispanic or latino
-PT_0WKX8Q5X,male,white,not hispanic or latino
-PT_0WMP712K,female,white,hispanic or latino
-PT_0XN6EYXZ,male,white,not hispanic or latino
-PT_124TTG01,female,white,not hispanic or latino
-PT_12JTZFC2,female,white,not hispanic or latino
-PT_13MKXR8G,male,white,not hispanic or latino
+PT_0PZWF6YB,female,white,not hispanic or latino
+PT_0Q0CX0GS,male,white,not hispanic or latino
+PT_0Q13NSP5,female,asian,not hispanic or latino
+PT_0Q2T0YRJ,female,white,not hispanic or latino
+PT_0QMF19PR,male,white,not hispanic or latino
+PT_0QQ3S7RJ,female,black or african american,hispanic or latino
+PT_0R8KNMBK,female,white,not hispanic or latino
+PT_0R936YN9,male,white,not hispanic or latino
+PT_0RKHDZS8,male,asian,not hispanic or latino
+PT_0S91CJHC,male,not reported,not reported
+PT_0SJJAW3G,male,not reported,not reported
+PT_0SRRNSAS,male,white,unknown
+PT_0T186X5Y,female,not reported,not reported
+PT_0TS73XPX,male,other,unknown
+PT_0V63C5TQ,male,not reported,not reported
+PT_0V88WASE,male,white,not hispanic or latino
+PT_0W5WDB9X,male,not reported,not reported
+PT_0W6K5659,male,not reported,not reported
+PT_0WBEJFQ2,male,not reported,not reported
+PT_0WQFCZ6S,male,other,not hispanic or latino
+PT_0WTX4CBR,female,white,not hispanic or latino
+PT_0X5QYAGP,female,not reported,not reported
+PT_0XW2DMEW,female,not reported,not reported
+PT_0YB0195R,female,not reported,not reported
+PT_0YSYHY50,female,not reported,not reported
+PT_0ZT2J3N3,male,not reported,not reported
+PT_0ZT6TW41,male,white,not hispanic or latino
+PT_0ZX2ANBF,female,not reported,not reported
+PT_101VYN5T,male,white,not hispanic or latino
+PT_105Z8WQY,male,white,not hispanic or latino
+PT_10VC11F5,male,white,not hispanic or latino
+PT_10WBHSTC,female,not reported,not reported
+PT_11DZQ3HH,female,black or african american,not hispanic or latino
+PT_11J5GQHY,female,not reported,not reported
+PT_12380AP6,male,other,not hispanic or latino
+PT_12F67WNN,male,white,not hispanic or latino
+PT_131QG71S,female,not reported,not reported
+PT_134XHB4Z,female,not reported,not reported
+PT_1352J18C,female,white,not hispanic or latino
+PT_1395F243,male,other,unknown
+PT_13B6NMWA,male,not reported,not reported
+PT_13D6EZAB,female,not reported,not reported
+PT_14Z5353Q,male,white,not hispanic or latino
+PT_154NY8FF,male,not reported,not reported
 PT_164RNWTT,male,asian,not hispanic or latino
-PT_16EJ7BZ9,male,white,not hispanic or latino
-PT_17NG0KW3,male,white,not hispanic or latino
-PT_17W3GJPT,male,white,not hispanic or latino
-PT_18QG3Z4H,female,white,not hispanic or latino
-PT_1AAYYGGY,male,unknown,unknown
-PT_1B1Z7BRQ,male,white,unknown
-PT_1BV6ND1D,female,black or african american,not hispanic or latino
-PT_1DRAVX4S,female,white,not hispanic or latino
-PT_1DSX4VJM,male,white,not hispanic or latino
-PT_1DY2TP9N,female,white,not hispanic or latino
-PT_1E3E6GMF,female,asian,not hispanic or latino
-PT_1EB5KHZX,female,white,not hispanic or latino
-PT_1FQFJ0V1,male,white,not hispanic or latino
-PT_1H2REHT2,male,white,not hispanic or latino
-PT_1J2DT6MM,female,white,not hispanic or latino
-PT_1KEER2Q1,male,white,not hispanic or latino
-PT_1MW98VR1,male,white,not hispanic or latino
-PT_1N6ATKJS,female,white,not hispanic or latino
-PT_1NN9AW39,male,white,not hispanic or latino
-PT_1NZGDP3P,female,white,not hispanic or latino
-PT_1P436YMM,male,white,not hispanic or latino
-PT_1T7WF5S1,male,white,not hispanic or latino
-PT_1TB2V1PH,male,other,not hispanic or latino
-PT_1TGKS073,female,white,not hispanic or latino
+PT_1696VWJY,male,white,not hispanic or latino
+PT_1795S8AX,male,other,unknown
+PT_17B5PXX6,female,not reported,not reported
+PT_17H2AASA,male,black or african american,not hispanic or latino
+PT_17PX8NQ8,female,black or african american,not hispanic or latino
+PT_17Q7Z52R,female,not reported,not reported
+PT_18CM6G2K,female,not reported,not reported
+PT_18QJ9GRC,female,black or african american,not hispanic or latino
+PT_18QY63B5,male,not reported,not reported
+PT_191341BY,female,white,not hispanic or latino
+PT_1942MQPD,female,white,not hispanic or latino
+PT_197JDVDB,male,white,not hispanic or latino
+PT_19DX368B,female,not reported,not reported
+PT_19GCSK2S,female,white,not hispanic or latino
+PT_1A4HM6FR,male,other,not hispanic or latino
+PT_1AEMJVGN,female,not reported,not reported
+PT_1ATW7B9K,female,not reported,not reported
+PT_1AZ021ZN,female,not reported,not reported
+PT_1B265M3A,female,white,not hispanic or latino
+PT_1BMKFT7Y,female,white,not hispanic or latino
+PT_1CCGXMF3,female,not reported,not reported
+PT_1CHWWG09,female,not reported,not reported
+PT_1CQRSYXF,male,not reported,not reported
+PT_1CXDTHZ6,male,white,not hispanic or latino
+PT_1D3WJ921,male,native hawaiian or other pacific islander,not hispanic or latino
+PT_1DE7WVW3,female,other,hispanic or latino
+PT_1DGZ75D7,female,not reported,not reported
+PT_1DMQCG3A,female,not reported,not reported
+PT_1DT8HZ66,female,not reported,not reported
+PT_1DW77EVC,male,not reported,not reported
+PT_1DY6G8CB,female,white,not hispanic or latino
+PT_1EXBZYW0,male,not reported,not reported
+PT_1FKC7DWR,male,not reported,not reported
+PT_1FP0ZWQB,female,white,not hispanic or latino
+PT_1FP5WHJZ,male,other,unknown
+PT_1FQBZDSB,female,not reported,not reported
+PT_1G6VKHW4,male,asian,not hispanic or latino
+PT_1G80B33E,male,white,not hispanic or latino
+PT_1GPWWDY5,male,other,hispanic or latino
+PT_1GXJEP03,female,not reported,not reported
+PT_1H42W9GW,male,white,not hispanic or latino
+PT_1HSDA31B,female,white,not hispanic or latino
+PT_1HYBX6P5,female,other,hispanic or latino
+PT_1HYZ65BM,female,not reported,not reported
+PT_1JFDZH06,male,other,unknown
+PT_1JNTWAN9,male,not reported,not reported
+PT_1JP2ANQK,male,white,not hispanic or latino
+PT_1JRQQVYZ,female,other,unknown
+PT_1K7R8GB1,male,white,not hispanic or latino
+PT_1KMN79PN,male,white,not hispanic or latino
+PT_1KY3PW1Z,male,white,not hispanic or latino
+PT_1M94P9BT,female,white,not hispanic or latino
+PT_1NBHNPE4,male,white,not hispanic or latino
+PT_1NZW85NF,female,white,unknown
+PT_1PF333WA,female,not reported,not reported
+PT_1PKXBK85,female,not reported,not reported
+PT_1PZC01QF,female,asian,not hispanic or latino
+PT_1QVNAY4H,female,black or african american,not hispanic or latino
+PT_1RP7V36W,male,white,not hispanic or latino
+PT_1RX3PCY3,female,not reported,not reported
+PT_1RYJXGCY,female,white,not hispanic or latino
+PT_1S62GK68,male,not reported,not reported
+PT_1SDNQQAW,male,white,not hispanic or latino
+PT_1SZH8MW0,female,other,unknown
+PT_1T6733YJ,male,other,unknown
+PT_1TQA3ZS2,female,white,not hispanic or latino
+PT_1VCHZ5P4,male,white,not hispanic or latino
+PT_1VHR8WZ1,female,not reported,not reported
 PT_1VQWQ0TC,male,white,not hispanic or latino
-PT_1YQH5NSH,male,white,not hispanic or latino
-PT_1Z015H6V,male,white,not hispanic or latino
-PT_1ZAWNGWT,female,white,unknown
-PT_203ZY782,male,white,not hispanic or latino
-PT_20JVK3TZ,male,white,not hispanic or latino
-PT_20ZM6THA,female,asian,not hispanic or latino
-PT_218SX3G4,male,other,hispanic or latino
-PT_229DRV7B,male,white,not hispanic or latino
-PT_23K3YS1P,female,black or african american,not hispanic or latino
+PT_1VW79JYB,male,not reported,not reported
+PT_1W09XZ92,female,black or african american,not hispanic or latino
+PT_1WZ93NAB,female,other,unknown
+PT_1XAC5ZA3,male,white,not hispanic or latino
+PT_1XWV2677,female,white,not hispanic or latino
+PT_1YFDRHE6,female,not reported,not reported
+PT_1YH0BGWQ,female,not reported,not reported
+PT_1Z53D7R4,female,asian,not hispanic or latino
+PT_1ZNX0TGK,female,other,not hispanic or latino
+PT_20M9P0SD,female,white,not hispanic or latino
+PT_20ZDQNT2,female,not reported,not reported
+PT_2189ZWKX,female,white,not hispanic or latino
+PT_219JQ9Z9,female,not reported,not reported
+PT_21SSYTYN,female,asian,not hispanic or latino
+PT_22AFX731,female,not reported,not reported
+PT_22B55WYR,male,white,not hispanic or latino
+PT_22F1768J,female,white,not hispanic or latino
+PT_22GFGPEV,female,not reported,not reported
+PT_23JJKZPS,female,black or african american,hispanic or latino
 PT_23NZGSRJ,female,white,not hispanic or latino
-PT_24DDXEB5,male,white,not hispanic or latino
-PT_25Z2NX27,female,black or african american,not hispanic or latino
+PT_242A6C4M,female,white,not hispanic or latino
+PT_24J5T51S,male,not reported,not reported
+PT_258H4KAP,female,other,unknown
 PT_26V72ZXB,male,white,not hispanic or latino
-PT_279D9QZ8,female,white,not hispanic or latino
-PT_27FDWCVZ,female,white,not hispanic or latino
-PT_2BJF83GQ,female,white,not hispanic or latino
+PT_26WNQFB3,male,other,unknown
+PT_27BRTXF4,female,not reported,not reported
+PT_27M5988T,male,other,hispanic or latino
+PT_27W8WJVR,male,white,not hispanic or latino
+PT_27YHK492,female,white,not hispanic or latino
+PT_27ZJ8V11,male,not reported,not reported
+PT_27ZPFX7T,female,not reported,not reported
+PT_287JKJ5R,male,white,not hispanic or latino
+PT_288PVQGZ,male,white,not hispanic or latino
+PT_289WJCEY,male,not reported,not reported
+PT_28PFRJZA,female,white,not hispanic or latino
+PT_28TM5WBD,female,other,unknown
+PT_29GNG31K,female,white,not hispanic or latino
+PT_2ABM171A,male,black or african american,not hispanic or latino
+PT_2AR4JX4X,female,white,not hispanic or latino
+PT_2BDXJG0V,female,not reported,not reported
+PT_2BQYCKGT,male,black or african american,not hispanic or latino
 PT_2BTC5TEN,female,asian,not hispanic or latino
-PT_2C63FJAM,female,white,not hispanic or latino
-PT_2CJ31SBX,female,other,unknown
-PT_2D1KGV99,female,white,not hispanic or latino
-PT_2E552BAR,male,white,not hispanic or latino
-PT_2ECVKTTQ,female,white,not hispanic or latino
-PT_2FK75B27,female,white,not hispanic or latino
-PT_2FVTD0WR,male,other,hispanic or latino
-PT_2GPH62JS,male,white,hispanic or latino
-PT_2JDDX6TJ,female,white,not hispanic or latino
-PT_2NQPX1R2,male,white,not hispanic or latino
+PT_2CK9X85E,male,black or african american,not hispanic or latino
+PT_2CV2E8M5,female,not reported,not reported
+PT_2D70DZFZ,female,white,not hispanic or latino
+PT_2DA08574,female,not reported,not reported
+PT_2DEB3637,female,other,unknown
+PT_2DFGZCZ7,male,not reported,not reported
+PT_2DJN7BH2,male,other,not hispanic or latino
+PT_2F785KE2,male,not reported,not reported
+PT_2GTHCPXB,female,black or african american,not hispanic or latino
+PT_2HA8XN0T,female,other,not hispanic or latino
+PT_2HH59DT0,female,not reported,not reported
+PT_2HWA1TA9,male,other,hispanic or latino
+PT_2JGWN6EA,male,white,not hispanic or latino
+PT_2JN4DVZC,male,not reported,not reported
+PT_2JSPSGJT,female,not reported,not reported
+PT_2KB81GB1,female,white,not hispanic or latino
+PT_2KBBSP56,male,white,not hispanic or latino
+PT_2KN2TFJP,female,white,not hispanic or latino
+PT_2KVADHPM,male,not reported,not reported
+PT_2M0NDVZA,female,not reported,not reported
+PT_2MGPEKA0,female,not reported,not reported
+PT_2MM4YR1B,female,white,not hispanic or latino
+PT_2MTF8MRZ,male,not reported,not reported
+PT_2MYZT4R1,male,not reported,not reported
+PT_2MZPGZN1,male,white,not hispanic or latino
+PT_2N647SBA,female,other,hispanic or latino
+PT_2NESXMA3,male,white,not hispanic or latino
+PT_2NH8AXVB,female,white,not hispanic or latino
+PT_2NV06C7C,male,not reported,not reported
+PT_2NVYHC0C,male,white,not hispanic or latino
+PT_2P1XN1EK,male,not reported,not reported
+PT_2P30YS9D,male,white,not hispanic or latino
+PT_2PE1QGFY,female,not reported,not reported
+PT_2PE97RMG,female,other,unknown
+PT_2PN3WEJ3,female,not reported,not reported
 PT_2PRV78FX,male,white,not hispanic or latino
-PT_2QZJ4T95,female,white,not hispanic or latino
-PT_2SCVQ2N6,female,white,not hispanic or latino
-PT_2VSDT9CK,female,white,not hispanic or latino
-PT_2WA5PM32,male,white,not hispanic or latino
-PT_2WVW55DA,female,white,not hispanic or latino
-PT_2Y3R515E,male,other,hispanic or latino
-PT_2YCHME6S,female,white,not hispanic or latino
-PT_2YT37G8P,female,white,not hispanic or latino
-PT_2Z7GVDTM,female,other,unknown
-PT_2ZTXV44P,male,white,unknown
-PT_2ZXR2PDN,male,white,not hispanic or latino
-PT_30H1KV15,female,white,not hispanic or latino
-PT_32J909WM,male,other,hispanic or latino
-PT_333GHVG7,female,white,not hispanic or latino
-PT_37B5JRP1,male,black or african american,not hispanic or latino
-PT_37WTWPZY,female,other,hispanic or latino
-PT_3873YK5S,male,white,not hispanic or latino
-PT_387VK1T9,female,white,not hispanic or latino
+PT_2PWZGDND,female,other,unknown
+PT_2QWTVAT2,male,not reported,not reported
+PT_2R7RNH6C,female,white,not hispanic or latino
+PT_2RBR82SZ,female,white,not hispanic or latino
+PT_2RHSYJ07,female,other,unknown
+PT_2RKP2PQH,female,white,not hispanic or latino
+PT_2S69A6JY,male,white,not hispanic or latino
+PT_2S6A3RV8,male,other,hispanic or latino
+PT_2SB7K3NM,male,white,not hispanic or latino
+PT_2SFE7WGQ,female,other,hispanic or latino
+PT_2SMK488A,male,white,not hispanic or latino
+PT_2TAV9WMD,male,not reported,not reported
+PT_2TBTYCC2,male,white,not hispanic or latino
+PT_2TJ9FV2K,female,not reported,not reported
+PT_2TYMVW6D,male,not reported,not reported
+PT_2V19T177,female,not reported,not reported
+PT_2V5GJG0F,male,white,not hispanic or latino
+PT_2VMJ5MP2,male,not reported,not reported
+PT_2VYJXHHQ,male,white,not hispanic or latino
+PT_2WSNYKAC,female,white,not hispanic or latino
+PT_2X2Z1MYD,male,white,not hispanic or latino
+PT_2X6WY98X,male,other,not hispanic or latino
+PT_2XC8CD47,male,not reported,not reported
+PT_2XPJXZ8F,male,native hawaiian or other pacific islander,not hispanic or latino
+PT_2Y02N2D7,male,not reported,not reported
+PT_2Y4HG9JM,male,not reported,not reported
+PT_2Y61YN29,female,not reported,not reported
+PT_2Y8QMSSP,female,white,not hispanic or latino
+PT_2YFTPNXD,male,not reported,not reported
+PT_2YJHCJ0H,female,not reported,not reported
+PT_2YK2KNR5,male,asian,not hispanic or latino
+PT_2YPNSMPR,male,not reported,not reported
+PT_2Z4RZEGJ,male,other,not hispanic or latino
+PT_304SV2XT,female,not reported,not reported
+PT_30EX0QAT,female,white,not hispanic or latino
+PT_31CQ9C41,male,not reported,not reported
+PT_31Q70824,male,not reported,not reported
+PT_31Z7HHYQ,male,not reported,not reported
+PT_328EQ20G,male,other,hispanic or latino
+PT_32CD03EE,male,black or african american,not hispanic or latino
+PT_32H0CD1P,male,white,not hispanic or latino
+PT_32JK6Z61,male,white,not hispanic or latino
+PT_32ZYBW32,male,white,not hispanic or latino
+PT_336KZRTN,male,not reported,not reported
+PT_33G5383T,female,not reported,not reported
+PT_33RQTKCD,female,not reported,not reported
+PT_342RRJVB,male,white,not hispanic or latino
+PT_34AV968C,female,native hawaiian or other pacific islander,not hispanic or latino
+PT_34MDR40C,female,white,not hispanic or latino
+PT_34QBWPDA,female,not reported,not reported
+PT_351GXJCW,male,white,not hispanic or latino
+PT_35HYES2B,female,other,unknown
+PT_35RHBVSA,female,not reported,not reported
+PT_35X8ASEE,male,white,not hispanic or latino
+PT_360E6Z0S,female,other,unknown
+PT_368X7XYF,female,not reported,not reported
+PT_36FKW4S8,male,white,not hispanic or latino
+PT_36KBRV10,male,other,not hispanic or latino
+PT_3782Q7KW,male,not reported,not reported
+PT_38B4CHBF,male,unknown,not hispanic or latino
 PT_38FS37DP,female,white,not hispanic or latino
-PT_38KDXV6P,female,white,hispanic or latino
+PT_3914T03K,male,white,not hispanic or latino
+PT_394ZA6P7,male,asian,not hispanic or latino
+PT_39A90964,male,white,not hispanic or latino
+PT_39H4JN6H,male,white,not hispanic or latino
 PT_39HBKSGG,male,white,not hispanic or latino
-PT_3A0B29QT,male,white,not hispanic or latino
+PT_39PZGE7G,male,white,not hispanic or latino
+PT_39V0DG4H,female,other,hispanic or latino
+PT_39X3ZWVJ,male,white,not hispanic or latino
 PT_3A2Q62RD,female,white,not hispanic or latino
-PT_3A87PCQK,male,white,not hispanic or latino
+PT_3A4ZR5FY,male,white,not hispanic or latino
+PT_3AD4DFPB,female,not reported,not reported
+PT_3AQ1YJTE,male,white,not hispanic or latino
+PT_3AR6AW9N,male,other,unknown
 PT_3AWKWXEV,male,white,unknown
-PT_3C6QA9MA,unknown,other,unknown
-PT_3CHB9PK5,female,white,not hispanic or latino
-PT_3CVMBGD7,male,white,not hispanic or latino
+PT_3B4TBQ7P,male,white,hispanic or latino
+PT_3BMQSHP8,female,not reported,not reported
+PT_3BPD0A13,female,white,not hispanic or latino
+PT_3C1FTBBT,male,not reported,not reported
 PT_3D74J8RZ,male,white,not hispanic or latino
-PT_3HRS5CWF,female,white,not hispanic or latino
-PT_3J0ASVHN,male,white,not hispanic or latino
-PT_3KK1F95W,female,white,not hispanic or latino
+PT_3DH9QVJV,female,not reported,not reported
+PT_3DN5VKCR,female,not reported,not reported
+PT_3DPGHW7X,female,white,not hispanic or latino
+PT_3DRD7Z6Z,female,not reported,not reported
+PT_3DWCES6V,female,not reported,not reported
+PT_3ERBJ1R5,male,white,not hispanic or latino
+PT_3EXEFENF,male,not reported,not reported
+PT_3F0FY5RW,male,not reported,not reported
+PT_3FWKC70D,female,other,unknown
+PT_3G8DZ7MQ,male,white,not hispanic or latino
+PT_3GBVYN7E,female,white,not hispanic or latino
+PT_3GP5H8Z0,male,white,not hispanic or latino
+PT_3GWXBH6S,female,not reported,not reported
+PT_3GYW6P6P,male,other,unknown
+PT_3H7N0512,male,white,not hispanic or latino
+PT_3HEWB4E0,female,not reported,not reported
+PT_3HPZ05BA,female,black or african american,not hispanic or latino
+PT_3JJ94GWX,male,white,not hispanic or latino
+PT_3JNXBSHR,male,other,hispanic or latino
 PT_3KM9W8S8,female,white,not hispanic or latino
-PT_3KWSRWZN,male,white,not hispanic or latino
-PT_3MNY9BRY,male,white,not hispanic or latino
-PT_3NM45TQ8,male,white,not hispanic or latino
-PT_3P3D97AB,male,white,not hispanic or latino
-PT_3PK66TJY,female,white,not hispanic or latino
-PT_3PSG2DQT,female,white,not hispanic or latino
-PT_3QFBAXAN,female,other,hispanic or latino
-PT_3R0P995B,male,white,not hispanic or latino
-PT_3RN24N9X,male,white,not hispanic or latino
-PT_3SW2VHD5,male,white,not hispanic or latino
-PT_3T3VGWC6,female,white,not hispanic or latino
-PT_3V5GTCJR,female,white,not hispanic or latino
-PT_3VCS1PPF,male,other,not hispanic or latino
-PT_3VQEVNDD,female,white,not hispanic or latino
-PT_3WA1XB8G,male,white,not hispanic or latino
+PT_3KP3XWBN,male,white,not hispanic or latino
+PT_3M7FNCA5,female,not reported,not reported
+PT_3MRZJ3Y1,male,white,not hispanic or latino
+PT_3MVVGX2A,male,white,unknown
+PT_3NSMKTED,male,not reported,not reported
+PT_3P3HARZ2,male,white,not hispanic or latino
+PT_3PNA6GKR,female,not reported,not reported
+PT_3PR1HMJQ,male,white,not hispanic or latino
+PT_3PY7891B,female,not reported,not reported
+PT_3Q0CRCNZ,female,white,not hispanic or latino
+PT_3QP5FWMC,female,white,not hispanic or latino
+PT_3QPZQXGZ,male,other,not hispanic or latino
+PT_3QX84PG6,female,white,not hispanic or latino
+PT_3RTY57SF,male,other,not hispanic or latino
+PT_3SF3NQ43,male,white,hispanic or latino
+PT_3SQ6MGNC,male,white,not hispanic or latino
+PT_3T9N58JA,female,not reported,not reported
+PT_3TCKGEJY,male,white,not hispanic or latino
+PT_3TN9R00B,male,white,not hispanic or latino
+PT_3TQ8EBZE,female,white,not hispanic or latino
+PT_3TYNHF3F,female,black or african american,not hispanic or latino
+PT_3VQ5CZ5A,female,white,not hispanic or latino
+PT_3VYW9916,female,not reported,not reported
 PT_3WA7SBQ6,female,white,not hispanic or latino
-PT_3X3MF8ZD,female,white,not hispanic or latino
+PT_3X871YSB,male,other,not hispanic or latino
+PT_3XASZW07,female,not reported,not reported
+PT_3XBHQSJX,male,not reported,not reported
+PT_3XVM1GZK,female,not reported,not reported
+PT_3YERXE9S,male,white,not hispanic or latino
+PT_3ZYRD5J3,male,other,unknown
+PT_408A0GNB,male,other,hispanic or latino
+PT_408VV892,male,white,not hispanic or latino
 PT_409Y4N1N,male,white,not hispanic or latino
-PT_40HTPY49,male,native hawaiian or other pacific islander,hispanic or latino
-PT_4159VCJY,female,white,not hispanic or latino
+PT_40CJ7FH8,female,not reported,not reported
+PT_40N7BXSQ,female,other,unknown
+PT_40X4TBVD,male,asian,not hispanic or latino
+PT_411E97VM,female,white,not hispanic or latino
+PT_414DFHK0,female,not reported,not reported
+PT_418N8YW3,female,white,not hispanic or latino
+PT_41AFSZVQ,female,not reported,not reported
 PT_41BCPB7R,male,black or african american,not hispanic or latino
-PT_41QYPSGV,female,white,not hispanic or latino
-PT_41RR5FQD,male,white,not hispanic or latino
-PT_41WETNRC,female,white,not hispanic or latino
+PT_421PPYAY,male,not reported,not reported
+PT_42KS3NMS,male,other,not hispanic or latino
 PT_4347ZBEX,female,white,not hispanic or latino
-PT_44HPG5YT,female,black or african american,not hispanic or latino
-PT_45P9F9MD,female,white,not hispanic or latino
-PT_45YH276T,male,other,not hispanic or latino
-PT_46F28BFH,female,white,not hispanic or latino
-PT_48N4Y6YP,female,asian,not hispanic or latino
-PT_4A2H0KNR,male,white,hispanic or latino
-PT_4ADZ9F53,female,asian,not hispanic or latino
-PT_4B34NTJB,female,white,not hispanic or latino
-PT_4DE1981X,female,white,not hispanic or latino
-PT_4EDBZRM2,male,white,not hispanic or latino
-PT_4J24F353,male,white,not hispanic or latino
+PT_439BAGQS,male,white,not hispanic or latino
+PT_43QZ9NJ7,female,not reported,not reported
+PT_43RHJS5K,male,other,hispanic or latino
+PT_440E1XW5,female,white,not hispanic or latino
+PT_448FAWFM,male,white,not hispanic or latino
+PT_44EJ9T07,female,white,not hispanic or latino
+PT_44FPNNS3,female,white,not hispanic or latino
+PT_451MM7PS,female,not reported,not reported
+PT_4528EN3P,female,not reported,not reported
+PT_4556E1A7,male,not reported,not reported
+PT_45E5JA1P,male,white,not hispanic or latino
+PT_45FEWBJ5,male,not reported,not reported
+PT_45T6E38N,female,asian,not hispanic or latino
+PT_46004Y53,female,white,not hispanic or latino
+PT_463TPFRN,male,white,not hispanic or latino
+PT_46H4XA7E,male,other,not hispanic or latino
+PT_46K20WT1,male,not reported,not reported
+PT_47QPR4VN,male,white,hispanic or latino
+PT_47TK66XR,female,not reported,not reported
+PT_47YEHV75,female,other,unknown
+PT_47ZKD65V,female,not reported,not reported
+PT_485H2YMP,male,white,not hispanic or latino
+PT_485VH0CP,female,not reported,not reported
+PT_48DHDHDH,female,not reported,not reported
+PT_48WWMAAG,male,other,not hispanic or latino
+PT_49G8B2SJ,female,white,not hispanic or latino
+PT_49KEX2FK,female,other,unknown
+PT_49S84FRD,male,other,unknown
+PT_49YTANCN,female,not reported,not reported
+PT_4ABB51PZ,male,not reported,not reported
+PT_4CPR2J5Q,female,not reported,not reported
+PT_4CW5BJ3Z,male,not reported,not reported
+PT_4CZE2PTJ,male,not reported,not reported
+PT_4D6BJESP,male,not reported,not reported
+PT_4D6KXP9Q,male,not reported,not reported
+PT_4D86JMSQ,female,not reported,not reported
+PT_4DXV2XMZ,male,other,hispanic or latino
+PT_4DZ9B62P,male,white,not hispanic or latino
+PT_4E3H4SBP,male,other,not hispanic or latino
+PT_4E6BXP04,female,white,not hispanic or latino
+PT_4E8YE4KT,male,not reported,not reported
+PT_4E9H2BG6,female,black or african american,not hispanic or latino
+PT_4ECJ3EWD,female,white,not hispanic or latino
+PT_4GJRMD1J,female,not reported,not reported
+PT_4GKVQAFH,male,not reported,not reported
+PT_4HCTRKWW,female,white,not hispanic or latino
+PT_4HPR047B,male,black or african american,not hispanic or latino
+PT_4J766Q6K,female,white,not hispanic or latino
 PT_4JG5KWE8,male,white,not hispanic or latino
+PT_4JKD9MRK,female,not reported,not reported
+PT_4JRBFE1N,male,white,not hispanic or latino
+PT_4JWHEC5Q,female,white,not hispanic or latino
+PT_4KDRSH98,male,white,not hispanic or latino
+PT_4KQ276PD,female,not reported,not reported
+PT_4MQ0G0XS,male,white,not hispanic or latino
+PT_4MQT24P4,female,white,not hispanic or latino
+PT_4N01RPJF,female,white,hispanic or latino
+PT_4N0FTRQS,female,white,not hispanic or latino
+PT_4N3GBRYW,female,not reported,not reported
+PT_4N4E993T,male,white,hispanic or latino
+PT_4N6Q0Y0N,female,not reported,not reported
+PT_4NPRED6Y,female,other,unknown
+PT_4NVTPQ65,male,white,not hispanic or latino
+PT_4PSYPSRB,male,not reported,not reported
+PT_4QQB8MF9,male,not reported,not reported
+PT_4QRC81H0,male,not reported,not reported
+PT_4QYYZ3RA,female,not reported,not reported
+PT_4R54MF0H,male,not reported,not reported
+PT_4R8ZB1A8,female,not reported,not reported
+PT_4RE620EP,female,other,not hispanic or latino
+PT_4RHAZ53H,male,not reported,not reported
 PT_4RJ2EATN,female,white,not hispanic or latino
-PT_4TASAQKA,male,white,not hispanic or latino
+PT_4SBSHCMZ,female,white,not hispanic or latino
+PT_4SD4YXPR,male,white,not hispanic or latino
+PT_4SDGGVPX,female,not reported,not reported
+PT_4SNDS8KS,female,not reported,not reported
+PT_4STKRT03,male,not reported,not reported
+PT_4T1XNMWY,female,other,not hispanic or latino
+PT_4TFTQXJ8,male,white,not hispanic or latino
+PT_4TSCQM0T,female,not reported,not reported
+PT_4V6HH1JM,female,not reported,not reported
+PT_4VWC3HGK,female,not reported,not reported
+PT_4W0BP7F3,female,other,not hispanic or latino
+PT_4WJVGZTR,female,not reported,not reported
+PT_4X09ZHRF,male,not reported,not reported
+PT_4X763M64,male,not reported,not reported
 PT_4XB3YTJM,female,white,not hispanic or latino
-PT_4XVA57J7,female,white,not hispanic or latino
-PT_4XWYZYJS,male,black or african american,not hispanic or latino
-PT_4YWZ538V,female,white,not hispanic or latino
-PT_4Z34K4XB,female,white,not hispanic or latino
-PT_4ZSR5DY8,male,white,not hispanic or latino
-PT_4ZWS0R9N,male,white,not hispanic or latino
-PT_50ZFWMZE,male,white,not hispanic or latino
-PT_54MH6Q46,male,black or african american,not hispanic or latino
-PT_57YP9ABV,female,white,not hispanic or latino
-PT_596H0BQF,male,white,not hispanic or latino
-PT_59D00MBQ,male,asian,not hispanic or latino
-PT_59FJRPVX,female,white,not hispanic or latino
-PT_5ABCFCSK,male,other,hispanic or latino
-PT_5AF1501D,male,white,unknown
+PT_4XHC0PKX,male,other,not hispanic or latino
+PT_4XNZJP92,female,white,not hispanic or latino
+PT_4Y6DS6E7,female,asian,not hispanic or latino
+PT_4ZRCW5H5,male,white,not hispanic or latino
+PT_504RJTMZ,female,white,not hispanic or latino
+PT_5087VK5P,female,other,hispanic or latino
+PT_51KPXRFM,female,not reported,not reported
+PT_51P27VCE,female,not reported,not reported
+PT_51SG66HY,male,other,hispanic or latino
+PT_528E6VB6,male,not reported,not reported
+PT_52NYR4M0,female,not reported,not reported
+PT_52V0R84Q,male,not reported,not reported
+PT_548918FZ,male,white,not hispanic or latino
+PT_54DPK3GK,female,not reported,not reported
+PT_54KY5GJM,male,other,not hispanic or latino
+PT_54NFS78W,female,white,not hispanic or latino
+PT_54WBTB14,female,white,not hispanic or latino
+PT_55CW8W22,female,other,unknown
+PT_55PCMS56,male,not reported,not reported
+PT_55XY9PCB,female,white,not hispanic or latino
+PT_56JKFCJ9,male,not reported,not reported
+PT_56SWR1FM,male,white,hispanic or latino
+PT_56W8Y50E,female,white,not hispanic or latino
+PT_582WHM4S,female,white,not hispanic or latino
+PT_58N4G661,male,not reported,not reported
+PT_58YF6F05,male,white,not hispanic or latino
+PT_59H1TPQS,male,white,not hispanic or latino
+PT_59KPKY6Y,male,not reported,not reported
+PT_5B8PPSR8,female,other,hispanic or latino
+PT_5B9G40J7,male,white,not hispanic or latino
+PT_5BFEWBGY,female,other,hispanic or latino
+PT_5BT01KJB,male,white,not hispanic or latino
 PT_5BWZA0NT,female,white,not hispanic or latino
-PT_5CKDR2SF,female,other,not hispanic or latino
-PT_5CNZ47XV,male,white,not hispanic or latino
-PT_5D3AVPCW,female,white,not hispanic or latino
-PT_5F4N0CAP,female,white,not hispanic or latino
-PT_5FR2YA6E,male,white,not hispanic or latino
-PT_5GQ76YZJ,male,white,not hispanic or latino
-PT_5JA1N2H4,male,other,unknown
-PT_5K5CZXYB,female,white,not hispanic or latino
-PT_5KP2E0DS,male,black or african american,not hispanic or latino
-PT_5KRVE8E4,female,white,not hispanic or latino
-PT_5M8A47WW,female,other,hispanic or latino
-PT_5P3XJ97K,male,other,not hispanic or latino
+PT_5CYJ3NZ9,female,black or african american,not hispanic or latino
+PT_5D0J56ST,female,white,not hispanic or latino
+PT_5D439P2D,male,white,not hispanic or latino
+PT_5DGMB2XF,male,not reported,not reported
+PT_5DHMFAJH,female,not reported,not reported
+PT_5DWPXQ3F,female,white,hispanic or latino
+PT_5FPQXNAM,male,other,hispanic or latino
+PT_5GK8X9VZ,male,white,not hispanic or latino
+PT_5GY06XR2,female,not reported,not reported
+PT_5H5CE4VD,female,not reported,not reported
+PT_5HK5ARZ8,female,white,not hispanic or latino
+PT_5HSJZPJ3,female,other,not hispanic or latino
+PT_5J5EW3XK,female,not reported,not reported
+PT_5JMNQAY8,male,white,not hispanic or latino
+PT_5JRHM7FP,male,not reported,not reported
+PT_5KBDNQS3,female,white,not hispanic or latino
+PT_5KPKTVQV,male,white,not hispanic or latino
+PT_5KVV6ZZJ,female,white,not hispanic or latino
+PT_5MVKZR7S,male,white,not hispanic or latino
+PT_5NS35B66,female,white,not hispanic or latino
+PT_5PRWW8ZT,male,not reported,not reported
+PT_5Q52M9W8,female,white,not hispanic or latino
+PT_5Q9F44MJ,female,not reported,not reported
+PT_5QEKPBGS,male,white,not hispanic or latino
+PT_5QGQMZP1,female,not reported,not reported
+PT_5QMZCRSV,female,white,not hispanic or latino
+PT_5QQYQ4J0,female,not reported,not reported
+PT_5QV9QSV7,male,not reported,not reported
+PT_5R8KC1A1,male,white,not hispanic or latino
+PT_5RK90JH8,male,not reported,not reported
+PT_5RVH94EA,female,not reported,not reported
+PT_5S029SZM,male,other,not hispanic or latino
+PT_5S1X5WNV,female,not reported,not reported
+PT_5SGR1DKA,male,white,not hispanic or latino
 PT_5SKQHRC5,male,unknown,not hispanic or latino
-PT_5SNX4PMK,female,white,not hispanic or latino
-PT_5SX0GRW1,male,other,unknown
-PT_5VAKED5F,male,other,hispanic or latino
-PT_5X061J42,male,white,not hispanic or latino
-PT_5ZHYHDY2,female,white,not hispanic or latino
-PT_625X34JX,male,other,unknown
-PT_62VNQ8C4,female,white,unknown
-PT_63F63QY0,female,white,not hispanic or latino
-PT_63HDZHCN,male,white,unknown
-PT_66XN3MT1,female,black or african american,not hispanic or latino
+PT_5SWFTE95,male,black or african american,not hispanic or latino
+PT_5TACN0ZD,male,white,not hispanic or latino
+PT_5TVE48XJ,female,other,not hispanic or latino
+PT_5V2GEART,female,other,hispanic or latino
+PT_5V6PRZX4,male,white,not hispanic or latino
+PT_5VMBPWYG,male,white,not hispanic or latino
+PT_5XKRJA0M,male,not reported,not reported
+PT_5XV23PWB,female,black or african american,not hispanic or latino
+PT_5XZ98VG9,female,other,not hispanic or latino
+PT_5Y0CE4WK,unknown,other,unknown
+PT_5YG5SR8P,male,not reported,not reported
+PT_5YK63VX9,male,white,not hispanic or latino
+PT_5ZKZWM9G,male,other,unknown
+PT_5ZMC0VG2,male,white,not hispanic or latino
+PT_5ZPPR06P,female,other,not hispanic or latino
+PT_6022V8S0,female,white,not hispanic or latino
+PT_619DG5VP,female,white,not hispanic or latino
+PT_629TJAPY,male,not reported,not reported
+PT_62G82T6Q,female,other,unknown
+PT_62NKR0N1,female,not reported,not reported
+PT_63X6AQPM,male,not reported,not reported
+PT_64C7QNBP,female,white,not hispanic or latino
+PT_64CRJ580,male,other,hispanic or latino
+PT_64CXTKGY,female,other,not hispanic or latino
+PT_64JHC2BH,male,black or african american,not hispanic or latino
+PT_64JTSY2F,female,white,not hispanic or latino
+PT_650GZWJR,female,white,not hispanic or latino
+PT_65B5CGQG,female,white,not hispanic or latino
+PT_65H9H75F,male,white,not hispanic or latino
+PT_65S4039D,female,not reported,not reported
+PT_669VWGGC,female,other,not hispanic or latino
+PT_66QPKZY9,male,white,not hispanic or latino
+PT_66ZF97BR,male,white,hispanic or latino
+PT_673WYA9X,female,white,not hispanic or latino
+PT_67HW00BS,male,white,not hispanic or latino
+PT_67JEDH01,male,asian,not hispanic or latino
 PT_67R1AF5R,male,asian,not hispanic or latino
-PT_69C7CBFW,male,white,not hispanic or latino
-PT_6BX46NVR,male,other,not hispanic or latino
-PT_6D9C46GC,female,other,unknown
-PT_6DB7B9WV,male,other,hispanic or latino
-PT_6DW5NFKX,male,white,not hispanic or latino
-PT_6E8JYRXM,male,white,not hispanic or latino
-PT_6FARAVJJ,female,white,not hispanic or latino
-PT_6GDPNFA6,female,other,not hispanic or latino
+PT_67X59TQK,male,black or african american,not hispanic or latino
+PT_67YK2KYD,female,white,hispanic or latino
+PT_6884TP8S,female,not reported,not reported
+PT_688GHTRB,male,white,not hispanic or latino
+PT_689RB1Y9,female,not reported,not reported
+PT_68EX7PY4,female,not reported,not reported
+PT_68G5Z3WJ,female,not reported,not reported
+PT_6A7123NH,male,white,not hispanic or latino
+PT_6AEATWQV,male,white,not hispanic or latino
+PT_6AZMN6A8,male,other,not hispanic or latino
+PT_6B8W4B6B,female,white,not hispanic or latino
+PT_6BFQE02C,female,asian,not hispanic or latino
+PT_6BJV67Z5,female,other,not hispanic or latino
+PT_6BRPAJTT,female,not reported,not reported
+PT_6BWQNKWR,female,white,not hispanic or latino
+PT_6BZ9V53K,male,other,not hispanic or latino
+PT_6CJK0038,male,white,hispanic or latino
+PT_6DT1TWZK,female,black or african american,not hispanic or latino
+PT_6DT52CGD,female,not reported,not reported
+PT_6EGQ516A,male,not reported,not reported
+PT_6EH4EZBH,female,white,not hispanic or latino
+PT_6EXHMBWD,male,not reported,not reported
+PT_6F0R9T61,male,white,not hispanic or latino
+PT_6F5TT9SS,female,white,not hispanic or latino
+PT_6G1D0K5Z,male,white,not hispanic or latino
+PT_6G64SYPH,female,not reported,not reported
+PT_6G8679S1,female,not reported,not reported
+PT_6GDDBVRT,female,not reported,not reported
+PT_6GPK25GQ,male,white,not hispanic or latino
+PT_6H0WGQ6E,male,white,not hispanic or latino
 PT_6H8X6RZ1,female,not reported,not hispanic or latino
+PT_6HTHKSCK,female,not reported,not reported
+PT_6J1350XD,male,other,hispanic or latino
+PT_6K0AJXHH,female,not reported,not reported
+PT_6KX1MXER,male,white,not hispanic or latino
+PT_6KX40CAD,female,not reported,not reported
+PT_6M8KMXJK,female,white,not hispanic or latino
 PT_6MB6RED3,male,white,not hispanic or latino
-PT_6MWPJ96F,female,white,not hispanic or latino
-PT_6N1QWCXE,male,white,not hispanic or latino
+PT_6MGE308T,female,white,not hispanic or latino
+PT_6N32VX1G,female,not reported,not reported
+PT_6N4TJ9G3,male,white,not hispanic or latino
 PT_6N825561,female,black or african american,not hispanic or latino
-PT_6PFFSB6D,male,white,not hispanic or latino
+PT_6N93M959,female,not reported,not reported
+PT_6NQZHWPR,female,not reported,not reported
+PT_6NSPR99T,female,white,not hispanic or latino
+PT_6PEMMXKN,female,not reported,not reported
 PT_6PJ126FF,female,asian,unknown
 PT_6PP78VNE,male,white,not hispanic or latino
-PT_6PYNBA9C,female,other,unknown
+PT_6PPHRJZB,male,other,unknown
+PT_6PQNGZEX,female,other,unknown
 PT_6Q0NPVP3,female,white,not hispanic or latino
-PT_6QXP9GQT,male,other,hispanic or latino
-PT_6R7AE0P3,male,white,not hispanic or latino
-PT_6R95FQT2,male,white,not hispanic or latino
-PT_6SH7PV1N,male,white,not hispanic or latino
-PT_6TKJRSPW,male,black or african american,not hispanic or latino
-PT_6TMT65YA,male,white,not hispanic or latino
-PT_6TZR2DH1,female,black or african american,hispanic or latino
-PT_6VD8J6FB,female,asian,not hispanic or latino
-PT_6VJ5PNKS,female,white,not hispanic or latino
-PT_74XM7BV7,female,white,not hispanic or latino
-PT_7570EHD9,male,other,hispanic or latino
-PT_76Q72M5T,female,black or african american,not hispanic or latino
-PT_78NQ0QQS,male,white,not hispanic or latino
-PT_7A1PYTP9,male,white,unknown
-PT_7BJBEBZT,male,other,unknown
-PT_7DP91QDJ,male,black or african american,unknown
-PT_7DTGJYA7,female,white,not hispanic or latino
-PT_7E3V3JFX,female,asian,hispanic or latino
-PT_7F3ZPZB7,male,white,not hispanic or latino
-PT_7F485CXV,female,white,not hispanic or latino
-PT_7FAJ9STP,female,white,not hispanic or latino
-PT_7FQ6VECA,male,white,not hispanic or latino
-PT_7FZ8SE69,male,white,not hispanic or latino
-PT_7H67Q7VS,female,white,not hispanic or latino
-PT_7JQ24F35,male,white,not hispanic or latino
-PT_7KBMN6C2,male,white,not hispanic or latino
-PT_7KTAH3RD,male,white,not hispanic or latino
-PT_7M2PGCBV,male,black or african american,not hispanic or latino
+PT_6Q2KVATC,male,white,not hispanic or latino
+PT_6Q6K0AHT,female,white,not hispanic or latino
+PT_6Q7SM397,male,other,not hispanic or latino
+PT_6QBAAYAS,female,not reported,not reported
+PT_6QC337B4,male,other,hispanic or latino
+PT_6QNT7WP5,female,black or african american,not hispanic or latino
+PT_6QPECWRY,male,white,not hispanic or latino
+PT_6RRWZ8CK,female,asian,not hispanic or latino
+PT_6RX3FNT4,male,white,not hispanic or latino
+PT_6S1TFJ3D,female,white,not hispanic or latino
+PT_6SC3MY4H,female,white,not hispanic or latino
+PT_6T7CPTR0,male,not reported,not reported
+PT_6TDBCJRW,female,not reported,not reported
+PT_6TDVP80J,female,black or african american,not hispanic or latino
+PT_6TEEHGVQ,female,black or african american,not hispanic or latino
+PT_6TGS95Q4,female,black or african american,not hispanic or latino
+PT_6TY1F93J,male,other,not hispanic or latino
+PT_6V7NTKGX,female,other,hispanic or latino
+PT_6VHGCV7M,male,white,not hispanic or latino
+PT_6VKN63HK,male,other,not hispanic or latino
+PT_6VQSSHTM,female,not reported,not reported
+PT_6VVYG70H,female,other,unknown
+PT_6WETK2KV,male,not reported,not reported
+PT_6WWBC2NT,male,not reported,not reported
+PT_6WZ8RVRQ,female,white,not hispanic or latino
+PT_6XT5HH0S,male,white,not hispanic or latino
+PT_6Y7XNE46,female,white,not hispanic or latino
+PT_6YEH3TG1,male,not reported,not reported
+PT_6YNPB00J,female,not reported,not reported
+PT_6ZQZ457Y,female,other,unknown
+PT_70613JKE,female,other,unknown
+PT_70FWQGZR,male,not reported,not reported
+PT_70ZT337M,male,not reported,not reported
+PT_714QF82Q,male,black or african american,not hispanic or latino
+PT_719YJ6R7,male,not reported,not reported
+PT_71SJ26YX,male,white,not hispanic or latino
+PT_722T8PY4,male,not reported,not reported
+PT_738SMRPB,male,white,not hispanic or latino
+PT_73AP8EN3,male,white,not hispanic or latino
+PT_741CNR1B,female,white,not hispanic or latino
+PT_7464NDA2,male,not reported,not reported
+PT_756KTVXV,male,white,not hispanic or latino
+PT_75HRTX4S,female,white,not hispanic or latino
+PT_763EJ3AE,male,not reported,not reported
+PT_765TC2XG,female,white,not hispanic or latino
+PT_76EAJGAQ,female,not reported,not reported
+PT_76KEW4R2,female,not reported,not reported
+PT_76P2QCV4,male,not reported,not reported
+PT_76W7C93V,male,white,not hispanic or latino
+PT_773ZPTEB,female,black or african american,not hispanic or latino
+PT_77J37DEW,female,white,not hispanic or latino
+PT_7835V7JJ,female,white,not hispanic or latino
+PT_78AK5ZYX,female,white,not hispanic or latino
+PT_78BDCX2C,male,white,not hispanic or latino
+PT_795G0F93,female,not reported,not reported
+PT_7B4DSMFC,female,black or african american,not hispanic or latino
+PT_7B4J1H40,male,white,not hispanic or latino
+PT_7BVC1F8N,female,white,not hispanic or latino
+PT_7CF7D3HY,female,not reported,not reported
+PT_7CHEMNGG,female,not reported,not reported
+PT_7D5JV3GX,female,not reported,not reported
+PT_7DRK43HM,male,not reported,not reported
+PT_7DTAX48A,male,white,not hispanic or latino
+PT_7DVYFX8F,male,white,not hispanic or latino
+PT_7ECBYH4W,male,white,not hispanic or latino
+PT_7ECZ8VD0,male,white,not hispanic or latino
+PT_7EHSMSZD,male,not reported,not reported
+PT_7EKP1VA6,male,native hawaiian or other pacific islander,not hispanic or latino
+PT_7ENND7B2,male,white,not hispanic or latino
+PT_7F0C5M5K,male,white,not hispanic or latino
+PT_7F4TBYYQ,male,white,not hispanic or latino
+PT_7FV6M5GE,male,not reported,not reported
+PT_7GWAS4PR,male,not reported,not reported
+PT_7HGY5W67,female,white,not hispanic or latino
+PT_7HH1DEDS,female,white,not hispanic or latino
+PT_7HPKNDQ2,male,not reported,not reported
+PT_7HQ94PMN,male,not reported,not reported
+PT_7HSD72ZQ,male,white,not hispanic or latino
+PT_7J7N7HH8,male,white,not hispanic or latino
+PT_7J8E6CZ2,female,white,not hispanic or latino
+PT_7JGNHKD2,male,not reported,not reported
+PT_7JVH0CDM,female,black or african american,not hispanic or latino
+PT_7K043E7T,female,white,not hispanic or latino
+PT_7K25M5TQ,female,white,not hispanic or latino
+PT_7K321REE,male,white,not hispanic or latino
+PT_7K61HHG3,male,not reported,not reported
+PT_7KS8C9Y6,female,white,hispanic or latino
+PT_7MJFY39F,male,not reported,not reported
+PT_7MPBYNMG,male,not reported,not reported
 PT_7MZRW1DH,female,white,not hispanic or latino
-PT_7P6J57H3,male,white,not hispanic or latino
-PT_7PXN3B4J,female,asian,not hispanic or latino
-PT_7QKGGMKV,female,other,not hispanic or latino
-PT_7RMS6K08,female,white,not hispanic or latino
-PT_7T13FDWK,female,white,not hispanic or latino
-PT_7TEHW6VQ,male,white,not hispanic or latino
-PT_7TRGHZBK,female,white,not hispanic or latino
-PT_7VPSS2SN,female,other,not hispanic or latino
-PT_7VSY72EK,male,white,not hispanic or latino
-PT_7WT6P5M8,male,white,not hispanic or latino
-PT_7YGZ526E,female,white,not hispanic or latino
-PT_7YM9EBCK,male,asian,not hispanic or latino
-PT_7YSCM82T,female,white,not hispanic or latino
-PT_814K3T0D,male,unknown,hispanic or latino
-PT_82A9SDRN,female,other,hispanic or latino
+PT_7P63J59Y,female,not reported,not reported
+PT_7PAGH9A9,male,not reported,not reported
+PT_7PRKJ6V1,male,not reported,not reported
+PT_7PWX8MC2,female,white,not hispanic or latino
+PT_7RH6AVP6,male,white,not hispanic or latino
+PT_7S324QA6,female,not reported,not reported
+PT_7SCMH2Z5,female,not reported,not reported
+PT_7SDSZHAB,male,white,not hispanic or latino
+PT_7SGZHSME,female,not reported,not reported
+PT_7SJQJWQM,female,not reported,not reported
+PT_7SK0NP55,female,not reported,not reported
+PT_7SKN6WBK,male,white,not hispanic or latino
+PT_7T2HQNR7,male,white,not hispanic or latino
+PT_7T40WG2X,male,not reported,not reported
+PT_7TD59X9Q,male,white,not hispanic or latino
+PT_7TF40D8R,female,other,unknown
+PT_7THNHCPN,female,white,not hispanic or latino
+PT_7TQ2VAVG,female,other,not hispanic or latino
+PT_7TVR7AJ2,female,other,hispanic or latino
+PT_7V6SF11S,male,white,not hispanic or latino
+PT_7VNN8JMM,female,white,not hispanic or latino
+PT_7VQ9VDEE,female,not reported,not reported
+PT_7W5D5NTM,female,not reported,not reported
+PT_7WMD5002,female,other,unknown
+PT_7WSYD0N7,male,not reported,not reported
+PT_7WYPEC3Q,female,white,not hispanic or latino
+PT_7YHHZ1HJ,male,not reported,not reported
+PT_7Z0FF6A2,female,white,not hispanic or latino
+PT_7ZB8FJ6V,female,other,hispanic or latino
+PT_807QWPMX,male,not reported,not reported
+PT_80J5G30M,male,white,not hispanic or latino
+PT_80Q5WFB1,female,other,unknown
+PT_80RD0RY7,female,white,not hispanic or latino
+PT_8127P12D,male,white,not hispanic or latino
+PT_81D172ZP,male,other,not hispanic or latino
+PT_81MKG1DC,male,not reported,not reported
+PT_81TFTZBV,female,not reported,not reported
+PT_81Z8H91C,male,white,not hispanic or latino
+PT_820J0ZR0,female,not reported,not reported
+PT_8231E7J1,male,not reported,not reported
+PT_8277QW5W,male,not reported,not reported
+PT_82DA44HM,female,not reported,not reported
+PT_82HX718Q,male,white,not hispanic or latino
 PT_82MX6J77,female,white,not hispanic or latino
-PT_83ECX0KT,female,unknown,hispanic or latino
-PT_84Q11Z5X,female,white,unknown
-PT_858H7ABM,female,white,not hispanic or latino
+PT_83F2MT1S,male,white,not hispanic or latino
+PT_84FX2J78,female,not reported,not reported
+PT_84JBSSTQ,male,white,not hispanic or latino
+PT_84N6CPCM,male,not reported,not reported
+PT_84S7VE6G,male,not reported,not reported
+PT_84WA83VT,male,white,not hispanic or latino
+PT_84ZTC7PV,female,white,not hispanic or latino
+PT_859TAFJQ,female,not reported,not reported
 PT_85RSG67R,male,white,not hispanic or latino
-PT_868QRW9G,male,black or african american,not hispanic or latino
-PT_88F5PD21,female,other,hispanic or latino
+PT_85XH9GD4,male,not reported,not reported
+PT_865QGR0X,female,white,not hispanic or latino
+PT_86BHFQMC,male,white,not hispanic or latino
+PT_86G8BKVT,male,not reported,not reported
+PT_86XWJF6R,female,other,unknown
+PT_872TSB01,male,other,hispanic or latino
+PT_87938BF0,female,not reported,not reported
+PT_87E9XKPR,male,not reported,not reported
+PT_87G0WFY2,female,not reported,not reported
+PT_87HZ0PF2,male,other,not hispanic or latino
+PT_87KRYMY3,female,not reported,not reported
+PT_881XN70Z,female,not reported,not reported
+PT_88AT07F1,male,white,not hispanic or latino
+PT_89HXDTTW,male,white,not hispanic or latino
 PT_89XRZBSG,male,white,not hispanic or latino
-PT_8ATS9ATC,male,white,not hispanic or latino
-PT_8CZ6ANE0,male,asian,not hispanic or latino
-PT_8ECE2D92,female,other,not hispanic or latino
-PT_8FWP7BR3,female,white,not hispanic or latino
-PT_8GBF5MTD,male,black or african american,not hispanic or latino
-PT_8GN3TQRM,male,asian,not hispanic or latino
-PT_8GW4J4TD,male,white,not hispanic or latino
-PT_8KSGR8MY,female,white,not hispanic or latino
-PT_8M6W215T,male,white,not hispanic or latino
-PT_8P368R5B,female,asian,not hispanic or latino
-PT_8P98N5FS,male,white,not hispanic or latino
-PT_8PV84CNE,male,white,not hispanic or latino
-PT_8R00BMHH,female,white,not hispanic or latino
-PT_8RB3EKNP,male,black or african american,not hispanic or latino
-PT_8RB7TPS2,male,white,not hispanic or latino
-PT_8SDJXNFR,female,other,not hispanic or latino
-PT_8SF8D0M9,male,other,unknown
-PT_8V3360DR,female,white,not hispanic or latino
-PT_8VRZRZ7R,female,other,unknown
-PT_8WNA6M94,female,white,not hispanic or latino
-PT_8XZY6MM1,female,white,not hispanic or latino
-PT_90W4HCNR,male,white,not hispanic or latino
-PT_91PDAFH0,male,white,hispanic or latino
-PT_92YX7KK9,male,white,not hispanic or latino
-PT_94EHCMXA,male,white,not hispanic or latino
+PT_8ABN0D2X,female,not reported,not reported
+PT_8AR0Q0FD,female,not reported,not reported
+PT_8BY05WAX,female,not reported,not reported
+PT_8C28NTZ5,male,not reported,not reported
+PT_8C9RWJY4,female,not reported,not reported
+PT_8D35V6HW,male,white,not hispanic or latino
+PT_8D8V9PBH,female,other,unknown
+PT_8DWXGKQM,female,not reported,not reported
+PT_8ED5MJR2,male,other,unknown
+PT_8EDV8T41,male,not reported,not reported
+PT_8EX2R1RB,female,white,not hispanic or latino
+PT_8F7SK9V1,female,white,not hispanic or latino
+PT_8FBR94AD,male,white,not hispanic or latino
+PT_8FP2770K,female,white,not hispanic or latino
+PT_8GAF499Y,female,white,unknown
+PT_8GXNED2T,female,black or african american,not hispanic or latino
+PT_8H1TBX29,male,not reported,not reported
+PT_8HB2P8CC,female,not reported,not reported
+PT_8HBWG092,male,black or african american,not hispanic or latino
+PT_8HHHKXZF,male,not reported,not reported
+PT_8HX2C69R,male,other,unknown
+PT_8J0XQR3G,male,not reported,not reported
+PT_8J1BCYVG,female,not reported,not reported
+PT_8J4EYY40,female,white,not hispanic or latino
+PT_8J7RR51V,male,not reported,not reported
+PT_8K0AE74P,female,white,not hispanic or latino
+PT_8K2XRSY4,female,other,unknown
+PT_8KPAC43E,female,not reported,not reported
+PT_8KZS3CWH,male,not reported,not reported
+PT_8MXTRF8J,male,not reported,not reported
+PT_8N96Z76H,female,not reported,not reported
+PT_8NPNACF3,female,white,not hispanic or latino
+PT_8NRH7W3N,male,white,not hispanic or latino
+PT_8PY3PN2B,female,other,unknown
+PT_8Q2ZSKZS,male,not reported,not reported
+PT_8Q8X1JYM,not reported,other,unknown
+PT_8RCACGC9,female,not reported,not reported
+PT_8RRE0ZEM,male,not reported,not reported
+PT_8RS4FH76,male,not reported,not reported
+PT_8S943DXT,male,asian,not hispanic or latino
+PT_8SRYHAAW,female,other,hispanic or latino
+PT_8SXGBK20,female,not reported,not reported
+PT_8TAH9E6Q,female,white,not hispanic or latino
+PT_8THZRP0B,female,white,not hispanic or latino
+PT_8TKMNP4A,male,white,not hispanic or latino
+PT_8V3B1JG3,male,not reported,not reported
+PT_8V4SS3FS,female,not reported,not reported
+PT_8V96YFJQ,male,white,not hispanic or latino
+PT_8WTRQMVE,male,not reported,not reported
+PT_8Y29475C,male,not reported,not reported
+PT_8Z6QJ87D,female,white,not hispanic or latino
+PT_8ZB38SEK,female,not reported,not reported
+PT_8ZDR3H4J,male,other,hispanic or latino
+PT_8ZKFTBZS,female,other,not hispanic or latino
+PT_8ZWC8GDM,female,not reported,not reported
+PT_90HMTP63,female,not reported,not reported
+PT_91WW504A,male,white,not hispanic or latino
+PT_933PZNDG,male,not reported,not reported
+PT_93KGSRT5,male,not reported,not reported
+PT_940HZG7S,female,white,not hispanic or latino
+PT_946FSP8M,female,not reported,not reported
+PT_94952PCP,female,white,not hispanic or latino
+PT_94BFYTVZ,male,black or african american,not hispanic or latino
 PT_95S99RWE,male,white,not hispanic or latino
-PT_962TCBVR,male,american indian or alaska native,not hispanic or latino
-PT_976P4557,male,white,not hispanic or latino
-PT_98QMQZY7,female,white,not hispanic or latino
-PT_99S5BPE3,male,white,not hispanic or latino
+PT_9678SJVG,female,other,hispanic or latino
+PT_97EQQMT9,female,other,hispanic or latino
+PT_97F1YCGF,female,other,not hispanic or latino
+PT_97VXEK6Y,female,black or african american,not hispanic or latino
+PT_97XNJ5M4,male,not reported,not reported
+PT_98T18T3B,male,other,hispanic or latino
+PT_98W7YNZ7,male,other,not hispanic or latino
+PT_990XKJEA,male,not reported,not reported
+PT_993TCZS8,male,not reported,not reported
+PT_99R55MP0,female,black or african american,not hispanic or latino
+PT_99TXRSGK,male,white,not hispanic or latino
+PT_99ZCQ12B,female,not reported,not reported
+PT_9A2NW4XJ,male,white,not hispanic or latino
 PT_9A6RPJ97,female,white,not hispanic or latino
-PT_9AHA6KW3,female,black or african american,not hispanic or latino
-PT_9AW9EWHA,male,white,not hispanic or latino
-PT_9B6KWJT2,female,white,not hispanic or latino
+PT_9ARJW895,male,not reported,not reported
+PT_9B3YD5DR,female,white,not hispanic or latino
+PT_9B4YBEJJ,female,white,not hispanic or latino
+PT_9B5518AZ,male,not reported,not reported
+PT_9BNPCTVA,male,white,not hispanic or latino
 PT_9BZETM0M,male,white,not hispanic or latino
-PT_9C2G356W,male,other,not hispanic or latino
-PT_9CSZBV2P,male,white,not hispanic or latino
-PT_9D2N4S5Z,male,white,unknown
-PT_9DER14KH,male,white,not hispanic or latino
-PT_9DMMZ08D,female,white,not hispanic or latino
-PT_9GKVQ9QS,female,unknown,hispanic or latino
-PT_9HMVHQEH,male,black or african american,not hispanic or latino
-PT_9JT1441X,male,other,not hispanic or latino
-PT_9M4CQX3M,female,white,not hispanic or latino
-PT_9N0SR1D7,female,white,unknown
+PT_9C0PR9HN,female,not reported,not reported
+PT_9C7GK4YB,male,white,not hispanic or latino
+PT_9CCEQ57K,female,white,not hispanic or latino
+PT_9CF5DDMC,male,not reported,not reported
+PT_9CGBDPVV,female,white,not hispanic or latino
+PT_9CQA1W10,female,other,unknown
+PT_9DBN0S8P,female,not reported,not reported
+PT_9DN55H64,male,white,not hispanic or latino
+PT_9DN8FH3M,male,other,unknown
+PT_9F58PWB3,male,white,not hispanic or latino
+PT_9FG2K6D8,male,not reported,not reported
+PT_9FG2VW27,male,not reported,not reported
+PT_9G845WYY,female,not reported,not reported
+PT_9GPYYYB2,male,other,hispanic or latino
+PT_9HEAQ2BG,male,other,hispanic or latino
+PT_9HV50P8H,female,not reported,not reported
+PT_9JA20YPN,female,white,not hispanic or latino
+PT_9JXFZWCF,male,white,not hispanic or latino
+PT_9KDBBNQC,male,white,not hispanic or latino
+PT_9KK0BAGK,male,other,hispanic or latino
+PT_9KRSSPSF,female,white,not hispanic or latino
+PT_9KT4AA7A,female,white,not hispanic or latino
+PT_9M5XVQ46,male,other,hispanic or latino
+PT_9MCA9HKD,female,white,not hispanic or latino
+PT_9MT2G8NE,male,other,hispanic or latino
+PT_9MVNPJF4,male,white,not hispanic or latino
+PT_9N8B4X3E,male,other,hispanic or latino
+PT_9P121EJE,female,not reported,not reported
 PT_9P7P6YAQ,female,white,not hispanic or latino
-PT_9PDE9KSB,female,white,not hispanic or latino
-PT_9PJR0ZK7,male,black or african american,not hispanic or latino
+PT_9PAXAEBT,female,white,not hispanic or latino
+PT_9PC5PXNX,male,white,not hispanic or latino
+PT_9PSTCXRS,female,other,unknown
+PT_9QFAM16R,male,not reported,not reported
+PT_9R8JW346,male,other,hispanic or latino
+PT_9RACP1ZZ,female,white,not hispanic or latino
+PT_9RTMDPES,male,other,not hispanic or latino
 PT_9S6WMQ92,female,white,not hispanic or latino
-PT_9W4WTVFZ,female,other,hispanic or latino
-PT_9XAA8PF6,female,white,not hispanic or latino
-PT_9YMRNZHH,male,white,not hispanic or latino
-PT_9YNQJZ5G,female,white,not hispanic or latino
-PT_9ZY739FB,female,white,not hispanic or latino
-PT_A06JR0E5,male,black or african american,not hispanic or latino
-PT_A0F23R7E,male,other,not hispanic or latino
-PT_A325EYR2,female,white,not hispanic or latino
-PT_A4KA01ZH,female,white,not hispanic or latino
-PT_A594A46X,male,white,not hispanic or latino
-PT_A9F8Y6MA,male,white,not hispanic or latino
-PT_A9YAZJNN,male,white,not hispanic or latino
-PT_ABMAQYY2,male,other,unknown
-PT_ABV3RS3T,female,white,hispanic or latino
-PT_AC5SD9AC,male,black or african american,not hispanic or latino
-PT_ADTP7EHN,female,white,not hispanic or latino
-PT_AEDWCP8Z,female,other,unknown
-PT_AF1BQHA5,male,white,not hispanic or latino
-PT_AKQZZPH8,male,other,hispanic or latino
-PT_AP658JQV,male,white,not hispanic or latino
-PT_AP9P5D7N,male,white,not hispanic or latino
-PT_APPA7SFD,female,white,not hispanic or latino
-PT_AQWDQW27,female,other,hispanic or latino
-PT_ARCM3PXM,unknown,other,unknown
-PT_ATE3YRH5,female,other,hispanic or latino
-PT_ATS9XDJ5,female,black or african american,not hispanic or latino
-PT_AW8WV14Y,female,other,hispanic or latino
-PT_AWBPNFM5,male,white,not hispanic or latino
-PT_AWMZ12NP,male,other,hispanic or latino
+PT_9SF862HG,female,asian,not hispanic or latino
+PT_9SWHWA5Q,female,white,not hispanic or latino
+PT_9T0V7CFE,male,not reported,not reported
+PT_9T6DZDG7,male,black or african american,not hispanic or latino
+PT_9TPW6850,female,white,not hispanic or latino
+PT_9VRTZHQP,female,asian,not hispanic or latino
+PT_9WN67961,male,white,not hispanic or latino
+PT_9X1XY3JK,male,white,not hispanic or latino
+PT_9X93GYF3,male,not reported,not reported
+PT_9XXGZHJV,male,other,not hispanic or latino
+PT_9Y9S32VY,male,white,not hispanic or latino
+PT_9YJGD295,male,not reported,not reported
+PT_9YK7SD0G,male,not reported,not reported
+PT_9YTX63CM,male,not reported,not reported
+PT_9Z1C5K9Z,female,white,not hispanic or latino
+PT_9Z1FS69W,female,asian,not hispanic or latino
+PT_9ZNNWX76,female,other,not hispanic or latino
+PT_9ZY2WSQZ,female,not reported,not reported
+PT_A031HMKS,female,black or african american,not hispanic or latino
+PT_A04VDWZA,female,white,not hispanic or latino
+PT_A0V7V4N0,female,white,not hispanic or latino
+PT_A124AB49,female,other,unknown
+PT_A23FP3G2,male,not reported,not reported
+PT_A2WK5Z6C,male,not reported,not reported
+PT_A3DQ8BM8,female,other,unknown
+PT_A3N82JTH,female,white,not hispanic or latino
+PT_A3R4JF63,male,not reported,not reported
+PT_A41WTVC4,female,not reported,not reported
+PT_A4SCXHP3,female,not reported,not reported
+PT_A5G80MM8,male,not reported,not reported
+PT_A5S5BB3A,male,black or african american,not hispanic or latino
+PT_A64KYWHR,male,other,unknown
+PT_A6EY3KMG,female,not reported,not reported
+PT_A79AAPVP,male,not reported,not reported
+PT_A7K71R0T,female,not reported,not reported
+PT_A87DVKDR,male,not reported,not reported
+PT_A8FT2XKY,male,white,not hispanic or latino
+PT_A8YMD5T6,male,white,not hispanic or latino
+PT_A98S8QAV,male,white,not hispanic or latino
+PT_A9E0SJZB,female,black or african american,not hispanic or latino
+PT_AA0J9GBF,female,white,not hispanic or latino
+PT_AAA2R9WV,male,white,not hispanic or latino
+PT_AAA7EET4,male,white,hispanic or latino
+PT_AAYDTV5N,female,not reported,not reported
+PT_AAZ38138,male,white,not hispanic or latino
+PT_AB6T6A38,female,not reported,not reported
+PT_AB7X8PX0,female,white,not hispanic or latino
+PT_AB9Y7VY9,female,not reported,not reported
+PT_ABZCDGEY,female,not reported,not reported
+PT_ACB7ST1F,male,other,not hispanic or latino
+PT_AD8NVXM2,female,white,not hispanic or latino
+PT_ADFBHEX5,male,white,not hispanic or latino
+PT_AE52FZ41,male,white,not hispanic or latino
+PT_AEWCDSC4,male,white,not hispanic or latino
+PT_AF4BKWNH,female,white,hispanic or latino
+PT_AFAXW84Y,female,not reported,not reported
+PT_AG9009JJ,male,white,not hispanic or latino
+PT_AH6K40Q7,male,white,not hispanic or latino
+PT_AH6VGDWV,female,white,hispanic or latino
+PT_AH6Z2ZH4,male,asian,not hispanic or latino
+PT_AH8HC5FB,female,white,unknown
+PT_AJ52Z8JN,female,not reported,not reported
+PT_AJJFDXQS,male,white,not hispanic or latino
+PT_AJJT23CF,female,asian,not hispanic or latino
+PT_AJXE05XM,female,white,not hispanic or latino
+PT_AKAH26TJ,male,not reported,not reported
+PT_AMJ0G9QF,male,black or african american,not hispanic or latino
+PT_AN7JXF7D,female,not reported,not reported
+PT_AQ0RFSVQ,male,other,hispanic or latino
+PT_AQAQ4ZY1,male,not reported,not reported
+PT_AR01XWM3,female,white,unknown
+PT_AR4EQRTZ,male,other,not hispanic or latino
+PT_ARBPVCGH,female,black or african american,not hispanic or latino
+PT_ARN64D93,male,white,not hispanic or latino
+PT_ATHF5TEQ,female,not reported,not reported
+PT_AV05Z9NB,male,white,not hispanic or latino
+PT_AV0W0V8D,male,black or african american,not hispanic or latino
+PT_AV9M9SWY,male,white,not hispanic or latino
+PT_AVV8ABZS,female,not reported,not reported
+PT_AW7S7WGD,female,white,not hispanic or latino
+PT_AW99VNWM,male,white,not hispanic or latino
+PT_AWNW32CM,female,not reported,not reported
+PT_AX5NM47X,male,white,not hispanic or latino
 PT_AXMVG8QE,female,white,not hispanic or latino
-PT_AXVH36AM,female,white,not hispanic or latino
-PT_AYVKQZRB,male,other,unknown
-PT_AYZA2WCW,female,white,not hispanic or latino
+PT_AY2BVCYP,female,other,unknown
+PT_AYKVQK8F,female,not reported,not reported
+PT_AYPQDR9K,male,not reported,not reported
+PT_AYT8NM0N,male,not reported,not reported
+PT_AYV78KT9,male,white,not hispanic or latino
+PT_AYX091S6,female,not reported,not reported
+PT_AYXXFG62,female,not reported,not reported
+PT_AZAJRK9Z,male,white,not hispanic or latino
+PT_AZFSRAWZ,female,other,unknown
+PT_AZNBS4EK,female,white,not hispanic or latino
 PT_AZQ230WT,male,white,not hispanic or latino
-PT_B0JFCN5W,male,black or african american,not hispanic or latino
+PT_B0FJS4XX,female,white,not hispanic or latino
+PT_B0M5514M,male,not reported,not reported
+PT_B0WBRXJ3,male,not reported,not reported
+PT_B181G0WY,female,not reported,not reported
+PT_B18DBGDT,male,white,not hispanic or latino
+PT_B21SBN7S,female,other,hispanic or latino
+PT_B2KF59PQ,male,other,unknown
+PT_B2RBACZ0,male,white,not hispanic or latino
+PT_B2TM01H4,male,not reported,not reported
+PT_B2Z1FKBN,female,not reported,not reported
 PT_B38P3Y5T,female,white,not hispanic or latino
-PT_B54PH840,male,white,not hispanic or latino
-PT_B5K3A4F4,unknown,other,unknown
-PT_B5VQ16GW,male,white,not hispanic or latino
-PT_B7QRTN72,male,white,not hispanic or latino
-PT_BBHAD51D,female,white,not hispanic or latino
+PT_B497QPJ7,male,white,not hispanic or latino
+PT_B4KKXE56,male,not reported,not reported
+PT_B4NYKS5V,male,black or african american,not hispanic or latino
+PT_B4RTR0T5,male,asian,not hispanic or latino
+PT_B57TYYA1,female,white,not hispanic or latino
+PT_B5DQ8FF0,male,white,not hispanic or latino
+PT_B5KXHZ6Q,female,white,not hispanic or latino
+PT_B5TJ8Q6D,female,other,hispanic or latino
+PT_B5X033PK,female,other,hispanic or latino
+PT_B5ZZP9YS,male,other,hispanic or latino
+PT_B670XR4B,female,not reported,not reported
+PT_B6N596EF,male,not reported,not reported
+PT_B70H14SD,male,not reported,not reported
+PT_B77KNBSV,male,white,not hispanic or latino
+PT_B7BBE5DV,female,white,hispanic or latino
+PT_B7KZV9TJ,male,white,not hispanic or latino
+PT_B7SKHK42,female,not reported,not reported
+PT_B880VBNQ,female,black or african american,not hispanic or latino
+PT_B8TQ192C,male,other,not hispanic or latino
+PT_B9FB96NF,male,not reported,not reported
+PT_B9HJ7GNT,male,not reported,not reported
+PT_BA38VR93,male,other,unknown
+PT_BA3JEEYZ,male,not reported,not reported
+PT_BAH54SVM,male,white,not hispanic or latino
+PT_BAWWSEBZ,female,white,not hispanic or latino
+PT_BB8WZ9CD,female,not reported,not reported
+PT_BC0B16HC,female,white,not hispanic or latino
+PT_BC325CYP,female,not reported,not reported
 PT_BC6JG69J,male,black or african american,not hispanic or latino
-PT_BCN28SW9,male,white,not hispanic or latino
+PT_BCSX6CN0,female,not reported,not reported
 PT_BCWGRGDB,male,other,not hispanic or latino
-PT_BDM0M83S,male,white,not hispanic or latino
-PT_BDNE55YT,male,white,not hispanic or latino
-PT_BF3PGTF7,female,white,not hispanic or latino
-PT_BG7GAFK6,male,other,unknown
-PT_BK92NM09,female,other,not hispanic or latino
-PT_BMK69WFB,male,asian,not hispanic or latino
+PT_BDEXY3QD,male,not reported,not reported
+PT_BDPH0Z9G,male,white,not hispanic or latino
+PT_BF9MKF6N,male,not reported,not reported
+PT_BFEZA87M,female,white,not hispanic or latino
+PT_BFJRXMYZ,male,other,unknown
+PT_BFNFWFEJ,male,not reported,not reported
+PT_BGBRH08F,male,not reported,not reported
+PT_BGEN4206,female,not reported,not reported
+PT_BGHP70ZG,female,white,not hispanic or latino
+PT_BGQ7H9RD,male,not reported,not reported
+PT_BGX962PA,male,other,hispanic or latino
+PT_BGZ5W40N,female,not reported,not reported
+PT_BHEG3SJJ,male,not reported,not reported
+PT_BHJT2M99,female,white,not hispanic or latino
+PT_BHPBJNCP,male,black or african american,not hispanic or latino
+PT_BHV46TFM,male,not reported,not reported
+PT_BHYK6Y4K,female,not reported,not reported
+PT_BJFJZ39D,male,not reported,not reported
+PT_BK06Z2Q1,female,white,not hispanic or latino
+PT_BKFB9EDR,female,white,not hispanic or latino
+PT_BKY3DQB4,male,not reported,not reported
+PT_BM2HARTG,male,other,not hispanic or latino
+PT_BMBABGGJ,male,white,not hispanic or latino
+PT_BMCF6CGY,female,not reported,not reported
+PT_BMCXMNXY,female,not reported,not reported
+PT_BMD55026,female,black or african american,not hispanic or latino
+PT_BN8RWJEV,female,white,not hispanic or latino
 PT_BNARR0N6,male,white,not hispanic or latino
-PT_BPKVVWVB,male,white,not hispanic or latino
-PT_BQ8BQ01J,male,white,not hispanic or latino
-PT_BRTVGGRK,male,white,not hispanic or latino
-PT_BTTM2HS5,female,white,not hispanic or latino
-PT_BWFTKJXT,male,white,not hispanic or latino
-PT_BWGZBVD1,female,white,not hispanic or latino
-PT_BWN251DF,female,white,not hispanic or latino
+PT_BNVSS3BS,male,white,not hispanic or latino
+PT_BP8WEM0C,female,white,not hispanic or latino
+PT_BPW4VRZB,male,white,not hispanic or latino
+PT_BQAR0KHK,male,white,not hispanic or latino
+PT_BQFM8NH0,female,white,not hispanic or latino
+PT_BQJK7KPK,female,white,not hispanic or latino
+PT_BR671QVQ,male,not reported,not reported
+PT_BR8HN2BG,male,not reported,not reported
+PT_BRVGRXQY,male,white,hispanic or latino
+PT_BSY6DY6Q,female,not reported,not reported
+PT_BTCXJ93H,female,not reported,not reported
+PT_BTS1T9E8,male,other,hispanic or latino
+PT_BTYG7JR9,male,other,unknown
+PT_BVA0H9T9,male,white,not hispanic or latino
+PT_BVQJ2F4T,female,other,unknown
+PT_BVV98YS4,female,not reported,not reported
+PT_BW36HGH4,male,white,not hispanic or latino
+PT_BWC2QM37,female,white,not hispanic or latino
+PT_BWFHQ47B,female,not reported,not reported
+PT_BWKVZ99J,male,black or african american,not hispanic or latino
+PT_BWVHNTAP,female,white,hispanic or latino
+PT_BX353PS4,female,not reported,not reported
+PT_BX4BBRRM,female,white,not hispanic or latino
+PT_BXTY32WA,female,other,not hispanic or latino
 PT_BXXZE0CQ,male,white,not hispanic or latino
+PT_BY7N7VN8,male,not reported,not reported
 PT_BYJ428GA,female,white,not hispanic or latino
-PT_BZKJR4GK,female,white,not hispanic or latino
-PT_C1M4YF1R,female,white,not hispanic or latino
+PT_BZCJMEX8,female,black or african american,not hispanic or latino
+PT_BZJ6TKHQ,male,not reported,not reported
+PT_BZYC3AX0,female,not reported,not reported
+PT_C0ME1J0G,male,white,not hispanic or latino
+PT_C1C1F8RC,male,white,hispanic or latino
+PT_C1HRBJJD,female,asian,not hispanic or latino
+PT_C1RDBCVM,male,white,not hispanic or latino
+PT_C1XZKXCN,female,white,not hispanic or latino
+PT_C2391V9Z,female,white,not hispanic or latino
 PT_C2D4JXS1,female,other,hispanic or latino
-PT_C2MM7ARE,female,white,not hispanic or latino
-PT_C2VY5NM6,female,white,not hispanic or latino
-PT_C4F1HPH5,male,white,not hispanic or latino
-PT_C5FKRB1P,male,white,unknown
-PT_C71G98K3,male,white,not hispanic or latino
-PT_C73C5BBZ,female,other,not hispanic or latino
-PT_C7HHJG7Z,female,white,not hispanic or latino
-PT_C86SGM7B,female,white,not hispanic or latino
-PT_C94VR1Y2,female,white,hispanic or latino
-PT_C95KPXSW,female,other,hispanic or latino
-PT_C9YDTZPA,male,white,not hispanic or latino
-PT_CAYBADQC,male,other,not hispanic or latino
-PT_CB1DN0V8,female,black or african american,not hispanic or latino
-PT_CB1XPA3W,female,white,not hispanic or latino
-PT_CB9PD1YP,female,white,not hispanic or latino
-PT_CBAYDRF9,female,white,not hispanic or latino
+PT_C30Z5EZR,male,not reported,not reported
+PT_C31Y9ZN1,female,not reported,not reported
+PT_C3NQTXD7,male,white,not hispanic or latino
+PT_C41JYFF4,male,white,not hispanic or latino
+PT_C47DY9H0,female,not reported,not reported
+PT_C4P0F36E,male,white,not hispanic or latino
+PT_C4TAY2XJ,male,black or african american,not hispanic or latino
+PT_C4XH20T3,male,other,hispanic or latino
+PT_C4XZABVV,male,white,not hispanic or latino
+PT_C52RFPB9,female,white,not hispanic or latino
+PT_C54TRW2Q,male,not reported,not reported
+PT_C5BRNPTY,male,not reported,not reported
+PT_C5EZXTB6,male,white,not hispanic or latino
+PT_C5JE7GCG,male,not reported,not reported
+PT_C6355DPK,female,not reported,not reported
+PT_C6EAS96T,male,other,hispanic or latino
+PT_C6NDFST5,female,black or african american,not hispanic or latino
+PT_C6V6VTZC,male,not reported,not reported
+PT_C719PQH2,female,other,unknown
+PT_C7AG2Q1W,male,white,not hispanic or latino
+PT_C7B1TXJM,male,white,not hispanic or latino
+PT_C7SY1MYP,female,not reported,not reported
+PT_C83DPFGP,female,white,not hispanic or latino
+PT_C8K92F8J,female,not reported,not reported
+PT_C8R0S2WQ,male,not reported,not reported
+PT_C8VZGBS5,male,white,not hispanic or latino
+PT_C9AY9KQF,female,white,not hispanic or latino
+PT_C9F2B4QF,female,other,hispanic or latino
+PT_CBTW4E3X,male,white,not hispanic or latino
+PT_CCZRN7A3,female,white,not hispanic or latino
+PT_CDC4A70C,male,other,hispanic or latino
+PT_CDWQR6MH,female,other,not hispanic or latino
+PT_CE6XZ979,female,white,not hispanic or latino
+PT_CEEPQCXE,male,not reported,not reported
 PT_CEWNZVKF,male,white,not hispanic or latino
-PT_CG2S2H2R,male,other,unknown
-PT_CGPJY881,female,white,not hispanic or latino
-PT_CGWPWSXM,male,white,not hispanic or latino
-PT_CK41DW03,male,white,not hispanic or latino
-PT_CM32ZCX6,male,other,hispanic or latino
-PT_CMB6TASJ,female,other,not hispanic or latino
-PT_CQ7EGCMB,female,white,not hispanic or latino
-PT_CQS4V67V,male,unknown,unknown
-PT_CR2YBSPT,male,white,not hispanic or latino
-PT_CSKHQB16,female,unknown,unknown
+PT_CF8YY214,male,not reported,not reported
+PT_CF971DNK,male,white,not hispanic or latino
+PT_CF9EEXBD,male,white,not hispanic or latino
+PT_CFHVB9KJ,male,not reported,not reported
+PT_CFQTK4ER,male,white,not hispanic or latino
+PT_CGAQ7KKY,female,other,hispanic or latino
+PT_CHHBDNNJ,male,other,not hispanic or latino
+PT_CJ1M7YTY,female,other,hispanic or latino
+PT_CJYHZ7K5,female,not reported,not reported
+PT_CK0T9Y0Q,female,other,unknown
+PT_CKEDK26X,female,not reported,not reported
+PT_CKTXDE63,male,not reported,not reported
+PT_CM1VQWDA,female,other,unknown
+PT_CM36GB66,female,white,not hispanic or latino
+PT_CM8RKRRX,male,not reported,not reported
+PT_CMPNS3BQ,male,asian,not hispanic or latino
+PT_CNCJZ4JD,female,white,not hispanic or latino
+PT_CPYZVCN8,male,black or african american,hispanic or latino
+PT_CPZ0A4WC,female,white,not hispanic or latino
+PT_CR3TWR1C,male,white,not hispanic or latino
+PT_CR5AWCGA,female,other,unknown
+PT_CR6VHWQX,female,black or african american,not hispanic or latino
+PT_CRCBHRSN,male,not reported,not reported
+PT_CRHGYQYK,male,not reported,not reported
+PT_CRKX6FA6,male,not reported,not reported
+PT_CRTF6SPD,female,not reported,not reported
+PT_CRTJW8WQ,male,other,unknown
+PT_CRWTNE04,male,asian,not hispanic or latino
+PT_CSKVVM2K,female,white,not hispanic or latino
 PT_CSZ9QA1N,female,white,not hispanic or latino
-PT_CTSQ5FHH,male,white,hispanic or latino
-PT_CW0BJE0Y,male,other,unknown
-PT_CWA1405H,male,white,not hispanic or latino
-PT_CWD717Q0,male,black or african american,not hispanic or latino
-PT_CX58G6P6,male,other,not hispanic or latino
-PT_CXT81GRM,male,white,not hispanic or latino
+PT_CTC9ZDNY,male,white,not hispanic or latino
+PT_CV8DVTFT,female,white,not hispanic or latino
+PT_CVP8PKP6,male,not reported,not reported
+PT_CVTN5297,female,not reported,not reported
+PT_CW1E5HGV,male,white,not hispanic or latino
+PT_CW33M74T,female,other,not hispanic or latino
+PT_CWVNNBPH,female,other,unknown
+PT_CWXSP19D,male,white,not hispanic or latino
+PT_CXHQV5YC,female,white,not hispanic or latino
+PT_CY3GP0X7,male,not reported,not reported
+PT_CYA2C6HA,female,white,not hispanic or latino
 PT_CYBYN18G,male,white,not hispanic or latino
-PT_CYVVA9AB,female,white,not hispanic or latino
-PT_CZRDBM1Q,male,white,not hispanic or latino
-PT_D13X3N8F,female,white,not hispanic or latino
-PT_D1WJ3BJX,male,other,hispanic or latino
-PT_D215EQAP,male,other,hispanic or latino
-PT_D3AN5M5W,male,white,not hispanic or latino
-PT_D5KHK0SS,male,white,not hispanic or latino
+PT_CZHZAE21,male,not reported,not reported
+PT_D08DM25J,female,not reported,not reported
+PT_D0N0PDZ1,male,not reported,not reported
+PT_D2K2S59T,female,other,not hispanic or latino
+PT_D3FKG82X,male,white,not hispanic or latino
+PT_D3S4D0XV,male,other,hispanic or latino
+PT_D3X1NP3Y,male,not reported,not reported
+PT_D46SNAQ7,male,white,not hispanic or latino
+PT_D4JJMH7V,female,american indian or alaska native,hispanic or latino
+PT_D4VFV3CW,female,black or african american,not hispanic or latino
+PT_D5C09HMR,male,white,not hispanic or latino
 PT_D5KKHPAE,female,white,not hispanic or latino
+PT_D5PE7B2H,female,white,not hispanic or latino
+PT_D5W98C9T,male,other,not hispanic or latino
+PT_D69MQ1DH,female,white,not hispanic or latino
+PT_D6AJHDST,male,white,not hispanic or latino
 PT_D7FS86D8,female,white,unknown
-PT_D7KMPYTZ,female,asian,not hispanic or latino
-PT_D835NGZW,female,white,not hispanic or latino
-PT_D8D108NY,female,white,not hispanic or latino
+PT_D7G64HTN,male,not reported,not reported
+PT_D7R5C3A2,male,white,not hispanic or latino
+PT_D7WRA8AS,female,not reported,not reported
+PT_D9213XTX,female,black or african american,not hispanic or latino
 PT_D9A6G154,male,white,not hispanic or latino
-PT_D9NTSYSC,male,other,not hispanic or latino
-PT_DA2TJAV1,male,black or african american,not hispanic or latino
-PT_DA4WFQ96,male,white,not hispanic or latino
-PT_DACV00WF,female,white,not hispanic or latino
-PT_DB800CE1,male,white,not hispanic or latino
-PT_DDFAZ345,female,white,not hispanic or latino
-PT_DEDRCQWH,female,black or african american,not hispanic or latino
-PT_DEKWG1QG,female,white,not hispanic or latino
-PT_DESHZ91V,male,white,not hispanic or latino
-PT_DEYCW197,male,white,not hispanic or latino
-PT_DFCZAG9T,male,white,not hispanic or latino
-PT_DFQAH7RS,male,white,not hispanic or latino
-PT_DFXQFYPV,female,white,not hispanic or latino
-PT_DH8A0SNQ,female,white,not hispanic or latino
-PT_DJ106XYS,male,other,hispanic or latino
-PT_DMAF1J4A,male,white,not hispanic or latino
-PT_DMHFS0HX,female,white,not hispanic or latino
-PT_DMMKT7X1,female,white,not hispanic or latino
+PT_D9CXDEH8,female,other,hispanic or latino
+PT_D9HXS4CK,female,white,not hispanic or latino
+PT_DA6JGBFJ,female,other,unknown
+PT_DAF0HG0W,male,not reported,not reported
+PT_DAKPNP7K,male,other,not hispanic or latino
+PT_DAQBTRPK,female,not reported,not reported
+PT_DATGRXBZ,male,white,not hispanic or latino
+PT_DBNV494P,female,black or african american,not hispanic or latino
+PT_DBPKVB5P,female,other,not hispanic or latino
+PT_DBR35QVJ,male,white,not hispanic or latino
+PT_DBWVCRVN,male,white,not hispanic or latino
+PT_DC78YWVY,female,asian,not hispanic or latino
+PT_DCC1MS50,female,not reported,not reported
+PT_DCCND5A4,female,not reported,not reported
+PT_DCHA6FCJ,female,not reported,not reported
+PT_DCWTTHWQ,male,white,not hispanic or latino
+PT_DD0V449H,female,not reported,not reported
+PT_DD6XP3KP,female,not reported,not reported
+PT_DDMD7JFV,male,white,not hispanic or latino
+PT_DDQCAZJG,female,other,hispanic or latino
+PT_DDV67RG6,male,other,unknown
+PT_DEBW7W6W,male,not reported,not reported
+PT_DECHG38W,female,not reported,not reported
+PT_DETYSWQ3,male,not reported,not reported
+PT_DEWCD66Q,male,white,not hispanic or latino
+PT_DF8P04Y1,female,other,hispanic or latino
+PT_DFE9HK05,female,white,not hispanic or latino
+PT_DFR8928F,female,other,hispanic or latino
+PT_DG0P2XZT,female,not reported,not reported
+PT_DGCWJNAP,female,not reported,not reported
+PT_DH3K26ND,female,black or african american,not hispanic or latino
+PT_DH4SSE7V,male,white,not hispanic or latino
+PT_DH851MSP,male,not reported,not reported
+PT_DH968NQY,female,white,not hispanic or latino
+PT_DHCGYWKJ,female,white,not hispanic or latino
+PT_DHHTV5C3,female,not reported,not reported
+PT_DHMBRE8F,male,white,not hispanic or latino
+PT_DHTRBQA8,male,white,not hispanic or latino
+PT_DHZ5KCNN,female,other,hispanic or latino
+PT_DJ39ZXZX,male,white,not hispanic or latino
+PT_DJE2JDYR,female,other,unknown
+PT_DJJHJ1Y2,male,not reported,not reported
+PT_DJM304ZG,female,not reported,not reported
+PT_DJV00GVN,male,not reported,not reported
+PT_DK6H05P4,female,not reported,not reported
+PT_DKMVGV69,unknown,other,unknown
+PT_DKRVS07M,female,white,hispanic or latino
+PT_DMCHGTNJ,male,not reported,not reported
+PT_DMRYSBQH,female,not reported,not reported
+PT_DNA57D80,male,other,hispanic or latino
 PT_DNAJYFZT,male,white,not hispanic or latino
-PT_DNH1VP67,male,other,unknown
+PT_DNB6V0TP,female,black or african american,not hispanic or latino
+PT_DNCNEQCV,female,white,not hispanic or latino
+PT_DPAMBWBX,male,not reported,not reported
+PT_DPHG8E3C,male,white,hispanic or latino
+PT_DPMC1D8Z,male,white,not hispanic or latino
 PT_DPVW4M1W,female,white,not hispanic or latino
-PT_DQ3ZCHB6,male,white,not hispanic or latino
-PT_DQT78GS5,female,white,not hispanic or latino
+PT_DQE0STN1,female,white,not hispanic or latino
+PT_DQERVR60,female,white,not hispanic or latino
+PT_DQSMKNQN,female,other,hispanic or latino
+PT_DQVFYMBA,female,not reported,not reported
+PT_DR94DMTG,male,other,unknown
+PT_DRR78VTX,unknown,other,unknown
+PT_DRRTC594,female,white,not hispanic or latino
+PT_DRWHJ871,female,not reported,not reported
+PT_DRZHXMRB,male,white,not hispanic or latino
+PT_DS0HZCSD,unknown,other,unknown
+PT_DS5CWRWP,female,white,not hispanic or latino
 PT_DTP4MMRA,female,white,hispanic or latino
+PT_DTQE1NRN,female,white,hispanic or latino
 PT_DV8XECKA,male,white,not hispanic or latino
-PT_DW2XRPC9,female,white,not hispanic or latino
-PT_DW6V5V8E,female,other,hispanic or latino
-PT_DXET8FM2,male,white,hispanic or latino
-PT_DXF7ZZQZ,female,white,not hispanic or latino
+PT_DVXE38EX,male,white,not hispanic or latino
+PT_DW2T3C5Y,female,not reported,not reported
+PT_DXCCKMEF,male,white,not hispanic or latino
+PT_DXW38XQH,male,not reported,not reported
+PT_DXWW1BTF,female,not reported,not reported
+PT_DXY0CQEN,male,not reported,not reported
+PT_DY2D16CZ,male,white,not hispanic or latino
+PT_DY2GNA83,male,white,not hispanic or latino
+PT_DY4HHMJ2,female,not reported,not reported
+PT_DY65M0XE,female,not reported,not reported
 PT_DY6QG8QC,female,other,hispanic or latino
-PT_E1TRJP8V,male,white,not hispanic or latino
-PT_E3ADF4ZB,male,other,not hispanic or latino
-PT_E3S6H59E,male,white,hispanic or latino
+PT_DYVAW1K2,male,white,not hispanic or latino
+PT_DZ0X4KM1,female,white,not hispanic or latino
+PT_DZ86YXN6,male,black or african american,not hispanic or latino
+PT_DZJTQ6K4,female,not reported,not reported
+PT_DZW9BWYB,male,not reported,not reported
+PT_E0C001FV,female,not reported,not reported
+PT_E0DFXKG8,female,not reported,not reported
+PT_E0KP6952,male,asian,not hispanic or latino
+PT_E0QNEXZ8,male,white,not hispanic or latino
+PT_E1XB6ZQ8,female,white,hispanic or latino
+PT_E24DN34J,male,white,not hispanic or latino
+PT_E2JC9DFC,male,white,not hispanic or latino
+PT_E2RCEHDA,male,not reported,not reported
+PT_E2TAE6HT,male,white,not hispanic or latino
+PT_E3WNEDD4,male,white,not hispanic or latino
 PT_E3Y5BBSF,female,white,not hispanic or latino
-PT_E4ECAFEN,female,white,not hispanic or latino
+PT_E4F78SHX,male,black or african american,hispanic or latino
 PT_E4TXAYR6,female,white,not hispanic or latino
-PT_E546ZRXA,female,black or african american,not hispanic or latino
+PT_E4YJJ1A3,female,other,unknown
+PT_E50ZPGSJ,female,other,hispanic or latino
+PT_E5CM6C84,male,asian,not hispanic or latino
+PT_E5HFHYMY,female,not reported,not reported
+PT_E60FNE6M,female,not reported,not reported
+PT_E62NPHH0,female,not reported,not reported
 PT_E66N7YBN,female,white,not hispanic or latino
-PT_E6FTW238,female,other,hispanic or latino
-PT_E78NHRWQ,male,white,not hispanic or latino
-PT_E79807KT,male,white,not hispanic or latino
+PT_E6BGSP51,male,other,not hispanic or latino
+PT_E6FMA8NG,female,not reported,not reported
+PT_E6QDNC4R,male,white,not hispanic or latino
+PT_E786BCY8,female,asian,hispanic or latino
+PT_E7A9ABJT,male,black or african american,not hispanic or latino
+PT_E7VA6E07,female,white,not hispanic or latino
+PT_E8M5V9V0,female,white,not hispanic or latino
 PT_E8XM8JFZ,male,white,not hispanic or latino
+PT_E92F628V,male,asian,not hispanic or latino
+PT_E98M27MW,male,not reported,not reported
+PT_E99F32RF,male,white,not hispanic or latino
 PT_E9PS2A96,male,white,not hispanic or latino
-PT_EB0D3BXG,female,white,not hispanic or latino
-PT_EB89G70N,male,black or african american,not hispanic or latino
-PT_EC8R84NM,female,white,not hispanic or latino
-PT_ECBD1D5J,male,black or african american,not hispanic or latino
-PT_ECMZCNTF,male,white,not hispanic or latino
-PT_EDWA0XTP,female,white,not hispanic or latino
-PT_EEKE0V9T,male,white,not hispanic or latino
-PT_EF398HVC,male,white,not hispanic or latino
-PT_EG7PH32E,male,white,not hispanic or latino
-PT_EGGY1XC0,female,white,not hispanic or latino
-PT_EJ8TKG2Z,male,black or african american,not hispanic or latino
-PT_EN2RN5Y1,female,unknown,unknown
-PT_EPFX7V9H,female,white,not hispanic or latino
+PT_EA6SASR8,male,white,hispanic or latino
+PT_EA9K01MB,male,white,unknown
+PT_EAG38QHB,female,white,not hispanic or latino
+PT_EAGXEXMH,male,not reported,not reported
+PT_EBAPXH87,female,not reported,not reported
+PT_ED13K2GD,female,white,not hispanic or latino
+PT_EDG0Q7P4,male,other,unknown
+PT_EE2E1AXD,male,white,not hispanic or latino
+PT_EFDXXBP3,male,white,not hispanic or latino
+PT_EFM5T06Q,female,not reported,not reported
+PT_EFP0AC1Z,female,black or african american,not hispanic or latino
+PT_EGGE4SGY,male,other,hispanic or latino
+PT_EGQVM2N2,male,not reported,not reported
+PT_EH09N1KK,male,white,not hispanic or latino
+PT_EH3XZJQT,male,white,not hispanic or latino
+PT_EHXD392P,male,white,not hispanic or latino
+PT_EHY1SB4R,male,white,not hispanic or latino
+PT_EJVQKCN6,male,white,unknown
+PT_EJVW988V,female,not reported,not reported
+PT_EK3N3FMR,male,white,hispanic or latino
+PT_EK4VZ6AY,male,white,not hispanic or latino
+PT_EKD2DDFR,female,white,not hispanic or latino
+PT_EKSQC0Q2,female,not reported,not reported
+PT_EN4G7A9Z,male,white,not hispanic or latino
+PT_EN67STXE,female,other,not hispanic or latino
+PT_EP0C760T,female,white,not hispanic or latino
+PT_EPBWCARF,female,white,not hispanic or latino
+PT_EQ0BRG88,female,black or african american,not hispanic or latino
 PT_EQ5C5TEA,male,other,hispanic or latino
+PT_EQ830VTD,female,white,not hispanic or latino
+PT_EQCQNN1B,female,other,unknown
+PT_EQX0VT4F,male,white,not hispanic or latino
 PT_ER1C7KPB,male,white,not hispanic or latino
-PT_ESHACWF6,female,white,not hispanic or latino
-PT_EV71W1JW,male,black or african american,hispanic or latino
-PT_EW604JB3,female,white,not hispanic or latino
-PT_EXJAEW1M,male,white,not hispanic or latino
-PT_EXYXBDGP,male,white,not hispanic or latino
-PT_EYHJQQ8E,male,white,not hispanic or latino
-PT_EYWDFKA7,female,white,not hispanic or latino
-PT_EYX2CP9F,female,white,not hispanic or latino
-PT_EYZ25B99,male,white,not hispanic or latino
-PT_EZEMVRVT,male,white,not hispanic or latino
-PT_EZS4SRH6,male,white,not hispanic or latino
-PT_EZW3S4F1,male,white,not hispanic or latino
-PT_F0N89D15,male,white,not hispanic or latino
-PT_F1086Z0A,male,other,unknown
-PT_F27SA15G,female,white,not hispanic or latino
-PT_F3S9PB94,male,white,not hispanic or latino
-PT_F822DBA0,male,white,not hispanic or latino
-PT_F9ANPADH,male,white,not hispanic or latino
-PT_F9F3E8YR,female,white,not hispanic or latino
+PT_ER9J5A9E,female,asian,not hispanic or latino
+PT_ERTJRQ37,not reported,white,not hispanic or latino
+PT_ES534T3Y,female,not reported,not reported
+PT_ES8426ZG,female,not reported,not reported
+PT_ES89W6BK,female,other,unknown
+PT_ESC6NXTS,female,other,not hispanic or latino
+PT_ESWK06KQ,male,white,not hispanic or latino
+PT_ETAK5B97,male,not reported,not reported
+PT_ETMSVEFE,female,white,not hispanic or latino
+PT_ETN2J82J,male,white,not hispanic or latino
+PT_EV33K8AN,male,white,not hispanic or latino
+PT_EVF1DWCZ,female,other,hispanic or latino
+PT_EVQZ62SE,male,other,not hispanic or latino
+PT_EW44V0NM,male,other,unknown
+PT_EWNAWYKB,male,white,not hispanic or latino
+PT_EWY6FMBB,male,not reported,not reported
+PT_EX2BK4KF,male,not reported,not reported
+PT_EX2R466R,female,other,hispanic or latino
+PT_EX8W833S,male,white,not hispanic or latino
+PT_EXCW8AXG,male,not reported,not reported
+PT_EXHCJGS4,male,white,not hispanic or latino
+PT_EXPT96T9,female,white,not hispanic or latino
+PT_EY5ZZ3CS,female,white,hispanic or latino
+PT_EYGQ1X11,female,not reported,not reported
+PT_EYNK9NJT,female,other,unknown
+PT_EYQS4J99,male,other,not hispanic or latino
+PT_EZ6AFFRM,female,white,not hispanic or latino
+PT_EZEW2AGY,female,black or african american,not hispanic or latino
+PT_F0CH8F8M,male,other,unknown
+PT_F0JZHY0K,female,white,not hispanic or latino
+PT_F11GC9VT,female,not reported,not reported
+PT_F14N3FAW,female,not reported,not reported
+PT_F168VFAE,male,white,not hispanic or latino
+PT_F1AMYRMZ,male,white,not hispanic or latino
+PT_F1JVP6ZR,female,white,not hispanic or latino
+PT_F1PXEJMQ,female,other,unknown
+PT_F2B6E7GY,female,black or african american,not hispanic or latino
+PT_F2HHQQXX,male,not reported,not reported
+PT_F3A1BWKJ,female,white,not hispanic or latino
+PT_F3AMMZFQ,female,not reported,not reported
+PT_F3B9V4QY,male,white,not hispanic or latino
+PT_F3E872SH,male,not reported,not reported
+PT_F3EFFT3M,male,not reported,not reported
+PT_F3SBMJ6Y,female,not reported,not reported
+PT_F4CWTVW0,female,not reported,not reported
+PT_F4DBSRRC,male,white,not hispanic or latino
+PT_F4GAWBWK,female,not reported,not reported
+PT_F4Q7HW4H,female,other,unknown
+PT_F57VN4X4,male,asian,not hispanic or latino
+PT_F5EG8TK5,female,white,not hispanic or latino
+PT_F5NZJ4Z1,female,not reported,not reported
+PT_F5WPHZXA,male,not reported,not reported
+PT_F5Y27VCN,male,black or african american,not hispanic or latino
+PT_F6DWBRT6,male,white,not hispanic or latino
+PT_F6ER2107,male,other,unknown
+PT_F77M0G1P,female,not reported,not reported
+PT_F81NDWMF,female,not reported,not reported
+PT_F82TAQNV,female,not reported,not reported
+PT_F8MJBBJJ,female,white,not hispanic or latino
+PT_F8N9Y4JR,male,other,unknown
+PT_F8YT0B81,female,not reported,not reported
 PT_F9G665B1,male,white,not hispanic or latino
-PT_FAD8FQ6S,female,white,not hispanic or latino
-PT_FAPEH6R1,male,white,not hispanic or latino
-PT_FAQWD7GX,male,white,not hispanic or latino
-PT_FC0EF5ZT,male,white,not hispanic or latino
-PT_FCM7XPVR,female,american indian or alaska native,not hispanic or latino
-PT_FCYM09DV,male,white,not hispanic or latino
-PT_FF0MSK4D,female,white,not hispanic or latino
-PT_FF0NV7ZM,male,white,not hispanic or latino
-PT_FFRHWB74,male,white,not hispanic or latino
-PT_FHDZNN40,female,white,not hispanic or latino
-PT_FKCPVY7V,female,white,not hispanic or latino
-PT_FKWCVXNC,female,white,not hispanic or latino
-PT_FMK5VFYW,female,other,not hispanic or latino
-PT_FN4GEEFR,female,white,not hispanic or latino
-PT_FWD7NZQ0,male,white,not hispanic or latino
-PT_FXPJM0MW,female,other,not hispanic or latino
-PT_FYECBRPP,male,other,not hispanic or latino
-PT_FYPWZBH0,female,white,not hispanic or latino
+PT_FA2F3HQG,female,white,not hispanic or latino
+PT_FASMB8YK,male,other,not hispanic or latino
+PT_FBAAAY1A,male,white,unknown
+PT_FBAHPQSZ,female,not reported,not reported
+PT_FC2K2M5G,female,not reported,not reported
+PT_FCAP1A0E,female,not reported,not reported
+PT_FCFZ2EYR,female,not reported,not reported
+PT_FCWMT41S,male,other,not hispanic or latino
+PT_FD0SN42P,female,not reported,not reported
+PT_FDQHEKJB,male,black or african american,not hispanic or latino
+PT_FDSKE616,female,black or african american,not hispanic or latino
+PT_FEA08FX6,female,not reported,not reported
+PT_FFCD5XD7,female,white,not hispanic or latino
+PT_FFHQ1B9R,male,white,not hispanic or latino
+PT_FFJ3RZKK,female,white,hispanic or latino
+PT_FFTF2QA8,male,white,not hispanic or latino
+PT_FG59WMRB,female,not reported,not reported
+PT_FGRC1MY3,male,not reported,not reported
+PT_FH0TD11J,male,other,hispanic or latino
+PT_FH0TJ5P2,female,white,not hispanic or latino
+PT_FH2S6VGD,male,white,not hispanic or latino
+PT_FH7XEKS2,male,other,unknown
+PT_FH9B37E1,male,other,unknown
+PT_FHGDAACP,male,white,not hispanic or latino
+PT_FHQY9PM7,female,white,not hispanic or latino
+PT_FHT70F9C,female,white,not hispanic or latino
+PT_FJDYB8VM,female,not reported,not reported
+PT_FKJCVYJW,female,american indian or alaska native,not hispanic or latino
+PT_FMF72WF5,female,not reported,not reported
+PT_FMS4AXKD,female,white,not hispanic or latino
+PT_FN12HET9,male,black or african american,not hispanic or latino
+PT_FN57KS79,male,other,unknown
+PT_FNAJWH42,male,not reported,not reported
+PT_FNBPQD2C,male,other,hispanic or latino
+PT_FNGVZ3Q1,female,not reported,not reported
+PT_FNMF9D6R,female,other,unknown
+PT_FNVFX9JF,female,other,unknown
+PT_FPHDP7AP,female,white,not hispanic or latino
+PT_FPP7JM82,female,not reported,not reported
+PT_FQ1Q16FV,male,white,not hispanic or latino
+PT_FQ8YGN6W,male,not reported,not reported
+PT_FQDKMXHH,male,white,not hispanic or latino
+PT_FQMQP163,male,white,not hispanic or latino
+PT_FQNN7QFX,male,not reported,not reported
+PT_FQR1J73A,female,not reported,not reported
+PT_FQTXCNS5,female,not reported,not reported
+PT_FQYNEDN2,female,white,not hispanic or latino
+PT_FRHVM7G9,female,black or african american,not hispanic or latino
+PT_FRMFYASP,male,not reported,not reported
+PT_FRQDS43E,male,white,not hispanic or latino
+PT_FRXJ0G8C,male,not reported,not reported
+PT_FRZQJNW9,male,white,hispanic or latino
+PT_FSBDFKWF,female,not reported,not reported
+PT_FSG8AM8Y,female,not reported,not reported
+PT_FSHW8RB8,female,white,not hispanic or latino
+PT_FSHY6EC3,female,not reported,not reported
+PT_FSNEF3S5,female,not reported,not reported
+PT_FSPYCARW,male,white,not hispanic or latino
+PT_FSR10RSN,female,white,not hispanic or latino
+PT_FT333PXW,male,white,not hispanic or latino
+PT_FTPC32K9,male,not reported,not reported
+PT_FV2TNKY5,female,asian,not hispanic or latino
+PT_FVBANNK9,male,other,not hispanic or latino
+PT_FVHNJ901,female,other,not hispanic or latino
+PT_FVQQP3S1,female,not reported,not reported
+PT_FWGXMT54,male,other,unknown
+PT_FWQMC3D4,male,not reported,not reported
+PT_FWWRWTV2,male,black or african american,not hispanic or latino
+PT_FX2D5BTD,male,other,unknown
+PT_FXCSG8EY,female,white,not hispanic or latino
+PT_FXD4BKRF,male,black or african american,not hispanic or latino
+PT_FXYXK8JQ,male,white,not hispanic or latino
+PT_FY938VCG,male,not reported,not reported
+PT_FYA3HV03,female,white,not hispanic or latino
+PT_FYNVZ742,female,not reported,not reported
+PT_FZGZ5QBE,female,not reported,not reported
 PT_FZHGKJ0H,female,other,hispanic or latino
-PT_FZP24XYK,female,white,not hispanic or latino
-PT_G16VK7FR,female,unknown,not hispanic or latino
-PT_G16WS1MW,male,black or african american,not hispanic or latino
-PT_G1QNGVCZ,female,white,not hispanic or latino
+PT_FZZ1A0W6,female,not reported,not reported
+PT_G06STXN8,female,white,not hispanic or latino
+PT_G084NYB2,female,not reported,not reported
+PT_G09AYGQ3,female,not reported,not reported
+PT_G0CGYF8E,female,other,not hispanic or latino
+PT_G0FTME1D,female,white,not hispanic or latino
+PT_G16J1RA8,male,white,not hispanic or latino
+PT_G1EVC9DA,female,other,hispanic or latino
+PT_G2CH3Z17,female,other,unknown
+PT_G2PW2G91,female,white,not hispanic or latino
 PT_G395P98S,male,unknown,not hispanic or latino
-PT_G3AVDN4E,male,white,not hispanic or latino
-PT_G4N67N0D,male,white,not hispanic or latino
-PT_G5RA8E3N,male,black or african american,not hispanic or latino
-PT_G8DRDA33,male,white,not hispanic or latino
-PT_G9A050X1,male,other,unknown
-PT_GAM3E6M3,male,white,not hispanic or latino
-PT_GB8MNK85,female,white,not hispanic or latino
+PT_G3MPFYCD,male,white,unknown
+PT_G3Z7D87H,female,other,unknown
+PT_G46JNYAD,female,other,unknown
+PT_G4HD4QTK,male,white,not hispanic or latino
+PT_G544XAWV,male,other,not hispanic or latino
+PT_G5MWV2WW,male,black or african american,not hispanic or latino
+PT_G65ZS4RM,male,other,not hispanic or latino
+PT_G6C4QZAG,female,not reported,not reported
+PT_G6Q8M19F,male,not reported,not reported
+PT_G75SCFJR,female,not reported,not reported
+PT_G7BMJ5ZE,male,not reported,not reported
+PT_G7YHHH4J,male,other,not hispanic or latino
+PT_G83Q3C7T,female,not reported,not reported
+PT_G8ZTC724,female,other,unknown
+PT_G9HEY3VY,female,white,not hispanic or latino
+PT_G9JG9YB7,male,not reported,not reported
+PT_G9VBZR2V,male,white,not hispanic or latino
+PT_G9XKWA3N,female,white,not hispanic or latino
+PT_G9YJH8X9,female,not reported,not reported
+PT_GAGBE2Q1,male,white,not hispanic or latino
+PT_GAKHC0Y2,male,black or african american,hispanic or latino
+PT_GBCGKPP9,female,white,not hispanic or latino
 PT_GBCZ0RW3,female,white,unknown
+PT_GBD0T2EA,male,white,not hispanic or latino
+PT_GBDRTNTY,male,white,not hispanic or latino
 PT_GBDYKSPY,male,white,not hispanic or latino
-PT_GCKT4FJX,female,white,not hispanic or latino
-PT_GCXG7800,male,white,not hispanic or latino
-PT_GDDWPDMC,male,white,not hispanic or latino
-PT_GERCQ0JG,female,other,unknown
-PT_GFTCNWQ0,male,white,hispanic or latino
-PT_GGCQAGPS,female,white,not hispanic or latino
-PT_GH27VJBD,female,white,not hispanic or latino
-PT_GH693TT8,male,white,not hispanic or latino
-PT_GH6HM5QF,male,other,hispanic or latino
-PT_GHHY5AAE,male,other,hispanic or latino
+PT_GBKNVNNX,female,not reported,not reported
+PT_GBN55D2P,female,white,not hispanic or latino
+PT_GCSXY6YK,male,white,not hispanic or latino
+PT_GCYNHG0G,male,not reported,not reported
+PT_GD2TY7WJ,female,not reported,not reported
+PT_GD2XQW0A,male,white,hispanic or latino
+PT_GDE98S17,male,other,not hispanic or latino
+PT_GDS14ZX0,female,white,unknown
+PT_GDZXK2AG,male,white,not hispanic or latino
+PT_GEKPCT3Q,female,not reported,not reported
+PT_GFCE2H6E,female,not reported,not reported
+PT_GFERC3PT,female,white,not hispanic or latino
+PT_GFGHFJ3S,female,white,not hispanic or latino
+PT_GFPT8X4G,female,not reported,not reported
+PT_GFX45FPM,male,not reported,not reported
+PT_GG0D31DC,male,white,hispanic or latino
+PT_GH06NBGZ,female,white,not hispanic or latino
+PT_GH4R9CKM,female,white,not hispanic or latino
+PT_GHFG41Q2,male,native hawaiian or other pacific islander,hispanic or latino
+PT_GHNF574X,male,white,not hispanic or latino
+PT_GHSXD71F,female,white,not hispanic or latino
 PT_GHTSGFCT,male,white,not hispanic or latino
-PT_GKSABESN,male,other,unknown
-PT_GKWWWJ0X,female,white,not hispanic or latino
-PT_GNKRMTQY,female,other,hispanic or latino
-PT_GPQJYAW4,female,white,not hispanic or latino
-PT_GQDHZFJP,male,white,not hispanic or latino
-PT_GQZ84ACS,male,white,not hispanic or latino
-PT_GR8P8NY5,female,white,not hispanic or latino
+PT_GJGB2TCX,female,white,not hispanic or latino
+PT_GJM8XFTD,male,other,unknown
+PT_GK4GVW7A,female,white,not hispanic or latino
+PT_GK725SCY,male,white,hispanic or latino
+PT_GKFQN9WV,female,black or african american,not hispanic or latino
+PT_GKGX99CD,male,not reported,not reported
+PT_GKN1EAW9,male,black or african american,not hispanic or latino
+PT_GM1B7TKT,male,not reported,not reported
+PT_GMFT19ZB,male,not reported,not reported
+PT_GMFX689Z,female,other,hispanic or latino
+PT_GMJ6CW7X,female,not reported,not reported
+PT_GMKZ8NN9,female,not reported,not reported
+PT_GMQ1TQAF,female,other,hispanic or latino
+PT_GNGXDBFB,female,not reported,not reported
+PT_GNW76F1X,female,white,not hispanic or latino
+PT_GQHNA6RE,male,white,unknown
+PT_GR02DP0Q,male,white,not hispanic or latino
+PT_GRNZAWM0,male,white,not hispanic or latino
+PT_GRRM8JXS,female,white,not hispanic or latino
+PT_GS2BW0SW,male,other,unknown
+PT_GS68Z9B6,male,black or african american,not hispanic or latino
+PT_GSCXN24W,female,not reported,not reported
+PT_GSJN5YTW,male,not reported,not reported
+PT_GSQJ4YFX,male,other,hispanic or latino
+PT_GSS468PJ,male,white,not hispanic or latino
 PT_GSSQYQKV,female,other,not hispanic or latino
-PT_GVDMG7KC,male,white,not hispanic or latino
-PT_GVMH5K21,male,other,unknown
-PT_GWX2XSM0,male,white,hispanic or latino
-PT_GY0QSY4H,male,white,not hispanic or latino
-PT_GY99ZJHV,male,white,not hispanic or latino
-PT_GYJ97915,male,white,not hispanic or latino
-PT_H024RK87,male,asian,not hispanic or latino
-PT_H0HWHRPB,male,white,not hispanic or latino
-PT_H2HT2WQX,female,other,unknown
-PT_H3WWDMW9,male,white,not hispanic or latino
+PT_GTHZF21E,female,other,not hispanic or latino
+PT_GTQN90DF,male,white,not hispanic or latino
+PT_GV0D4A49,female,not reported,not reported
+PT_GV66AV02,male,not reported,not reported
+PT_GV6JCH85,male,other,unknown
+PT_GV80KRK3,female,black or african american,not hispanic or latino
+PT_GVH2E4M7,female,not reported,not reported
+PT_GVPBDNNK,female,not reported,not reported
+PT_GW2V4DRE,female,other,hispanic or latino
+PT_GW8JR7F9,male,white,not hispanic or latino
+PT_GWD2Z5AM,male,white,not hispanic or latino
+PT_GWSP4W2J,male,not reported,not reported
+PT_GWX1TBZW,female,other,hispanic or latino
+PT_GXBA7S2C,male,other,unknown
+PT_GXGAG6MR,male,white,not hispanic or latino
+PT_GXTFTGGH,female,other,unknown
+PT_GY0MCXR8,male,other,not hispanic or latino
+PT_GY9P51T5,male,not reported,not reported
+PT_GZ735BW2,male,not reported,not reported
+PT_H0HJ6WR6,female,not reported,not reported
+PT_H0PXZWJ6,male,white,not hispanic or latino
+PT_H0Q5FCYW,female,white,not hispanic or latino
+PT_H0Y8DJA8,female,white,not hispanic or latino
+PT_H1HPA0R0,female,not reported,not reported
+PT_H1KEN5TQ,female,not reported,not reported
+PT_H1R503SG,female,not reported,not reported
+PT_H34R8RDZ,female,other,not hispanic or latino
+PT_H37J6WYP,female,white,not hispanic or latino
+PT_H3EVREPT,female,other,unknown
+PT_H3KTPFRH,male,white,not hispanic or latino
+PT_H3SC0MGR,female,white,not hispanic or latino
 PT_H45M7M2T,female,white,not hispanic or latino
-PT_H4H6RD7Y,male,white,not hispanic or latino
+PT_H4CV85KH,male,not reported,not reported
+PT_H4X1AFDV,female,not reported,not reported
+PT_H50R4PX7,male,not reported,not reported
+PT_H50WRAM6,female,not reported,not reported
 PT_H57TEQDT,female,white,not hispanic or latino
-PT_H6E09982,male,black or african american,unknown
-PT_H876VB6R,female,other,hispanic or latino
-PT_H8Z52K09,male,white,not hispanic or latino
+PT_H5HVR1EN,female,not reported,not reported
+PT_H5R0M2P6,female,white,not hispanic or latino
+PT_H62STE27,male,white,not hispanic or latino
+PT_H6MDSVX3,female,not reported,not reported
+PT_H6MHKR2J,female,other,hispanic or latino
+PT_H6YDRCQN,male,not reported,not reported
+PT_H750521Q,female,not reported,not reported
+PT_H7H24BE6,female,white,not hispanic or latino
+PT_H7J0Q6T2,female,not reported,not reported
+PT_H7WRRTGQ,female,white,not hispanic or latino
+PT_H7XAC1YF,male,other,not hispanic or latino
+PT_H8MG4MRQ,male,other,unknown
+PT_H8PN498G,female,not reported,not reported
+PT_H8VCWY95,female,not reported,not reported
+PT_H9BHAVMR,female,not reported,not reported
+PT_H9F5X23J,male,white,hispanic or latino
+PT_H9QTD79G,female,black or african american,not hispanic or latino
+PT_H9QTP1JF,male,other,hispanic or latino
+PT_H9QZBWG9,female,not reported,not reported
 PT_HA0E85NR,female,not reported,not hispanic or latino
-PT_HBT0C66Y,male,white,not hispanic or latino
-PT_HEGTYPQJ,male,white,not hispanic or latino
-PT_HF824BSM,male,other,hispanic or latino
+PT_HB0PMMPW,female,black or african american,not hispanic or latino
+PT_HB3CXEX6,female,other,unknown
+PT_HBK6JD4K,male,other,not hispanic or latino
+PT_HBNYKPM1,female,white,not hispanic or latino
+PT_HC2J529W,male,not reported,not reported
+PT_HC9DFMYE,male,not reported,not reported
+PT_HC9RBJBK,female,not reported,not reported
+PT_HD1ZDW7H,female,not reported,not reported
+PT_HDDY171P,female,not reported,not reported
+PT_HDPAZPNA,male,white,not hispanic or latino
+PT_HDQTYDX3,female,not reported,not reported
+PT_HE8FBFNA,male,white,not hispanic or latino
+PT_HE8NV243,female,white,not hispanic or latino
+PT_HERXR7FX,female,white,not hispanic or latino
+PT_HEVH2ZQ1,female,white,not hispanic or latino
+PT_HFEG92G2,female,not reported,not reported
+PT_HFPCMNKX,male,white,not hispanic or latino
 PT_HFQNKP5X,female,other,hispanic or latino
-PT_HGHV85PZ,male,white,not hispanic or latino
-PT_HGM20MW7,male,unknown,not hispanic or latino
-PT_HJA1ZYS1,female,white,not hispanic or latino
+PT_HGG8X8QE,male,white,not hispanic or latino
+PT_HGH5RYRX,male,other,not hispanic or latino
+PT_HH03P39X,male,not reported,not reported
+PT_HHG37M6W,male,white,not hispanic or latino
+PT_HJ4NJGF5,female,white,not hispanic or latino
+PT_HJE9VFPB,female,not reported,not reported
 PT_HJMP6PH2,male,white,not hispanic or latino
-PT_HKWE1GCK,female,white,not hispanic or latino
-PT_HM2GMT2H,male,white,not hispanic or latino
-PT_HMF8J4EG,male,other,hispanic or latino
-PT_HMY997GX,female,white,not hispanic or latino
-PT_HN0AXSZ0,female,white,not hispanic or latino
+PT_HK07DD5A,female,not reported,not reported
+PT_HM2SGHR2,female,not reported,not reported
+PT_HMAMM0EZ,male,not reported,not reported
+PT_HMDPCF8E,female,not reported,not reported
+PT_HME7PH4N,male,not reported,not reported
+PT_HMYZQYJ3,male,not reported,not reported
+PT_HMZS0FHM,female,white,not hispanic or latino
+PT_HNQ8BFHW,female,white,not hispanic or latino
 PT_HNZNZ635,male,white,hispanic or latino
-PT_HQ89KPKT,female,white,not hispanic or latino
-PT_HSHPZAEZ,female,other,unknown
-PT_HT4HJXY6,female,asian,not hispanic or latino
+PT_HQ3P8HK5,male,not reported,not reported
+PT_HQCXBQD4,female,not reported,not reported
+PT_HQSVFBPH,male,white,not hispanic or latino
+PT_HQV6MXYE,male,other,unknown
+PT_HR5FZ71T,female,other,unknown
+PT_HRGZ2XGQ,male,other,not hispanic or latino
+PT_HRHWFPW7,male,white,not hispanic or latino
+PT_HSZGDY47,female,not reported,not reported
+PT_HT37CA4Z,male,not reported,not reported
 PT_HV1DFFQ1,female,not reported,unknown
-PT_HV6C0T34,female,other,hispanic or latino
+PT_HV41PGHM,male,not reported,not reported
+PT_HV6XEG0K,male,white,not hispanic or latino
+PT_HVXYKN8E,male,white,not hispanic or latino
 PT_HVZTF42R,female,black or african american,not hispanic or latino
-PT_HXDCHQ9Y,female,black or african american,not hispanic or latino
-PT_HYXSSCJ5,female,white,not hispanic or latino
-PT_J06X17XH,male,white,not hispanic or latino
-PT_J0SZ1SX5,female,other,hispanic or latino
-PT_J302B8Y5,male,other,not hispanic or latino
-PT_J3B812DT,female,white,not hispanic or latino
-PT_J4MWGQFQ,female,other,not hispanic or latino
-PT_J50NZYZF,female,white,not hispanic or latino
-PT_J5NSRW1Y,male,black or african american,not hispanic or latino
-PT_JC4DHFJR,female,asian,not hispanic or latino
-PT_JCECCFPB,male,black or african american,not hispanic or latino
-PT_JEA0AEMZ,male,white,not hispanic or latino
+PT_HWBR3WJ5,female,white,not hispanic or latino
+PT_HXDR3ZX6,female,white,not hispanic or latino
+PT_HXEDE0JJ,male,white,not hispanic or latino
+PT_HXV713W6,female,other,not hispanic or latino
+PT_HY0ZS4P0,female,white,not hispanic or latino
+PT_HY664Q1B,male,black or african american,not hispanic or latino
+PT_HYZQBT8T,male,other,unknown
+PT_HZ13HD7K,male,white,not hispanic or latino
+PT_HZA37FST,female,not reported,not reported
+PT_HZDWHT6A,male,white,not hispanic or latino
+PT_HZM6CX97,male,black or african american,not hispanic or latino
+PT_J01G7885,female,black or african american,not hispanic or latino
+PT_J03YQ4V3,female,white,not hispanic or latino
+PT_J0ED129M,male,asian,not hispanic or latino
+PT_J0FGSKYR,male,not reported,not reported
+PT_J0N4FKEB,female,not reported,not reported
+PT_J1S28HCE,female,asian,not hispanic or latino
+PT_J21GDQEC,female,not reported,not reported
+PT_J27TN6R6,female,white,not hispanic or latino
+PT_J2J7WR0H,female,white,not hispanic or latino
+PT_J2RNHGHM,female,other,hispanic or latino
+PT_J4AD2XSC,male,white,not hispanic or latino
+PT_J4BNR6FN,male,other,hispanic or latino
+PT_J4PXBZA1,male,white,not hispanic or latino
+PT_J4VQP0RW,male,white,not hispanic or latino
+PT_J6CREPMB,male,white,not hispanic or latino
+PT_J6FD6KRJ,female,not reported,not reported
+PT_J6XE8Y9R,male,american indian or alaska native,not hispanic or latino
+PT_J7N2QWNA,female,not reported,not reported
+PT_J7XZMBHZ,male,white,not hispanic or latino
+PT_J8C3VPNF,female,white,not hispanic or latino
+PT_J8EXBFNK,male,white,not hispanic or latino
+PT_J8H4A62A,male,asian,not hispanic or latino
+PT_J96HA0K2,male,not reported,not reported
+PT_J9B6VRH8,male,other,not hispanic or latino
+PT_JAZDR4E8,male,not reported,not reported
+PT_JBJER9BW,female,white,not hispanic or latino
+PT_JBYZJRNM,male,white,not hispanic or latino
+PT_JC3FDHBS,female,white,not hispanic or latino
+PT_JCF2WAHC,male,not reported,not reported
+PT_JCFBT5TR,female,white,not hispanic or latino
+PT_JDAGM28V,male,white,not hispanic or latino
 PT_JEW5HG4W,male,white,not hispanic or latino
-PT_JJ8QNAM8,male,white,not hispanic or latino
+PT_JEWGNCHF,male,not reported,not reported
+PT_JEZESG0S,female,white,not hispanic or latino
+PT_JFYM42CY,male,not reported,not reported
+PT_JG2S7114,female,white,not hispanic or latino
+PT_JGHYFZ35,male,white,not hispanic or latino
+PT_JGTXEKNV,female,other,not hispanic or latino
+PT_JGVY5JVV,male,not reported,not reported
+PT_JJKK6YFQ,male,white,not hispanic or latino
+PT_JJM2TANQ,male,not reported,not reported
+PT_JJZ1MD8Z,female,other,hispanic or latino
 PT_JJZ5PN64,female,white,unknown
-PT_JMW6Q6NH,male,white,not hispanic or latino
-PT_JN3EN2HR,male,white,not hispanic or latino
-PT_JN3S17B3,female,white,not hispanic or latino
+PT_JK1W32Q5,male,not reported,not reported
+PT_JMYBRWQ9,female,other,unknown
+PT_JN28SP4X,female,not reported,not reported
+PT_JNB7WJ56,male,white,not hispanic or latino
 PT_JNEV57VK,male,white,not hispanic or latino
-PT_JP1FDKN9,female,white,not hispanic or latino
-PT_JPWVCTAJ,female,white,not hispanic or latino
-PT_JQ45JK94,male,white,not hispanic or latino
+PT_JP09HWDC,male,white,not hispanic or latino
+PT_JP83ZBSM,female,not reported,not reported
+PT_JP9349DH,male,black or african american,not hispanic or latino
+PT_JPCJBB3A,female,not reported,not reported
+PT_JQ8ZRKBH,female,other,hispanic or latino
+PT_JQMTDV24,male,white,not hispanic or latino
+PT_JQX1NM90,male,other,unknown
+PT_JR4QS1KM,male,not reported,not reported
+PT_JRA19X2T,male,not reported,not reported
+PT_JRD1AJCZ,male,not reported,not reported
+PT_JRQD0QHX,male,not reported,not reported
+PT_JSB21KPJ,male,other,unknown
 PT_JSFBMK5V,male,white,not hispanic or latino
-PT_JT9HH7M6,female,asian,not hispanic or latino
+PT_JSX8SWGY,male,white,hispanic or latino
+PT_JT0JFDHA,female,other,not hispanic or latino
+PT_JT894PRT,female,not reported,not reported
+PT_JT9E5T00,female,not reported,not reported
+PT_JTWBNX91,female,white,not hispanic or latino
+PT_JV3TWJF9,male,not reported,not reported
 PT_JV9G8MFD,female,white,not hispanic or latino
-PT_JW2FDK4W,male,white,not hispanic or latino
-PT_JW6FBEFK,male,other,not hispanic or latino
-PT_JWW33RTB,female,white,not hispanic or latino
+PT_JW0BM04T,male,not reported,not reported
+PT_JWAWAH2K,male,not reported,not reported
+PT_JX22CZDQ,male,black or african american,not hispanic or latino
+PT_JX5H27C9,female,not reported,not reported
+PT_JXG6B9ZB,male,white,not hispanic or latino
 PT_JXGMAHHN,female,black or african american,hispanic or latino
-PT_JXSDFPNM,female,white,not hispanic or latino
-PT_JYZA0PNV,male,white,not hispanic or latino
+PT_JXH1NWTR,male,other,not hispanic or latino
+PT_JXSTA5HB,male,white,not hispanic or latino
+PT_JXWPZAK1,male,not reported,not reported
+PT_JYZQ2J21,female,other,not hispanic or latino
+PT_JZW19C1A,male,white,not hispanic or latino
+PT_K0C8VSD9,male,black or african american,not hispanic or latino
+PT_K0X8F9RY,male,black or african american,not hispanic or latino
+PT_K0YFKQ6V,female,other,not hispanic or latino
+PT_K0YWXDH1,female,white,not hispanic or latino
+PT_K103CAXT,female,not reported,not reported
+PT_K18Z7QK3,male,white,not hispanic or latino
+PT_K1BGJQT8,male,not reported,not reported
 PT_K1YK24PP,female,white,not hispanic or latino
-PT_K2YDNZDA,female,white,not hispanic or latino
-PT_K30AWQ8A,female,black or african american,not hispanic or latino
-PT_K39HM2JF,female,white,not hispanic or latino
-PT_K5KH69Q1,female,white,not hispanic or latino
-PT_K63972GG,male,white,not hispanic or latino
-PT_K6G6BE6G,female,white,not hispanic or latino
+PT_K253AS2P,male,not reported,not reported
+PT_K28M7003,male,other,not hispanic or latino
+PT_K2FGJ1X7,male,white,unknown
+PT_K2PD4VT2,male,white,not hispanic or latino
+PT_K32CWBQF,male,other,unknown
+PT_K33N4BPE,female,not reported,not reported
+PT_K3BZCT56,male,white,not hispanic or latino
+PT_K4E3HWC7,male,not reported,not reported
+PT_K4ENCAMA,female,not reported,not reported
+PT_K4MQBZXQ,female,not reported,not reported
+PT_K4NWBZH2,female,not reported,not reported
+PT_K5501Z3W,male,not reported,not reported
+PT_K58XJYWV,female,not reported,not reported
+PT_K6430KE9,female,not reported,not reported
+PT_K68ECC6Z,female,not reported,not reported
+PT_K6MVB580,male,not reported,not reported
+PT_K6Q9MXYF,female,not reported,not reported
+PT_K6S2YJ8Y,male,other,unknown
+PT_K71TQSF4,male,white,not hispanic or latino
+PT_K7FZ6YHZ,male,white,not hispanic or latino
+PT_K7NAC0JG,male,asian,not hispanic or latino
+PT_K7NCPK6X,female,not reported,not reported
+PT_K84J9401,male,asian,not hispanic or latino
+PT_K8QGCN2F,female,other,unknown
 PT_K8ZV7APT,female,black or african american,not hispanic or latino
-PT_K94ZVZMX,male,white,not hispanic or latino
-PT_KAQMYFYB,male,black or african american,not hispanic or latino
-PT_KBA2VNA2,female,white,not hispanic or latino
-PT_KBDP8ZCR,male,other,unknown
-PT_KBFM551M,male,white,not hispanic or latino
-PT_KCTZZA3G,male,black or african american,not hispanic or latino
-PT_KDW5HHWQ,male,white,not hispanic or latino
+PT_K94JFCZ7,male,white,not hispanic or latino
+PT_K96DBMTH,male,not reported,not reported
+PT_K9893PQ6,male,white,hispanic or latino
+PT_KBBR6MNP,female,black or african american,not hispanic or latino
+PT_KBSPW2DZ,male,not reported,not reported
+PT_KBWVBMR4,male,white,not hispanic or latino
+PT_KC9QTTY2,female,not reported,not reported
+PT_KCY61P6P,female,not reported,not reported
+PT_KDDNFX4C,male,white,not hispanic or latino
+PT_KE0A6FHD,female,white,not hispanic or latino
+PT_KE1YJ2EC,male,other,unknown
 PT_KEQ53KRH,female,white,not hispanic or latino
-PT_KFYJBQB8,male,white,not hispanic or latino
-PT_KHX1WQ4H,female,white,not hispanic or latino
-PT_KMHGNCNR,male,other,not hispanic or latino
-PT_KN25EYMG,female,white,not hispanic or latino
-PT_KQK98ZVP,male,black or african american,not hispanic or latino
-PT_KTRJ8TFY,male,unknown,hispanic or latino
-PT_KVFS3Z2Q,male,white,not hispanic or latino
-PT_KVMF5TFW,female,white,hispanic or latino
+PT_KG0KKCF9,male,white,not hispanic or latino
+PT_KGFA1AXW,male,not reported,not reported
+PT_KH0ZC1HX,male,not reported,not reported
+PT_KH399QCF,male,not reported,not reported
+PT_KH7H8J6T,female,white,not hispanic or latino
+PT_KHABYTB0,female,other,hispanic or latino
+PT_KHQGBBDN,male,white,not hispanic or latino
+PT_KHZM64XJ,male,white,not hispanic or latino
+PT_KJ4PGWSS,male,white,not hispanic or latino
+PT_KJ8DYES9,male,other,hispanic or latino
+PT_KJKY2JTZ,male,black or african american,not hispanic or latino
+PT_KKE7HAEH,male,other,not hispanic or latino
+PT_KM0MSXCZ,male,white,not hispanic or latino
+PT_KMFHXPE7,female,not reported,not reported
+PT_KMZ2BFG4,male,not reported,not reported
+PT_KN0HN6P9,female,not reported,not reported
+PT_KN62VZM6,male,other,unknown
+PT_KNJDVV4K,male,other,not hispanic or latino
+PT_KPBTTGRZ,female,white,not hispanic or latino
+PT_KPDVEJDW,male,not reported,not reported
+PT_KPQQR0K5,male,white,not hispanic or latino
+PT_KPRN3JFV,male,white,not hispanic or latino
+PT_KQ49Y3XE,female,white,not hispanic or latino
+PT_KRMVPYJ9,male,white,not hispanic or latino
+PT_KRP455MM,female,not reported,not reported
+PT_KS5GK5D4,female,white,not hispanic or latino
+PT_KSP2DSPE,female,white,not hispanic or latino
+PT_KT1TR9JH,male,other,not hispanic or latino
+PT_KV1NWG3Z,male,white,not hispanic or latino
+PT_KW94B4BJ,male,other,unknown
+PT_KWWCE50K,male,not reported,not reported
 PT_KX1QQQRC,female,unknown,unknown
-PT_KX84KH6K,male,american indian or alaska native,not hispanic or latino
-PT_KXB1PJV0,female,black or african american,not hispanic or latino
-PT_KZ04SDDS,male,white,hispanic or latino
+PT_KXQ4244P,male,not reported,not reported
+PT_KXQR3GS4,male,black or african american,not hispanic or latino
+PT_KXTRSV9N,female,white,not hispanic or latino
+PT_KY3PQKP6,female,not reported,not reported
+PT_KYZB57ED,male,white,not hispanic or latino
+PT_KZ2TC9FE,female,not reported,not reported
+PT_KZ37VFP5,male,other,not hispanic or latino
 PT_KZ56XHJT,female,unknown,unknown
-PT_M04EC74B,male,other,not hispanic or latino
-PT_M0AP3Z15,male,white,not hispanic or latino
-PT_M0FVZ88D,male,white,not hispanic or latino
+PT_KZ8GB7VY,female,asian,not hispanic or latino
+PT_KZG2CZ95,male,white,not hispanic or latino
+PT_M0P87B0C,female,not reported,not reported
+PT_M0ZDVFPJ,female,not reported,not reported
+PT_M15QZQR7,male,not reported,not reported
 PT_M1BBF6RA,female,white,not hispanic or latino
+PT_M1PAR2KC,female,other,not hispanic or latino
+PT_M1PTG182,male,other,not hispanic or latino
 PT_M1RYN7B0,male,other,not hispanic or latino
-PT_M23Q0DC3,female,unknown,not hispanic or latino
-PT_M2J30CF7,female,white,not hispanic or latino
-PT_M5HDHQNQ,male,white,not hispanic or latino
-PT_M7NFAC5G,male,white,unknown
+PT_M1X9HETP,male,other,hispanic or latino
+PT_M26G3W3T,male,white,not hispanic or latino
+PT_M26VF62B,female,white,not hispanic or latino
+PT_M2A7C4EK,male,not reported,not reported
+PT_M2GRHAXZ,male,white,not hispanic or latino
+PT_M2VY599Q,female,white,not hispanic or latino
+PT_M39RC0Y1,male,asian,not hispanic or latino
+PT_M3KVTTX2,female,white,not hispanic or latino
+PT_M46KNKV7,not reported,other,unknown
+PT_M4XRF9YK,female,white,not hispanic or latino
+PT_M5ZBAYRB,male,not reported,not reported
+PT_M5ZPSRM5,female,white,not hispanic or latino
+PT_M6680W5T,female,not reported,not reported
+PT_M6AHSC7C,female,white,not hispanic or latino
+PT_M6B7WTR0,male,not reported,not reported
+PT_M6YS5WKM,male,not reported,not reported
+PT_M72FHJXN,female,white,not hispanic or latino
+PT_M787TP5V,male,not reported,not reported
+PT_M7B5AK7P,male,white,not hispanic or latino
+PT_M8GWC8RZ,female,white,not hispanic or latino
 PT_M8MDJNZB,male,white,not hispanic or latino
-PT_M9XXJ4GR,male,white,not hispanic or latino
-PT_MA0J8DSN,male,white,not hispanic or latino
-PT_MBAXTJET,male,white,not hispanic or latino
+PT_M90JSM42,female,not reported,not reported
+PT_M91MGM4K,female,other,hispanic or latino
+PT_M97ZCS35,female,other,hispanic or latino
+PT_M9KRWVTD,female,white,not hispanic or latino
+PT_M9KXGNY9,male,white,not hispanic or latino
+PT_M9WKP8RF,male,other,not hispanic or latino
+PT_MA4DMG8N,female,black or african american,not hispanic or latino
+PT_MA8VSJ14,male,white,not hispanic or latino
+PT_MAECRZF8,female,not reported,not reported
+PT_MAS96A89,female,white,not hispanic or latino
+PT_MB1KX30X,female,not reported,not reported
+PT_MBCER4DY,female,not reported,not reported
+PT_MBM8765W,female,white,not hispanic or latino
+PT_MCBNGJ26,female,other,hispanic or latino
+PT_MCC2RZ5H,male,other,unknown
+PT_MCKXXVA4,female,other,unknown
+PT_MCQ59DGJ,male,not reported,not reported
+PT_MD79JY4Z,female,white,not hispanic or latino
+PT_MDBHN7FM,male,other,not hispanic or latino
+PT_MDJXRAB5,male,other,hispanic or latino
+PT_MDNQWXYS,female,not reported,not reported
 PT_MDWPRDBT,female,white,not hispanic or latino
-PT_MKDQZ17N,female,other,hispanic or latino
-PT_MNHMAH0S,female,black or african american,not hispanic or latino
-PT_MNR94DEV,male,white,not hispanic or latino
-PT_MNSEJCDM,male,unknown,hispanic or latino
-PT_MPRBGGEJ,male,black or african american,not hispanic or latino
-PT_MQHST8YC,male,white,not hispanic or latino
-PT_MRTHX2AQ,female,white,not hispanic or latino
-PT_MSBPMJ56,female,white,not hispanic or latino
-PT_MSQ6GSVP,female,other,hispanic or latino
-PT_MT27S7S4,male,white,not hispanic or latino
-PT_MTE126WM,female,black or african american,not hispanic or latino
-PT_MV5WXTQV,male,white,not hispanic or latino
-PT_MV7Y44QQ,female,american indian or alaska native,not hispanic or latino
-PT_MW0QVGW2,male,white,not hispanic or latino
-PT_MXASQ2GW,female,other,hispanic or latino
-PT_MXK5R7RJ,female,other,hispanic or latino
-PT_N3205P0D,male,white,not hispanic or latino
-PT_N32BYY8A,male,white,not hispanic or latino
+PT_ME0JMDEB,male,white,not hispanic or latino
+PT_ME32NQFX,male,asian,not hispanic or latino
+PT_ME64S267,female,white,not hispanic or latino
+PT_MEBZ0KSC,female,black or african american,not hispanic or latino
+PT_MFGAT1AN,female,not reported,not reported
+PT_MFJRP2PX,female,not reported,not reported
+PT_MFNW2QEB,male,white,not hispanic or latino
+PT_MFRBR09K,female,black or african american,not hispanic or latino
+PT_MGJJBG0T,female,white,not hispanic or latino
+PT_MGMAV694,female,white,not hispanic or latino
+PT_MGPBEZXP,male,not reported,not reported
+PT_MGSQG85P,male,other,unknown
+PT_MGXV2FXW,male,not reported,not reported
+PT_MGZXMQD8,male,white,not hispanic or latino
+PT_MH5T4MTV,female,not reported,not reported
+PT_MHMMVSYB,female,not reported,not reported
+PT_MKKTQHP5,male,white,not hispanic or latino
+PT_MKZ7ESSF,male,white,not hispanic or latino
+PT_MMEMRN3N,female,white,not hispanic or latino
+PT_MMHZAG4G,male,white,not hispanic or latino
+PT_MMVDCMC3,female,not reported,not reported
+PT_MN44RJY1,male,not reported,not reported
+PT_MNGQ6PSH,male,white,not hispanic or latino
+PT_MNNX20MM,male,not reported,not reported
+PT_MNVN5FB0,female,not reported,not reported
+PT_MNZ23MYQ,male,white,not hispanic or latino
+PT_MP0A1B52,male,not reported,not reported
+PT_MP85FHCR,female,white,not hispanic or latino
+PT_MPCV62DT,female,white,not hispanic or latino
+PT_MPGTKRRA,female,white,not hispanic or latino
+PT_MQCYTYB4,male,white,not hispanic or latino
+PT_MQWJ7FHV,male,other,hispanic or latino
+PT_MQYPS0W1,female,white,not hispanic or latino
+PT_MR5ZNP8K,male,white,not hispanic or latino
+PT_MR9Z95SJ,male,white,not hispanic or latino
+PT_MRVNZW8N,female,not reported,not reported
+PT_MSGQYFTS,female,white,not hispanic or latino
+PT_MTVXXQTG,male,white,not hispanic or latino
+PT_MVBNN9PB,female,not reported,not reported
+PT_MVDHKDQV,female,not reported,not reported
+PT_MVH06H2R,male,not reported,not reported
+PT_MVHMDG7G,male,not reported,not reported
+PT_MVSWHXSR,male,black or african american,not hispanic or latino
+PT_MVZ9K5VC,female,white,not hispanic or latino
+PT_MWDQ3RA1,male,white,not hispanic or latino
+PT_MWKY4TJ4,female,other,unknown
+PT_MXEYPYRW,male,not reported,not reported
+PT_MXH6VSPK,male,not reported,not reported
+PT_MXMN3ZF7,female,not reported,not reported
+PT_MXVNR2GC,male,white,not hispanic or latino
+PT_MXWAKRKJ,female,not reported,not reported
+PT_MXZ4CTF5,female,black or african american,not hispanic or latino
+PT_MY7TX6YA,female,not reported,not reported
+PT_MY80E85D,male,white,not hispanic or latino
+PT_MYNKT1TK,female,other,not hispanic or latino
+PT_MYZ1FZEH,female,not reported,not reported
+PT_MZEJZC74,female,not reported,not reported
+PT_MZZEHDZA,male,other,unknown
+PT_N06S5APN,female,not reported,not reported
+PT_N0AV9XJ0,female,not reported,not reported
+PT_N13MXT13,male,white,hispanic or latino
+PT_N1FE5XKB,male,not reported,not reported
+PT_N1HWK3YS,female,other,not hispanic or latino
+PT_N274TAWB,male,not reported,not reported
+PT_N35SY6DZ,male,white,not hispanic or latino
+PT_N3A9V3J3,male,not reported,not reported
 PT_N3HVMV06,female,white,not hispanic or latino
-PT_N4PR21ME,male,white,not hispanic or latino
-PT_N56EYD4Z,male,other,hispanic or latino
-PT_N673SYWW,male,other,not hispanic or latino
-PT_N8W26H19,female,white,not hispanic or latino
-PT_N9CGVG02,male,white,not hispanic or latino
-PT_N9KYV4WB,female,white,not hispanic or latino
-PT_N9SG16EC,female,white,not hispanic or latino
-PT_N9W4GT6D,female,white,not hispanic or latino
-PT_NA8NZ0BN,female,white,not hispanic or latino
-PT_NBSRQAMS,male,other,unknown
-PT_NBY8PZR9,male,white,not hispanic or latino
-PT_NCDHZ8H8,male,other,not hispanic or latino
-PT_ND34A6PR,female,black or african american,not hispanic or latino
-PT_NDVJE438,male,asian,not hispanic or latino
-PT_NEB4WEAT,male,white,not hispanic or latino
-PT_NESAQHB1,male,other,not hispanic or latino
-PT_NFDHYPGT,female,other,hispanic or latino
-PT_NGDW8WVP,male,white,not hispanic or latino
-PT_NH8CJ84W,female,white,not hispanic or latino
-PT_NK8A49X5,male,unknown,hispanic or latino
+PT_N3RSW91Q,female,not reported,not reported
+PT_N4563ERM,male,black or african american,not hispanic or latino
+PT_N4CK2999,male,white,not hispanic or latino
+PT_N4CXYJSM,male,white,not hispanic or latino
+PT_N4WJA953,female,white,not hispanic or latino
+PT_N5J8REP8,female,white,not hispanic or latino
+PT_N5YNZ2VT,female,not reported,not reported
+PT_N6D6S4PH,male,not reported,not reported
+PT_N6DKGA7P,male,not reported,not reported
+PT_N748KS36,female,not reported,not reported
+PT_N77XX8WD,male,white,not hispanic or latino
+PT_N7JHFSVG,female,not reported,not reported
+PT_N8NPMT6W,female,not reported,not reported
+PT_N8VZWF99,female,white,not hispanic or latino
+PT_N9918GHA,female,white,not hispanic or latino
+PT_N9AX599W,female,not reported,not reported
+PT_NAGJNWPC,male,not reported,not reported
+PT_NAYJ2G2E,female,white,not hispanic or latino
+PT_NB0J7YMQ,male,white,not hispanic or latino
+PT_NB9PR4KW,female,not reported,not reported
+PT_NC2X0HJS,male,other,not hispanic or latino
+PT_NCF47KJM,male,white,not hispanic or latino
+PT_NCVTTNTG,male,white,not hispanic or latino
+PT_ND3MRCMT,male,not reported,not reported
+PT_NDNAJPNQ,male,not reported,not reported
+PT_NEHQVWWV,male,not reported,not reported
+PT_NENSK3YJ,male,other,not hispanic or latino
+PT_NF669QZS,male,not reported,not reported
+PT_NF6R6YHR,male,other,hispanic or latino
+PT_NFBZK2B4,female,not reported,not reported
+PT_NFCRT9D3,male,black or african american,not hispanic or latino
+PT_NG0AT7VG,male,white,not hispanic or latino
+PT_NH3QDJCW,female,not reported,not reported
+PT_NHA7FRDX,female,not reported,not reported
+PT_NHR38RJE,female,white,not hispanic or latino
+PT_NHX9RARA,male,white,not hispanic or latino
+PT_NJQ26FHN,male,other,hispanic or latino
+PT_NKETJQ7Q,male,other,unknown
+PT_NKM67DNN,male,white,not hispanic or latino
+PT_NME1D79F,female,white,not hispanic or latino
+PT_NMNR1VDS,female,other,not hispanic or latino
 PT_NMZBRFYS,male,white,not hispanic or latino
+PT_NNJ8GTZ5,female,not reported,not reported
+PT_NNKC2VTR,female,not reported,not reported
+PT_NNR9Y3SK,male,not reported,not reported
 PT_NNZQ09SH,male,white,not hispanic or latino
-PT_NPETR8RY,male,white,hispanic or latino
-PT_NPHZQW6A,male,white,not hispanic or latino
-PT_NPPBNRVV,male,white,not hispanic or latino
-PT_NS1F6DT8,male,white,not hispanic or latino
-PT_NSXP8AWV,female,white,unknown
-PT_NTEKMKTX,male,white,not hispanic or latino
-PT_NTK39NNV,male,white,not hispanic or latino
+PT_NPB87T72,female,not reported,not reported
+PT_NPCTYGKM,male,not reported,not reported
+PT_NPY2K3F4,male,black or african american,not hispanic or latino
+PT_NQKFW45Q,female,not reported,not reported
+PT_NQTVGERA,female,not reported,not reported
+PT_NQX618CD,male,other,not hispanic or latino
+PT_NQXV606T,male,white,not hispanic or latino
+PT_NR63JY7S,male,not reported,not reported
+PT_NRHFPY4C,female,white,not hispanic or latino
+PT_NRJF86CF,male,black or african american,not hispanic or latino
+PT_NSH7X4VP,female,not reported,not reported
+PT_NSN14GB6,male,white,not hispanic or latino
+PT_NTG1EJGA,male,other,not hispanic or latino
 PT_NTV1B352,male,white,not hispanic or latino
-PT_NV584F7Q,female,white,not hispanic or latino
-PT_NWYSD53S,female,white,not hispanic or latino
+PT_NTYAXPY3,male,white,hispanic or latino
+PT_NTZNBYKW,male,not reported,not reported
+PT_NVFBGMWK,male,asian,not hispanic or latino
+PT_NW5RD3AG,female,not reported,not reported
+PT_NWC0P29C,male,other,not hispanic or latino
+PT_NWEAGQ0F,female,white,not hispanic or latino
+PT_NXCE6D65,female,not reported,not reported
+PT_NXMN62YB,male,not reported,not reported
+PT_NXNCY5KD,female,white,not hispanic or latino
 PT_NXX0M835,male,white,not hispanic or latino
-PT_NYBH025T,male,other,not hispanic or latino
-PT_NZFFMZ0B,male,white,not hispanic or latino
+PT_NYC5K8W2,male,not reported,not reported
+PT_NYXTSK8K,male,other,unknown
+PT_NZ1GMD30,female,not reported,not reported
+PT_NZ85YSJ1,female,white,not hispanic or latino
+PT_NZNS6DFG,male,white,not hispanic or latino
+PT_P0A5MQPS,male,other,hispanic or latino
+PT_P0T044JM,male,white,not hispanic or latino
 PT_P1290MMP,female,white,not hispanic or latino
 PT_P1F0AHMT,female,asian,not hispanic or latino
-PT_P2NGYMG5,female,white,unknown
-PT_P4GDWHXA,female,white,not hispanic or latino
-PT_P4ZEFY19,male,black or african american,not hispanic or latino
+PT_P28KS8AH,male,not reported,not reported
+PT_P2B3RNR0,female,other,unknown
+PT_P2MVPW57,female,white,not hispanic or latino
+PT_P2SF9ZSJ,female,not reported,not reported
+PT_P2XDJ9AK,female,not reported,not reported
+PT_P369BWXE,female,white,not hispanic or latino
+PT_P38BQ32Q,female,not reported,not reported
+PT_P3WS5C9A,male,not reported,not reported
+PT_P4NBN7KG,female,other,not hispanic or latino
+PT_P54A58M2,female,not reported,not reported
+PT_P571HTNK,female,white,not hispanic or latino
 PT_P5HHJJPH,female,other,hispanic or latino
-PT_P75ZXB1S,male,white,hispanic or latino
-PT_P9RT6693,female,white,not hispanic or latino
-PT_PABK01H0,female,other,not hispanic or latino
-PT_PAW18EK3,male,white,not hispanic or latino
-PT_PEHEAEVT,male,other,unknown
-PT_PF9EC93Q,female,white,not hispanic or latino
-PT_PFA762TK,male,white,not hispanic or latino
-PT_PFP1ZVHD,male,white,not hispanic or latino
-PT_PGVQ4XRZ,male,white,not hispanic or latino
-PT_PHKSYE6Q,female,white,not hispanic or latino
-PT_PJFTMJ6H,female,other,not hispanic or latino
-PT_PJSV0X4X,male,other,unknown
-PT_PKCTFSV2,male,white,not hispanic or latino
-PT_PKHG2YFW,female,asian,not hispanic or latino
-PT_PKP1250P,female,asian,not hispanic or latino
-PT_PMYS7KRE,male,white,not hispanic or latino
-PT_PNED3GG3,female,other,hispanic or latino
-PT_PR4YBBH3,female,white,unknown
+PT_P69FZ5A6,female,other,hispanic or latino
+PT_P6B0E0Z1,male,not reported,not reported
+PT_P6JZ53WZ,female,not reported,not reported
+PT_P6PKT77Y,female,other,hispanic or latino
+PT_P6SMAGG9,male,not reported,not reported
+PT_P7NXRX6T,female,not reported,not reported
+PT_P8YPM3CW,female,not reported,not reported
+PT_P9G8GKD5,male,asian,not hispanic or latino
+PT_P9GVEXFE,female,other,not hispanic or latino
+PT_P9T7EB7H,female,not reported,not reported
+PT_PA8GMQDR,male,white,not hispanic or latino
+PT_PAPEQ0T0,male,white,not hispanic or latino
+PT_PAWM5STH,female,not reported,not reported
+PT_PB4Q0ZX1,male,black or african american,hispanic or latino
+PT_PBCC90C7,female,not reported,not reported
+PT_PBN58G1N,male,white,not hispanic or latino
+PT_PBQJH5GF,female,not reported,not reported
+PT_PD7G77HN,male,white,not hispanic or latino
+PT_PDABKJXB,male,not reported,not reported
+PT_PDFP2XFB,male,other,unknown
+PT_PDJCRPXR,female,not reported,not reported
+PT_PDYWRW9A,female,other,not hispanic or latino
+PT_PE4NZB6Q,female,white,not hispanic or latino
+PT_PF04R0BH,male,white,not hispanic or latino
+PT_PF2NA2WD,female,not reported,not reported
+PT_PFCZS9ES,female,white,not hispanic or latino
+PT_PFDFSJSN,female,not reported,not reported
+PT_PFFQ4M1W,female,black or african american,not hispanic or latino
+PT_PFKHS5BR,female,white,not hispanic or latino
+PT_PFY8BP7Z,female,not reported,not reported
+PT_PG79TDWN,male,not reported,not reported
+PT_PG9N11XZ,female,not reported,not reported
+PT_PG9R0HGX,female,black or african american,not hispanic or latino
+PT_PGJBJKSB,female,asian,not hispanic or latino
+PT_PHG2839Q,male,other,unknown
+PT_PHY9WJR1,female,other,hispanic or latino
+PT_PJ6ZAYH1,female,not reported,not reported
+PT_PJ9E1AYH,female,white,not hispanic or latino
+PT_PJBBM9FC,female,other,not hispanic or latino
+PT_PKVCQK26,female,not reported,not reported
+PT_PMDHR92B,male,white,not hispanic or latino
+PT_PMEXVDFJ,female,white,not hispanic or latino
+PT_PMTJPHSE,male,not reported,not reported
+PT_PN1YJD1M,female,other,hispanic or latino
+PT_PN7DENZV,female,not reported,not reported
+PT_PPBP8S2F,female,not reported,not reported
+PT_PPBYQQF9,male,not reported,not reported
+PT_PPGD1CVZ,male,not reported,not reported
+PT_PPSRZ9XX,female,black or african american,not hispanic or latino
+PT_PPY9WF29,female,white,not hispanic or latino
+PT_PQZ6YE0F,male,other,not hispanic or latino
+PT_PR9VEV9A,male,asian,not hispanic or latino
+PT_PRBSP5AY,male,other,hispanic or latino
+PT_PRJMB0SZ,male,white,not hispanic or latino
+PT_PRSP252Y,female,other,not hispanic or latino
 PT_PSX2CSYX,female,white,unknown
-PT_PWVX2F69,male,other,hispanic or latino
-PT_PX4E85V1,male,white,not hispanic or latino
-PT_PY4QFHHV,male,white,not hispanic or latino
-PT_PZVE3FWF,male,white,not hispanic or latino
-PT_Q25V9Y6M,male,white,not hispanic or latino
-PT_Q38AT6JY,male,white,not hispanic or latino
-PT_Q3EP24V1,male,other,not hispanic or latino
-PT_Q90R6M3E,male,white,not hispanic or latino
-PT_QA9WJ679,male,unknown,hispanic or latino
-PT_QAX38GM7,male,white,not hispanic or latino
-PT_QD6KKKJH,male,other,not hispanic or latino
-PT_QDGVJKE0,male,white,not hispanic or latino
-PT_QEMT1845,male,other,hispanic or latino
+PT_PT1J3YQB,female,american indian or alaska native,not hispanic or latino
+PT_PT94Y0N9,male,white,not hispanic or latino
+PT_PTCB5VEG,male,not reported,not reported
+PT_PTTBTPS6,female,white,not hispanic or latino
+PT_PVAMTRDF,male,not reported,not reported
+PT_PVDVDPSN,female,not reported,not reported
+PT_PVV0E8FR,male,white,not hispanic or latino
+PT_PVWYTEYP,female,not reported,not reported
+PT_PVZ3B030,female,not reported,not reported
+PT_PWPB3BKK,male,other,unknown
+PT_PWT7ZBHF,male,not reported,not reported
+PT_PXPBKXYC,female,other,not hispanic or latino
+PT_PXQN10A8,female,asian,not hispanic or latino
+PT_PXS78Z7D,male,not reported,not reported
+PT_PXVNJSTF,female,not reported,not reported
+PT_PY73RJY7,male,white,not hispanic or latino
+PT_PY9CSZVP,female,other,hispanic or latino
+PT_PYEA9WXV,male,white,not hispanic or latino
+PT_PYEWY24A,female,not reported,not reported
+PT_PZ8C9PWJ,male,other,hispanic or latino
+PT_PZAXT2BJ,female,white,not hispanic or latino
+PT_PZCA1VVR,male,other,unknown
+PT_PZNX0ZVQ,female,black or african american,not hispanic or latino
+PT_PZRWEBK5,male,white,not hispanic or latino
+PT_PZVXH4BM,female,white,not hispanic or latino
+PT_Q06NBV37,male,not reported,not reported
+PT_Q0N3AG4D,female,white,not hispanic or latino
+PT_Q0VK517T,male,white,not hispanic or latino
+PT_Q10R5RC0,male,not reported,not reported
+PT_Q12V29XA,male,other,hispanic or latino
+PT_Q18CDR74,female,not reported,not reported
+PT_Q28CJ09D,female,not reported,not reported
+PT_Q37KKTVP,male,white,not hispanic or latino
+PT_Q3AP8WFD,female,not reported,not reported
+PT_Q3G9004Z,male,not reported,not reported
+PT_Q3KQMBZT,male,asian,not hispanic or latino
+PT_Q3YDJCJ2,male,other,unknown
+PT_Q42C7C3Y,female,not reported,not reported
+PT_Q4GD8TFQ,female,white,not hispanic or latino
+PT_Q533NKVY,male,white,not hispanic or latino
+PT_Q552CD73,female,other,hispanic or latino
+PT_Q576ZJH5,male,white,not hispanic or latino
+PT_Q5BJ968B,male,white,not hispanic or latino
+PT_Q5S82AA3,female,other,unknown
+PT_Q5V7QE4W,male,not reported,not reported
+PT_Q5W5F4SP,male,other,unknown
+PT_Q6CGR1G6,male,white,not hispanic or latino
+PT_Q6FZJT3T,male,white,unknown
+PT_Q7487ASN,male,white,not hispanic or latino
+PT_Q74JT2WV,female,white,not hispanic or latino
+PT_Q74VYMW6,female,not reported,not reported
+PT_Q8QBKBTX,male,white,not hispanic or latino
+PT_Q8WBFJ5R,male,other,hispanic or latino
+PT_Q8X9KAQV,male,not reported,not reported
+PT_Q8YP8PDT,male,not reported,not reported
+PT_Q9H5Y07B,female,not reported,not reported
+PT_Q9Q0CW3R,female,not reported,not reported
+PT_QA00MAJ9,male,black or african american,not hispanic or latino
+PT_QAJRK2W9,male,other,hispanic or latino
+PT_QAPZREJ5,female,not reported,not reported
+PT_QAS84G1J,male,other,not hispanic or latino
+PT_QB61JB87,female,white,not hispanic or latino
+PT_QC15XTAA,male,not reported,not reported
+PT_QC4M7SGJ,male,white,not hispanic or latino
+PT_QCAEW0XJ,female,white,not hispanic or latino
+PT_QD35M3XB,female,white,not hispanic or latino
+PT_QDKTPA2T,female,not reported,not reported
+PT_QDRSXXVX,male,not reported,not reported
+PT_QDVQBYXM,male,not reported,not reported
+PT_QEGHWEPM,female,not reported,not reported
 PT_QEP13FH4,male,white,not hispanic or latino
+PT_QF2ZH1V5,female,white,not hispanic or latino
+PT_QFA07Q0B,female,not reported,not reported
+PT_QG75Z43B,female,not reported,not reported
+PT_QGT06J8S,male,black or african american,not hispanic or latino
+PT_QGT8YPVX,male,asian,not hispanic or latino
+PT_QH1MHYD6,male,white,not hispanic or latino
+PT_QH6X1C3A,male,other,hispanic or latino
 PT_QH9H491G,female,white,not hispanic or latino
-PT_QJ3144WH,female,other,hispanic or latino
+PT_QHBEC0M5,female,other,hispanic or latino
+PT_QHC654A2,male,not reported,not reported
+PT_QHFFDBYS,female,not reported,not reported
+PT_QHJSYTWJ,female,asian,not hispanic or latino
+PT_QHZR1DQM,female,not reported,not reported
+PT_QJ18Z5RM,female,white,not hispanic or latino
+PT_QJ53FP9N,female,white,not hispanic or latino
 PT_QJDY4Y9P,female,white,hispanic or latino
-PT_QK4XB83F,female,white,not hispanic or latino
-PT_QPY0H50V,male,white,not hispanic or latino
-PT_QQ9JGEY9,female,other,unknown
-PT_QQZXYR4M,male,white,not hispanic or latino
-PT_QS59ATXW,female,white,not hispanic or latino
-PT_QT3MK7BZ,female,white,not hispanic or latino
-PT_QT9T89S5,female,other,unknown
-PT_QTDY0Y9A,male,asian,not hispanic or latino
-PT_QW5VW2PY,male,white,not hispanic or latino
-PT_QWR0EECG,male,white,unknown
-PT_QYEF3JAT,male,white,not hispanic or latino
-PT_QZN7FZER,male,white,not hispanic or latino
-PT_R0M1QBY4,female,white,not hispanic or latino
+PT_QK1GTVW1,male,white,not hispanic or latino
+PT_QK2NF2S8,female,not reported,not reported
+PT_QK71GQ92,male,asian,not hispanic or latino
+PT_QKG0A076,male,not reported,not reported
+PT_QKQ4B7K3,male,not reported,not reported
+PT_QKZ3RGMY,female,not reported,not reported
+PT_QM2B8VKX,female,white,not hispanic or latino
+PT_QMBHTGSY,female,not reported,not reported
+PT_QMTY29FB,male,not reported,not reported
+PT_QN197ZXF,female,other,hispanic or latino
+PT_QN2XN0H6,female,white,not hispanic or latino
+PT_QN5CM8AV,female,not reported,not reported
+PT_QNHGY3KQ,male,white,not hispanic or latino
+PT_QNMBRAKM,male,black or african american,not hispanic or latino
+PT_QP4BVCX4,male,white,not hispanic or latino
+PT_QQ4QZGNW,male,not reported,not reported
+PT_QQNR74BJ,male,not reported,not reported
+PT_QS7FVQB8,male,not reported,not reported
+PT_QSTM1DFR,male,white,not hispanic or latino
+PT_QT9PS43V,female,white,not hispanic or latino
+PT_QV1XGVS4,female,not reported,not reported
+PT_QVCXSYEJ,male,white,not hispanic or latino
+PT_QVNK7WWR,male,white,not hispanic or latino
+PT_QVQC3KY1,male,other,unknown
+PT_QVWCRKZM,female,black or african american,not hispanic or latino
+PT_QW5XF224,male,white,not hispanic or latino
+PT_QWN0G1GH,male,white,not hispanic or latino
+PT_QX3ZH4NZ,male,white,not hispanic or latino
+PT_QZ20V885,female,not reported,not reported
+PT_QZ332CZS,male,not reported,not reported
+PT_QZ3KCBSC,female,other,unknown
+PT_QZ4PG849,female,not reported,not reported
+PT_QZ4Q91GJ,male,white,not hispanic or latino
+PT_QZ6CY8A6,male,not reported,not reported
+PT_QZVR2YKF,male,white,not hispanic or latino
+PT_R0H8JTQR,male,white,not hispanic or latino
+PT_R0P4F8SG,female,not reported,not reported
 PT_R0R6VWX9,male,unknown,not hispanic or latino
-PT_R10BSB9F,male,white,not hispanic or latino
-PT_R1DHB0ZT,male,other,hispanic or latino
-PT_R1N5M7NH,male,white,not hispanic or latino
+PT_R24KKSND,female,white,not hispanic or latino
+PT_R2N8T6CW,male,other,unknown
+PT_R3DZWWZD,male,not reported,not reported
+PT_R3MXG7SY,male,white,hispanic or latino
+PT_R3ZBRJ14,female,other,not hispanic or latino
 PT_R4T1V1K4,male,asian,not hispanic or latino
-PT_R5T773FS,male,asian,not hispanic or latino
-PT_R63RHJWX,male,white,not hispanic or latino
-PT_R6WWH1QX,female,white,not hispanic or latino
-PT_R9V5R1SY,male,white,not hispanic or latino
-PT_RA6AGBA7,female,black or african american,not hispanic or latino
-PT_RDJ40M73,female,white,not hispanic or latino
-PT_RE6AXQM1,male,white,not hispanic or latino
-PT_RFB07MZS,male,other,hispanic or latino
-PT_RFF7MKTC,female,white,not hispanic or latino
-PT_RFGZ2JGP,female,white,not hispanic or latino
-PT_RGX23JFP,female,american indian or alaska native,not hispanic or latino
-PT_RH59ET3M,female,white,not hispanic or latino
-PT_RJ1TJ2KH,male,white,not hispanic or latino
-PT_RJ98S3KZ,male,white,not hispanic or latino
-PT_RKECV80K,male,other,not hispanic or latino
-PT_RM5S859Q,female,white,not hispanic or latino
-PT_RM9AZ7A8,male,white,unknown
-PT_RMK36R2E,female,other,hispanic or latino
-PT_RPC00TAJ,female,white,unknown
-PT_RQ21EBK9,male,other,not hispanic or latino
-PT_RRG1V7EP,female,other,not hispanic or latino
-PT_RRT2E7HK,male,white,not hispanic or latino
-PT_RSDTCFDA,female,white,not hispanic or latino
-PT_RT1J9P8J,female,white,not hispanic or latino
-PT_RV0RDER2,male,white,not hispanic or latino
-PT_RX1EWBP9,female,black or african american,not hispanic or latino
-PT_RXJZ3C5G,female,white,not hispanic or latino
+PT_R4W3KXNG,female,not reported,not reported
+PT_R50DPWF5,female,white,not hispanic or latino
+PT_R5GJBE5Z,female,white,not hispanic or latino
+PT_R5VP3Y1C,female,white,not hispanic or latino
+PT_R604JG6B,male,other,hispanic or latino
+PT_R635HCWF,female,other,unknown
+PT_R6506GEK,male,not reported,not reported
+PT_R6BDNX1R,male,not reported,not reported
+PT_R6HM8R4G,female,not reported,not reported
+PT_R6JT89KD,male,black or african american,not hispanic or latino
+PT_R6RDYCKT,male,white,not hispanic or latino
+PT_R71AA6FV,male,not reported,not reported
+PT_R85HGSW4,female,not reported,not reported
+PT_R86EY5TZ,female,white,not hispanic or latino
+PT_R90W65X3,female,not reported,not reported
+PT_R9BXDK67,female,not reported,not reported
+PT_R9MZ1WA8,female,not reported,not reported
+PT_RA6ZKYKA,male,white,not hispanic or latino
+PT_RBSMFGQ8,female,not reported,not reported
+PT_RC1THQGJ,female,black or african american,not hispanic or latino
+PT_RCG0FTE5,male,not reported,not reported
+PT_RDGW5MJE,male,other,unknown
+PT_RE3T236E,male,white,unknown
+PT_REYREFH8,female,white,hispanic or latino
+PT_RFN96J7C,male,white,not hispanic or latino
+PT_RFPQE7YV,male,not reported,not reported
+PT_RFY1MS7E,male,not reported,not reported
+PT_RG7MGART,female,not reported,not reported
+PT_RGD1YNMS,male,black or african american,not hispanic or latino
+PT_RGPBRY6Y,male,asian,not hispanic or latino
+PT_RGTWPXNC,female,not reported,not reported
+PT_RGX0DPJY,male,white,not hispanic or latino
+PT_RHE17V2D,female,not reported,not reported
+PT_RJJK3CXB,female,white,not hispanic or latino
+PT_RKD4KT5F,female,not reported,not reported
+PT_RKWA6XAB,male,white,not hispanic or latino
+PT_RM4TY9VV,male,not reported,not reported
+PT_RM8V31DA,male,other,not hispanic or latino
+PT_RN8MH09H,male,not reported,not reported
+PT_RN8WYW7K,male,other,unknown
+PT_RNVACT1Q,female,white,not hispanic or latino
+PT_RP4P2Z5Y,female,not reported,not reported
+PT_RQ0Y6W3V,female,not reported,not reported
+PT_RQ1Y0PMT,male,not reported,not reported
+PT_RQA3D9CA,female,not reported,not reported
+PT_RSYVJY7K,male,black or african american,not hispanic or latino
+PT_RTSQMQ7C,female,not reported,not reported
+PT_RTST6T9K,female,not reported,not reported
+PT_RVD3EFV9,male,not reported,not reported
+PT_RVS1ZM36,female,not reported,not reported
+PT_RW1ZCJMD,male,white,not hispanic or latino
+PT_RWE6MRAN,male,not reported,not reported
+PT_RWF4AB4X,male,white,not hispanic or latino
+PT_RWJDE35G,male,not reported,not reported
+PT_RXAQWDJ3,female,not reported,not reported
 PT_RXT6KRR6,female,white,hispanic or latino
-PT_RYMG3M91,female,unknown,hispanic or latino
-PT_S0PBN4M7,male,white,not hispanic or latino
+PT_RY0GF9JR,male,other,hispanic or latino
+PT_RY3GNJ2B,male,white,not hispanic or latino
+PT_RYGH8J9C,female,asian,not hispanic or latino
+PT_RZMGMZHX,male,white,not hispanic or latino
+PT_RZN44FHP,female,white,not hispanic or latino
+PT_RZSZ6R7E,male,not reported,not reported
+PT_S04D484Q,male,not reported,not reported
+PT_S0PTWEDE,male,white,not hispanic or latino
 PT_S0Q27J13,female,white,not hispanic or latino
-PT_S21ZTKPS,female,white,not hispanic or latino
-PT_S2ASFBP7,female,black or african american,not hispanic or latino
+PT_S0XSZAF2,female,other,unknown
+PT_S1CYDVZW,male,other,not hispanic or latino
+PT_S1JXVXPX,male,white,not hispanic or latino
 PT_S2BEPYQ0,female,white,hispanic or latino
-PT_S2CXXZCF,male,white,hispanic or latino
-PT_S2SQJVGK,female,white,not hispanic or latino
-PT_S3FJSBJT,male,white,not hispanic or latino
-PT_S4A0R1PM,female,other,not hispanic or latino
-PT_S4H6KA09,female,white,not hispanic or latino
+PT_S2HZSZ7F,female,not reported,not reported
+PT_S2M5KJTJ,male,other,unknown
+PT_S2TBKZ28,female,not reported,not reported
+PT_S312XNVC,female,not reported,not reported
+PT_S4BZHSTE,male,not reported,not reported
+PT_S4HZZT1F,male,not reported,not reported
+PT_S4J0JZAA,male,white,not hispanic or latino
 PT_S4YNE17X,female,white,not hispanic or latino
+PT_S5GAP87F,male,not reported,not reported
+PT_S65X6Y24,male,white,hispanic or latino
+PT_S6FAQ95F,male,white,not hispanic or latino
+PT_S6TMQPG6,male,white,not hispanic or latino
+PT_S7BHB1AG,male,not reported,not reported
+PT_S7D7H9VA,female,other,hispanic or latino
 PT_S7JCQ3TH,female,unknown,unknown
-PT_S7WJ99PC,male,white,not hispanic or latino
-PT_S7YHNHSS,female,other,not hispanic or latino
-PT_S8E3281G,male,black or african american,not hispanic or latino
-PT_SA94083W,male,white,not hispanic or latino
-PT_SABHZ7XX,male,black or african american,not hispanic or latino
-PT_SBHN5F68,male,white,not hispanic or latino
-PT_SBP79T7F,male,white,not hispanic or latino
-PT_SCBMTG0S,male,white,not hispanic or latino
-PT_SCCDBETQ,female,white,not hispanic or latino
-PT_SDK91A16,female,white,not hispanic or latino
-PT_SDPA6AAP,female,other,unknown
+PT_S7XE8DX9,female,not reported,not reported
+PT_S8BXRFAP,male,other,hispanic or latino
+PT_S8ETAYGR,female,not reported,not reported
+PT_S8NYAGCA,female,white,not hispanic or latino
+PT_S90NSKAH,female,other,hispanic or latino
+PT_S951AVDS,female,white,not hispanic or latino
+PT_S9KKCVN6,male,white,not hispanic or latino
+PT_S9M3JJVB,female,black or african american,not hispanic or latino
+PT_S9YT3GSS,female,black or african american,not hispanic or latino
+PT_S9ZZSZHR,female,white,hispanic or latino
+PT_SA4P4VJE,male,white,unknown
+PT_SAKTG21V,female,white,not hispanic or latino
+PT_SAMY37W0,male,white,not hispanic or latino
+PT_SBE1B4CV,female,other,unknown
+PT_SBM3WYV0,male,other,unknown
+PT_SBNVQFY4,male,not reported,not reported
+PT_SBSXK3XB,male,white,not hispanic or latino
+PT_SBY0GAAM,female,not reported,not reported
+PT_SCTH1RQ0,male,other,not hispanic or latino
+PT_SCZYPN5C,male,white,not hispanic or latino
+PT_SD4RJ57T,male,other,unknown
+PT_SDNP56RH,male,white,not hispanic or latino
+PT_SE034GK1,male,white,not hispanic or latino
+PT_SE2Q0RH8,female,white,hispanic or latino
+PT_SEC8DB3S,female,not reported,not reported
+PT_SECBZHAP,female,not reported,not reported
+PT_SEKXH6HT,female,white,not hispanic or latino
+PT_SENAN24X,male,not reported,not reported
+PT_SFCNJZ9A,female,white,not hispanic or latino
+PT_SG2W99BT,male,white,not hispanic or latino
 PT_SGJK5KSB,female,other,hispanic or latino
-PT_SJ0VD2C8,female,white,not hispanic or latino
-PT_SJEG0MKD,female,white,not hispanic or latino
+PT_SGKYG2TY,male,not reported,not reported
+PT_SGXTKZBH,female,not reported,not reported
+PT_SGYF4CMN,female,other,unknown
+PT_SGYVR2QA,female,not reported,not reported
+PT_SGZ6VCG5,female,not reported,not reported
+PT_SH93WJ5N,female,white,unknown
+PT_SHAWRXZW,female,not reported,not reported
+PT_SHEGY2E0,male,other,unknown
+PT_SJ4G8KS2,female,other,not hispanic or latino
+PT_SJ9PJ1D0,female,white,not hispanic or latino
+PT_SJETT2HV,female,not reported,not reported
+PT_SJF8YDCZ,male,not reported,not reported
+PT_SKXVTDKK,male,white,not hispanic or latino
+PT_SM2C1DQZ,female,not reported,not reported
 PT_SMDEQVHJ,male,white,not hispanic or latino
-PT_SRWZDG3N,male,white,not hispanic or latino
-PT_SSE4AH59,male,white,not hispanic or latino
-PT_STRDJQ01,female,other,hispanic or latino
-PT_SW4Q1HZP,male,unknown,not hispanic or latino
-PT_SYHB12RN,female,white,not hispanic or latino
-PT_SZJ7WZZW,male,other,not hispanic or latino
+PT_SMXFET5B,female,not reported,not reported
+PT_SN8ATV98,male,not reported,not reported
+PT_SNJ1YR1R,male,other,unknown
+PT_SNKTBC28,male,white,not hispanic or latino
+PT_SP0V9ZQ3,male,white,not hispanic or latino
+PT_SP1YNX2R,male,not reported,not reported
+PT_SP2DQQA3,female,not reported,not reported
+PT_SPFM48EJ,male,white,hispanic or latino
+PT_SPMWKXC3,male,white,not hispanic or latino
+PT_SPQWXFYW,male,white,not hispanic or latino
+PT_SPT4ATHS,female,not reported,not reported
+PT_SQ0XYG7Y,male,not reported,not reported
+PT_SQ92PHKC,female,not reported,not reported
+PT_SQEMWATC,female,not reported,not reported
+PT_SRZ6S76Y,male,other,hispanic or latino
+PT_SS62DEH5,female,white,not hispanic or latino
+PT_SSVN6JZF,female,not reported,not reported
+PT_STBE4VJW,female,not reported,not reported
+PT_SV6J92TB,male,white,not hispanic or latino
+PT_SVKSEXP3,female,not reported,not reported
+PT_SW3WHPZ3,female,not reported,not reported
+PT_SWGJAJA1,male,asian,not hispanic or latino
+PT_SWJMSG0J,female,white,not hispanic or latino
+PT_SWNCH8EK,male,white,not hispanic or latino
+PT_SXP0BNN4,male,not reported,not reported
+PT_SY2VBA5C,female,white,not hispanic or latino
+PT_SY6W6B0Z,male,white,not hispanic or latino
+PT_SYBC8FCX,male,not reported,not reported
+PT_SYHAG987,female,not reported,not reported
+PT_SYS6A69F,male,not reported,not reported
+PT_SYSCTVT8,male,other,not hispanic or latino
 PT_T03AT4BJ,male,other,hispanic or latino
-PT_T1FV709B,male,white,not hispanic or latino
-PT_T2M1338J,female,white,not hispanic or latino
-PT_T2V4X5ZW,male,white,not hispanic or latino
-PT_T3REPTTC,female,white,not hispanic or latino
-PT_T4VKB29K,female,other,hispanic or latino
+PT_T06GNH71,female,white,not hispanic or latino
+PT_T0MRCE9A,male,white,not hispanic or latino
+PT_T0NSH2XF,male,not reported,not reported
+PT_T16E2TWZ,female,white,not hispanic or latino
+PT_T1GR6607,male,white,not hispanic or latino
+PT_T2DAF4JZ,female,not reported,not reported
+PT_T2QGGYXC,female,black or african american,not hispanic or latino
+PT_T3JEF4ZH,male,other,hispanic or latino
+PT_T3TEKSAD,female,white,unknown
+PT_T43SQE0N,female,not reported,not reported
+PT_T4EJ35X3,male,not reported,not reported
+PT_T4VN7ZRB,male,white,not hispanic or latino
+PT_T50H6FFT,female,white,hispanic or latino
+PT_T58EGJRX,female,white,not hispanic or latino
+PT_T5B2WSD4,female,white,not hispanic or latino
 PT_T5CR5HQZ,male,white,not hispanic or latino
-PT_T5KEXCK7,female,other,not hispanic or latino
-PT_T6H5RWH5,male,white,not hispanic or latino
-PT_T8V9ES93,male,white,not hispanic or latino
-PT_T93J9EGZ,female,black or african american,not hispanic or latino
+PT_T5D43X6R,female,not reported,not reported
+PT_T5HBV99P,male,not reported,not reported
+PT_T5QQQ1TA,male,white,not hispanic or latino
+PT_T5ZETVQ0,female,white,not hispanic or latino
+PT_T6GV8TBX,male,white,not hispanic or latino
+PT_T6S53GG7,female,other,hispanic or latino
+PT_T6ZTH7SQ,male,not reported,not reported
+PT_T758RK4B,female,not reported,not reported
+PT_T77DPBK2,female,not reported,not reported
+PT_T7F3KA8X,female,white,not hispanic or latino
+PT_T7G44FCV,male,not reported,not reported
+PT_T7J8TAHN,male,black or african american,hispanic or latino
+PT_T7SJD8GC,female,white,not hispanic or latino
+PT_T80DHEVF,female,white,not hispanic or latino
+PT_T815MEQ8,female,not reported,not reported
+PT_T81KEN3C,male,not reported,not reported
+PT_T81YNXQM,male,not reported,not reported
+PT_T90R0Y9M,female,not reported,not reported
+PT_T95NCZMM,female,white,not hispanic or latino
+PT_T9ESHWK3,male,not reported,not reported
 PT_T9F17G9F,female,white,not hispanic or latino
-PT_TB8HPJBN,male,white,not hispanic or latino
-PT_TD6ST5MG,female,white,unknown
-PT_TEBD1SES,male,white,not hispanic or latino
-PT_TF84B5J9,male,white,not hispanic or latino
-PT_TGTJECMR,male,white,not hispanic or latino
-PT_TH18S0JQ,female,white,not hispanic or latino
+PT_TA0JRG2J,female,not reported,not reported
+PT_TA4V83YH,female,not reported,not reported
+PT_TA9ZZSJH,male,white,not hispanic or latino
+PT_TAM3EGT1,male,white,not hispanic or latino
+PT_TAQKGECF,male,not reported,not reported
+PT_TB9RABDH,male,not reported,not reported
+PT_TC0EFHNT,female,white,not hispanic or latino
+PT_TCDNH9JG,female,other,unknown
+PT_TCNGAVHX,male,white,not hispanic or latino
+PT_TCNMQMZ8,female,not reported,not reported
+PT_TCTGZ9AW,female,not reported,not reported
+PT_TCW11MDN,female,white,not hispanic or latino
+PT_TD2T8SA8,female,not reported,not reported
+PT_TDN5D5AM,female,other,hispanic or latino
+PT_TEGB04NC,male,white,hispanic or latino
+PT_TEQDD4J6,female,not reported,not reported
+PT_TETJ9DDR,female,white,not hispanic or latino
+PT_TF2SRSEG,male,not reported,not reported
+PT_TFCNV42Z,male,white,not hispanic or latino
+PT_TFY2X6VD,female,not reported,not reported
+PT_TG0TXVK2,female,not reported,not reported
+PT_TG1Y9874,male,not reported,not reported
+PT_TGZQ6ACA,female,white,not hispanic or latino
 PT_TH8M3W34,male,other,not hispanic or latino
-PT_TKWTTRQ7,male,white,not hispanic or latino
-PT_TPDB1WC8,male,black or african american,not hispanic or latino
-PT_TPSMT960,female,white,not hispanic or latino
-PT_TRXF649Z,female,white,not hispanic or latino
-PT_TS0FW57Z,male,white,not hispanic or latino
-PT_TS0H697Y,male,white,not hispanic or latino
-PT_TV5DYHNC,male,white,not hispanic or latino
-PT_TVJ5EGMR,male,white,not hispanic or latino
-PT_TVK2KY36,male,american indian or alaska native,not hispanic or latino
+PT_THRHMJXR,female,not reported,not reported
+PT_THTFJ0KC,male,native hawaiian or other pacific islander,not hispanic or latino
+PT_TJ5MT3Z9,male,not reported,not reported
+PT_TJC8TAR7,female,white,not hispanic or latino
+PT_TK3MSEH7,male,white,hispanic or latino
+PT_TKCR4S4E,male,not reported,not reported
+PT_TKTQ24PX,female,black or african american,not hispanic or latino
+PT_TKWF5MDW,male,white,not hispanic or latino
+PT_TM2QW86C,male,not reported,not reported
+PT_TMJWQG4Z,male,not reported,not reported
+PT_TMN7VX4S,female,not reported,not reported
+PT_TN2KF4SA,male,white,not hispanic or latino
+PT_TNW0GB2B,female,not reported,not reported
+PT_TP58N40V,male,white,not hispanic or latino
+PT_TP6GS00H,male,black or african american,not hispanic or latino
+PT_TPEWXVJ1,female,white,not hispanic or latino
+PT_TPFHFY2E,female,not reported,not reported
+PT_TPYPW321,male,other,unknown
+PT_TQWXH1HF,male,white,not hispanic or latino
+PT_TRVGEMYT,female,not reported,not reported
+PT_TRZ1N1HQ,male,white,not hispanic or latino
+PT_TSEJBT0A,female,white,not hispanic or latino
+PT_TT4M4QTQ,female,not reported,not reported
+PT_TT8M3GB6,female,other,unknown
+PT_TTN2SR2Q,female,white,not hispanic or latino
+PT_TTQ3KXDH,female,white,not hispanic or latino
+PT_TTZFTYB5,female,other,unknown
+PT_TVKPQKA7,male,black or african american,not hispanic or latino
+PT_TVTG8E8N,female,asian,not hispanic or latino
+PT_TVVTGNVY,female,not reported,not reported
+PT_TVYP3A9F,male,not reported,not reported
 PT_TWAHK62W,female,unknown,not hispanic or latino
+PT_TWF36J8K,male,asian,not hispanic or latino
 PT_TXFYRDP4,male,white,not hispanic or latino
-PT_V07ZH5JS,female,white,hispanic or latino
-PT_V0TQ0P66,male,white,not hispanic or latino
-PT_V0X73HEQ,male,white,not hispanic or latino
-PT_V1HNAC2Q,male,unknown,not hispanic or latino
-PT_V2F0865M,male,white,not hispanic or latino
-PT_V3Q78E6F,female,white,hispanic or latino
-PT_V482NWB8,female,other,unknown
-PT_V5ASTHRH,male,other,not hispanic or latino
-PT_V8714N9H,male,white,not hispanic or latino
-PT_V9ACEWSK,male,white,hispanic or latino
-PT_V9WP047R,male,black or african american,not hispanic or latino
-PT_VABP80N2,female,white,not hispanic or latino
+PT_TXWGV6J1,female,white,not hispanic or latino
+PT_TY3W122M,female,other,unknown
+PT_TY9T3SB8,female,white,not hispanic or latino
+PT_TZH4PEG8,female,not reported,not reported
+PT_TZHG8MAH,female,not reported,not reported
+PT_TZMW3ZK3,male,not reported,not reported
+PT_TZPSZ06M,male,white,not hispanic or latino
+PT_V0C2E99Z,female,other,hispanic or latino
+PT_V12EAF2V,female,white,not hispanic or latino
+PT_V147WRJR,male,other,unknown
+PT_V19T87ET,male,white,not hispanic or latino
+PT_V1R6RZS9,male,not reported,not reported
+PT_V1TH0XSK,male,other,not hispanic or latino
+PT_V2KPJ97P,female,white,not hispanic or latino
+PT_V2W45FWY,male,black or african american,not hispanic or latino
+PT_V3E816BT,female,not reported,not reported
+PT_V41TGECC,female,white,not hispanic or latino
+PT_V4FPKV6Q,female,not reported,not reported
+PT_V4MF99XB,female,white,not hispanic or latino
+PT_V5BRGY2V,female,not reported,not reported
+PT_V5DQJ4D4,female,white,not hispanic or latino
+PT_V5YZGSYM,male,not reported,not reported
+PT_V6JF7M6C,male,white,not hispanic or latino
+PT_V75NCPJE,female,white,not hispanic or latino
+PT_V84GD4GT,female,other,not hispanic or latino
+PT_V8CXJWGV,male,white,hispanic or latino
+PT_V8PT0YGV,female,other,not hispanic or latino
+PT_V9EXKHK2,male,not reported,not reported
+PT_VA56GZDY,male,not reported,not reported
+PT_VABHPA1G,male,not reported,not reported
+PT_VAC084JJ,female,white,not hispanic or latino
+PT_VAHFRMG5,male,white,not hispanic or latino
+PT_VAHS9W13,male,not reported,not reported
 PT_VAJN5QP8,female,white,not hispanic or latino
-PT_VBG3Z18B,female,white,not hispanic or latino
-PT_VBNP6JFB,male,white,not hispanic or latino
-PT_VBVZ2NAR,male,other,not hispanic or latino
+PT_VAW7C1MR,male,white,not hispanic or latino
+PT_VB2R2D92,male,white,not hispanic or latino
+PT_VBJ02EY1,male,other,hispanic or latino
+PT_VC6YSGXM,male,other,unknown
+PT_VC7WZMC4,male,white,not hispanic or latino
+PT_VC88QZKD,male,not reported,not reported
 PT_VCD0W8HG,female,white,not hispanic or latino
-PT_VE0Q731Y,male,white,not hispanic or latino
-PT_VGXHFMND,female,white,not hispanic or latino
-PT_VH6S71AC,male,other,hispanic or latino
-PT_VHS5RM2K,male,white,not hispanic or latino
-PT_VJ0M4E8Y,female,white,not hispanic or latino
-PT_VJBVXB08,female,asian,not hispanic or latino
+PT_VCJKH8CK,male,white,not hispanic or latino
+PT_VD2DHTMY,male,white,not hispanic or latino
+PT_VD8PMEDM,female,white,not hispanic or latino
+PT_VDT0V3W7,female,white,not hispanic or latino
+PT_VEV7ZWSQ,male,white,not hispanic or latino
+PT_VF2GZHD1,female,asian,not hispanic or latino
+PT_VFCBKTF0,male,not reported,not reported
+PT_VFMW600X,female,white,hispanic or latino
+PT_VG6S9YQ9,male,asian,not hispanic or latino
+PT_VG6SE4NN,female,black or african american,not hispanic or latino
+PT_VG7VKC7G,male,not reported,not reported
+PT_VGFTS2JM,female,not reported,not reported
+PT_VGNXEA4V,male,white,hispanic or latino
+PT_VHHKX5AE,male,other,not hispanic or latino
+PT_VHQC6AA6,female,not reported,not reported
+PT_VHZ383XH,male,not reported,not reported
+PT_VJ4NM9QE,male,asian,not hispanic or latino
+PT_VJDC5C8Q,male,not reported,not reported
+PT_VJXDBEKN,female,white,not hispanic or latino
+PT_VJZ2K777,female,not reported,not reported
 PT_VJZN69T9,male,white,not hispanic or latino
-PT_VPEMAQBN,female,unknown,unknown
-PT_VQDNSYXM,female,white,not hispanic or latino
-PT_VR8T8JX8,male,other,hispanic or latino
+PT_VKDRVFM4,male,not reported,not reported
+PT_VKRWCBA2,female,asian,not hispanic or latino
+PT_VKYJKR1W,male,white,not hispanic or latino
+PT_VN04Y016,female,white,not hispanic or latino
+PT_VN237KW5,male,not reported,not reported
+PT_VN6MTPPM,male,other,unknown
+PT_VN9SKYQQ,male,white,not hispanic or latino
+PT_VNBDR237,male,not reported,not reported
+PT_VNDHFVVJ,male,not reported,not reported
+PT_VNS5ZNC6,male,not reported,not reported
+PT_VNYSGS02,female,white,not hispanic or latino
+PT_VNZJ9YN2,male,not reported,not reported
+PT_VP6SKM18,female,not reported,not reported
+PT_VPAXYBS7,male,other,unknown
+PT_VPCMXEEX,male,white,not hispanic or latino
+PT_VQ0EJVD1,male,not reported,not reported
+PT_VQ5T5MAK,female,white,not hispanic or latino
+PT_VQ8P78D9,female,not reported,not reported
+PT_VQWWWQH2,female,not reported,not reported
+PT_VQX7H41X,male,not reported,not reported
+PT_VR814C1Q,male,white,not hispanic or latino
 PT_VREE80NP,male,white,not hispanic or latino
-PT_VT6PJVQN,male,white,not hispanic or latino
-PT_VTF65Y63,female,white,not hispanic or latino
+PT_VRFHCHRM,female,not reported,not reported
+PT_VSA7NCW2,male,not reported,not reported
+PT_VSZTS55J,female,not reported,not reported
+PT_VT6QDTP4,male,other,not hispanic or latino
+PT_VT9T3NFV,female,asian,not hispanic or latino
+PT_VTBYEG05,male,not reported,not reported
+PT_VTG1S395,female,black or african american,not hispanic or latino
+PT_VTHAJ4V0,female,not reported,not reported
+PT_VTK4R2BC,female,white,not hispanic or latino
 PT_VTM2STE3,female,white,not hispanic or latino
-PT_VTWDS4G7,female,white,not hispanic or latino
-PT_VVCN8DXT,male,white,not hispanic or latino
-PT_VWZZTK38,male,other,hispanic or latino
-PT_VY45XTT7,male,white,not hispanic or latino
+PT_VVK8C1F8,male,other,not hispanic or latino
+PT_VW2PNHFD,female,other,not hispanic or latino
+PT_VW4NYT5D,female,white,not hispanic or latino
+PT_VW5Y6N97,female,other,hispanic or latino
+PT_VWE92AXY,male,other,unknown
+PT_VWJFVN67,female,not reported,not reported
+PT_VWPPFSY9,female,white,hispanic or latino
+PT_VXC65HZG,male,not reported,not reported
+PT_VXHHTNVV,male,white,not hispanic or latino
+PT_VXP2T6JQ,male,white,not hispanic or latino
+PT_VXZJDVCQ,male,white,not hispanic or latino
+PT_VY47NT5S,male,not reported,not reported
+PT_VY5A2ECP,female,other,not hispanic or latino
+PT_VYDX9CSW,female,white,not hispanic or latino
+PT_VZ32W7M8,male,other,not hispanic or latino
+PT_VZEREHVW,female,white,not hispanic or latino
 PT_VZTTTP3Q,male,other,not hispanic or latino
+PT_VZVQZMHR,female,not reported,not reported
+PT_VZX6KV61,male,white,not hispanic or latino
+PT_W027TV1R,male,white,not hispanic or latino
+PT_W14NDEXA,female,not reported,not reported
+PT_W15MNAKC,male,other,not hispanic or latino
 PT_W17NV5YG,female,white,hispanic or latino
+PT_W187DV1N,male,white,hispanic or latino
+PT_W1G1BWGG,male,white,not hispanic or latino
+PT_W1R6RZVF,female,not reported,not reported
+PT_W208TAYK,female,white,not hispanic or latino
+PT_W2AGRJWS,female,black or african american,not hispanic or latino
+PT_W2B7NYMT,female,not reported,not reported
+PT_W2G4Y7HG,male,other,hispanic or latino
+PT_W2MV0DPM,male,not reported,not reported
+PT_W2Q8ZJJY,female,not reported,not reported
+PT_W39HYAHF,female,not reported,not reported
+PT_W3E4M4ST,male,not reported,not reported
 PT_W3FSA7NH,female,white,not hispanic or latino
-PT_W4XVT4AJ,female,white,not hispanic or latino
-PT_W5GP3F6B,male,asian,hispanic or latino
-PT_W6AWJJK7,female,white,not hispanic or latino
-PT_W6CW60K9,male,other,not hispanic or latino
-PT_W7FK539G,male,white,unknown
-PT_WE1CHTWK,male,white,not hispanic or latino
+PT_W3H1CFTV,female,not reported,not reported
+PT_W4FTXK9C,male,not reported,not reported
+PT_W4M7YD0J,female,white,not hispanic or latino
+PT_W4SMVJM8,female,white,not hispanic or latino
+PT_W59511E7,male,native hawaiian or other pacific islander,unknown
+PT_W5FKG1JJ,female,white,not hispanic or latino
+PT_W5PW7QVB,female,other,hispanic or latino
+PT_W5T878YK,female,american indian or alaska native,not hispanic or latino
+PT_W5Z2VB5Z,female,white,not hispanic or latino
+PT_W6BNECSP,female,white,not hispanic or latino
+PT_W6D0547F,male,other,not hispanic or latino
+PT_W6H1Q54P,male,white,not hispanic or latino
+PT_W6VPP3PX,male,not reported,not reported
+PT_W7G0V945,female,not reported,not reported
+PT_W7QY9705,female,not reported,not reported
+PT_W7T9CBT3,female,not reported,not reported
+PT_W8HC8JWC,female,not reported,not reported
+PT_W95TYXPM,male,white,not hispanic or latino
+PT_W9978DH9,male,not reported,not reported
+PT_W9Y2FRBY,female,not reported,not reported
+PT_W9Z169WV,female,white,not hispanic or latino
+PT_W9ZYNS8Y,male,white,not hispanic or latino
+PT_WB9VB99W,male,not reported,not reported
+PT_WBEK1N0T,female,other,hispanic or latino
+PT_WBG47ZVR,male,not reported,not reported
+PT_WDBXCVWM,female,asian,not hispanic or latino
+PT_WDC7N2SE,female,white,not hispanic or latino
+PT_WE026F0Q,male,white,not hispanic or latino
 PT_WE7HQN0C,male,other,not hispanic or latino
+PT_WE958H8E,female,not reported,not reported
+PT_WESDNVM3,female,white,hispanic or latino
+PT_WEXKR7GF,male,white,not hispanic or latino
+PT_WEY5N1C5,female,other,hispanic or latino
+PT_WF2DPWKV,female,white,not hispanic or latino
+PT_WF4Q4SF2,female,black or african american,not hispanic or latino
+PT_WF6YNMKH,male,not reported,not reported
+PT_WFEHMPPK,female,not reported,not reported
+PT_WFQNVJ4Z,female,white,not hispanic or latino
 PT_WG2Z95B5,male,white,not hispanic or latino
-PT_WG5PHHSQ,female,white,not hispanic or latino
-PT_WGVEF96B,female,unknown,hispanic or latino
-PT_WGWMA5AZ,male,white,not hispanic or latino
-PT_WKNKNYHH,male,white,not hispanic or latino
-PT_WMWFCG6J,male,other,hispanic or latino
+PT_WGN9JT8G,male,not reported,not reported
+PT_WH5PD8ZK,male,other,unknown
+PT_WH9N0M7V,not reported,other,unknown
+PT_WHBK8W46,male,not reported,not reported
+PT_WHK1MYQG,male,white,hispanic or latino
+PT_WHM7BXE1,male,not reported,not reported
+PT_WHP8KQQE,female,not reported,not reported
+PT_WJCD2NS0,female,white,not hispanic or latino
+PT_WJHX3B1J,male,not reported,not reported
+PT_WJP479A9,female,other,not hispanic or latino
+PT_WJY6K9H9,female,white,not hispanic or latino
+PT_WK1JR173,female,other,unknown
+PT_WKNT2HFD,female,not reported,not reported
+PT_WKYPN77B,female,other,unknown
+PT_WM03MVHR,female,asian,not hispanic or latino
+PT_WMGSWG25,female,white,not hispanic or latino
+PT_WMMJHQKR,male,not reported,not reported
+PT_WN1B80HN,female,white,not hispanic or latino
+PT_WN541STY,male,not reported,not reported
+PT_WN5P2GCY,female,white,not hispanic or latino
+PT_WNDJ1EF1,male,not reported,not reported
+PT_WNS0AZQT,male,white,not hispanic or latino
+PT_WP0J59XZ,male,not reported,not reported
 PT_WP871F5S,male,white,not hispanic or latino
-PT_WPYCXMDA,female,other,hispanic or latino
-PT_WS0QT503,female,white,hispanic or latino
-PT_WTMSD2WB,male,other,unknown
-PT_WVAJN6WR,male,white,not hispanic or latino
-PT_WVC247PK,male,white,not hispanic or latino
-PT_WWME595X,female,white,hispanic or latino
-PT_WWZ2Q14R,male,white,not hispanic or latino
-PT_WY8REZ3P,female,white,not hispanic or latino
-PT_WYF217NZ,male,white,not hispanic or latino
-PT_WYR1DVHX,male,white,not hispanic or latino
-PT_WYVMWYVA,male,white,not hispanic or latino
-PT_X0FPPTMT,female,black or african american,not hispanic or latino
-PT_X1PRY0FC,male,asian,not hispanic or latino
-PT_X1XVE1XX,female,white,not hispanic or latino
-PT_X5TQR8V2,female,white,not hispanic or latino
-PT_X648RVMK,female,white,not hispanic or latino
-PT_X71D7G5S,male,white,not hispanic or latino
-PT_X7HC5YCY,female,white,unknown
-PT_X84SD608,male,white,not hispanic or latino
-PT_X8S0H6TG,female,white,not hispanic or latino
+PT_WPQF0B3M,male,black or african american,not hispanic or latino
+PT_WQ2EJVF5,male,white,not hispanic or latino
+PT_WQ2RTFEG,female,not reported,not reported
+PT_WQ5W2Q39,male,white,not hispanic or latino
+PT_WS6JY9KY,female,other,not hispanic or latino
+PT_WSDHPC8C,male,other,not hispanic or latino
+PT_WSNZQY4R,female,white,not hispanic or latino
+PT_WSRDMYHB,female,white,hispanic or latino
+PT_WT6A3NF4,female,not reported,not reported
+PT_WT7QG0CD,female,not reported,not reported
+PT_WV9VGVTE,female,not reported,not reported
+PT_WVF8D0JE,female,white,not hispanic or latino
+PT_WVK3PBPK,male,white,not hispanic or latino
+PT_WVMHZTYN,female,not reported,not reported
+PT_WVPM84TF,male,other,hispanic or latino
+PT_WVSNYNJK,male,not reported,not reported
+PT_WW0M48CT,male,white,not hispanic or latino
+PT_WWR7NB5Q,female,white,not hispanic or latino
+PT_WWRB8KDQ,male,other,unknown
+PT_WWY02EGB,female,not reported,not reported
+PT_WWYKWQJZ,female,other,not hispanic or latino
+PT_WWZWD4KC,male,other,unknown
+PT_WX6140T5,female,not reported,not reported
+PT_WXDMSQ0B,male,black or african american,not hispanic or latino
+PT_WXF2BKQT,male,not reported,not reported
+PT_WXP5JW3N,female,not reported,not reported
+PT_WXP9ZWJ0,female,white,not hispanic or latino
+PT_WXTDDRD9,male,other,unknown
+PT_WXV0H636,female,white,not hispanic or latino
+PT_WY4NY93E,female,white,not hispanic or latino
+PT_WYXTEG3E,female,other,hispanic or latino
+PT_WYZC87HY,male,not reported,not reported
+PT_WZ9BGJ4X,male,white,hispanic or latino
+PT_WZCY14KK,male,other,not hispanic or latino
+PT_X0514H3P,male,white,not hispanic or latino
+PT_X0GD01P1,male,black or african american,not hispanic or latino
+PT_X1009J1H,male,other,hispanic or latino
+PT_X109JYE8,male,not reported,not reported
+PT_X14KCTDQ,male,white,not hispanic or latino
+PT_X17XTQS9,female,not reported,not reported
+PT_X2XFR0Y2,male,white,not hispanic or latino
+PT_X2Y80XFV,male,not reported,not reported
+PT_X2ZP5EGT,male,white,not hispanic or latino
+PT_X3JMHT5R,male,not reported,not reported
+PT_X41XGZM5,female,not reported,not reported
+PT_X44HY9BG,male,not reported,not reported
+PT_X4PV4FBS,female,white,hispanic or latino
+PT_X4SH18X3,female,other,unknown
+PT_X4TT75N8,male,other,unknown
+PT_X4TYV99M,female,white,not hispanic or latino
+PT_X4VMN5VR,female,not reported,not reported
+PT_X539Z97C,female,white,not hispanic or latino
+PT_X5AEX1N4,female,white,hispanic or latino
+PT_X5PGKES6,female,asian,not hispanic or latino
+PT_X656X17W,female,not reported,not reported
+PT_X79W5C99,male,white,not hispanic or latino
+PT_X7GTQR9N,female,white,not hispanic or latino
+PT_X7Z2NMSA,female,other,unknown
+PT_X8BFH45H,male,other,not hispanic or latino
+PT_X8JQPZMN,unknown,other,unknown
 PT_X8SK8120,female,white,not hispanic or latino
+PT_X9FKX25B,female,not reported,not reported
+PT_X9NNW2E7,male,white,not hispanic or latino
+PT_XA04WQ66,male,white,not hispanic or latino
 PT_XA8ASFJK,male,other,not hispanic or latino
-PT_XA98HG1C,male,white,not hispanic or latino
-PT_XCCV6CW2,male,white,not hispanic or latino
-PT_XCX9W17B,male,black or african american,not hispanic or latino
-PT_XDV8W16W,male,white,not hispanic or latino
-PT_XHYBZKCX,male,white,not hispanic or latino
-PT_XKVFVBY4,female,white,not hispanic or latino
+PT_XAJ3FXBT,female,not reported,not reported
+PT_XAM99EBT,female,not reported,not reported
+PT_XB59JD00,male,black or african american,hispanic or latino
+PT_XBDZ37HK,female,not reported,not reported
+PT_XBSCF601,male,white,not hispanic or latino
+PT_XC15JMBJ,male,other,hispanic or latino
+PT_XCTTQ7R8,female,black or african american,not hispanic or latino
+PT_XD66MEPC,female,black or african american,not hispanic or latino
+PT_XDEWHA9Z,female,not reported,not reported
+PT_XE64MXXK,female,white,not hispanic or latino
+PT_XEA2DKDN,male,not reported,not reported
+PT_XEVP2MH2,male,white,not hispanic or latino
+PT_XF0DY26Q,female,not reported,not reported
+PT_XF1BVHZ9,male,white,not hispanic or latino
+PT_XFH4Q7SC,male,white,hispanic or latino
+PT_XG4CJ0GM,female,white,unknown
+PT_XG78CKH9,female,white,hispanic or latino
+PT_XH13P9RW,male,not reported,not reported
+PT_XHQSNS9P,female,white,not hispanic or latino
+PT_XHV730W9,male,other,unknown
+PT_XJX2AA4N,male,white,not hispanic or latino
+PT_XK1P2A66,male,not reported,not reported
+PT_XK7P4PAC,male,other,not hispanic or latino
+PT_XKTS7GZR,male,not reported,not reported
+PT_XKTTVKAZ,male,asian,not hispanic or latino
+PT_XKW9EYPG,male,white,not hispanic or latino
+PT_XM0CXQVW,female,other,unknown
+PT_XM1VAYKV,female,not reported,not reported
+PT_XMD1HCVE,female,not reported,not reported
+PT_XMTE1EF8,male,other,unknown
+PT_XN1P30ZC,male,white,not hispanic or latino
+PT_XN8SRJ8N,male,not reported,not reported
 PT_XNMKQ4MR,male,white,not hispanic or latino
-PT_XNTFM9XY,male,other,hispanic or latino
-PT_XP8AM1CH,female,white,not hispanic or latino
+PT_XP03K0K1,female,not reported,not reported
+PT_XP27KRP0,male,white,not hispanic or latino
+PT_XP4R68Z9,male,not reported,not reported
+PT_XPDTCGRR,female,black or african american,not hispanic or latino
+PT_XPS6EJCM,male,other,not hispanic or latino
 PT_XRQHMBHB,male,black or african american,not hispanic or latino
-PT_XSS1ANXD,male,white,not hispanic or latino
+PT_XS09CPB1,male,not reported,not reported
+PT_XSEFJKS4,female,not reported,not reported
+PT_XSZBSX7T,male,black or african american,not hispanic or latino
+PT_XTG1BN6N,female,not reported,not reported
 PT_XTVQB9S4,female,other,hispanic or latino
-PT_XWVQW6JX,male,white,not hispanic or latino
-PT_XX2VW3D9,female,white,not hispanic or latino
-PT_XXZHRPNM,male,white,not hispanic or latino
-PT_XY404K0D,male,white,not hispanic or latino
-PT_Y32AQSEY,male,white,not hispanic or latino
-PT_Y4FN0XN1,unknown,other,unknown
-PT_Y572BRC1,male,white,not hispanic or latino
-PT_Y585X1BS,male,other,unknown
+PT_XTVZ7P79,female,black or african american,not hispanic or latino
+PT_XVQMH6YS,male,other,unknown
+PT_XWFW59VV,male,other,hispanic or latino
+PT_XWYNQBTK,female,white,not hispanic or latino
+PT_XXJZ90QE,female,not reported,not reported
+PT_XYBDYQDP,female,asian,not hispanic or latino
+PT_XYF9SWSA,male,not reported,not reported
+PT_XYS9EB2T,female,white,not hispanic or latino
+PT_XYSV3J50,female,not reported,not reported
+PT_XZAEWYNX,male,not reported,not reported
+PT_XZGWKXC5,female,white,not hispanic or latino
+PT_Y0XPQ1SZ,female,other,unknown
+PT_Y1A1WJ3N,male,not reported,not reported
+PT_Y1CQJV65,female,other,unknown
+PT_Y32BRS1J,male,white,not hispanic or latino
+PT_Y3M1P07Y,female,not reported,not reported
+PT_Y4CEPHPF,female,white,not hispanic or latino
+PT_Y4N6JZC3,female,not reported,not reported
+PT_Y4S0S7K5,female,not reported,not reported
+PT_Y50RGCW3,female,not reported,not reported
+PT_Y5BQS2KY,female,white,not hispanic or latino
+PT_Y5EZC616,male,other,hispanic or latino
 PT_Y5KY6KN9,male,white,not hispanic or latino
-PT_Y660CKCB,male,white,not hispanic or latino
-PT_Y6Y9JJ9P,female,asian,unknown
-PT_Y74CVASJ,female,white,not hispanic or latino
-PT_Y76A7PBA,female,white,not hispanic or latino
-PT_Y7F2JZMQ,male,white,not hispanic or latino
-PT_Y8HSH496,male,black or african american,not hispanic or latino
-PT_Y8RNS9JE,male,white,not hispanic or latino
+PT_Y61TERJM,female,not reported,not reported
+PT_Y6C6MJD8,female,american indian or alaska native,not hispanic or latino
+PT_Y6NB162T,female,not reported,not reported
+PT_Y6ZREKYF,female,white,not hispanic or latino
+PT_Y7DH1DGZ,male,not reported,not reported
+PT_Y7ECBEM4,male,other,hispanic or latino
+PT_Y879MGBY,male,asian,not hispanic or latino
+PT_Y8GBEEJZ,female,white,not hispanic or latino
+PT_Y8Y1B2AP,male,native hawaiian or other pacific islander,not hispanic or latino
+PT_Y90CENEZ,male,white,hispanic or latino
+PT_Y91BW08F,female,other,unknown
 PT_Y97DX151,male,other,not hispanic or latino
-PT_YBJYA2CD,female,white,not hispanic or latino
-PT_YCMH9SQP,male,white,not hispanic or latino
-PT_YDWBWTVN,male,other,not hispanic or latino
-PT_YEXTH21W,male,white,not hispanic or latino
-PT_YFS3AWC0,male,white,not hispanic or latino
-PT_YGN06RPZ,male,white,not hispanic or latino
-PT_YHTK536P,female,other,unknown
-PT_YJBPEF4V,male,white,not hispanic or latino
-PT_YJGTKDV0,female,white,not hispanic or latino
-PT_YKVK5HTK,female,black or african american,not hispanic or latino
-PT_YMN5GV47,female,black or african american,not hispanic or latino
-PT_YPCR2XRS,male,white,not hispanic or latino
-PT_YQWG98Z5,male,black or african american,not hispanic or latino
-PT_YRMG61G8,male,white,not hispanic or latino
-PT_YRNATR8Q,female,white,not hispanic or latino
+PT_Y98Q8XKV,female,white,not hispanic or latino
+PT_Y9E94D4V,male,white,not hispanic or latino
+PT_Y9JQ3VPX,female,white,not hispanic or latino
+PT_Y9K6RD5R,female,not reported,not reported
+PT_Y9TDSSS4,female,white,not hispanic or latino
+PT_YA6YN7NT,female,white,not hispanic or latino
+PT_YANM4078,female,other,hispanic or latino
+PT_YB8KFYP1,male,not reported,not reported
+PT_YC4ADQH7,male,not reported,not reported
+PT_YCW6CW6P,male,white,not hispanic or latino
+PT_YDFPMXAR,female,white,not hispanic or latino
+PT_YDGG20RS,female,black or african american,not hispanic or latino
+PT_YDK0C24G,male,not reported,not reported
+PT_YDQMJZJB,male,black or african american,not hispanic or latino
+PT_YDX86YCT,female,white,not hispanic or latino
+PT_YE8RAJ6T,female,not reported,not reported
+PT_YEA1CEPZ,female,not reported,not reported
+PT_YF0HY5QW,female,white,not hispanic or latino
+PT_YFVYV8E3,female,not reported,not reported
+PT_YG9RD9B2,male,white,not hispanic or latino
+PT_YGXXEWC5,male,white,not hispanic or latino
+PT_YH39XSS7,male,not reported,not reported
+PT_YH8C6J90,male,other,unknown
+PT_YHP7QBPD,male,not reported,not reported
+PT_YHV7AGAY,male,white,not hispanic or latino
+PT_YHYP7ZKK,male,white,not hispanic or latino
+PT_YJ2Z06R7,male,not reported,not reported
+PT_YJGJS19Q,female,white,not hispanic or latino
+PT_YJN4D9PG,female,not reported,not reported
+PT_YJSMJHWR,male,white,not hispanic or latino
+PT_YJVYZM0H,female,white,not hispanic or latino
+PT_YK7AD0KK,male,white,not hispanic or latino
+PT_YKB6MF7P,female,other,unknown
+PT_YKFSBN25,female,white,not hispanic or latino
+PT_YM51XZH0,female,other,unknown
+PT_YM9Y8H7X,male,not reported,not reported
+PT_YMV4ZJQD,female,not reported,not reported
+PT_YMVHY05S,female,not reported,not reported
+PT_YNA2H4D4,male,white,not hispanic or latino
+PT_YND59052,male,other,unknown
+PT_YNP66FV8,female,white,not hispanic or latino
+PT_YP8FN6MS,male,white,hispanic or latino
+PT_YPG6RYWH,male,not reported,not reported
+PT_YPNG8AZD,female,not reported,not reported
+PT_YQAG9P0V,female,not reported,not reported
+PT_YQBZFWPZ,female,other,hispanic or latino
+PT_YQYYK7EB,not reported,other,unknown
+PT_YRS82TBP,male,not reported,not reported
+PT_YRYDCXGD,female,not reported,not reported
+PT_YSEPNM92,male,white,not hispanic or latino
 PT_YSYNKHAE,male,white,not hispanic or latino
-PT_YT70KJ5P,female,white,unknown
-PT_YV2S3ES7,male,white,not hispanic or latino
-PT_YVG4H0F1,female,white,not hispanic or latino
-PT_YXJQGT69,female,white,not hispanic or latino
-PT_YXZPWFVB,male,white,not hispanic or latino
-PT_YY7CRV21,male,white,not hispanic or latino
-PT_YZ8A8A36,female,white,not hispanic or latino
-PT_YZME6QCY,female,white,not hispanic or latino
-PT_Z2KHR3GQ,female,white,not hispanic or latino
+PT_YTG0YJPS,male,white,not hispanic or latino
+PT_YTZJ8K0X,male,native hawaiian or other pacific islander,not hispanic or latino
+PT_YV130SEM,female,white,not hispanic or latino
+PT_YVBHJWYH,female,not reported,not reported
+PT_YVPJ4FK4,female,not reported,not reported
+PT_YVY56QHA,male,white,not hispanic or latino
+PT_YW1J668K,male,not reported,not reported
+PT_YWCP51X5,male,white,not hispanic or latino
+PT_YWFFHZD5,male,other,not hispanic or latino
+PT_YX7BP4Z6,female,not reported,not reported
+PT_YYKHGYV8,male,white,not hispanic or latino
+PT_YZ0SCFKX,female,black or african american,not hispanic or latino
+PT_YZT47FBR,female,not reported,not reported
+PT_Z06J5MWX,female,not reported,not reported
+PT_Z0HVBYCF,male,not reported,not reported
+PT_Z0JKP1GY,male,other,not hispanic or latino
+PT_Z0K6CZS6,male,black or african american,not hispanic or latino
+PT_Z0N9D7GW,male,white,not hispanic or latino
+PT_Z12GNV1C,male,white,not hispanic or latino
+PT_Z2GW083J,male,other,hispanic or latino
+PT_Z31BW9E5,male,white,not hispanic or latino
+PT_Z34AYJ7C,male,white,not hispanic or latino
+PT_Z35DMGNV,male,white,not hispanic or latino
+PT_Z3F053QR,male,asian,not hispanic or latino
+PT_Z3Q3JMSE,male,white,not hispanic or latino
+PT_Z4A9DMAS,female,white,not hispanic or latino
 PT_Z4BF2NSB,male,other,hispanic or latino
-PT_Z4GS3ZQQ,female,other,hispanic or latino
 PT_Z4PJA6KT,female,white,not hispanic or latino
-PT_Z7YJ7MSM,male,other,unknown
-PT_Z9QE51C3,male,white,not hispanic or latino
-PT_ZA95JQEB,female,white,not hispanic or latino
-PT_ZCXS29JJ,male,white,not hispanic or latino
-PT_ZD45GXZ0,male,other,unknown
-PT_ZD9AYB6F,female,white,not hispanic or latino
+PT_Z4WDWV9D,male,not reported,not reported
+PT_Z4Z1ZSJB,male,not reported,not reported
+PT_Z61EZAW6,male,not reported,not reported
+PT_Z71Q1WT9,male,white,not hispanic or latino
+PT_Z7H2G869,male,not reported,not reported
+PT_Z81F6H6M,male,white,not hispanic or latino
+PT_Z89F4D76,female,not reported,not reported
+PT_Z9BN2V4W,male,white,not hispanic or latino
+PT_ZABG0DZ2,male,white,not hispanic or latino
+PT_ZAR0V3XN,female,not reported,not reported
+PT_ZB6W3WJ8,female,not reported,not reported
+PT_ZBFGMNXT,male,white,not hispanic or latino
+PT_ZBHAAB3G,female,white,not hispanic or latino
+PT_ZCAH133Z,female,not reported,not reported
+PT_ZCV73HSN,male,not reported,not reported
+PT_ZDP40H6Z,male,white,not hispanic or latino
+PT_ZEQ3NS7K,female,black or african american,not hispanic or latino
+PT_ZEW6PYDF,female,white,not hispanic or latino
+PT_ZFACWKDD,female,not reported,not reported
+PT_ZFKQKGME,female,other,unknown
+PT_ZFPCK1TA,female,white,not hispanic or latino
 PT_ZG4J0EK0,female,black or african american,not hispanic or latino
-PT_ZGWYMRV8,male,white,not hispanic or latino
-PT_ZH3SBJPZ,male,other,not hispanic or latino
+PT_ZGQAB1C3,female,other,not hispanic or latino
+PT_ZGVK0CDV,male,not reported,not reported
+PT_ZH5V4W94,male,white,not hispanic or latino
+PT_ZHHQEWTN,female,not reported,not reported
+PT_ZHNJNE5K,female,not reported,not reported
+PT_ZJD3R0RC,female,white,not hispanic or latino
+PT_ZJQ3E4PZ,female,not reported,not reported
+PT_ZJVVRMHQ,male,white,not hispanic or latino
+PT_ZJZ4VF13,female,white,not hispanic or latino
+PT_ZK1RSXG7,female,not reported,not reported
+PT_ZKGZPH3J,male,white,not hispanic or latino
 PT_ZKQTJ7F7,male,white,not hispanic or latino
-PT_ZMKMKCFQ,female,white,not hispanic or latino
-PT_ZN1F7RMP,female,white,not hispanic or latino
-PT_ZR8MQRVG,female,other,not hispanic or latino
-PT_ZRQQC2S9,female,white,not hispanic or latino
-PT_ZS2YDFBE,female,white,not hispanic or latino
-PT_ZTWCA9HX,female,asian,not hispanic or latino
-PT_ZVV78QP5,male,other,hispanic or latino
-PT_ZVYRFGEN,female,white,not hispanic or latino
+PT_ZM9F20SY,female,white,not hispanic or latino
+PT_ZN4QH813,female,white,not hispanic or latino
+PT_ZN84N5PC,male,not reported,not reported
+PT_ZNYCHPNG,male,black or african american,not hispanic or latino
+PT_ZP4W7JN6,female,white,not hispanic or latino
+PT_ZPE3RXF0,male,black or african american,not hispanic or latino
+PT_ZPR5NYBT,male,other,not hispanic or latino
+PT_ZPWFC06D,female,not reported,not reported
+PT_ZQ7XTQPT,female,white,not hispanic or latino
+PT_ZQWKKTXN,male,white,not hispanic or latino
+PT_ZRZRHGQJ,male,white,not hispanic or latino
+PT_ZS2WCK6W,male,black or african american,not hispanic or latino
+PT_ZSA8B68J,female,white,not hispanic or latino
+PT_ZSHEMD0K,male,native hawaiian or other pacific islander,hispanic or latino
+PT_ZSNKTE47,female,white,not hispanic or latino
+PT_ZT24TWRW,female,not reported,not reported
+PT_ZTQCCXFH,female,other,hispanic or latino
+PT_ZVFWVVAJ,male,white,not hispanic or latino
+PT_ZWVV4ZDX,male,black or african american,not hispanic or latino
 PT_ZWY04DCR,male,black or african american,not hispanic or latino
-PT_ZZ8SBJJ5,male,white,not hispanic or latino
+PT_ZX2SJMFJ,male,white,not hispanic or latino
+PT_ZXCQE4PH,female,not reported,not reported
+PT_ZXMR1WSK,male,black or african american,not hispanic or latino
+PT_ZXNEPZEZ,male,white,not hispanic or latino
+PT_ZY7KGEGM,male,not reported,not reported
+PT_ZY96Y62X,female,not reported,not reported
+PT_ZYYBPEVH,male,white,not hispanic or latino
+PT_ZZ2YXQ07,female,not reported,not reported
+PT_ZZ8JQ1TY,female,not reported,not reported
 PT_ZZRBX5JT,female,white,not hispanic or latino
-PT_ZZTQQVCT,female,asian,not hispanic or latino
 PT_ZZWYKZZ8,male,white,not hispanic or latino
