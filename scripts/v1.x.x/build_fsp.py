@@ -1,3 +1,7 @@
+"""
+Build the file-sample-participant mapping for cds v1.x and validate that every
+file in it is accounted for
+"""
 import os
 from collections import Counter
 
@@ -5,7 +9,6 @@ from d3b_cavatica_tools.utils.logging import get_logger
 
 import pandas as pd
 from sqlalchemy import create_engine, text
-from tqdm import tqdm
 
 logger = get_logger(__name__, testing_mode=False)
 
@@ -52,7 +55,7 @@ WITH most_recent AS (
   WHERE bucket = '{X01_BUCKET}'
 )
 
-SELECT DISTINCT s3path
+SELECT DISTINCT s3path, lastmodified::date
 FROM file_metadata.aws_scrape
 WHERE
   bucket = '{X01_BUCKET}'
@@ -84,7 +87,10 @@ logger.info(f"Count of files only in manifest: {len(files_only_in_manifest)}")
 logger.info(f"Count of files only in bucket: {len(files_only_in_bucket)}")
 
 logger.info("Information about files only in the bucket")
+
 # Investigate the files only in the bucket
+
+
 def extract_root_dir(s3path):
     return s3path.replace(f"s3://{X01_BUCKET}/", "").partition("/")[0]
 
