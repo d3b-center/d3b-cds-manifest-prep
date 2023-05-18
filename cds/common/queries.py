@@ -5,7 +5,13 @@ SQL queries used to build manifests of things in the CCDI Genomics Bucket
 
 def participant_query(participant_list):
     query = f"""
-    select kf_id as participant_id, gender, race, ethnicity
+    select
+        study_id,
+        kf_id as participant_id,
+        gender,
+        race,
+        ethnicity,
+        external_id as alternate_participant_id
     from participant
     where kf_id in ({str(participant_list)[1:-1]})
     """
@@ -18,8 +24,9 @@ def sample_query(sample_list):
            composition as sample_type,
            bs.participant_id as participant_id,
            source_text_tissue_type as sample_tumor_status,
-           source_text_anatomical_site as sample_anatomical_site,
-           age_at_event_days as sample_age_at_collection
+           source_text_anatomical_site as anatomic_site,
+           age_at_event_days as participant_age_at_collection
+           bs.external_aliquot_id as alternate_sample_id
     from biospecimen bs
     join participant p on p.kf_id = bs.participant_id
     where bs.kf_id in ({str(sample_list)[1:-1]})
@@ -32,7 +39,9 @@ def file_kf_query(file_list):
     select kf_id,
            file_format as file_type,
            controlled_access,
-           url
+           url, 
+           reference_genome, 
+           is_harmonized
     from genomic_file gf
     join file_metadata.indexd_scrape idx on gf.latest_did = idx.did
     where kf_id in ({str(file_list)[1:-1]})

@@ -18,10 +18,13 @@ def order_columns(manifest):
     :rtype: pandas.DataFrame
     """
     columns = [
+        "type",
+        "study.study_id",
         "participant_id",
-        "gender",
         "race",
+        "gender",
         "ethnicity",
+        "altertnate_participant_id",
     ]
     return manifest[columns]
 
@@ -48,6 +51,12 @@ def build_participant_table(db_url, participant_list, submission_package_dir):
     participant_table = pd.read_sql(participant_query(participant_list), conn)
     logger.info("Converting KF enums to CDS enums")
 
+    # rename the stusy ID column
+    participant_table = participant_table.rename(
+        columns={"study_id": "study.study_id"}
+    )
+
+    participant_table["type"] = "participant"
     participant_table["gender"] = participant_table["gender"].apply(
         lambda x: gender_map.get(x)
     )

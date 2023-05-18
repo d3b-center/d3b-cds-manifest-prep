@@ -22,12 +22,15 @@ def order_columns(manifest):
     :rtype: pandas.DataFrame
     """
     columns = [
+        "type",
+        "participant.participant_id",
         "sample_id",
         "sample_type",
-        "participant_id",
+        "anatomic_site",
+        "participant_age_at_collection",
         "sample_tumor_status",
-        "sample_anatomical_site",
-        "sample_age_at_collection",
+        "sample_description",
+        "alternate_sample_id",
     ]
     return manifest[columns]
 
@@ -53,15 +56,20 @@ def build_sample_table(db_url, sample_list, submission_package_dir):
     logger.info("Querying for manifest of samples      ")
     sample_table = pd.read_sql(sample_query(sample_list), conn)
     logger.info("Converting KF enums to CDS enums")
+    sample_table["type"] = "sample"
+    sample_table["sample_description"] = ""
     sample_table["sample_tumor_status"] = sample_table[
         "sample_tumor_status"
     ].apply(lambda x: status_map.get(x))
 
-    sample_table["sample_anatomical_site"] = sample_table[
-        "sample_tumor_status"
-    ].apply(lambda x: anatomical_site_map.get(x))
+    sample_table["anatomic_site"] = sample_table["sample_tumor_status"].apply(
+        lambda x: anatomical_site_map.get(x)
+    )
     sample_table["sample_type"] = sample_table.apply(sample_type, axis=1)
     # Set the column order and sort on key column
+    sample_table = sample_table.rename(
+        columns={"participant_id": "participant.participant_id"}
+    )
     sample_table = order_columns(sample_table).sort_values("sample_id")
     logger.info("saving sample manifest to file")
     sample_table.to_csv(f"{submission_package_dir}/sample.csv", index=False)

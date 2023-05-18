@@ -2,7 +2,7 @@ from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.constants import all_generator_list
 from cds.generator.diagnosis.build_manifest import build_diagnosis_table
-from cds.generator.file.build_manifest import build_file_table
+from cds.generator.file.sequencing_file import build_sequencing_file_table
 from cds.generator.genomic_info.build_manifest import build_genomic_info_table
 from cds.generator.participant.build_manifest import build_participant_table
 from cds.generator.sample.build_manifest import build_sample_table
@@ -13,7 +13,11 @@ logger = get_logger(__name__, testing_mode=False)
 
 
 def generate_submission_package(
-    postgres_connection_url, submission_package_dir, seed_file, generator_list
+    postgres_connection_url,
+    submission_package_dir,
+    seed_file,
+    generator_list,
+    submission_template_file,
 ):
     if "all" in generator_list:
         logger.info("Generating all manifests in submission packet")
@@ -26,6 +30,9 @@ def generate_submission_package(
 
     logger.info("Reading seed file")
     file_sample_participant_map = pd.read_csv(seed_file)
+    submission_template_dict = pd.read_excel(
+        submission_template_file, sheet_name=None
+    )
     participant_list = (
         file_sample_participant_map["participant_id"]
         .drop_duplicates()
@@ -58,9 +65,12 @@ def generate_submission_package(
             True,
             file_sample_participant_map,
         )
-    if "file" in generator_list:
-        build_file_table(
-            postgres_connection_url, file_list, submission_package_dir
+    if "sequencing_file" in generator_list:
+        build_sequencing_file_table(
+            postgres_connection_url,
+            file_sample_participant_map,
+            submission_package_dir,
+            submission_template_dict,
         )
     if "genomic_info" in generator_list:
         build_genomic_info_table(
