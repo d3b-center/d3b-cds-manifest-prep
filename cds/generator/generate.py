@@ -1,3 +1,5 @@
+import warnings
+
 from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.constants import all_generator_list
@@ -31,9 +33,13 @@ def generate_submission_package(
 
     logger.info("Reading seed file")
     file_sample_participant_map = pd.read_csv(seed_file)
+    # ignore user warnings b/c excel had data validation tools not implimented
+    # by openpyxl
+    warnings.simplefilter(action="ignore", category=UserWarning)
     submission_template_dict = pd.read_excel(
         submission_template_file, sheet_name=None
     )
+    warnings.resetwarnings()
     participant_list = (
         file_sample_participant_map["participant_id"]
         .drop_duplicates()
@@ -83,12 +89,12 @@ def generate_submission_package(
             f"Beginning to build {table_name} table"
         )
         if table_name in not_implemented_tables:
-            output_dict[table_name].template_is_output()
+            output_dict[table_name].build_output(use_template=True)
         elif table_name == "participant":
-            output_dict[table_name] = build_participant_table(
-                output_dict[table_name],
-                postgres_connection_url,
-                participant_list,
+            output_dict[table_name].build_output(
+                build_participant_table,
+                db_url=postgres_connection_url,
+                participant_list=participant_list,
             )
         elif "family_relationship" in generator_list:
             build_participant_table(

@@ -79,6 +79,12 @@ class OutputTable(object):
         """
         self.output_table = self.template_df
 
+    def build_output(self, build_func=None, use_template=None, **kwargs):
+        if use_template:
+            self.template_is_output()
+        else:
+            self.output_table = build_func(self, **kwargs)
+
     def save_table(self, submission_package_dir, **kwargs):
         """Save the output table to a file with other files in a submission
         package

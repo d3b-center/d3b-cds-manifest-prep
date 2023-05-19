@@ -1,35 +1,39 @@
-from d3b_cavatica_tools.utils.logging import get_logger
-
 from cds.common.queries import participant_query
-from cds.generator.participant.map import ethnicity_map, gender_map, race_map
 
 import pandas as pd
 import psycopg2
 
-logger = get_logger(__name__, testing_mode=False)
+gender_map = {
+    "Female": "Female",
+    "Male": "Male",
+    "Not Reported": "Not Reported",
+    "Not Available": "Not reported",
+}
+race_map = {
+    "White": "White",
+    "Black or African American": "Black or African American",
+    "Native Hawaiian or Other Pacific Islander": "Native Hawaiian or other Pacific Islander",  # noqa
+    "Asian": "Asian",
+    "American Indian or Alaska Native": "American Indian or Alaska Native",
+    "Reported Unknown": "Unknown",
+    "Not Available": "Not reported",
+    # may cause a validation issue b/c "Other" is not in the race value set,
+    # but "Other, Specify" is in the value set:
+    # https://cde.nlm.nih.gov/deView?tinyId=mygNSAd6TL
+    "More Than One Race": "Other",
+    "Other": "Other",
+    "Not Reported": "Not Reported",
+}
+ethnicity_map = {
+    "Not Hispanic or Latino": "Not Hispanic or Latino",
+    "Hispanic or Latino": "Hispanic or Latino",
+    "Reported Unknown": "Unknown",
+    "Not Available": "Not reported",
+    "Not Reported": "Not reported",
+}
 
 
-def order_columns(manifest):
-    """order columns in the manifest
-
-    :param manifest: The manifest to order columns for
-    :type manifest: pandas.DataFrame
-    :return: The manifest with columns needed in the correct order
-    :rtype: pandas.DataFrame
-    """
-    columns = [
-        "type",
-        "study.study_id",
-        "participant_id",
-        "race",
-        "gender",
-        "ethnicity",
-        "altertnate_participant_id",
-    ]
-    return manifest[columns]
-
-
-def build_participant_table(db_url, participant_list, submission_package_dir):
+def build_participant_table(output_table, db_url, participant_list):
     """Build the participant table
 
     Build the participant manifest
@@ -43,15 +47,15 @@ def build_participant_table(db_url, participant_list, submission_package_dir):
     :return: participant table
     :rtype: pandas.DataFrame
     """
-    logger.info("Building participant table")
-    logger.info("connecting to database")
+    output_table.logger.info("Building participant table")
+    output_table.logger.info("connecting to database")
     conn = psycopg2.connect(db_url)
 
-    logger.info("Querying for manifest of participants")
+    output_table.logger.info("Querying for manifest of participants")
     participant_table = pd.read_sql(participant_query(participant_list), conn)
-    logger.info("Converting KF enums to CDS enums")
+    output_table.logger.info("Converting KF enums to CDS enums")
 
-    # rename the stusy ID column
+    # rename the study ID column
     participant_table = participant_table.rename(
         columns={"study_id": "study.study_id"}
     )
@@ -66,11 +70,12 @@ def build_participant_table(db_url, participant_list, submission_package_dir):
     participant_table["ethnicity"] = participant_table["ethnicity"].apply(
         lambda x: ethnicity_map.get(x)
     )
+    breakpoint()
     # Set the column order and sort on key column
     participant_table = order_columns(participant_table).sort_values(
         "participant_id"
     )
-    logger.info("saving sample manifest to file")
+    output_table.logger.info("saving sample manifest to file")
     participant_table.to_csv(
         f"{submission_package_dir}/participant.csv", index=False
     )
