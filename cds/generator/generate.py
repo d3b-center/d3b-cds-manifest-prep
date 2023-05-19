@@ -1,6 +1,7 @@
 from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.constants import all_generator_list
+from cds.common.tables import OutputTable
 from cds.generator.diagnosis.build_manifest import build_diagnosis_table
 from cds.generator.file.sequencing_file import build_sequencing_file_table
 from cds.generator.genomic_info.build_manifest import build_genomic_info_table
@@ -48,33 +49,74 @@ def generate_submission_package(
     file_sample_participant_map.to_csv(
         f"{submission_package_dir}/file_sample_participant_map.csv", index=False
     )
+    # Build a dict to store all the output tables
+    output_dict = {
+        table_name: OutputTable(
+            table_name, submission_template_dict=submission_template_dict
+        )
+        for table_name in generator_list
+    }
 
-    if "participant" in generator_list:
-        build_participant_table(
-            postgres_connection_url, participant_list, submission_package_dir
+    # tables that are returned empty
+    not_implemented_tables = [
+        "study",
+        "study_admin",
+        "study_arm",
+        "study_funding",
+        "study_personnel",
+        "publication",
+        "diagnosis",
+        "therapeutic_procedure",
+        "medical_history",
+        "exposure",
+        "follow_up",
+        "molecular_test",
+        "pdx",
+        "clinical_measure_file",
+        "methylation_array_file",
+        "imaging_file",
+        "single_cell_sequencing_file",
+        "synonym",
+    ]
+    for table_name in generator_list:
+        output_dict[table_name].logger.info(
+            f"Beginning to build {table_name} table"
         )
-    if "sample" in generator_list:
-        build_sample_table(
-            postgres_connection_url, sample_list, submission_package_dir
-        )
-    if "diagnosis" in generator_list:
-        build_diagnosis_table(
-            postgres_connection_url,
-            sample_list,
-            submission_package_dir,
-            True,
-            file_sample_participant_map,
-        )
-    if "sequencing_file" in generator_list:
-        build_sequencing_file_table(
-            postgres_connection_url,
-            file_sample_participant_map,
-            submission_package_dir,
-            submission_template_dict,
-        )
-    if "genomic_info" in generator_list:
-        build_genomic_info_table(
-            postgres_connection_url,
-            file_sample_participant_map,
-            submission_package_dir,
-        )
+        if table_name in not_implemented_tables:
+            output_dict[table_name].template_is_output()
+        elif table_name == "participant":
+            output_dict[table_name] = build_participant_table(
+                output_dict[table_name],
+                postgres_connection_url,
+                participant_list,
+            )
+        elif "family_relationship" in generator_list:
+            build_participant_table(
+                postgres_connection_url,
+                participant_list,
+                submission_package_dir,
+            )
+        elif "sample" in generator_list:
+            build_sample_table(
+                postgres_connection_url, sample_list, submission_package_dir
+            )
+        elif "sample_diagnosis" in generator_list:
+            build_diagnosis_table(
+                postgres_connection_url,
+                sample_list,
+                submission_package_dir,
+                True,
+                file_sample_participant_map,
+            )
+        elif "sequencing_file" in generator_list:
+            build_sequencing_file_table(
+                postgres_connection_url,
+                file_sample_participant_map,
+                submission_package_dir,
+                submission_template_dict,
+            )
+        else:
+            output_dict[table_name].logger.error(
+                f"Table {table_name} has no method"
+            )
+        output_dict[table_name].save_table(submission_package_dir)
