@@ -127,7 +127,7 @@ def build_sample_table(output_table, db_url, sample_list):
     sample_table = pd.read_sql(sample_query(sample_list), conn)
     conn.close()
     output_table.logger.info("Converting KF enums to CDS enums")
-    sample_table["type"] = "sample"
+    sample_table["type"] = output_table.name
     sample_table["sample_description"] = ""
     sample_table["sample_tumor_status"] = sample_table[
         "sample_tumor_status"

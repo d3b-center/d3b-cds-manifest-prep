@@ -73,7 +73,7 @@ def build_participant_table(output_table, db_url, participant_list):
         columns={"study_id": "study.study_id"}
     )
 
-    participant_table["type"] = "participant"
+    participant_table["type"] = output_table.name
     participant_table["gender"] = participant_table["gender"].apply(
         lambda x: gender_map.get(x)
     )
