@@ -3,16 +3,25 @@ from d3b_cavatica_tools.utils.logging import get_logger
 import pandas as pd
 
 
-def extract_parent_from_template(template_df):
+def extract_parent_from_template(template_df, submission_template_dict):
     """Extract parent concept from template
 
     :param template_df: template data to extract from
     :type template_df: pandas.DataFrame
+    :param submission_template_dict: collection of all the possible
+    templates that this table could be, defaults to None
+    :type submission_template_dict: dict, optional
     :return: parent concept name
     :rtype: str
     """
     parent_col = template_df.columns[1]
-    return parent_col.partition(".")[0] if "." in parent_col else None
+    parent_name = parent_col.partition(".")[0] if "." in parent_col else None
+    if parent_name:
+        return OutputTable(
+            parent_name, submission_template_dict=submission_template_dict
+        )
+    else:
+        return None
 
 
 class OutputTable(object):
@@ -61,7 +70,13 @@ class OutputTable(object):
         self.template_df = template_df or submission_template_dict[self.name]
         if parent is None:
             self.logger.debug("parent not supplied, deriving from template_df")
-        self.parent = parent or extract_parent_from_template(self.template_df)
+        self.parent = (
+            parent
+            or extract_parent_from_template(
+                self.template_df, submission_template_dict
+            ),
+        )[0]
+
         if key_column is None:
             self.logger.debug(
                 "key_column not supplied, deriving from template_df"
@@ -84,7 +99,10 @@ class OutputTable(object):
         :return: table with ordered columns and sorted values
         :rtype: pandas.DataFrame
         """
-        key_columns = [f"{self.parent}.{self.parent}_id", self.key_column]
+        key_columns = [
+            f"{self.parent.name}.{self.parent.key_column}",
+            self.key_column,
+        ]
         return df[self.template_df.columns].sort_values(key_columns)
 
     def build_output(self, build_func=None, use_template=False, **kwargs):
