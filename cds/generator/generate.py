@@ -7,6 +7,9 @@ from cds.common.tables import OutputTable
 from cds.generator.diagnosis.build_manifest import build_diagnosis_table
 from cds.generator.file.sequencing_file import build_sequencing_file_table
 from cds.generator.genomic_info.build_manifest import build_genomic_info_table
+from cds.generator.participant.family_relationship import (
+    build_family_relationship_table,
+)
 from cds.generator.participant.participant import build_participant_table
 from cds.generator.sample.sample import build_sample_table
 
@@ -100,10 +103,10 @@ def generate_submission_package(
                 participant_list=participant_list,
             )
         elif "family_relationship" in generator_list:
-            build_participant_table(
-                postgres_connection_url,
-                participant_list,
-                submission_package_dir,
+            output_dict[table_name].build_output(
+                build_family_relationship_table,
+                db_url=postgres_connection_url,
+                participant_list=participant_list,
             )
         elif "sample" in generator_list:
             output_dict[table_name].build_output(
