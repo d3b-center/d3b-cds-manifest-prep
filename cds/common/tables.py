@@ -72,18 +72,39 @@ class OutputTable(object):
             else self.template_df.columns[1]
         )
 
-    def template_is_output(self):
-        """Set the output table to be the template_df
+    def order_columns(self, df):
+        """Order columns and sort values
 
-        Use this if the output table should be empty
+        Using the column order specified in the template_df, order the columns
+        in df. Then sort the values in that data frame based on the key_column
+        of the table and the table's parent key column
+
+        :param df: table to order the columns in
+        :type df: pandas.DataFrame
+        :return: table with ordered columns and sorted values
+        :rtype: pandas.DataFrame
         """
-        self.output_table = self.template_df
+        key_columns = [f"{self.parent}.{self.parent}_id", self.key_column]
+        return df[self.template_df.columns].sort_values(key_columns)
 
-    def build_output(self, build_func=None, use_template=None, **kwargs):
+    def build_output(self, build_func=None, use_template=False, **kwargs):
+        """Build the output table
+
+        Build the output table using the supplied build_func or using the
+        template. Use the template if the output table should be empty. Output
+        of the build_func will have columns ordered and values sorted.
+
+        :param build_func: function to use to build the output table. Must
+        return a dataframe, defaults to None
+        :type build_func: function, optional
+        :param use_template: should the template_df be used as the output table?
+        defaults to False
+        :type use_template: bool, optional
+        """
         if use_template:
-            self.template_is_output()
+            self.output_table = self.template_df
         else:
-            self.output_table = build_func(self, **kwargs)
+            self.output_table = self.order_columns(build_func(self, **kwargs))
 
     def save_table(self, submission_package_dir, **kwargs):
         """Save the output table to a file with other files in a submission
