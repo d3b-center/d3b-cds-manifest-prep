@@ -1,5 +1,3 @@
-from cds.common.queries import participant_query
-
 import pandas as pd
 import psycopg2
 
@@ -31,6 +29,21 @@ ethnicity_map = {
     "Not Available": "Not reported",
     "Not Reported": "Not reported",
 }
+
+
+def participant_query(participant_list):
+    query = f"""
+    select
+        study_id,
+        kf_id as participant_id,
+        gender,
+        race,
+        ethnicity,
+        external_id as alternate_participant_id
+    from participant
+    where kf_id in ({str(participant_list)[1:-1]})
+    """
+    return query
 
 
 def build_participant_table(output_table, db_url, participant_list):
