@@ -106,10 +106,13 @@ def generate_submission_package(
                 submission_package_dir,
             )
         elif "sample" in generator_list:
-            build_sample_table(
-                postgres_connection_url, sample_list, submission_package_dir
+            output_dict[table_name].build_output(
+                build_sample_table,
+                db_url=postgres_connection_url,
+                sample_list=sample_list,
             )
         elif "sample_diagnosis" in generator_list:
+            # output_dict[table_name].build_output()
             build_diagnosis_table(
                 postgres_connection_url,
                 sample_list,
@@ -118,6 +121,7 @@ def generate_submission_package(
                 file_sample_participant_map,
             )
         elif "sequencing_file" in generator_list:
+            # output_dict[table_name].build_output()
             build_sequencing_file_table(
                 postgres_connection_url,
                 file_sample_participant_map,
