@@ -7,8 +7,8 @@ from cds.common.tables import OutputTable
 from cds.generator.diagnosis.build_manifest import build_diagnosis_table
 from cds.generator.file.sequencing_file import build_sequencing_file_table
 from cds.generator.genomic_info.build_manifest import build_genomic_info_table
-from cds.generator.participant.build_manifest import build_participant_table
-from cds.generator.sample.build_manifest import build_sample_table
+from cds.generator.participant.participant import build_participant_table
+from cds.generator.sample.sample import build_sample_table
 
 import pandas as pd
 
@@ -89,6 +89,9 @@ def generate_submission_package(
             f"Beginning to build {table_name} table"
         )
         if table_name in not_implemented_tables:
+            logger.info(
+                f"method for {table_name} not implimented, using template"
+            )
             output_dict[table_name].build_output(use_template=True)
         elif table_name == "participant":
             output_dict[table_name].build_output(

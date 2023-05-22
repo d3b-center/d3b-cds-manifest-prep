@@ -47,12 +47,12 @@ def build_participant_table(output_table, db_url, participant_list):
     :return: participant table
     :rtype: pandas.DataFrame
     """
-    output_table.logger.info("Building participant table")
     output_table.logger.info("connecting to database")
     conn = psycopg2.connect(db_url)
 
     output_table.logger.info("Querying for manifest of participants")
     participant_table = pd.read_sql(participant_query(participant_list), conn)
+    conn.close()
     output_table.logger.info("Converting KF enums to CDS enums")
 
     # rename the study ID column
@@ -70,13 +70,4 @@ def build_participant_table(output_table, db_url, participant_list):
     participant_table["ethnicity"] = participant_table["ethnicity"].apply(
         lambda x: ethnicity_map.get(x)
     )
-    breakpoint()
-    # Set the column order and sort on key column
-    participant_table = order_columns(participant_table).sort_values(
-        "participant_id"
-    )
-    output_table.logger.info("saving sample manifest to file")
-    participant_table.to_csv(
-        f"{submission_package_dir}/participant.csv", index=False
-    )
-    return participant_table
+    return output_table.order_columns(participant_table)
