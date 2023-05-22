@@ -70,4 +70,4 @@ def build_participant_table(output_table, db_url, participant_list):
     participant_table["ethnicity"] = participant_table["ethnicity"].apply(
         lambda x: ethnicity_map.get(x)
     )
-    return output_table.order_columns(participant_table)
+    return participant_table
