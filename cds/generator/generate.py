@@ -12,6 +12,7 @@ from cds.generator.participant.family_relationship import (
 )
 from cds.generator.participant.participant import build_participant_table
 from cds.generator.sample.sample import build_sample_table
+from cds.generator.sample.sample_diagnosis import build_sample_diagnosis_table
 
 import pandas as pd
 
@@ -102,20 +103,28 @@ def generate_submission_package(
                 db_url=postgres_connection_url,
                 participant_list=participant_list,
             )
-        elif "family_relationship" in generator_list:
+        elif table_name == "family_relationship":
             output_dict[table_name].build_output(
                 build_family_relationship_table,
                 db_url=postgres_connection_url,
                 participant_list=participant_list,
             )
-        elif "sample" in generator_list:
+        elif table_name == "sample":
             output_dict[table_name].build_output(
                 build_sample_table,
                 db_url=postgres_connection_url,
                 sample_list=sample_list,
             )
-        elif "sample_diagnosis" in generator_list:
-            # output_dict[table_name].build_output()
+        elif table_name == "sample_diagnosis":
+            dictionary = submission_template_dict["Terms and Value Sets"]
+            icd_o_dictionary = dictionary[
+                dictionary["Value Set Name"] == "diagnosis_icd_o"
+            ]
+            output_dict[table_name].build_output(
+                build_sample_diagnosis_table,
+                sample_list=sample_list,
+                icd_o_dictionary=icd_o_dictionary,
+            )
             build_diagnosis_table(
                 postgres_connection_url,
                 sample_list,
@@ -123,7 +132,7 @@ def generate_submission_package(
                 True,
                 file_sample_participant_map,
             )
-        elif "sequencing_file" in generator_list:
+        elif table_name == "sequencing_file":
             # output_dict[table_name].build_output()
             build_sequencing_file_table(
                 postgres_connection_url,
