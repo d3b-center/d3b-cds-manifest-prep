@@ -103,6 +103,10 @@ class OutputTable(object):
             f"{self.parent.name}.{self.parent.key_column}",
             self.key_column,
         ]
+        # confirm that all the expected columns are in the output table
+        for column_name in self.template_df.columns:
+            if column_name not in df.columns:
+                df[column_name] = None
         return df[self.template_df.columns].sort_values(key_columns)
 
     def build_output(self, build_func=None, use_template=False, **kwargs):
