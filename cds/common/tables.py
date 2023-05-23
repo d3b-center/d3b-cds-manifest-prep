@@ -3,16 +3,25 @@ from d3b_cavatica_tools.utils.logging import get_logger
 import pandas as pd
 
 
-def extract_parent_from_template(template_df):
+def extract_parent_from_template(template_df, submission_template_dict):
     """Extract parent concept from template
 
     :param template_df: template data to extract from
     :type template_df: pandas.DataFrame
+    :param submission_template_dict: collection of all the possible
+    templates that this table could be, defaults to None
+    :type submission_template_dict: dict, optional
     :return: parent concept name
     :rtype: str
     """
     parent_col = template_df.columns[1]
-    return parent_col.partition(".")[0] if "." in parent_col else None
+    parent_name = parent_col.partition(".")[0] if "." in parent_col else None
+    if parent_name:
+        return OutputTable(
+            parent_name, submission_template_dict=submission_template_dict
+        )
+    else:
+        return None
 
 
 class OutputTable(object):
@@ -61,7 +70,13 @@ class OutputTable(object):
         self.template_df = template_df or submission_template_dict[self.name]
         if parent is None:
             self.logger.debug("parent not supplied, deriving from template_df")
-        self.parent = parent or extract_parent_from_template(self.template_df)
+        self.parent = (
+            parent
+            or extract_parent_from_template(
+                self.template_df, submission_template_dict
+            ),
+        )[0]
+
         if key_column is None:
             self.logger.debug(
                 "key_column not supplied, deriving from template_df"
@@ -72,18 +87,42 @@ class OutputTable(object):
             else self.template_df.columns[1]
         )
 
-    def template_is_output(self):
-        """Set the output table to be the template_df
+    def order_columns(self, df):
+        """Order columns and sort values
 
-        Use this if the output table should be empty
+        Using the column order specified in the template_df, order the columns
+        in df. Then sort the values in that data frame based on the key_column
+        of the table and the table's parent key column
+
+        :param df: table to order the columns in
+        :type df: pandas.DataFrame
+        :return: table with ordered columns and sorted values
+        :rtype: pandas.DataFrame
         """
-        self.output_table = self.template_df
+        key_columns = [
+            f"{self.parent.name}.{self.parent.key_column}",
+            self.key_column,
+        ]
+        return df[self.template_df.columns].sort_values(key_columns)
 
-    def build_output(self, build_func=None, use_template=None, **kwargs):
+    def build_output(self, build_func=None, use_template=False, **kwargs):
+        """Build the output table
+
+        Build the output table using the supplied build_func or using the
+        template. Use the template if the output table should be empty. Output
+        of the build_func will have columns ordered and values sorted.
+
+        :param build_func: function to use to build the output table. Must
+        return a dataframe, defaults to None
+        :type build_func: function, optional
+        :param use_template: should the template_df be used as the output table?
+        defaults to False
+        :type use_template: bool, optional
+        """
         if use_template:
-            self.template_is_output()
+            self.output_table = self.template_df
         else:
-            self.output_table = build_func(self, **kwargs)
+            self.output_table = self.order_columns(build_func(self, **kwargs))
 
     def save_table(self, submission_package_dir, **kwargs):
         """Save the output table to a file with other files in a submission
