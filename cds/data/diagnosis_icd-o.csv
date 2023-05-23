@@ -1,0 +1,51 @@
+,primary_diagnosis,diagnosis_icd_o
+109,Adenoma,8140/0
+36,Atypical Teratoid Rhabdoid Tumor (ATRT),9508/3
+31,Brainstem glioma- Diffuse intrinsic pontine glioma,9385/3
+1016,Cavernoma,9121/0 
+388,Chordoma,9370/3
+56,Choroid plexus carcinoma,9390/3
+38,Choroid plexus papilloma,9390/0
+11,Craniopharyngioma,9350/1
+74,Dysembryoplastic neuroepithelial tumor (DNET),9413/0
+39,Embryonal Tumor with Multilayered Rosettes (ETMR),9478/3
+0,Ependymoma,9391/3 
+14,Ewings Sarcoma,9364/3
+66,Ganglioglioma,9505/1
+205,Ganglioneuroblastoma,9490/3 
+462,Germinoma,9064/3
+329,Glial-neuronal tumor NOS,9505/0
+1492,Gliomatosis Cerebri,9381/3 
+81,Hemangioblastoma,9161/1
+1,High-grade glioma/astrocytoma (WHO grade III/IV),9400/3 
+53,Langerhans Cell histiocytosis,9751/3
+3,Low-grade glioma/astrocytoma (WHO grade I/II),9400/0
+254,Malignant peripheral nerve sheath tumor (MPNST),9540/3 
+19,Medulloblastoma,9470/3
+71,Meningioma,9530/0 
+112,Metastatic secondary tumors,8000/6
+1237,Mixed germ cell tumor,9064/3
+27,Neuroblastoma,9500/3
+478,Neurocytoma,9506/1
+47,Neurofibroma/Plexiform,9550/0 
+1490,Non-germinomatous germ cell tumor,9065/3
+40,Oligodendroglioma,9450/3
+261,Pineoblastoma,9362/3
+68,Primary CNS lymphoma,9591/3
+332,Rhabdomyosarcoma,8900/3
+10,Sarcoma,8800/3
+28,Schwannoma,9560/1
+169,Subependymal Giant Cell Astrocytoma (SEGA),9384/1 
+29,Supratentorial or Spinal Cord PNET,9473/3
+72,Teratoma,9080/3
+523,"embryonal tumor, nos, congenital type",
+1529,fibroma,8810/0
+477,ganglioneuroma,9490/0
+601,hamartoma,
+216,juvenile xanthogranuloma of the cns,
+589,malignant melanocytic neoplasm,8000/3
+1537,myofibroblastic tumor,8825/1
+359,myxoid spindle cell tumor,
+667,ossifying fibroma,9262/0
+25,osteoblastoma,9200/0
+1327,perineuroma,9571/0
