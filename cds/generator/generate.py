@@ -1,11 +1,11 @@
+import sys
 import warnings
 
 from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.constants import all_generator_list
 from cds.common.tables import OutputTable
-from cds.generator.diagnosis.build_manifest import build_diagnosis_table
-from cds.generator.file.sequencing_file import build_sequencing_file_table
+from cds.generator.file.file import build_sequencing_file_table
 from cds.generator.genomic_info.build_manifest import build_genomic_info_table
 from cds.generator.participant.family_relationship import (
     build_family_relationship_table,
@@ -125,23 +125,16 @@ def generate_submission_package(
                 sample_list=sample_list,
                 icd_o_dictionary=icd_o_dictionary,
             )
-            build_diagnosis_table(
-                postgres_connection_url,
-                sample_list,
-                submission_package_dir,
-                True,
-                file_sample_participant_map,
-            )
         elif table_name == "sequencing_file":
-            # output_dict[table_name].build_output()
-            build_sequencing_file_table(
-                postgres_connection_url,
-                file_sample_participant_map,
-                submission_package_dir,
-                submission_template_dict,
+            output_dict[table_name].build_output(
+                build_sequencing_file_table,
+                db_url=postgres_connection_url,
+                file_sample_participant_map=file_sample_participant_map,
+                submission_template_dict=submission_template_dict,
             )
         else:
             output_dict[table_name].logger.error(
                 f"Table {table_name} has no method"
             )
+            sys.exit()
         output_dict[table_name].save_table(submission_package_dir)
