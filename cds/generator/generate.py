@@ -5,8 +5,7 @@ from d3b_cavatica_tools.utils.logging import get_logger
 
 from cds.common.constants import all_generator_list
 from cds.common.tables import OutputTable
-from cds.generator.file.file import build_sequencing_file_table
-from cds.generator.genomic_info.build_manifest import build_genomic_info_table
+from cds.generator.file.sequencing_file import build_sequencing_file_table
 from cds.generator.participant.family_relationship import (
     build_family_relationship_table,
 )

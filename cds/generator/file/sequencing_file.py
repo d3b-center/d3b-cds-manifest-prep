@@ -1,60 +1,125 @@
-from d3b_cavatica_tools.utils.logging import get_logger
+import sys
 
 from cds.common.columns import order_columns
-from cds.common.constants import seq_file_bucket_name
-from cds.common.queries import file_query
+from cds.common.constants import cds_x01_bucket_name
+from cds.generator.file.file_queries import (
+    file_query,
+    file_sequencing_experiment_query,
+)
 
 import pandas as pd
 import psycopg2
+from tqdm import tqdm
 
-logger = get_logger(__name__, testing_mode=False)
+
+def file_type_mapper(output_table, row):
+    file_type_map = {
+        "bai": "bam_index",
+        "bam": "bam",
+        "crai": "cram_index",
+        "cram": "cram",
+        "csv": "csv",
+        "maf": "maf",
+        "md5": "txt",
+        "pdf": "pdf",
+        "png": "png",
+        "tsv": "tsv",
+        "txt": "txt",
+        "vcf": "vcf",
+    }
+    if row["file_type"] in file_type_map.keys():
+        return file_type_map.get(row["file_type"])
+    # per cnvkit docs, seg and cns are tabular files
+    # https://cnvkit.readthedocs.io/en/stable/fileformats.html
+    elif row["file_type"] in ["cns", "seg"]:
+        return "tsv"
+    elif row["file_type"] == "html":
+        "txt"
+    elif row["file_type"] == "ped":
+        return "tsv"
+    elif row["file_type"] == "tar":
+        if row["file_name"].endswith("RNASeQC.counts.tar.gz"):
+            return "tar"
+        elif row["file_name"].endswith(".gatk_cnv.tar.gz"):
+            return "tar"
+        else:
+            output_table.logger.error(
+                f"unknown file type: {row['file_type']}, {row['file_name']}"
+            )
+    elif row["file_type"] == "Not Reported":
+        if row["file_name"].endswith(".Aligned.out.sorted.cram.crai"):
+            return "cram_index"
+        else:
+            output_table.logger.error(
+                f"unknown file type: {row['file_type']}, {row['file_name']}"
+            )
+    else:
+        output_table.logger.error(
+            f"unknown file type: {row['file_type']}, {row['file_name']}"
+        )
 
 
-def order_columns(manifest):
-    """order columns in the manifest
-
-    :param manifest: The manifest to order columns for
-    :type manifest: pandas.DataFrame
-    :return: The manifest with columns needed in the correct order
-    :rtype: pandas.DataFrame
-    """
-    columns = [
-        "type",
-        "sample.sample_id",
-        "sequencing_file_id",
-        "file_name",
-        "file_type",
-        "file_description",
-        "file_size",
-        "md5sum",
-        "file_url_in_cds",
-        "dcf_indexd_guid",
-        "library_id",
-        "library_selection",
-        "library_strategy",
-        "library_layout",
-        "library_source",
-        "number_of_bp",
-        "number_of_reads",
-        "design_description",
-        "platform",
-        "instrument_model",
-        "avg_read_length",
-        "coverage",
-        "reference_genome_assembly",
-        "checksum_algorithm",
-        "checksum_value",
-        "custom_assembly_fasta_file_for_alignment",
-        "file_mapping_level",
-        "sequence_alignment_software",
-    ]
-    return manifest[columns]
+def get_sequencing_experiment(
+    output_table,
+    file_list,
+    conn,
+    use_cache=True,
+    cache_file_name=".cached_sequencing_experiment_information.json",
+):
+    use_cache_override = False
+    if use_cache:
+        output_table.logger.info(
+            "Attempting to use cached sequencing_experiment information"
+        )
+        try:
+            sequencing_info = pd.read_json(cache_file_name)
+        except FileNotFoundError as e:
+            output_table.logger.warning(
+                "Cache file not found. Consider setting use_cache=False"
+            )
+            output_table.logger.warning(e)
+            use_cache_override = True
+        except ValueError as e:
+            output_table.logger.warning(
+                "Found `ValueError`. This can happen if the cache file is not "
+                "formatted correctly. Consider setting use_cache=False to "
+                "regenerate. Error message:"
+            )
+            output_table.logger.warning(e)
+            use_cache_override = True
+        except Exception as e:
+            output_table.logger.error("Detected unrecognized error:")
+            output_table.logger.error(type(e))
+            output_table.logger.error(e)
+            sys.exit()
+        else:
+            output_table.logger.info("Loaced cache file successfully.")
+    if use_cache_override:
+        output_table.logger.warning("Falling back to regenerating.")
+    if (not use_cache) or use_cache_override:
+        output_table.logger.info(
+            "Generating sequencing_experiment information. "
+            "This may take a while."
+        )
+        chunk_size = 1000
+        chunked_file_list = [
+            file_list[i : i + chunk_size]
+            for i in range(0, len(file_list), chunk_size)
+        ]
+        sequencing_info_list = []
+        for flist in tqdm(chunked_file_list):
+            sequencing_info_list.append(
+                pd.read_sql(file_sequencing_experiment_query(flist), conn)
+            )
+        sequencing_info = pd.concat(sequencing_info_list).reset_index(drop=True)
+        sequencing_info.to_json(cache_file_name)
+    return sequencing_info
 
 
 def build_sequencing_file_table(
+    output_table,
     db_url,
     file_sample_participant_map,
-    submission_package_dir,
     submission_template_dict,
 ):
     """Build the file table
@@ -70,25 +135,29 @@ def build_sequencing_file_table(
     :return: file table
     :rtype: pandas.DataFrame
     """
-    manifest_name = "sequencing_file"
-    logger.info(f"Building {manifest_name} table")
     file_list = (
         file_sample_participant_map["file_id"].drop_duplicates().to_list()
     )
-    logger.info("connecting to database")
-    breakpoint()
+    output_table.logger.info("connecting to database")
     conn = psycopg2.connect(db_url)
 
-    logger.info("Querying for manifest of files")
-    output_table = file_sample_participant_map[["file_id", "sample_id"]]
+    output_table.logger.info("Querying for manifest of files")
 
-    db_info = pd.read_sql(file_query(file_list, seq_file_bucket_name), conn)
-    output_table = output_table.merge(db_info, how="left", on="file_id")
-    output_table["type"] = manifest_name
-    # Set the column order and sort on key column
-    output_table = order_columns(
-        output_table, manifest_name, submission_template_dict
-    ).sort_values("file_id")
-    logger.info("saving file manifest to file")
-    output_table.to_csv(f"{submission_package_dir}/file.csv", index=False)
-    return output_table
+    db_info = pd.read_sql(file_query(file_list, cds_x01_bucket_name), conn)
+
+    sequencing_info = get_sequencing_experiment(output_table, file_list, conn)
+
+    file_info = (
+        file_sample_participant_map[["file_id", "sample_id"]]
+        .drop_duplicates()
+        .rename(columns={"sample_id": "sample.sample_id"})
+        .merge(db_info, how="left", on="file_id")
+    )
+    file_info["sequencing_file_id"] = file_info["file_id"]
+    file_info["file_type"] = file_info.apply(
+        lambda row: file_type_mapper(output_table, row), axis=1
+    )
+    file_info["type"] = output_table.name
+    breakpoint()
+
+    return file_info
