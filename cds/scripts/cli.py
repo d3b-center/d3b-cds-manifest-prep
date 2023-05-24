@@ -84,7 +84,7 @@ def cds(ctx, postgres_connection_url, submission_packager_dir):
     "generator",
     multiple=True,
     type=click.Choice(
-        all_generator_list,
+        all_generator_list + ["all"],
         case_sensitive=False,
     ),
     default=["all"],
