@@ -18,13 +18,11 @@ POSTGRES_DB = "kfpostgresprd"
 
 X01_BUCKET = "cds-306-phs002517-x01"
 
-engine = create_engine(
+kf_engine = create_engine(
     f"postgresql+psycopg2://{os.getenv('KFPOSTGRES_USERNAME')}:"
     f"{os.getenv('KFPOSTGRES_PASSWORD')}"
     f"@{POSTGRES_HOST}:{POSTGRES_PORT}/{POSTGRES_DB}"
 )
-
-conn = engine.connect()
 
 query = f"""
 SELECT DISTINCT
@@ -40,7 +38,7 @@ JOIN biospecimen AS bs
 WHERE gf.external_id LIKE 's3://{X01_BUCKET}%%'
 ORDER BY sample_id, participant_id, file_id
 """
-
+conn = kf_engine.connect()
 logger.info("Querying for fsp")
 x01_fsp = pd.read_sql(
     text(query),
@@ -71,6 +69,25 @@ logger.info("Complete")
 
 conn.close()
 
+# query for jhu samples so that they can be excluded from the cds release
+jhu_query = """
+SELECT DISTINCT
+    kf_id
+FROM kfpostgres.biospecimen bs
+LEFT JOIN prod.specimens spec ON bs.external_sample_id=spec.sample_id
+-- this is not the most direct join but if we join on aliquot we have to
+-- cast/change column types because the fields are not compatible. so this
+-- works great as long as we include 'distinct' in the select
+WHERE coordinating_institution = 'Johns Hopkins Medicine'
+"""
+logger.info("querying for JHU samples")
+conn = d3bwarehouse_engine.connect()
+jhu_samples = pd.read_sql(text(jhu_query), conn)
+logger.info("Complete")
+
+logger.info("removing jhu samples from the file sample participant mapping")
+breakpoint()
+x01_fsp = x01_fsp[~x01_fsp["sample_id"].isin(jhu_samples["kf_id"].to_list())]
 # Validation
 
 # * Accounting
