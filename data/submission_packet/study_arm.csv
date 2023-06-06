@@ -1,0 +1,2 @@
+type,study.study_id,study_arm_id,clinical_trial_arm,clinical_trial_identifier,clinical_trial_repository
+study_arm,,,,,

@@ -1,0 +1,2 @@
+type,participant.participant_id,study.study_id,clinical_measure_file_id,file_name,file_type,file_description,file_size,md5sum,file_url_in_cds,dcf_indexd_guid,checksum_algorithm,checksum_value,file_mapping_level,participant_list
+clinical_measure_file,,,,,,,,,,,,,,

@@ -1,0 +1,2 @@
+type,sample.sample_id,methylation_array_file_id,file_name,file_type,file_description,file_size,md5sum,file_url_in_cds,dcf_indexd_guid,file_mapping_level,methylation_platform,reporter_label
+methylation_array_file,,,,,,,,,,,,
