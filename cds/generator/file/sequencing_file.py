@@ -59,6 +59,41 @@ def file_type_mapper(output_table, row):
         )
 
 
+library_strategy_map = {
+    "WGS": "WGS",
+    "RNA-Seq": "RNA-Seq",
+    "WXS": "WXS",
+    "Targeted Sequencing": "Targeted-Capture",
+}
+
+
+def platform_mapper(output_table, row):
+    if row["platform"] == "Illumina":
+        return "Illumina"
+    elif row["platform"] == "Other":
+        if (row["instrument_model"] in ["DNBSeq", "DNBseq"]) & (
+            row["library_strategy"] == "RNA-Seq"
+        ) & row["sequencing_center_id"] == "SC_FAD4KCQG":
+            # all dnbseq, rna-seq samples sequenced at BGI are presumed to go
+            # through BGISEQ
+            return "BGQSEQ"
+
+
+# q = f"""
+# select distinct
+# se.external_id as library_id,
+# se.created_at::date,
+# pt.study_id
+# from participant pt
+#   join biospecimen bs on pt.kf_id = bs.participant_id
+#   join biospecimen_genomic_file bg on bs.kf_id = bg.biospecimen_id
+#   join genomic_file gf on gf.kf_id = bg.genomic_file_id
+#   join sequencing_experiment_genomic_file sg on gf.kf_id = sg.genomic_file_id
+#   join sequencing_experiment se on se.kf_id = sg.sequencing_experiment_id
+# where se.external_id in ({str(se_lib_list)[1:-1]})
+# """
+
+
 def get_sequencing_experiment(
     output_table,
     file_list,
@@ -141,12 +176,18 @@ def build_sequencing_file_table(
     output_table.logger.info("connecting to database")
     conn = psycopg2.connect(db_url)
 
-    output_table.logger.info("Querying for manifest of files")
-
-    db_info = pd.read_sql(file_query(file_list, cds_x01_bucket_name), conn)
-
+    output_table.logger.info(
+        "Querying for manifest of files' sequencing information"
+    )
     sequencing_info = get_sequencing_experiment(output_table, file_list, conn)
+    sequencing_info["library_strategy"] = sequencing_info[
+        "library_strategy"
+    ].apply(lambda x: library_strategy_map.get(x))
 
+    output_table.logger.info("Querying for manifest of files")
+    db_info = pd.read_sql(file_query(file_list, cds_x01_bucket_name), conn)
+    conn.close()
+    # curate the data to map to cds values
     file_info = (
         file_sample_participant_map[["file_id", "sample_id"]]
         .drop_duplicates()
@@ -157,6 +198,7 @@ def build_sequencing_file_table(
     file_info["file_type"] = file_info.apply(
         lambda row: file_type_mapper(output_table, row), axis=1
     )
+
     file_info["type"] = output_table.name
     breakpoint()
 
