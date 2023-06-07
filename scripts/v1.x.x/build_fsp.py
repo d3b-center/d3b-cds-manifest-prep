@@ -69,8 +69,9 @@ logger.info("Complete")
 
 conn.close()
 
-logger.info("removing jhu samples from the file sample participant mapping")
+# query for jhu samples so that they can be excluded from the cds release
 jhu_samples = pd.read_csv("data/jhu_samples.csv")
+logger.info("removing jhu samples from the file sample participant mapping")
 
 x01_fsp = x01_fsp[~x01_fsp["sample_id"].isin(jhu_samples["kf_id"].to_list())]
 # Validation
