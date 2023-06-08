@@ -6,7 +6,7 @@ def family_relationship_query(participant_list):
     query = f"""
     select distinct
         fr.participant1_id as "participant.participant_id",
-        fr.kf_id as family_relationship_id, 
+        fr.kf_id as family_relationship_id,
         fr.participant2_id as related_to_participant_id,
         fr.participant1_to_participant2_relation as relationship,
         pt.family_id

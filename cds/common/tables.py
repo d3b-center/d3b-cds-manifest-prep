@@ -1,7 +1,5 @@
 from d3b_cavatica_tools.utils.logging import get_logger
 
-import pandas as pd
-
 
 def extract_parent_from_template(template_df, submission_template_dict):
     """Extract parent concept from template

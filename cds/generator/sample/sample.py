@@ -41,8 +41,8 @@ anatomical_site_map = {
     "Brain Stem- Pons": "Brain stem",
     "Brain Stem-Medulla": "Brain stem",
     "Brain Stem-Medulla; Brain Stem- Midbrain/Tectum": "Brain stem",
-    "Brain Stem-Medulla; Brain Stem- Midbrain/Tectum; Brain Stem- Pons": "Brain stem",
-    "Brain Stem-Medulla; Brain Stem- Midbrain/Tectum; Brain Stem- Pons; Cerebellum/Posterior Fossa": "Brain stem",
+    "Brain Stem-Medulla; Brain Stem- Midbrain/Tectum; Brain Stem- Pons": "Brain stem",  # noqa
+    "Brain Stem-Medulla; Brain Stem- Midbrain/Tectum; Brain Stem- Pons; Cerebellum/Posterior Fossa": "Brain stem",  # noqa
     "Brain Stem-Medulla; Brain Stem- Pons": "Brain stem",
     "Brainstem": "Brain stem",
     "Cerebellum/Posterior Fossa": "Cerebellum, NOS",
@@ -61,12 +61,12 @@ anatomical_site_map = {
     "Right frontal lobe": "Frontal lobe",
     "Skull": "Bones of skull and face and associated joints",
     "Spinal Cord- Cervical": "Spinal cord",
-    "Spinal Cord- Cervical; Spinal Cord- Lumbar/Thecal Sac; Spinal Cord- Thoracic": "Spinal cord",
-    "Spinal Cord- Cervical; Spinal Cord- Lumbar/Thecal Sac; Spinal Cord- Thoracic; Suprasellar/Hypothalamic/Pituitary": "Spinal cord",
+    "Spinal Cord- Cervical; Spinal Cord- Lumbar/Thecal Sac; Spinal Cord- Thoracic": "Spinal cord",  # noqa
+    "Spinal Cord- Cervical; Spinal Cord- Lumbar/Thecal Sac; Spinal Cord- Thoracic; Suprasellar/Hypothalamic/Pituitary": "Spinal cord",  # noqa
     "Spinal Cord- Cervical; Spinal Cord- Thoracic": "Spinal cord",
     "Spinal Cord- Lumbar/Thecal Sac": "Spinal cord",
     "Spinal Cord- Lumbar/Thecal Sac; Spinal Cord- Thoracic": "Spinal cord",
-    "Spinal Cord- Lumbar/Thecal Sac; Spinal Cord- Thoracic; Ventricles": "Spinal cord",
+    "Spinal Cord- Lumbar/Thecal Sac; Spinal Cord- Thoracic; Ventricles": "Spinal cord",  # noqa
     "Spinal Cord- Thoracic": "Spinal cord",
     "Spinal Cord- Thoracic; Spine NOS": "Spinal cord",
     "Spine": "Spinal cord",

@@ -1,6 +1,5 @@
 import sys
 
-from cds.common.columns import order_columns
 from cds.common.constants import cds_x01_bucket_name
 from cds.generator.file.file_queries import (
     file_query,

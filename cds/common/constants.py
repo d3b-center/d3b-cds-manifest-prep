@@ -1,5 +1,3 @@
-import pkg_resources
-
 submission_package_default_dir = "data/submission_packet"
 
 

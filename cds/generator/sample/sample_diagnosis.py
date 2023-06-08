@@ -1,23 +1,5 @@
 import pandas as pd
 import pkg_resources
-import psycopg2
-
-
-def sample_diagnosis_query(sample_list):
-    query = f"""
-    select pt.study_id,
-           bs.kf_id as sample_id,
-           composition as sample_type,
-           bs.participant_id as participant_id,
-           source_text_tissue_type as sample_tumor_status,
-           source_text_anatomical_site as anatomic_site,
-           age_at_event_days as participant_age_at_collection,
-           bs.external_aliquot_id as alternate_sample_id
-    from biospecimen bs
-    join participant pt on pt.kf_id = bs.participant_id
-    where bs.kf_id in ({str(sample_list)[1:-1]})
-    """
-    return query
 
 
 def load_histologies(output_table):

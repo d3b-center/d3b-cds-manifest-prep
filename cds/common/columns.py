@@ -1,7 +1,5 @@
 from d3b_cavatica_tools.utils.logging import get_logger
 
-import pandas as pd
-
 logger = get_logger(__name__, testing_mode=False)
 
 

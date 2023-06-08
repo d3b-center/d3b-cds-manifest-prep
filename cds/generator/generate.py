@@ -51,9 +51,6 @@ def generate_submission_package(
     sample_list = (
         file_sample_participant_map["sample_id"].drop_duplicates().to_list()
     )
-    file_list = (
-        file_sample_participant_map["file_id"].drop_duplicates().to_list()
-    )
     # Save the seed file
     file_sample_participant_map.to_csv(
         f"{submission_package_dir}/file_sample_participant_map.csv", index=False

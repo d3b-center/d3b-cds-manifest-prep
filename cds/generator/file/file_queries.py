@@ -8,8 +8,8 @@ def file_kf_query(file_list):
     select kf_id,
            file_format as file_type,
            controlled_access,
-           url, 
-           reference_genome, 
+           url,
+           reference_genome,
            is_harmonized
     from genomic_file gf
     join file_metadata.indexd_scrape idx on gf.latest_did = idx.did
@@ -20,7 +20,7 @@ def file_kf_query(file_list):
 
 def file_sequencing_experiment_query(file_list):
     query = f"""
-    select --distinct 
+    select --distinct
     sg.genomic_file_id as file_id,
         se.external_id as library_id,
         se.experiment_strategy as library_strategy,
