@@ -17,7 +17,7 @@ def build_study_funding_table(submission_package_dir, submission_template_dict):
         "study_funding", submission_template_dict=submission_template_dict
     )
     # Build the output table
-    table_object.template_is_output()
+    table_object.build_output(use_template=True)
     # Save the table
     table_object.save_table(submission_package_dir)
     return table_object
