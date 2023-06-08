@@ -40,7 +40,7 @@ ORDER BY sample_id, participant_id, file_id
 """
 conn = kf_engine.connect()
 logger.info("Querying for fsp")
-x01_fsp = pd.read_sql(
+x01_fsp_raw = pd.read_sql(
     text(query),
     conn,
 )
@@ -72,7 +72,9 @@ conn.close()
 logger.info("removing jhu samples from the file sample participant mapping")
 jhu_samples = pd.read_csv("data/jhu_samples.csv")
 
-x01_fsp = x01_fsp[~x01_fsp["sample_id"].isin(jhu_samples["kf_id"].to_list())]
+x01_fsp = x01_fsp_raw[
+    ~x01_fsp_raw["sample_id"].isin(jhu_samples["kf_id"].to_list())
+]
 # Validation
 
 # * Accounting
