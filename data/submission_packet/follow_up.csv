@@ -1,0 +1,2 @@
+type,participant.participant_id,follow_up_id,days_to_follow_up,follow_up_category,adverse_event,comorbidity,comorbidity_method_of_diagnosis,disease_response,risk_factor,follow_up_other
+follow_up,,,,,,,,,,

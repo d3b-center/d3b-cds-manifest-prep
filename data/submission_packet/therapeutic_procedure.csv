@@ -1,0 +1,2 @@
+type,participant.participant_id,therapeutic_procedure_id,days_to_treatment_start,days_to_treatment_end,treatment_outcome,treatment_type,therapeutic_agents
+therapeutic_procedure,,,,,,,

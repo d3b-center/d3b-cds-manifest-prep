@@ -239,10 +239,25 @@ def order_columns(manifest):
     :rtype: pandas.DataFrame
     """
     columns = [
+        "type",
+        "participant.participant_id",
         "diagnosis_id",
-        "primary_diagnosis",
-        "participant_id",
-        "disease_type",
+        "diagnosis_icd_o",
+        "diagnosis_id_cm",
+        "diagnosis_finer_resolution",
+        "disease_phase",
+        "anatomic_site",
+        "age_at_diagnosis",
+        "vital_status",
+        "toronto_childhood_cancer_staging",
+        "days_to_recurrence",
+        "last_known_disease_status",
+        "days_to_last_known_disease_status",
+        "days_to_last_followup",
+        "tumor_grade",
+        "tumor_stage_clinical_t",
+        "tumor_stage_clinical_n",
+        "tumor_stage_clinical_m",
     ]
     return manifest[columns]
 

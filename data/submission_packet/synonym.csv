@@ -1,0 +1,2 @@
+type,study.study_id,sample.sample_id,participant.participant_id,synonym_id,repository_of_synonym_id
+synonym,,,,,

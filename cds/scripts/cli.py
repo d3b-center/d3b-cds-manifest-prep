@@ -6,6 +6,7 @@ from cds.common.constants import (
     default_postgres_url,
     file_sample_participant_map_default,
     submission_package_default_dir,
+    template_default,
 )
 from cds.data.fetch_histologies import fetch_histologies_file
 from cds.generator.generate import generate_submission_package
@@ -83,14 +84,22 @@ def cds(ctx, postgres_connection_url, submission_packager_dir):
     "generator",
     multiple=True,
     type=click.Choice(
-        all_generator_list,
+        all_generator_list + ["all"],
         case_sensitive=False,
     ),
     default=["all"],
     show_default=True,
 )
+@click.option(
+    "-t",
+    "--template_file",
+    type=click.Path(exists=True, dir_okay=False),
+    required=True,
+    default=pkg_resources.resource_filename("cds", template_default),
+    help="Excel template for the submission",
+)
 @click.pass_context
-def generate_submission(ctx, seed_file, generator):
+def generate_submission(ctx, seed_file, generator, template_file):
     """
     Generate a CDS submission manifest or manifests using a seed
     file_sample_participant mapping.
@@ -100,6 +109,7 @@ def generate_submission(ctx, seed_file, generator):
         ctx.obj["submission_packager_dir"],
         seed_file,
         generator,
+        template_file,
     )
 
 
