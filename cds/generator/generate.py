@@ -142,11 +142,13 @@ def generate_submission_package(
     # pre-built version of the manifest. If the manifest doesn't exist in the
     # submission package directory, use the template version of the file.
     if build_excel_output:
+        logger.info("saving files into one excel file")
         pre_built_files = listdir(submission_package_dir)
         with pd.ExcelWriter(
             f"{submission_package_dir}/cbtn_ccdi_clinical_data.xlsx"
         ) as writer:
             for table_name, table in submission_template_dict.items():
+                logger.info(f"saving {table_name}")
                 if table_name in output_dict:
                     output_dict[table_name].output_table.to_excel(
                         writer, sheet_name=table_name
