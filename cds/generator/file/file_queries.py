@@ -41,6 +41,32 @@ def file_sequencing_experiment_query(file_list):
     return query
 
 
+def bg_sequencing_experiment_query(file_id, biospecimen_id):
+    query = f"""
+    select distinct
+    sg.genomic_file_id as file_id,
+        bg.biospecimen_id as sample_id,
+        se.external_id as library_id,
+        se.experiment_strategy as library_strategy,
+        se.platform as platform,
+        se.instrument_model as instrument_model,
+        se.is_paired_end as library_layout,
+        se.experiment_strategy as library_source,
+        se.total_reads as number_of_reads,
+        se.mean_read_length as avg_read_length,
+        se.mean_depth as coverage,
+        gf.reference_genome as reference_genome_assembly,
+        se.library_selection as library_selection
+    from genomic_file gf
+    join biospecimen_genomic_file bg on bg.genomic_file_id = gf.kf_id
+    join sequencing_experiment_genomic_file sg on sg.genomic_file_id = gf.kf_id
+    join sequencing_experiment se on sg.sequencing_experiment_id = se.kf_id
+    where sg.genomic_file_id = '{file_id}'
+    AND bg.biospecimen_id = '{biospecimen_id}'
+    """
+    return query
+
+
 def file_bucket_query(bucket_name):
     query = f"""
     with files as (

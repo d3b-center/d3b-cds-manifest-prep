@@ -1,13 +1,17 @@
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from os import listdir
 
 from cds.common.constants import cds_x01_bucket_name
 from cds.generator.file.file_queries import (
+    bg_sequencing_experiment_query,
     file_query,
     file_sequencing_experiment_query,
 )
 
 import pandas as pd
 import psycopg2
+from sqlalchemy import create_engine, text
 from tqdm import tqdm
 
 
@@ -95,10 +99,12 @@ def platform_mapper(output_table, row):
 
 def get_sequencing_experiment(
     output_table,
-    file_list,
     conn,
+    file_sample_participant_map,
     use_cache=True,
     cache_file_name=".cached_sequencing_experiment_information.json",
+    method=("gf", "bg"),
+    temp_cache_dir="~/mount/temp_cds_cache",
 ):
     use_cache_override = False
     if use_cache:
@@ -135,17 +141,132 @@ def get_sequencing_experiment(
             "Generating sequencing_experiment information. "
             "This may take a while."
         )
-        chunk_size = 1000
-        chunked_file_list = [
-            file_list[i : i + chunk_size]
-            for i in range(0, len(file_list), chunk_size)
-        ]
-        sequencing_info_list = []
-        for flist in tqdm(chunked_file_list):
-            sequencing_info_list.append(
-                pd.read_sql(file_sequencing_experiment_query(flist), conn)
+        if "gf" in method:
+            output_table.logger.info(
+                "Getting sequencing experiments by genomic file"
             )
-        sequencing_info = pd.concat(sequencing_info_list).reset_index(drop=True)
+            file_list = (
+                file_sample_participant_map["file_id"]
+                .drop_duplicates()
+                .to_list()
+            )
+            chunk_size = 1000
+            chunked_file_list = [
+                file_list[i : i + chunk_size]
+                for i in range(0, len(file_list), chunk_size)
+            ]
+            sequencing_info_list = []
+            for flist in tqdm(chunked_file_list):
+                sequencing_info_list.append(
+                    pd.read_sql(
+                        text(file_sequencing_experiment_query(flist)), conn
+                    )
+                )
+            sequencing_info = pd.concat(sequencing_info_list).reset_index(
+                drop=True
+            )
+        elif "bg" in method:
+            output_table.logger.info(
+                "Getting sequencing experiments by biospecimen-genomic file"
+            )
+
+            def get_bg_sequencing_experiment(file_id, biospecimen_id, conn):
+                bg_se = pd.read_sql(
+                    text(
+                        bg_sequencing_experiment_query(file_id, biospecimen_id)
+                    ),
+                    conn,
+                )
+                bg_se.to_csv(
+                    temp_cache_dir + f"/{file_id}_{biospecimen_id}.csv"
+                )
+                return bg_se
+
+            already_gathered_files = listdir(
+                temp_cache_dir.replace("~", "/home/ubuntu")
+            )
+            file_sample_participant_map["file_sample_file_name"] = (
+                file_sample_participant_map["file_id"]
+                + "_"
+                + file_sample_participant_map["sample_id"]
+                + ".csv"
+            )
+
+            things_needed = file_sample_participant_map[
+                ~file_sample_participant_map["file_sample_file_name"].isin(
+                    already_gathered_files
+                )
+            ]
+
+            file_list = things_needed["file_id"]
+            biospecimen_list = things_needed["sample_id"]
+            output_table.logger.info(
+                "Gathering sequencing experiments for "
+                f"{len(file_list)} file-specimen combinations"
+            )
+            # Read all the data from database and save it
+            with tqdm(total=len(file_list)) as pbar:
+                with ThreadPoolExecutor() as tpex:
+                    futures = {}
+                    for file_id, biospecimen_id in zip(
+                        file_list, biospecimen_list
+                    ):
+                        output_table.logger.debug(
+                            f"Getting sequencing experiment for {file_id},"
+                            f" {biospecimen_id}"
+                        )
+                        futures[
+                            tpex.submit(
+                                get_bg_sequencing_experiment,
+                                file_id,
+                                biospecimen_id,
+                                conn,
+                            )
+                        ] = f"{file_id}_{biospecimen_id}"
+                    sequencing_info_list = {}
+                    for f in as_completed(futures):
+                        sequencing_info_list[futures[f]] = f.result()
+                        pbar.update(1)
+            # read the files saved
+            all_gathered_files = [
+                temp_cache_dir + "/" + f
+                for f in listdir(temp_cache_dir.replace("~", "/home/ubuntu"))
+            ]
+            chunk_size = 1000
+            chunked_file_list = [
+                all_gathered_files[i : i + chunk_size]
+                for i in range(0, len(all_gathered_files), chunk_size)
+            ]
+            output_table.logger.info(
+                "reading all the sequencing experiments (in groups of "
+                f"{chunk_size} into one dataframe"
+            )
+
+            def csv_reader(file_name):
+                try:
+                    out = pd.read_csv(file_name)
+                except pd.errors.EmptyDataError:
+                    output_table.logger.error(
+                        f"file had empty data error: {file_name}"
+                    )
+                return out
+
+            sequencing_info_list = []
+            for flist in tqdm(chunked_file_list):
+                with ThreadPoolExecutor() as tpex:
+                    sequencing_info_list.append(
+                        pd.concat(tpex.map(csv_reader, flist))
+                    )
+            s
+        else:
+            output_table.logger.error(
+                "unrecognized method. Must be one of 'gf' or 'bg'"
+            )
+            sys.exit()
+        output_table.logger.info(
+            f"saving sequencing experiments to cache file: {cache_file_name}"
+        )
+        breakpoint()
         sequencing_info.to_json(cache_file_name)
     return sequencing_info
 
@@ -173,18 +294,30 @@ def build_sequencing_file_table(
         file_sample_participant_map["file_id"].drop_duplicates().to_list()
     )
     output_table.logger.info("connecting to database")
-    conn = psycopg2.connect(db_url)
-
+    sql_engine = create_engine(
+        db_url.replace("postgresql://", "postgresql+psycopg2://")
+    )
+    conn = sql_engine.connect()
     output_table.logger.info(
         "Querying for manifest of files' sequencing information"
     )
-    sequencing_info = get_sequencing_experiment(output_table, file_list, conn)
+    sequencing_info = get_sequencing_experiment(
+        output_table=output_table,
+        conn=conn,
+        file_sample_participant_map=file_sample_participant_map,
+        method="bg",
+    )
     sequencing_info["library_strategy"] = sequencing_info[
         "library_strategy"
     ].apply(lambda x: library_strategy_map.get(x))
+    sequencing_info = sequencing_info.rename(
+        columns={"sample_id": "sample.sample_id"}
+    )
 
     output_table.logger.info("Querying for manifest of files")
-    db_info = pd.read_sql(file_query(file_list, cds_x01_bucket_name), conn)
+    db_info = pd.read_sql(
+        text(file_query(file_list, cds_x01_bucket_name)), conn
+    )
     conn.close()
     # curate the data to map to cds values
     file_info = (
@@ -199,6 +332,7 @@ def build_sequencing_file_table(
     )
 
     file_info["type"] = output_table.name
-    breakpoint()
-
-    return file_info
+    sequencing_file = file_info.merge(
+        sequencing_info, on=("file_id", "sample.sample_id"), how="left"
+    )
+    return sequencing_file
