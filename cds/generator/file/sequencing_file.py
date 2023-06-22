@@ -10,7 +10,6 @@ from cds.generator.file.file_queries import (
 )
 
 import pandas as pd
-import psycopg2
 from sqlalchemy import create_engine, text
 from tqdm import tqdm
 
@@ -257,7 +256,12 @@ def get_sequencing_experiment(
                     sequencing_info_list.append(
                         pd.concat(tpex.map(csv_reader, flist))
                     )
-            s
+            sequencing_info = (
+                pd.concat(sequencing_info_list)
+                .reset_index(drop=True)
+                .drop(columns=["Unnamed: 0"])
+                .drop_duplicates()
+            )
         else:
             output_table.logger.error(
                 "unrecognized method. Must be one of 'gf' or 'bg'"
