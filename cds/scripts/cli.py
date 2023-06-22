@@ -16,27 +16,34 @@ import click
 import pkg_resources
 
 
+def common_arg_options(func):
+    """
+    Common click args and options
+    """
+    func = click.option(
+        "-c",
+        "--postgres_connection_url",
+        type=str,
+        required=True,
+        default=default_postgres_url,
+        help="Connection URL to KF Postgres",
+    )(func)
+
+    func = click.option(
+        "-d",
+        "--submission_package_dir",
+        type=click.Path(exists=True, dir_okay=True, file_okay=False),
+        required=False,
+        default=submission_package_default_dir,
+        show_default=True,
+        help="Location of directory that has the submision package.",
+    )(func)
+    return func
+
+
 @click.group()
 @click.version_option(package_name="d3b-cds-manifest-tools")
-@click.option(
-    "-c",
-    "--postgres_connection_url",
-    type=str,
-    required=True,
-    default=default_postgres_url,
-    help="Connection URL to KF Postgres",
-)
-@click.option(
-    "-d",
-    "--submission_packager_dir",
-    type=click.Path(exists=True, dir_okay=True, file_okay=False),
-    required=False,
-    default=submission_package_default_dir,
-    show_default=True,
-    help="Location of directory that has the submision package.",
-)
-@click.pass_context
-def cds(ctx, postgres_connection_url, submission_packager_dir):
+def cds():
     """
     Tools related to handling CDS manifest generation and QC.
 
@@ -60,13 +67,11 @@ def cds(ctx, postgres_connection_url, submission_packager_dir):
     trailing backslash, e.g. `path/to/dir/`
     :type submission_packager_dir: str
     """
-    ctx.ensure_object(dict)
-    ctx.obj["postgres_connection_url"] = postgres_connection_url
-    ctx.obj["submission_packager_dir"] = submission_packager_dir
     pass
 
 
 @cds.command("generate")
+@common_arg_options
 @click.option(
     "-f",
     "--seed_file",
@@ -98,15 +103,20 @@ def cds(ctx, postgres_connection_url, submission_packager_dir):
     default=pkg_resources.resource_filename("cds", template_default),
     help="Excel template for the submission",
 )
-@click.pass_context
-def generate_submission(ctx, seed_file, generator, template_file):
+def generate_submission(
+    postgres_connection_url,
+    submission_package_dir,
+    seed_file,
+    generator,
+    template_file,
+):
     """
     Generate a CDS submission manifest or manifests using a seed
     file_sample_participant mapping.
     """
     generate_submission_package(
-        ctx.obj["postgres_connection_url"],
-        ctx.obj["submission_packager_dir"],
+        postgres_connection_url,
+        submission_package_dir,
         seed_file,
         generator,
         template_file,
@@ -114,12 +124,10 @@ def generate_submission(ctx, seed_file, generator, template_file):
 
 
 @cds.command("qc")
-@click.pass_context
-def qc_submission(ctx):
+@common_arg_options
+def qc_submission(postgres_connection_url, submission_package_dir):
     """QC a CDS Submission Package"""
-    qc_submission_package(
-        ctx.obj["postgres_connection_url"], ctx.obj["submission_packager_dir"]
-    )
+    qc_submission_package(postgres_connection_url, submission_package_dir)
 
 
 @cds.command("gen_histologies")
@@ -130,10 +138,10 @@ def qc_submission(ctx):
     required=True,
     help="Filename of where to save the histologies file",
 )
-@click.pass_context
-def regenerate_histologies_data(ctx, output_filename):
+@common_arg_options
+def regenerate_histologies_data(postgres_connection_url, output_filename):
     """Regenerate histologies data"""
-    fetch_histologies_file(ctx.obj["postgres_connection_url"], output_filename)
+    fetch_histologies_file(postgres_connection_url, output_filename)
 
 
 if __name__ == "__main__":
