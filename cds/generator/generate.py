@@ -1,5 +1,6 @@
 import sys
 import warnings
+from os import listdir
 
 from d3b_cavatica_tools.utils.logging import get_logger
 
@@ -24,6 +25,7 @@ def generate_submission_package(
     seed_file,
     generator_list,
     submission_template_file,
+    build_excel_output=True,
 ):
     if "all" in generator_list:
         logger.info("Generating all manifests in submission packet")
@@ -134,3 +136,26 @@ def generate_submission_package(
             )
             sys.exit()
         output_dict[table_name].save_table(submission_package_dir)
+    # Write the output to excel
+    # For every table, if it has just been constructed, use that. Otherwise,
+    # if the table exists in the submission package directory, use that
+    # pre-built version of the manifest. If the manifest doesn't exist in the
+    # submission package directory, use the template version of the file.
+    if build_excel_output:
+        logger.info("saving files into one excel file")
+        pre_built_files = listdir(submission_package_dir)
+        with pd.ExcelWriter(
+            f"{submission_package_dir}/cbtn_ccdi_clinical_data.xlsx"
+        ) as writer:
+            for table_name, table in submission_template_dict.items():
+                logger.info(f"saving {table_name}")
+                if table_name in output_dict:
+                    output_dict[table_name].output_table.to_excel(
+                        writer, sheet_name=table_name
+                    )
+                elif table_name + ".csv" in pre_built_files:
+                    pd.read_csv(
+                        submission_package_dir + "/" + table_name + ".csv"
+                    ).to_excel(writer, sheet_name=table_name)
+                else:
+                    table.to_excel(writer, sheet_name=table_name)
