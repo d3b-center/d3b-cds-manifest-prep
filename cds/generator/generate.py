@@ -13,6 +13,8 @@ from cds.generator.participant.family_relationship import (
 from cds.generator.participant.participant import build_participant_table
 from cds.generator.sample.sample import build_sample_table
 from cds.generator.sample.sample_diagnosis import build_sample_diagnosis_table
+from cds.generator.study.study import build_study_table
+from cds.generator.study.study_admin import build_study_admin_table
 
 import pandas as pd
 
@@ -67,8 +69,6 @@ def generate_submission_package(
 
     # tables that are returned empty
     not_implemented_tables = [
-        "study",
-        "study_admin",
         "study_arm",
         "study_funding",
         "study_personnel",
@@ -129,6 +129,18 @@ def generate_submission_package(
                 db_url=postgres_connection_url,
                 file_sample_participant_map=file_sample_participant_map,
                 submission_template_dict=submission_template_dict,
+            )
+        elif table_name == "study":
+            output_dict[table_name].build_output(
+                build_study_table,
+                db_url=postgres_connection_url,
+                participant_list=participant_list,
+            )
+        elif table_name == "study_admin":
+            output_dict[table_name].build_output(
+                build_study_admin_table,
+                db_url=postgres_connection_url,
+                participant_list=participant_list,
             )
         else:
             output_dict[table_name].logger.error(
