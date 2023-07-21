@@ -12,6 +12,20 @@ def study_query(participant_list):
     return query
 
 
+import pandas as pd
+import psycopg2
+
+
+def study_query(participant_list):
+    query = f"""
+    select distinct
+        pt.study_id
+    from participant pt
+    where pt.kf_id in ({str(participant_list)[1:-1]})
+    """
+    return query
+
+
 def build_study_admin_table(output_table, db_url, participant_list):
     """Build the study table
 
@@ -21,6 +35,7 @@ def build_study_admin_table(output_table, db_url, participant_list):
     :type submission_package_dir: str
     :param submission_template_dict: template submission manifests
     :type submission_template_dict: dict
+    :return: study table
     :return: study table
     :rtype: OutputTable
     """
