@@ -27,7 +27,7 @@ def generate_submission_package(
     seed_file,
     generator_list,
     submission_template_file,
-    build_excel_output=True,
+    build_excel_output=False,
 ):
     if "all" in generator_list:
         logger.info("Generating all manifests in submission packet")

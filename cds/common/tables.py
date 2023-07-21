@@ -97,10 +97,15 @@ class OutputTable(object):
         :return: table with ordered columns and sorted values
         :rtype: pandas.DataFrame
         """
-        key_columns = [
-            f"{self.parent.name}.{self.parent.key_column}",
-            self.key_column,
-        ]
+        if self.parent:
+            key_columns = [
+                f"{self.parent.name}.{self.parent.key_column}",
+                self.key_column,
+            ]
+        else:
+            key_columns = [
+                self.key_column,
+            ]
         # confirm that all the expected columns are in the output table
         for column_name in self.template_df.columns:
             if column_name not in df.columns:

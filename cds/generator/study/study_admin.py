@@ -28,7 +28,6 @@ def build_study_admin_table(output_table, db_url, participant_list):
     conn = psycopg2.connect(db_url)
     output_table.logger.info("Querying for manifest of studies")
     study_admin_table = pd.read_sql(study_query(participant_list), conn)
-    breakpoint()
     conn.close()
     output_table.logger.info("Converting KF enums to CDS enums")
     study_admin_table["study_admin_id"] = study_admin_table["study_id"]
