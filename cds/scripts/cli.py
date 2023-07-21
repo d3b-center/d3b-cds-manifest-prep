@@ -10,38 +10,46 @@ from cds.common.constants import (
 )
 from cds.data.fetch_histologies import fetch_histologies_file
 from cds.generator.generate import generate_submission_package
+from cds.io.io import write_to_excel
 from cds.qc.qc import qc_submission_package
 
 import click
 import pkg_resources
 
+CONTEXT_SETTINGS = {
+    "help_option_names": ["-h", "--help"],
+    "max_content_width": 9999,  # workaround for https://github.com/pallets/click/issues/486
+}
 
-def common_arg_options(func):
-    """
-    Common click args and options
-    """
-    func = click.option(
-        "-c",
-        "--postgres_connection_url",
-        type=str,
-        required=True,
-        default=default_postgres_url,
-        help="Connection URL to KF Postgres",
-    )(func)
+option_pg_url = click.option(
+    "-c",
+    "--postgres_connection_url",
+    type=str,
+    required=True,
+    default=default_postgres_url,
+    help="Connection URL to KF Postgres",
+)
 
-    func = click.option(
-        "-d",
-        "--submission_package_dir",
-        type=click.Path(exists=True, dir_okay=True, file_okay=False),
-        required=False,
-        default=submission_package_default_dir,
-        show_default=True,
-        help="Location of directory that has the submision package.",
-    )(func)
-    return func
+option_submission_dir = click.option(
+    "-d",
+    "--submission_package_dir",
+    type=click.Path(exists=True, dir_okay=True, file_okay=False),
+    required=False,
+    default=submission_package_default_dir,
+    show_default=True,
+    help="Location of directory that has the submision package.",
+)
+option_template_file = click.option(
+    "-t",
+    "--template_file",
+    type=click.Path(exists=True, dir_okay=False),
+    required=True,
+    default=pkg_resources.resource_filename("cds", template_default),
+    help="Excel template for the submission",
+)
 
 
-@click.group()
+@click.group(context_settings=CONTEXT_SETTINGS)
 @click.version_option(package_name="d3b-cds-manifest-tools")
 def cds():
     """
@@ -71,7 +79,8 @@ def cds():
 
 
 @cds.command("generate")
-@common_arg_options
+@option_pg_url
+@option_submission_dir
 @click.option(
     "-f",
     "--seed_file",
@@ -95,14 +104,7 @@ def cds():
     default=["all"],
     show_default=True,
 )
-@click.option(
-    "-t",
-    "--template_file",
-    type=click.Path(exists=True, dir_okay=False),
-    required=True,
-    default=pkg_resources.resource_filename("cds", template_default),
-    help="Excel template for the submission",
-)
+@option_template_file
 def generate_submission(
     postgres_connection_url,
     submission_package_dir,
@@ -123,14 +125,26 @@ def generate_submission(
     )
 
 
+@cds.command("build_excel")
+@option_submission_dir
+@option_template_file
+def build_excel_submission(submission_package_dir, template_file):
+    write_to_excel(
+        submission_package_dir=submission_package_dir,
+        submission_template_file=template_file,
+    )
+
+
 @cds.command("qc")
-@common_arg_options
+@option_pg_url
+@option_submission_dir
 def qc_submission(postgres_connection_url, submission_package_dir):
     """QC a CDS Submission Package"""
     qc_submission_package(postgres_connection_url, submission_package_dir)
 
 
 @cds.command("gen_histologies")
+@option_pg_url
 @click.option(
     "-o",
     "--output_filename",
@@ -138,7 +152,6 @@ def qc_submission(postgres_connection_url, submission_package_dir):
     required=True,
     help="Filename of where to save the histologies file",
 )
-@common_arg_options
 def regenerate_histologies_data(postgres_connection_url, output_filename):
     """Regenerate histologies data"""
     fetch_histologies_file(postgres_connection_url, output_filename)
