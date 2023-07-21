@@ -1,4 +1,4 @@
 type,study.study_id,study_admin_id,organism_species,adult_or_childhood_study,data_types,file_types_and_format,number_of_participants,number_of_samples
-,,SD_8C478S85,Human,Pediatric,,,,
-,,SD_8Y99QZJJ,Human,Pediatric,,,,
-,,SD_BHJXBDQK,Human,Pediatric,,,,
+study_admin,SD_8C478S85,SD_8C478S85,Human,Pediatric,,,,
+study_admin,SD_8Y99QZJJ,SD_8Y99QZJJ,Human,Pediatric,,,,
+study_admin,SD_BHJXBDQK,SD_BHJXBDQK,Human,Pediatric,,,,
