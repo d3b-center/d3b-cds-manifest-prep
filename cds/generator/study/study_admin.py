@@ -48,4 +48,9 @@ def build_study_admin_table(output_table, db_url, participant_list):
     study_admin_table["study_admin_id"] = study_admin_table["study_id"]
     study_admin_table["organism_species"] = "Human"
     study_admin_table["adult_or_childhood_study"] = "Pediatric"
+    study_admin_table["type"] = output_table.name
+    # rename the study ID column
+    study_admin_table = study_admin_table.rename(
+        columns={"study_id": "study.study_id"}
+    )
     return study_admin_table

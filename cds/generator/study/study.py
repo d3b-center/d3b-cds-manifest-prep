@@ -37,5 +37,5 @@ def build_study_table(output_table, db_url, participant_list):
     output_table.logger.info("Converting KF enums to CDS enums")
     study_table["consent"] = "GRU"
     study_table["acl"] = "Open Access"
-    output_table.logger.info("table built!")
+    study_table["type"] = output_table.name
     return study_table
