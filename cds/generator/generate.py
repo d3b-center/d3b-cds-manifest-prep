@@ -27,6 +27,7 @@ def generate_submission_package(
     seed_file,
     generator_list,
     submission_template_file,
+    cache_dir,
     build_excel_output=False,
 ):
     if "all" in generator_list:
@@ -129,6 +130,7 @@ def generate_submission_package(
                 db_url=postgres_connection_url,
                 file_sample_participant_map=file_sample_participant_map,
                 submission_template_dict=submission_template_dict,
+                cache_dir=cache_dir,
             )
         elif table_name == "study":
             output_dict[table_name].build_output(
