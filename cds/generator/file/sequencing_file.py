@@ -1,8 +1,10 @@
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from os import listdir
+from pathlib import Path
 
 from cds.common.constants import cds_x01_bucket_name
+from cds.common.utils import mkdir_if_not_exists
 from cds.generator.file.file_queries import (
     bg_sequencing_experiment_query,
     file_query,
@@ -88,15 +90,18 @@ def get_sequencing_experiment(
     use_cache=True,
     cache_file_name=".cached_sequencing_experiment_information.json",
     method=("gf", "bg"),
-    temp_cache_dir="~/mount/temp_cds_cache",
+    cache_dir=Path.home() / "mount" / "temp_cds_cache",
 ):
-    use_cache_override = False
+    mkdir_if_not_exists(cache_dir)
+    cache_dir_bg_se = cache_dir / "biospecimen_sequencing_experiments"
+    mkdir_if_not_exists(cache_dir_bg_se)
+    use_cache_override = True
     if use_cache:
         output_table.logger.info(
             "Attempting to use cached sequencing_experiment information"
         )
         try:
-            sequencing_info = pd.read_json(cache_file_name)
+            sequencing_info = pd.read_json(cache_dir / cache_file_name)
         except FileNotFoundError as e:
             output_table.logger.warning(
                 "Cache file not found. Consider setting use_cache=False"
@@ -162,20 +167,19 @@ def get_sequencing_experiment(
                     conn,
                 )
                 bg_se.to_csv(
-                    temp_cache_dir + f"/{file_id}_{biospecimen_id}.csv"
+                    cache_dir_bg_se / f"{file_id}_{biospecimen_id}.csv"
                 )
                 return bg_se
 
-            already_gathered_files = listdir(
-                temp_cache_dir.replace("~", "/home/ubuntu")
-            )
+            already_gathered_files = [
+                f.name for f in cache_dir_bg_se.glob("**/*") if f.is_file()
+            ]
             file_sample_participant_map["file_sample_file_name"] = (
                 file_sample_participant_map["file_id"]
                 + "_"
                 + file_sample_participant_map["sample_id"]
                 + ".csv"
             )
-
             things_needed = file_sample_participant_map[
                 ~file_sample_participant_map["file_sample_file_name"].isin(
                     already_gathered_files
@@ -213,8 +217,8 @@ def get_sequencing_experiment(
                         pbar.update(1)
             # read the files saved
             all_gathered_files = [
-                temp_cache_dir + "/" + f
-                for f in listdir(temp_cache_dir.replace("~", "/home/ubuntu"))
+                cache_dir + "/" + f
+                for f in listdir(cache_dir.replace("~", "/home/ubuntu"))
             ]
             chunk_size = 1000
             chunked_file_list = [
@@ -253,10 +257,10 @@ def get_sequencing_experiment(
             )
             sys.exit()
         output_table.logger.info(
-            f"saving sequencing experiments to cache file: {cache_file_name}"
+            "saving sequencing experiments to cache file:"
+            f" {str(cache_dir/cache_file_name)}"
         )
-        breakpoint()
-        sequencing_info.to_json(cache_file_name)
+        sequencing_info.to_json(cache_dir / cache_file_name)
     return sequencing_info
 
 
@@ -265,6 +269,7 @@ def build_sequencing_file_table(
     db_url,
     file_sample_participant_map,
     submission_template_dict,
+    cache_dir,
 ):
     """Build the file table
 
@@ -295,6 +300,7 @@ def build_sequencing_file_table(
         conn=conn,
         file_sample_participant_map=file_sample_participant_map,
         method="bg",
+        cache_dir=cache_dir,
     )
     sequencing_info["library_strategy"] = sequencing_info[
         "library_strategy"

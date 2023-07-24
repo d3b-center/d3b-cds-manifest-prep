@@ -1,5 +1,5 @@
 submission_package_default_dir = "data/submission_packet"
-
+cache_default_dir = "./cache"
 
 all_generator_list = [
     "study",
