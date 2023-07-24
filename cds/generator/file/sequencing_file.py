@@ -81,21 +81,6 @@ def platform_mapper(output_table, row):
             return "BGQSEQ"
 
 
-# q = f"""
-# select distinct
-# se.external_id as library_id,
-# se.created_at::date,
-# pt.study_id
-# from participant pt
-#   join biospecimen bs on pt.kf_id = bs.participant_id
-#   join biospecimen_genomic_file bg on bs.kf_id = bg.biospecimen_id
-#   join genomic_file gf on gf.kf_id = bg.genomic_file_id
-#   join sequencing_experiment_genomic_file sg on gf.kf_id = sg.genomic_file_id
-#   join sequencing_experiment se on se.kf_id = sg.sequencing_experiment_id
-# where se.external_id in ({str(se_lib_list)[1:-1]})
-# """
-
-
 def get_sequencing_experiment(
     output_table,
     conn,
