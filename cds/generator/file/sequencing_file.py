@@ -1,6 +1,5 @@
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from os import listdir
 from pathlib import Path
 
 from cds.common.constants import cds_x01_bucket_name
