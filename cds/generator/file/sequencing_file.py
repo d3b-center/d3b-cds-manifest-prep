@@ -1,6 +1,5 @@
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from os import listdir
 from pathlib import Path
 
 from cds.common.constants import cds_x01_bucket_name
@@ -217,8 +216,7 @@ def get_sequencing_experiment(
                         pbar.update(1)
             # read the files saved
             all_gathered_files = [
-                cache_dir + "/" + f
-                for f in listdir(cache_dir.replace("~", "/home/ubuntu"))
+                f for f in cache_dir_bg_se.glob("**/*") if f.is_file()
             ]
             chunk_size = 1000
             chunked_file_list = [
