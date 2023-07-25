@@ -29,11 +29,11 @@ def write_to_excel(
             logger.info(f"saving {table_name}")
             if table_name in output_dict:
                 output_dict[table_name].output_table.to_excel(
-                    writer, sheet_name=table_name
+                    writer, sheet_name=table_name, index=False
                 )
             elif table_name + ".csv" in pre_built_files:
                 pd.read_csv(
                     submission_package_dir + "/" + table_name + ".csv"
-                ).to_excel(writer, sheet_name=table_name)
+                ).to_excel(writer, sheet_name=table_name, index=False)
             else:
-                table.to_excel(writer, sheet_name=table_name)
+                table.to_excel(writer, sheet_name=table_name, index=False)
