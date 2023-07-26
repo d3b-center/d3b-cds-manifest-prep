@@ -82,6 +82,15 @@ def platform_mapper(output_table, row):
             return "BGQSEQ"
 
 
+def library_layout_mapper(layout_value):
+    if layout_value:
+        return "Paired end"
+    elif not layout_value:
+        return "Single end"
+    else:
+        return "Not Applicable"
+
+
 def get_sequencing_experiment(
     output_table,
     conn,
@@ -305,6 +314,9 @@ def build_sequencing_file_table(
     ].apply(lambda x: library_strategy_map.get(x))
     sequencing_info = sequencing_info.rename(
         columns={"sample_id": "sample.sample_id"}
+    )
+    sequencing_info["library_layout"] = sequencing_info["library_layout"].apply(
+        library_layout_mapper
     )
 
     output_table.logger.info("Querying for manifest of files")
