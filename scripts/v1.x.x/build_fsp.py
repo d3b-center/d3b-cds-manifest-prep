@@ -70,9 +70,23 @@ logger.info("Complete")
 conn.close()
 
 # query for jhu samples so that they can be excluded from the cds release
-jhu_samples = pd.read_csv("data/jhu_samples.csv")
-logger.info("removing jhu samples from the file sample participant mapping")
+jhu_query = """
+SELECT DISTINCT
+    kf_id
+FROM kfpostgres.biospecimen bs
+LEFT JOIN prod.specimens spec ON bs.external_sample_id=spec.sample_id
+-- this is not the most direct join but if we join on aliquot we have to
+-- cast/change column types because the fields are not compatible. so this
+-- works great as long as we include 'distinct' in the select
+WHERE coordinating_institution = 'Johns Hopkins Medicine'
+"""
+logger.info("querying for JHU samples")
+conn = d3bwarehouse_engine.connect()
+jhu_samples = pd.read_sql(text(jhu_query), conn)
+logger.info("Complete")
 
+logger.info("removing jhu samples from the file sample participant mapping")
+breakpoint()
 x01_fsp = x01_fsp[~x01_fsp["sample_id"].isin(jhu_samples["kf_id"].to_list())]
 # Validation
 
