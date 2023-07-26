@@ -22,7 +22,7 @@ jobs:
           unset IS_DEFAULT_BRANCH
           if [ "$GITHUB_BASE_REF" == "$DEFAULT_BRANCH" ]; then IS_DEFAULT_BRANCH='true'; fi
           echo "::set-output name=IS_DEFAULT_BRANCH::$IS_DEFAULT_BRANCH"
-      - uses: actions/checkout@v2
+      - uses: nschloe/action-cached-lfs-checkout@v1
         if: steps.gatekeeper.outputs.IS_DEFAULT_BRANCH
 
       - uses: actions/setup-python@v2
