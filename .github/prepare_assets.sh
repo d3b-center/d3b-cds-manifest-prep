@@ -7,7 +7,7 @@ ZIP_DATA_DIR="submission_package_v${1}"
 
 mkdir "${ZIP_DATA_DIR}"
 
-cp -r data/submission_packet/ "${ZIP_DATA_DIR}" 
+cp data/submission_packet/cbtn_ccdi_clinical_data.xlsx "${ZIP_DATA_DIR}" 
 cp CHANGELOG.md "${ZIP_DATA_DIR}"
 
 zip -r "${ZIP_NAME}" "${ZIP_DATA_DIR}/" -x "${ZIP_DATA_DIR}/submission_packet/README.md"
