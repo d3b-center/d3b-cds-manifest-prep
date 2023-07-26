@@ -16,6 +16,15 @@ from tqdm import tqdm
 
 
 def file_type_mapper(output_table, row):
+    """map sequencing experiments-files to their cds enum filt type
+
+    :param output_table: output table, used for logging
+    :type output_table: OutputTable
+    :param row: row of the file-sequencing-experiment
+    :type row: pandas.DataFrame
+    :return: the file type
+    :rtype: str
+    """
     file_type_map = {
         "bai": "bam_index",
         "bam": "bam",
@@ -37,7 +46,7 @@ def file_type_mapper(output_table, row):
     elif row["file_type"] in ["cns", "seg"]:
         return "tsv"
     elif row["file_type"] == "html":
-        "txt"
+        return "txt"
     elif row["file_type"] == "ped":
         return "tsv"
     elif row["file_type"] == "tar":
@@ -62,6 +71,7 @@ def file_type_mapper(output_table, row):
         )
 
 
+# Map library strategy to the cds enums
 library_strategy_map = {
     "WGS": "WGS",
     "RNA-Seq": "RNA-Seq",
@@ -70,7 +80,14 @@ library_strategy_map = {
 }
 
 
-def platform_mapper(output_table, row):
+def platform_mapper(row):
+    """map experiments to their appropriate platform
+
+    :param row: row of sequencing information
+    :type row: pandas.DataFrame
+    :return: the appropriate platform for the experiment
+    :rtype: str
+    """
     if row["platform"] == "Illumina":
         return "Illumina"
     elif row["platform"] == "Other":
@@ -80,6 +97,48 @@ def platform_mapper(output_table, row):
             # all dnbseq, rna-seq samples sequenced at BGI are presumed to go
             # through BGISEQ
             return "BGQSEQ"
+        else:
+            return "Other"
+    else:
+        return "Other"
+
+
+def library_layout_mapper(layout_value):
+    """convert paired_end status to library layout. Paired_end status is
+    expected to come from the is_paired_end column of the sequencing_experiment
+    table
+
+    :param layout_value: paired_end status
+    :type layout_value: bool
+    :return: library_layout value
+    :rtype: str
+    """
+    if layout_value:
+        return "Paired end"
+    elif not layout_value:
+        return "Single end"
+    else:
+        return "Not Applicable"
+
+
+def library_source_mapper(experiment_strategy):
+    """Map experiment strategy to a CDS library source value. WGS & WES are DNA,
+    RNA-Seq is RNA
+
+    :param experiment_strategy: the experiment strategy for the sequencing
+    experiment
+    :type experiment_strategy: str
+    :return: the appropriate library source value
+    :rtype: str
+    """
+    if experiment_strategy == "WGS":
+        return "DNA"
+    elif experiment_strategy == "WES":
+        return "DNA"
+    elif experiment_strategy == "RNA-Seq":
+        return "RNA"
+    else:
+        return "Other"
 
 
 def get_sequencing_experiment(
@@ -91,10 +150,37 @@ def get_sequencing_experiment(
     method=("gf", "bg"),
     cache_dir=Path.home() / "mount" / "temp_cds_cache",
 ):
+    """Build the sequencing experiment table
+
+    Queries the sequencing experiment for ever file or biospecimen-file pair and
+    then build the table. For speedm caches the result and uses that cache.
+
+    :param output_table: output table object used for logging
+    :type output_table: OutputTable
+    :param conn: postgres connection
+    :type conn: sql_engine.connect()
+    :param file_sample_participant_map: map between files, samples, and
+    participants
+    :type file_sample_participant_map: pandas.DataFrame
+    :param use_cache: whether or not to use the cached files, defaults to True
+    :type use_cache: bool, optional
+    :param cache_file_name: filename of the cached sequencing_experiment output,
+    defaults to ".cached_sequencing_experiment_information.json"
+    :type cache_file_name: str, optional
+    :param method: method to use for building the sequencing_experiments. GF for
+    getting the file-sequencing_experiment pairs or "BG" for getting sequencing
+    experiments associated with biospecimen-genomic_file pairs, defaults to
+    ("gf", "bg")
+    :type method: tuple, optional
+    :param cache_dir: directory to cache files, defaults to Path.home()/"mount"/"temp_cds_cache"
+    :type cache_dir: pathlib.Path, optional
+    :return: table of sequenicng_experiment information
+    :rtype: pandas.DataFrame
+    """
     mkdir_if_not_exists(cache_dir)
     cache_dir_bg_se = cache_dir / "biospecimen_sequencing_experiments"
     mkdir_if_not_exists(cache_dir_bg_se)
-    use_cache_override = True
+    use_cache_override = False
     if use_cache:
         output_table.logger.info(
             "Attempting to use cached sequencing_experiment information"
@@ -121,7 +207,7 @@ def get_sequencing_experiment(
             output_table.logger.error(e)
             sys.exit()
         else:
-            output_table.logger.info("Loaced cache file successfully.")
+            output_table.logger.info("Loaded cache file successfully.")
     if use_cache_override:
         output_table.logger.warning("Falling back to regenerating.")
     if (not use_cache) or use_cache_override:
@@ -266,19 +352,21 @@ def build_sequencing_file_table(
     output_table,
     db_url,
     file_sample_participant_map,
-    submission_template_dict,
     cache_dir,
 ):
-    """Build the file table
+    """Build the sequening_file table
 
     Build the file manifest
 
+    :param output_table: output_table that is being built
+    :type output_table: OutputTable
     :param db_url: database url to KF prd postgres
     :type db_url: str
-    :param file_list: file IDs to have in the file manifest
-    :type file_list: list
-    :param submission_package_dir: directory to save the output manifest
-    :type submission_package_dir: str
+    :param file_sample_participant_map: map between files, samples, and
+    participants
+    :type file_sample_participant_map: pandas.DataFrame
+    :param cache_dir: location to save cached files
+    :type cache pathlib.Path:
     :return: file table
     :rtype: pandas.DataFrame
     """
@@ -305,6 +393,9 @@ def build_sequencing_file_table(
     ].apply(lambda x: library_strategy_map.get(x))
     sequencing_info = sequencing_info.rename(
         columns={"sample_id": "sample.sample_id"}
+    )
+    sequencing_info["library_layout"] = sequencing_info["library_layout"].apply(
+        library_layout_mapper
     )
 
     output_table.logger.info("Querying for manifest of files")
