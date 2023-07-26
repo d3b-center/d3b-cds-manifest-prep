@@ -1,1 +1,2 @@
 data/submission_packet/sequencing_file.csv filter=lfs diff=lfs merge=lfs -text
+data/submission_packet/cbtn_ccdi_clinical_data.xlsx filter=lfs diff=lfs merge=lfs -text
