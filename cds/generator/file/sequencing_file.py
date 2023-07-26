@@ -180,7 +180,7 @@ def get_sequencing_experiment(
     mkdir_if_not_exists(cache_dir)
     cache_dir_bg_se = cache_dir / "biospecimen_sequencing_experiments"
     mkdir_if_not_exists(cache_dir_bg_se)
-    use_cache_override = True
+    use_cache_override = False
     if use_cache:
         output_table.logger.info(
             "Attempting to use cached sequencing_experiment information"
@@ -207,7 +207,7 @@ def get_sequencing_experiment(
             output_table.logger.error(e)
             sys.exit()
         else:
-            output_table.logger.info("Loaced cache file successfully.")
+            output_table.logger.info("Loaded cache file successfully.")
     if use_cache_override:
         output_table.logger.warning("Falling back to regenerating.")
     if (not use_cache) or use_cache_override:
