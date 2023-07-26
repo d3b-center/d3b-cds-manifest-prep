@@ -46,7 +46,7 @@ def file_type_mapper(output_table, row):
     elif row["file_type"] in ["cns", "seg"]:
         return "tsv"
     elif row["file_type"] == "html":
-        "txt"
+        return "txt"
     elif row["file_type"] == "ped":
         return "tsv"
     elif row["file_type"] == "tar":
