@@ -1,5 +1,21 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 1.0.1
+
+### Fixes for sequenicng_file columns
+
+fixes some of the columns in sequencing file
+
+### Summary
+
+- Emojis: 🐛 x1
+- Categories: Fixes x1
+
+### New features and changes
+
+- [#150](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/150) - 🐛 Fix sequencing file mappings - [2e81148f](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/2e81148f717511819aed6f6f37ba75027b0416e9) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 1.0.0
 
 ### CDS Release 2 first draft
