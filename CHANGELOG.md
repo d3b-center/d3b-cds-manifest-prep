@@ -1,5 +1,36 @@
 # D3B CDS Manifest Prep Change History
 
+## Release 1.0.0
+
+### CDS Release 2 first draft
+
+This is the first draft of the full release for cds v2. This takes the ideas 
+behind the first cds release and changes some configuration based upon the 
+spec provided by CDS - Specifically that all of the documents are in one large 
+excel file.
+
+### Summary
+
+- Emojis: 🍱 x1, 🐛 x4, ? x3, ♻️ x1, ✨ x2, 🎨 x1, 🌱 x1
+- Categories: Additions x4, Fixes x4, Ops x1, Other Changes x4
+
+### New features and changes
+
+- [#146](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/146) - 🍱 add updated sequencing file and excel output - [f91cefab](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/f91cefab4f891808225ef4367189b693a0da687b) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#145](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/145) - 🐛 don't save index to excel files - [df23893d](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/df23893d87eecdd54e0150fda04e7fe28f277122) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#144](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/144) - 🐛 get file gatherer working - [afddb9f7](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/afddb9f7e62f44ced949f90f2e21fcd227c87a20) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#143](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/143) -  Sequencing file cache location - [15894491](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/15894491937738cee74502e8b9e3e786410ff0f5) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#142](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/142) - 🐛 get study_tables to have appropriate column values - [b4584307](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/b4584307587b85a569201fdfd45fa49634b8f297) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#141](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/141) -  add sequencing_file and updates to study and study_admin, start work on excel_writer - [41fadbd0](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/41fadbd0cb0e623a5e8041a816d8b1a13a400b92) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#140](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/140) - ♻️ move cli options into a common function - [2971b5b2](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/2971b5b20b43d9a818d5284c3b83d73d9f8183e2) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#139](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/139) -  Sequencing file update - [6df1b620](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/6df1b6202bf2bd19b27a4e692700c3facbd1580d) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#138](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/138) - ✨ M1TEAM-64 V1.x prep - [f154c2c3](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/f154c2c3fee24c739e29ff3e45915d1d66004b2d) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#137](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/137) - 🎨 remove breakpoint when building jhu manifest - [b0dd7ea1](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/b0dd7ea1abe0e090d5fb585bac8ec917e1ace66a) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#136](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/136) - 🐛 load the jhu sample manifest when creating the file-sample-participant map - [b65c934e](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/b65c934e4972539438d01ed1f4dcf9b2911c327b) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#135](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/135) - ✨ M1TEAM-74 remove jhu samples from the x01 fsp - [7aeb8f3c](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/7aeb8f3c405150923dd9b71761104c1f2c43426b) by [chris-s-friedman](https://github.com/chris-s-friedman)
+- [#133](https://github.com/d3b-center/d3b-cds-manifest-prep/pull/133) - 🌱 Add file-sample-participant mapping for the CBTN X01 - [d13c2105](https://github.com/d3b-center/d3b-cds-manifest-prep/commit/d13c210560c892cccf67211dfae58a1e0faa6327) by [chris-s-friedman](https://github.com/chris-s-friedman)
+
+
 ## Release 0.14.1
 
 ### updated sample information from redcap
