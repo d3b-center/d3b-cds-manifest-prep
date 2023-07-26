@@ -129,7 +129,6 @@ def generate_submission_package(
                 build_sequencing_file_table,
                 db_url=postgres_connection_url,
                 file_sample_participant_map=file_sample_participant_map,
-                submission_template_dict=submission_template_dict,
                 cache_dir=cache_dir,
             )
         elif table_name == "study":
