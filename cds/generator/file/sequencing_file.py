@@ -91,6 +91,15 @@ def library_layout_mapper(layout_value):
         return "Not Applicable"
 
 
+def library_source_mapper(experiment_strategy):
+    if experiment_strategy == "WGS":
+        return "DNA"
+    elif experiment_strategy == "RNA-Seq":
+        return "RNA"
+    else:
+        return "Other"
+
+
 def get_sequencing_experiment(
     output_table,
     conn,
